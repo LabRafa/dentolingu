@@ -88,12 +88,15 @@
     const erradas = ops.map((o, k) => (o.c ? -1 : k)).filter(k => k >= 0);
     return embaralhar(erradas, rnd).slice(0, 2);
   }
-  function plateia(ops, nivel, rnd) { // brincadeira: a plateia tende a acertar, menos nas difíceis, e erra de vez em quando
-    rnd = rnd || Math.random;
-    const acerta = [0.85, 0.62, 0.42][nivel - 1] || 0.5, certa = rnd() < acerta;
-    const pesos = ops.map(o => (o.c ? (certa ? 5 : 1.5) : (certa ? 1 : 3)) * (0.6 + rnd()));
-    const soma = pesos.reduce((a, b) => a + b, 0);
-    const pct = pesos.map(p => Math.round(100 * p / soma)); pct[0] += 100 - pct.reduce((a, b) => a + b, 0);
+  function plateia(ops, nivel, rnd) { // Rafael 11/11: a plateia erra só em 3% dos casos (a mais votada é a errada)
+    rnd = rnd || aleatorio;
+    const certa = rnd() >= 0.03;
+    const idxC = ops.findIndex(o => o.c), erradas = ops.map((o, k) => k).filter(k => k !== idxC);
+    const alvo = certa ? idxC : erradas[Math.floor(rnd() * erradas.length)];
+    const pct = ops.map(() => 0); pct[alvo] = 45 + Math.floor(rnd() * 31); // a mais votada: 45% a 75%
+    let resto = 100 - pct[alvo]; const outros = ops.map((o, k) => k).filter(k => k !== alvo);
+    outros.forEach((k, n) => { const v = n === outros.length - 1 ? resto : Math.floor(rnd() * Math.min(resto, pct[alvo] - 1)); pct[k] = v; resto -= v; });
+    if (Math.max(...outros.map(k => pct[k])) >= pct[alvo]) { const k = outros.reduce((a, b) => pct[a] >= pct[b] ? a : b); const d = pct[k] - pct[alvo] + 5; pct[k] -= d; pct[alvo] += d; }
     return pct;
   }
   const reais = n => (n >= 1000000 ? 'R$ 1 MILHÃO' : 'R$ ' + n.toLocaleString('pt-BR'));
