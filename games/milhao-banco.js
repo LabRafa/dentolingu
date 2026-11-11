@@ -3722,7 +3722,17 @@ window.BANCO_MILHAO = [
 "Prata-estanho"
 ],
 "a": 0,
-"w": "'Liga Dyna' é nome comercial (Dyna EFM): é uma liga nobre de paládio-cobalto, em que o cobalto dá o magnetismo e o paládio garante a resistência à corrosão. Já o ímã (samário-cobalto ou neodímio-ferro-boro) corrói fácil, por isso vem selado dentro de aço inoxidável."
+"w": "No sistema Dyna, o 'keeper' é fundido numa liga nobre de paládio-cobalto: o cobalto é ferromagnético e deixa a peça ser atraída pelo ímã, e o paládio dá a resistência à corrosão que o cobalto sozinho não teria na saliva. O ímã de terras raras (samário-cobalto ou neodímio-ferro-boro) é potente, mas corrói fácil, por isso vem selado numa cápsula de aço inoxidável. Gillings (1990) lembra que os primeiros sistemas magnéticos falhavam justamente por corrosão, o que levou a esse encapsulamento.",
+"r": [
+{
+"t": "Dyna Dental Engineering. Sistemas magnéticos Dyna (brochura técnica)",
+"u": "https://dynadental.com/wp-content/uploads/2022/06/3205-07.01-Magnet-brochure-Dyna-System-GB.pdf"
+},
+{
+"t": "Gillings BR. Overdentures com ímãs. Dent Clin North Am, 1990",
+"u": "https://pubmed.ncbi.nlm.nih.gov/2227041/"
+}
+]
 },
 {
 "m": "Cárie, Interações e Estomatologia",
@@ -3735,7 +3745,17 @@ window.BANCO_MILHAO = [
 "Punção aspirativa, sugerindo mucocele"
 ],
 "a": 1,
-"w": "Na diascopia (vitropressão), o vidro esvazia o sangue da lesão: se ela empalidece, o conteúdo é vascular, como no hemangioma, e não um pigmento."
+"w": "A diascopia (vitropressão) comprime a lesão com uma lâmina de vidro: se a cor some, o pigmento é sangue dentro de vasos, que foi empurrado para fora, como no hemangioma ou na malformação vascular; se a cor fica, pensa-se em pigmento (melanina, tatuagem por amálgama) ou em sangue já extravasado (petéquia, equimose). Da Silva et al. (2014) usaram a diascopia, junto com a manobra de baixar a cabeça, como protocolo simples de diagnóstico do hemangioma capilar oral, antes da escleroterapia.",
+"r": [
+{
+"t": "da Silva WB et al. Hemangioma capilar oral: protocolo de diagnóstico e tratamento. Oral Maxillofac Surg, 2014",
+"u": "https://pubmed.ncbi.nlm.nih.gov/24263242/"
+},
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+}
+]
 },
 {
 "m": "Cárie, Interações e Estomatologia",
@@ -3748,7 +3768,17 @@ window.BANCO_MILHAO = [
 "Glândulas de von Ebner"
 ],
 "a": 2,
-"w": "A rânula é a retenção específica da glândula sublingual; como essa glândula produz bastante saliva, a bolha costuma ser maior que a mucocele do lábio."
+"w": "A rânula é um mucocele do assoalho bucal: o ducto da glândula sublingual se rompe ou entope e a saliva extravasa, formando uma bolha azulada que lembra o papo de uma rã (daí o nome). Como a sublingual secreta de forma contínua, a lesão costuma ser maior que o mucocele do lábio e pode até atravessar o músculo milo-hióideo e aparecer no pescoço (rânula mergulhante). Por isso o tratamento que menos recidiva é remover a própria glândula sublingual, não só a bolha.",
+"r": [
+{
+"t": "StatPearls. Mucocele e rânula. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK560855/"
+},
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+}
+]
 },
 {
 "m": "Cárie, Interações e Estomatologia",
@@ -3761,7 +3791,17 @@ window.BANCO_MILHAO = [
 "Vermelhão do lábio superior"
 ],
 "a": 0,
-"w": "A mucosa jugal é a área mais atingida, muitas vezes dos dois lados; língua, gengiva e lábios vêm depois. A biópsia ajuda a separar do quadro de leucoplasia."
+"w": "O líquen plano oral é uma doença imunomediada (linfócitos T atacando as células basais do epitélio) e a forma reticular, com as estrias brancas de Wickham, é a mais comum. A mucosa jugal é o local típico, quase sempre dos dois lados de forma simétrica, segundo a revisão de Manchanda et al. (2024); língua, gengiva e lábios vêm depois. A biópsia separa o líquen da leucoplasia e das reações liquenoides a restaurações ou medicamentos, e a forma erosiva merece acompanhamento por ser considerada desordem potencialmente maligna.",
+"r": [
+{
+"t": "Manchanda Y et al. Líquen plano oral: revisão atualizada. Indian Dermatol Online J, 2024",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10810384/"
+},
+{
+"t": "StatPearls. Líquen plano oral. NCBI Bookshelf, 2025",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK578201/"
+}
+]
 },
 {
 "m": "Cárie, Interações e Estomatologia",
@@ -3774,7 +3814,21 @@ window.BANCO_MILHAO = [
 "Ser causada pela reativação do herpes"
 ],
 "a": 1,
-"w": "A afta maior passa de 1 cm, pode durar até 6 semanas e cicatriza deixando marca; a menor tem menos de 1 cm e some em 7 a 10 dias. Nenhuma das duas começa com vesícula."
+"w": "A estomatite aftosa recorrente tem três formas: menor (a mais comum, menos de 1 cm, cura em 7 a 10 dias sem cicatriz), maior (mais de 1 cm, profunda, dura semanas e deixa cicatriz) e herpetiforme (dezenas de úlceras pequenas). Ao contrário do herpes, a afta nunca começa como vesícula: já nasce como úlcera, o que ajuda no diagnóstico diferencial. A afta maior aparece em cerca de 10% dos pacientes com aftas e pede investigação de doenças sistêmicas, como Behçet, doença celíaca ou HIV.",
+"r": [
+{
+"t": "StatPearls. Estomatite aftosa recorrente. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK431059/"
+},
+{
+"t": "Manfredini M et al. Estomatite aftosa recorrente: tratamento. Dermatol Pract Concept, 2021",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8480451/"
+},
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+}
+]
 },
 {
 "m": "Cárie, Interações e Estomatologia",
@@ -3787,7 +3841,17 @@ window.BANCO_MILHAO = [
 "Seis meses"
 ],
 "a": 2,
-"w": "O critério é osso exposto por mais de oito semanas em quem usa ou usou bisfosfonato e nunca fez radioterapia de cabeça e pescoço; com radioterapia, pensa-se em osteorradionecrose."
+"w": "O critério de oito semanas vem da Associação Americana de Cirurgiões Bucomaxilofaciais (AAOMS): osso exposto, ou que se sonda por fístula, por mais de 8 semanas, em quem usa ou usou antirreabsortivo (bisfosfonato, denosumabe) ou antiangiogênico, e sem radioterapia nos maxilares. A posição de 2022 trocou o nome para osteonecrose associada a medicamento (MRONJ), porque o denosumabe também causa. O prazo existe para não confundir com o atraso normal de cicatrização de um alvéolo.",
+"r": [
+{
+"t": "Ruggiero SL et al. Posição da AAOMS sobre osteonecrose dos maxilares por medicamentos, atualização 2022. J Oral Maxillofac Surg, 2022",
+"u": "https://pubmed.ncbi.nlm.nih.gov/35300956/"
+},
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+}
+]
 },
 {
 "m": "Cárie, Interações e Estomatologia",
@@ -3800,7 +3864,17 @@ window.BANCO_MILHAO = [
 "Oleato de monoetanolamina"
 ],
 "a": 3,
-"w": "Injetado em pouca quantidade (cerca de 0,2 mL), o oleato de monoetanolamina destrói o endotélio e faz o hemangioma regredir; costumam ser de 5 a 10 aplicações."
+"w": "O oleato de monoetanolamina é um esclerosante: irrita o endotélio, provoca trombose e fibrose do vaso e a lesão vai diminuindo a cada aplicação. Tolentino et al. (2020), num estudo retrospectivo de anomalias vasculares intraorais tratadas com oleato a 5%, mostraram boa resposta com várias sessões e propuseram um protocolo clínico. É uma alternativa de consultório, barata, à cirurgia ou ao laser nas lesões pequenas.",
+"r": [
+{
+"t": "Tolentino ES et al. Escleroterapia com oleato de monoetanolamina em anomalias vasculares intraorais. Br J Oral Maxillofac Surg, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/32057469/"
+},
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+}
+]
 },
 {
 "m": "Cárie, Interações e Estomatologia",
@@ -3813,7 +3887,17 @@ window.BANCO_MILHAO = [
 "Mucocele de lábio, que pode regredir sozinha"
 ],
 "a": 0,
-"w": "A queilite actínica costuma ser confundida com envelhecimento, mas é uma das lesões cancerizáveis mais negligenciadas; pede biópsia e acompanhamento."
+"w": "A queilite actínica é uma desordem potencialmente maligna causada pela radiação ultravioleta acumulada, quase sempre no lábio inferior, que recebe mais sol. A perda do limite nítido entre vermelhão e pele é o sinal clássico. A revisão sistemática de Dancyger et al. (2018) estimou transformação em carcinoma espinocelular em cerca de 3%, com base em poucos estudos de seguimento, por isso a conduta é biópsia das áreas suspeitas, protetor labial e acompanhamento.",
+"r": [
+{
+"t": "Dancyger A et al. Transformação maligna da queilite actínica: revisão sistemática. J Investig Clin Dent, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/29863311/"
+},
+{
+"t": "Vasilovici A et al. Queilite actínica: dos fatores de risco à terapia. Front Med, 2022",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8886241/"
+}
+]
 },
 {
 "m": "Cárie, Interações e Estomatologia",
@@ -3826,7 +3910,17 @@ window.BANCO_MILHAO = [
 "Antibiótico sistêmico para evitar infecção"
 ],
 "a": 1,
-"w": "Em quem tem imunidade normal não se justifica remédio sistêmico: o paciente aprende a reconhecer o começo do ciclo e aplica aciclovir tópico nessa hora."
+"w": "No herpes labial recorrente de quem tem imunidade normal, o caderno do Ministério da Saúde indica aciclovir tópico desde o pródromo (formigamento, ardor), quando o vírus está se multiplicando. A revisão sistemática do BMJ Clinical Evidence (Worrall, 2009) mostra que o efeito do aciclovir tópico é modesto, encurtando o episódio em cerca de meio dia, e que o antiviral oral fica para casos frequentes ou graves. Por isso o segredo é começar cedo; depois que a vesícula aparece, o ganho é pequeno.",
+"r": [
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+},
+{
+"t": "Worrall G. Herpes labial (revisão sistemática). BMJ Clin Evid, 2009",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2907798/"
+}
+]
 },
 {
 "m": "Cárie, Interações e Estomatologia",
@@ -3839,7 +3933,17 @@ window.BANCO_MILHAO = [
 "Um tumor maligno de origem vascular"
 ],
 "a": 2,
-"w": "Não tem pus nem granuloma verdadeiro: é um reparo exagerado e muito vascular, ligado a trauma ou irritação crônica (cálculo, restauração mal adaptada). Trata-se removendo a lesão e a causa."
+"w": "O nome engana duas vezes: o granuloma piogênico não tem pus e não é um granuloma verdadeiro (agregado de macrófagos). É uma hiperplasia reacional de tecido de granulação, com muitos capilares, por isso sangra fácil e cresce rápido. A revisão de Lomeli Martinez et al. (2023) aponta a gengiva como o local mais comum, ligada a trauma, cálculo, restauração mal adaptada e hormônios (o 'tumor da gravidez'); o tratamento é remover a lesão e a causa, senão volta.",
+"r": [
+{
+"t": "Lomeli Martinez SM et al. Granuloma piogênico oral: revisão narrativa. Int J Mol Sci, 2023",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10706684/"
+},
+{
+"t": "StatPearls. Granuloma piogênico. NCBI Bookshelf, 2024",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK556077/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -3852,7 +3956,17 @@ window.BANCO_MILHAO = [
 "Aplicar dentro da prótese, 4 vezes ao dia"
 ],
 "a": 3,
-"w": "O gel vai na face interna da prótese por 14 dias, junto com higiene e períodos sem usá-la, porque o biofilme dentro da prótese é o que mantém a infecção."
+"w": "A estomatite protética é uma candidíase em que a Candida albicans forma biofilme na face interna da prótese, a que fica encostada na mucosa. Por isso o caderno do Ministério manda aplicar o miconazol gel dentro da prótese, 4 vezes ao dia, por 14 dias, junto com higiene da prótese e tempo sem usá-la (dormir sem a dentadura). A revisão de Abuhajar et al. (2023) reforça que, sem tratar a prótese, o antifúngico só alivia e a doença volta.",
+"r": [
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+},
+{
+"t": "Abuhajar E et al. Manejo da estomatite protética: revisão narrativa. Int J Environ Res Public Health, 2023",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9967389/"
+}
+]
 },
 {
 "m": "Bases Morfológicas e Histologia",
@@ -3865,7 +3979,17 @@ window.BANCO_MILHAO = [
 "Papila dentária"
 ],
 "a": 0,
-"w": "Quando a bainha de Hertwig se fragmenta durante a formação da raiz, sobram os restos epiteliais de Malassez; estimulados pela inflamação de uma lesão periapical, eles podem formar o revestimento do cisto radicular."
+"w": "A bainha epitelial radicular de Hertwig guia a forma e o número de raízes e depois se fragmenta; os pedaços que ficam no ligamento periodontal são os restos epiteliais de Malassez. Normalmente ficam quietos, mas, num granuloma periapical, citocinas da inflamação fazem essas células proliferarem e revestirem uma cavidade: nasce o cisto radicular, o cisto odontogênico mais comum (Rios Osorio et al., 2023).",
+"r": [
+{
+"t": "Rios Osorio N et al. O paradigma do cisto radicular inflamatório. Eur Endod J, 2023",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10098462/"
+},
+{
+"t": "StatPearls. Cistos odontogênicos. NCBI Bookshelf, 2022",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK574529/"
+}
+]
 },
 {
 "m": "Bases Morfológicas e Histologia",
@@ -3878,7 +4002,13 @@ window.BANCO_MILHAO = [
 "Enamelina da matriz do esmalte"
 ],
 "a": 1,
-"w": "A mutação no gene da sialofosfoproteína da dentina (DSPP) altera a mineralização da dentina, que fica mole e de cor âmbar ou acinzentada, e o esmalte tende a lascar."
+"w": "O gene DSPP gera uma proteína que é cortada em duas, a sialoproteína (DSP) e a fosfoproteína (DPP) da dentina, essenciais para a mineralização da dentina. Mutações nesse gene causam a dentinogênese imperfeita tipo II (e a displasia dentinária tipo II), de herança autossômica dominante, com dentes âmbar ou acinzentados, coroas bulbosas e câmaras pulpares que se fecham (Barron et al., 2008). O esmalte é normal, mas lasca porque a dentina embaixo é mole.",
+"r": [
+{
+"t": "Barron MJ et al. Doenças hereditárias da dentina: dentinogênese imperfeita e displasia dentinária. Orphanet J Rare Dis, 2008",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2600777/"
+}
+]
 },
 {
 "m": "Bases Morfológicas e Histologia",
@@ -3891,7 +4021,17 @@ window.BANCO_MILHAO = [
 "Infliximabe"
 ],
 "a": 2,
-"w": "O denosumabe bloqueia o RANKL e tira o sinal que liga as células gigantes; a base do tratamento continua sendo a curetagem com adjuvantes."
+"w": "No tumor de células gigantes, as células neoplásicas do estroma expressam RANKL, que recruta e ativa as células gigantes parecidas com osteoclastos, e elas destroem o osso. O denosumabe é um anticorpo monoclonal que se liga ao RANKL e corta esse sinal; a revisão de Singh et al. (2015) mostra que ele reduz a lesão e é usado quando a cirurgia mutilaria ou não é possível. A base continua sendo a curetagem com adjuvantes, e o mesmo raciocínio já é testado nas lesões de células gigantes dos maxilares.",
+"r": [
+{
+"t": "Singh AS et al. Tumor de células gigantes do osso: tratamento e papel do denosumabe. Biologics, 2015",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4507456/"
+},
+{
+"t": "StatPearls. Tumor de células gigantes (osteoclastoma). NCBI Bookshelf, 2024",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK559229/"
+}
+]
 },
 {
 "m": "Especialidades da odonto",
@@ -3904,7 +4044,17 @@ window.BANCO_MILHAO = [
 "Grau II"
 ],
 "a": 3,
-"w": "Grau I não passa de 1/3, grau II passa de 1/3 sem atravessar e grau III atravessa a furca de lado a lado. A raspagem está indicada em todos os graus."
+"w": "A classificação usada pelo Ministério segue a lógica de Hamp (1975): grau I, perda horizontal até 1/3 da largura do dente; grau II, mais de 1/3 sem atravessar; grau III, a sonda passa de um lado ao outro da furca. Pilloni et al. (2018) revisam as classificações (Glickman, Hamp, Tarnow e Fletcher) e lembram que o grau de furca pesa no prognóstico: quanto mais avançado, mais difícil a limpeza e pior a resposta ao tratamento.",
+"r": [
+{
+"t": "Pilloni A et al. Classificação do envolvimento de furca: revisão. Dent J, 2018",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6162379/"
+},
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+}
+]
 },
 {
 "m": "Especialidades da odonto",
@@ -3917,7 +4067,17 @@ window.BANCO_MILHAO = [
 "Nenhum sítio pode sangrar"
 ],
 "a": 0,
-"w": "Saúde periodontal pede inflamação baixa, com menos de 10% de sangramento à sondagem, tanto no periodonto intacto quanto no periodonto reduzido de quem já tratou periodontite."
+"w": "Pelo Workshop Mundial de 2017 (Chapple et al., 2018), saúde gengival clínica é ter menos de 10% dos sítios sangrando à sondagem, com profundidade de até 3 mm no periodonto intacto. O mesmo limite vale para o periodonto reduzido de quem já tratou periodontite e está estável, que é considerado saudável mesmo com perda de inserção antiga. Entre 10% e 30% de sangramento já se fala em gengivite localizada, e acima de 30% em generalizada.",
+"r": [
+{
+"t": "Chapple ILC et al. Saúde periodontal e doenças gengivais: consenso do grupo 1 do Workshop Mundial 2017. J Periodontol, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/29926944/"
+},
+{
+"t": "Lang NP, Bartold PM. Saúde periodontal. J Periodontol, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/29926938/"
+}
+]
 },
 {
 "m": "Especialidades da odonto",
@@ -3930,7 +4090,13 @@ window.BANCO_MILHAO = [
 "Se a doença é localizada ou generalizada"
 ],
 "a": 1,
-"w": "O estágio (I a IV) mede gravidade e complexidade; o grau (A a C) mede o ritmo de progressão, usando a perda óssea ao longo do tempo e fatores de risco como fumo e diabetes."
+"w": "Na classificação de 2017 (Tonetti, Greenwell e Kornman, 2018), o estágio (I a IV) descreve gravidade e complexidade de tratamento, e o grau (A, B ou C) estima a velocidade de progressão. O grau usa a perda óssea dividida pela idade do paciente (índice % de perda óssea/idade) ou a progressão documentada em 5 anos, e é modificado por fumo (10 ou mais cigarros por dia empurra para C) e diabetes com HbA1c alta. O grau B (progressão moderada) é o ponto de partida até prova em contrário.",
+"r": [
+{
+"t": "Tonetti MS, Greenwell H, Kornman KS. Estadiamento e graduação da periodontite. J Periodontol, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/29926952/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -3943,7 +4109,21 @@ window.BANCO_MILHAO = [
 "Norepinefrina"
 ],
 "a": 2,
-"w": "A felipressina é derivada da vasopressina e tem efeito parecido com o da ocitocina sobre o útero. O caderno indica lidocaína 2% com epinefrina e também contraindica a prilocaína na gestação."
+"w": "A felipressina é um análogo sintético da vasopressina e guarda parte do efeito ocitócico (contração uterina), por isso o caderno do Ministério manda evitá-la na gestação e indica lidocaína 2% com epinefrina. A revisão de Urîtu et al. (2025) chega à mesma conclusão, mas reconhece que não há estudos clínicos prospectivos: o risco é teórico, baseado na farmacologia. A prilocaína, que costuma vir com felipressina no Brasil, também é evitada pelo risco de metemoglobinemia fetal.",
+"r": [
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+},
+{
+"t": "Urîtu A et al. Vasoconstritores na anestesia odontológica na gestação: revisão. J Clin Med, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12251332/"
+},
+{
+"t": "Lee JM, Shin TJ. Anestésicos locais no tratamento odontológico na gestação. J Dent Anesth Pain Med, 2017",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5564152/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -3956,7 +4136,13 @@ window.BANCO_MILHAO = [
 "Porque tem também um grupo éster na molécula"
 ],
 "a": 3,
-"w": "O grupo éster deixa as esterases do plasma quebrarem a articaína em ácido articaínico, inativo; por isso ela é eliminada do sangue mais rápido que a lidocaína."
+"w": "A articaína é a única amida usada em odontologia com um anel tiofeno e um grupo éster na molécula. Esse éster é quebrado pelas esterases do plasma em ácido articaínico, inativo, por isso a meia-vida dela no sangue é de cerca de 20 a 40 minutos, bem menor que a da lidocaína, que depende do fígado (Snoeck, 2012). O anel tiofeno deixa a molécula mais lipossolúvel, o que ajuda a difundir no osso.",
+"r": [
+{
+"t": "Snoeck M. Articaína: revisão do uso em anestesia local e regional. Local Reg Anesth, 2012",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3417979/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -3969,7 +4155,17 @@ window.BANCO_MILHAO = [
 "Bupivacaína"
 ],
 "a": 0,
-"w": "A o-toluidina oxida o ferro da hemoglobina, que deixa de carregar oxigênio e o paciente fica arroxeado; o risco cresce com doses altas."
+"w": "A prilocaína é hidrolisada por carboxilesterases (CES1A e CES2) em o-toluidina, e essa substância oxida o ferro da hemoglobina de Fe2+ para Fe3+, formando metemoglobina, que não transporta oxigênio (Higuchi et al., 2013). O paciente fica cianótico, com saturação baixa que não melhora com oxigênio, e o antídoto é o azul de metileno. O risco cresce com doses altas, em crianças pequenas e em quem tem deficiência de G6PD ou de metemoglobina redutase.",
+"r": [
+{
+"t": "Higuchi R et al. Metemoglobinemia por prilocaína e lidocaína: ativação metabólica. Drug Metab Dispos, 2013",
+"u": "https://pubmed.ncbi.nlm.nih.gov/23530020/"
+},
+{
+"t": "StatPearls. Metemoglobinemia. NCBI Bookshelf, 2025",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK537317/"
+}
+]
 },
 {
 "m": "Especialidades da odonto",
@@ -3982,7 +4178,17 @@ window.BANCO_MILHAO = [
 "Clarear a coroa escurecida do dente"
 ],
 "a": 1,
-"w": "O EDTA é quelante de cálcio: tira a parte mineral da smear layer e abre os túbulos. Quem dissolve o tecido orgânico é o hipoclorito, que o EDTA não substitui."
+"w": "O EDTA (em geral a 17%) é um quelante: sequestra o cálcio da hidroxiapatita e remove a parte inorgânica da smear layer, abrindo os túbulos dentinários para o medicamento e o cimento penetrarem. Ele não dissolve tecido orgânico, papel do hipoclorito, por isso os dois se completam (Zehnder, 2006). Haapasalo et al. (2014) alertam para não misturar os dois no canal ao mesmo tempo, porque o EDTA tira o cloro ativo do hipoclorito.",
+"r": [
+{
+"t": "Zehnder M. Irrigantes do canal radicular. J Endod, 2006",
+"u": "https://pubmed.ncbi.nlm.nih.gov/16631834/"
+},
+{
+"t": "Haapasalo M et al. Irrigação em endodontia. Br Dent J, 2014",
+"u": "https://pubmed.ncbi.nlm.nih.gov/24651335/"
+}
+]
 },
 {
 "m": "Especialidades da odonto",
@@ -3995,7 +4201,17 @@ window.BANCO_MILHAO = [
 "Por desidratar as bactérias com álcool"
 ],
 "a": 2,
-"w": "Os íons hidroxila deixam o meio com pH em torno de 12,5, que danifica a membrana e o DNA das bactérias dentro do canal."
+"w": "O hidróxido de cálcio se dissocia em íons cálcio e hidroxila; as hidroxilas elevam o pH para perto de 12,5, o que danifica a membrana citoplasmática, desnatura proteínas e quebra o DNA das bactérias (Mohammadi e Dummer, 2011). O efeito depende de contato direto e tempo, por isso fica de 1 a 2 semanas como curativo de demora. O Enterococcus faecalis é um dos poucos que resistem a esse pH, o que explica parte das falhas (Kim e Kim, 2014).",
+"r": [
+{
+"t": "Mohammadi Z, Dummer PMH. Propriedades e aplicações do hidróxido de cálcio em endodontia. Int Endod J, 2011",
+"u": "https://pubmed.ncbi.nlm.nih.gov/21535021/"
+},
+{
+"t": "Kim D, Kim E. Efeito antimicrobiano do hidróxido de cálcio como medicação intracanal. Restor Dent Endod, 2014",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4223092/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4008,7 +4224,13 @@ window.BANCO_MILHAO = [
 "Classe IV"
 ],
 "a": 3,
-"w": "A Classe IV é um único espaço anterior que cruza a linha média; se houver outro espaço desdentado, o caso passa a ser de outra classe (regras de Applegate)."
+"w": "Kennedy definiu a Classe IV como uma única área desdentada anterior, que cruza a linha média, à frente dos dentes remanescentes. Pelas regras de Applegate, as áreas desdentadas extras viram 'modificações', mas a Classe IV não admite modificação: se existir outro espaço posterior a ele, é este que passa a determinar a classe. A classificação é usada no planejamento da PPR e já é ensinada até para algoritmos de inteligência artificial (Khurshid et al., 2025).",
+"r": [
+{
+"t": "Khurshid Z et al. Inteligência artificial para a classificação de Kennedy. Int Dent J, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11806322/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4021,7 +4243,17 @@ window.BANCO_MILHAO = [
 "Fazer a moldeira individual"
 ],
 "a": 0,
-"w": "O delineador mostra o equador protético, a trajetória de inserção e as áreas retentivas; com isso o dentista prepara os nichos e faz a moldagem do modelo de trabalho."
+"w": "No protocolo de PPR do Ministério, o laboratório delineia o modelo de estudo logo após a moldagem inicial. O delineador marca o equador protético de cada pilar, escolhe a trajetória de inserção e mostra as áreas retentivas e os planos-guia; com esse desenho, o dentista prepara nichos e planos na boca antes da moldagem de trabalho. Mamoun (2015) lembra que uma trajetória bem escolhida é o que dá estabilidade e retenção à prótese.",
+"r": [
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+},
+{
+"t": "Mamoun JS. Trajetória de inserção da PPR: delineamento e planejamento. J Adv Prosthodont, 2015",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4341191/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4034,7 +4266,13 @@ window.BANCO_MILHAO = [
 "Carbono"
 ],
 "a": 1,
-"w": "O cromo forma uma película de óxido de cromo (passivação) que isola a liga do meio bucal; é o mesmo princípio do aço inoxidável."
+"w": "Ligas de cobalto-cromo têm de 25% a 30% de cromo, que reage com o oxigênio e forma uma película de óxido de cromo (Cr2O3) de poucos nanômetros, aderida e que se refaz sozinha se riscada: é a passivação. Essa camada isola a liga da saliva, o mesmo princípio do aço inoxidável. Qiao et al. (2012) mostraram, por análise de superfície, que é o óxido de cromo que domina o filme protetor de ligas Co-Cr usadas em próteses.",
+"r": [
+{
+"t": "Qiao G et al. Comportamento eletroquímico e filme de superfície de liga Co-Cr odontológica. Dent Mater J, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22864209/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4047,7 +4285,13 @@ window.BANCO_MILHAO = [
 "A água da mistura com o pó"
 ],
 "a": 2,
-"w": "A amina terciária (como a dimetil-p-toluidina) ativa o peróxido em temperatura ambiente; na termopolimerizável, quem ativa é o calor. A hidroquinona é o inibidor que conserva o líquido."
+"w": "Na resina autopolimerizável (quimicamente ativada), o líquido traz uma amina terciária, como a N,N-dimetil-p-toluidina, que quebra o peróxido de benzoíla do pó em radicais livres à temperatura ambiente; na termopolimerizável, quem faz isso é o calor (Zafar, 2020). A hidroquinona é o inibidor que impede o monômero de polimerizar no frasco. Por usar amina, a autopolimerizável costuma ter mais monômero residual e pode amarelar com o tempo.",
+"r": [
+{
+"t": "Zafar MS. Aplicações protéticas do polimetilmetacrilato (PMMA): atualização. Polymers, 2020",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7599472/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4060,7 +4304,13 @@ window.BANCO_MILHAO = [
 "Fosfato trissódico"
 ],
 "a": 3,
-"w": "O fosfato de sódio é o retardador: prende o cálcio primeiro e só quando acaba o cálcio passa a ligar o alginato e o gel se forma. A terra de diatomáceas é só carga."
+"w": "O fosfato trissódico é o retardador do alginato: o sulfato de cálcio (reator) reage primeiro com ele, formando fosfato de cálcio insolúvel, e só quando o fosfato acaba sobra cálcio para ligar as cadeias de alginato e formar o gel (Cervino et al., 2018). É isso que dá tempo de espatular e levar à boca. A terra de diatomáceas é carga (cerca de 60% do pó) e dá corpo; água mais quente acelera a presa, mais fria atrasa.",
+"r": [
+{
+"t": "Cervino G et al. Alginato e técnica de moldagem: estado da arte. Mar Drugs, 2018",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6356954/"
+}
+]
 },
 {
 "m": "Especialidades da odonto",
@@ -4073,7 +4323,17 @@ window.BANCO_MILHAO = [
 "Polimerização ativada por luz azul"
 ],
 "a": 0,
-"w": "Os grupos carboxila do ácido poliacrílico trocam íons com a hidroxiapatita e se ligam ao cálcio; por isso o ionômero adere sem o sistema adesivo usado com a resina."
+"w": "O ionômero de vidro adere por troca iônica: os grupos carboxila do ácido poliacrílico se ligam ao cálcio da hidroxiapatita, enquanto íons fosfato do dente migram para o cimento, formando uma camada de troca iônica na interface (Sidhu e Nicholson, 2016). Por isso ele adere ao esmalte e à dentina sem adesivo e ainda libera e recarrega flúor. A resina composta, ao contrário, precisa de sistema adesivo e retenção micromecânica.",
+"r": [
+{
+"t": "Sidhu SK, Nicholson JW. Revisão dos cimentos de ionômero de vidro na clínica. J Funct Biomater, 2016",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5040989/"
+},
+{
+"t": "StatPearls. Cimento de ionômero de vidro. NCBI Bookshelf, 2024",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK582145/"
+}
+]
 },
 {
 "m": "Especialidades da odonto",
@@ -4086,7 +4346,17 @@ window.BANCO_MILHAO = [
 "Cresceu como tecido de granulação"
 ],
 "a": 1,
-"w": "A fibrinólise local desfaz o coágulo antes da hora e o osso fica exposto e dolorido, em geral de 1 a 3 dias após a extração, mais nos terceiros molares inferiores."
+"w": "Na alveolite seca (osteíte alveolar), a fibrinólise local, ligada a bactérias, trauma cirúrgico, fumo e anticoncepcional, desfaz o coágulo cedo e deixa o osso exposto, com dor forte e irradiada e mau hálito. Blum (2002) define a dor como aparecendo entre 1 e 3 dias após a extração; é mais comum em terceiros molares inferiores. O tratamento é irrigar e proteger o alvéolo com curativo, sem curetar, para não piorar.",
+"r": [
+{
+"t": "Blum IR. Visão atual da alveolite seca (osteíte alveolar): revisão crítica. Int J Oral Maxillofac Surg, 2002",
+"u": "https://pubmed.ncbi.nlm.nih.gov/12190139/"
+},
+{
+"t": "StatPearls. Osteíte alveolar. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK582137/"
+}
+]
 },
 {
 "m": "Especialidades da odonto",
@@ -4099,7 +4369,17 @@ window.BANCO_MILHAO = [
 "O número e a forma das raízes"
 ],
 "a": 2,
-"w": "Winter classifica pela angulação (vertical, mesioangular, distoangular, horizontal); profundidade e relação com o ramo são da classificação de Pell e Gregory."
+"w": "Winter classifica o terceiro molar incluso pela angulação do seu longo eixo em relação ao do segundo molar: vertical, mesioangular (a mais comum na mandíbula), distoangular, horizontal e outras. Pell e Gregory, ao contrário, olham a profundidade (A, B, C) e a relação com o ramo (classes I, II, III). Simons et al. (2024) mostram que as duas classificações se completam para prever dificuldade e indicar técnicas como a coronectomia.",
+"r": [
+{
+"t": "Simons RN et al. Indicações da coronectomia e as classificações de Pell e Gregory e de Winter. Oral Maxillofac Surg, 2024",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11144674/"
+},
+{
+"t": "StatPearls. Extração de terceiros molares inferiores. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK587405/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -4740,7 +5020,13 @@ window.BANCO_MILHAO = [
 "36 dentes"
 ],
 "a": 2,
-"w": "São 32 dentes: 8 incisivos, 4 caninos, 8 pré-molares e 12 molares, já contando os 4 sisos."
+"w": "A dentição permanente completa tem 32 dentes, 16 por arcada: 8 incisivos, 4 caninos, 8 pré-molares e 12 molares. Os terceiros molares são os mais variáveis: podem faltar (agenesia) ou ficar inclusos em boa parte da população, por isso muitos adultos têm 28 dentes na boca.",
+"r": [
+{
+"t": "StatPearls. Anatomia da cabeça e pescoço: dentes. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK557543/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4753,7 +5039,17 @@ window.BANCO_MILHAO = [
 "28 dentes"
 ],
 "a": 1,
-"w": "A dentição decídua completa tem 20 dentes, 10 em cada arcada."
+"w": "A dentição decídua tem 20 dentes, 10 por arcada: 8 incisivos, 4 caninos e 8 molares, sem pré-molares. Ela começa a nascer por volta dos 6 meses e costuma estar completa entre 2 e 3 anos; a troca começa por volta dos 6 anos.",
+"r": [
+{
+"t": "StatPearls. Anatomia da cabeça e pescoço: dentes. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK557543/"
+},
+{
+"t": "StatPearls. Embriologia dos dentes. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK560515/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4766,7 +5062,13 @@ window.BANCO_MILHAO = [
 "Esmalte"
 ],
 "a": 3,
-"w": "O esmalte tem mais de 90% de conteúdo mineral (hidroxiapatita), por isso é o tecido mais duro e mais mineralizado do corpo."
+"w": "O esmalte maduro tem cerca de 96% de mineral em peso (cristais de hidroxiapatita), contra cerca de 70% da dentina e do osso. Lacruz et al. (2017) descrevem como os ameloblastos produzem uma matriz de proteínas que depois é quase toda retirada, para os cristais crescerem: por isso ele é tão duro, mas também frágil e sem capacidade de se refazer.",
+"r": [
+{
+"t": "Lacruz RS et al. Formação do esmalte dentário e implicações para a saúde bucal. Physiol Rev, 2017",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6151498/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4779,7 +5081,13 @@ window.BANCO_MILHAO = [
 "Molares"
 ],
 "a": 0,
-"w": "Os caninos têm uma cúspide só, em ponta, e são os dentes de rasgar; os incisivos cortam e os molares trituram."
+"w": "O canino tem uma cúspide só, longa e pontuda, e a raiz mais longa da boca, o que o torna o dente de rasgar e um pilar muito estável. Na oclusão, os caninos costumam guiar o movimento lateral da mandíbula (guia canina), protegendo os dentes de trás. Incisivos cortam; pré-molares e molares trituram.",
+"r": [
+{
+"t": "StatPearls. Anatomia da cabeça e pescoço: dentes. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK557543/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4792,7 +5100,13 @@ window.BANCO_MILHAO = [
 "Polpa"
 ],
 "a": 3,
-"w": "A polpa (o \"nervo\" no popular) é o tecido vivo, vascularizado e inervado, que fica no interior do dente."
+"w": "A polpa é tecido conjuntivo frouxo com vasos, nervos e odontoblastos na periferia; fica na câmara pulpar e nos canais radiculares. Ela forma dentina a vida toda (dentina secundária e, diante de agressão, terciária) e dá a sensibilidade do dente, que responde a quase todo estímulo com dor.",
+"r": [
+{
+"t": "StatPearls. Anatomia da cabeça e pescoço: polpa dentária. NCBI Bookshelf, 2025",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK537112/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4805,7 +5119,13 @@ window.BANCO_MILHAO = [
 "Incisivo lateral superior direito"
 ],
 "a": 0,
-"w": "No FDI, o 1º dígito é o quadrante (1 = superior direito) e o 2º é a posição do dente a partir da linha média (1 = incisivo central)."
+"w": "No sistema de dois dígitos da FDI (também norma ISO 3950), o primeiro número é o quadrante, em sentido horário a partir do superior direito do paciente (1 a 4 nos permanentes), e o segundo é a posição a partir da linha média (1 a 8). Assim, 11 é o incisivo central superior direito; o sistema é o mais usado no mundo, enquanto os EUA ainda usam o sistema Universal (1 a 32).",
+"r": [
+{
+"t": "Peck S, Peck L. Hora de mudar os sistemas de numeração dentária. J Dent Educ, 1993",
+"u": "https://pubmed.ncbi.nlm.nih.gov/8349894/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4818,7 +5138,13 @@ window.BANCO_MILHAO = [
 "Endurecer a gengiva para evitar sangramentos"
 ],
 "a": 2,
-"w": "O fio dental remove a placa das faces proximais (entre os dentes), que a escova não alcança bem."
+"w": "O fio dental limpa as faces proximais (entre os dentes), onde a escova alcança mal e onde começam muitas cáries e a gengivite. A revisão Cochrane de Worthington et al. (2019) mostrou que escova mais fio reduz a gengivite um pouco mais que a escova sozinha, com evidência de baixa certeza; escovas interdentais foram as mais eficazes quando o espaço permite.",
+"r": [
+{
+"t": "Worthington HV et al. Limpeza interdental em casa, além da escovação (revisão Cochrane). Cochrane Database Syst Rev, 2019",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6953268/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4831,7 +5157,17 @@ window.BANCO_MILHAO = [
 "Mercúrio"
 ],
 "a": 3,
-"w": "O amálgama é uma liga em que o mercúrio se une a prata, estanho e cobre, entre outros metais."
+"w": "O amálgama nasce da mistura de mercúrio líquido com uma liga em pó de prata, estanho e cobre; o mercúrio reage com a liga e endurece em poucas horas. Por causa do mercúrio, a Convenção de Minamata (em vigor desde 2017) pede a redução gradual do uso do amálgama, e vários países já o restringem (Kisumbi et al., 2025).",
+"r": [
+{
+"t": "Kisumbi BK et al. Redução gradual do amálgama dental: situação e alternativas. Int J Dent, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12449116/"
+},
+{
+"t": "Worthington HV et al. Resina composta versus amálgama em dentes posteriores (revisão Cochrane). Cochrane Database Syst Rev, 2021",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8407050/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4844,7 +5180,13 @@ window.BANCO_MILHAO = [
 "Alvarenga Peixoto"
 ],
 "a": 1,
-"w": "Joaquim José da Silva Xavier, o Tiradentes, trabalhava como dentista prático, e daí vem o apelido."
+"w": "Joaquim José da Silva Xavier ganhou o apelido 'Tiradentes' porque também trabalhava como dentista prático, além de alferes e tropeiro. Executado em 1792 por liderar a Inconfidência Mineira, hoje é patrono cívico do Brasil, e o Dia do Cirurgião-Dentista também lembra a sua história (Bobbio, 1993).",
+"r": [
+{
+"t": "Bobbio A. Tiradentes, o 'tira-dentes': dentista e protomártir da independência do Brasil. Bull Hist Dent, 1993",
+"u": "https://pubmed.ncbi.nlm.nih.gov/8061496/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4857,7 +5199,13 @@ window.BANCO_MILHAO = [
 "Occipital"
 ],
 "a": 1,
-"w": "O côndilo da mandíbula se articula com a fossa mandibular do osso temporal, e daí vem o nome da articulação."
+"w": "A ATM liga o côndilo da mandíbula à fossa mandibular (glenoide) do osso temporal, com um disco articular de fibrocartilagem entre eles. É uma articulação que gira e desliza ao mesmo tempo (ginglimoartroidal) e trabalha sempre aos pares, dos dois lados juntos.",
+"r": [
+{
+"t": "StatPearls. Anatomia da cabeça e pescoço: articulação temporomandibular. NCBI Bookshelf, 2025",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK538486/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4870,7 +5218,13 @@ window.BANCO_MILHAO = [
 "Remover o tártaro durante a profilaxia"
 ],
 "a": 2,
-"w": "O alginato é um material de moldagem (hidrocoloide irreversível), usado para copiar as arcadas e obter modelos de gesso."
+"w": "O alginato é um hidrocoloide irreversível: em pó, misturado com água, vira um gel elástico que copia dentes e tecidos e depois é vazado em gesso para obter o modelo. É barato e fácil, mas perde ou ganha água rápido, por isso o modelo deve ser vazado logo após a moldagem (Cervino et al., 2018).",
+"r": [
+{
+"t": "Cervino G et al. Alginato e técnica de moldagem: estado da arte. Mar Drugs, 2018",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6356954/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4883,7 +5237,13 @@ window.BANCO_MILHAO = [
 "Porta-agulha"
 ],
 "a": 0,
-"w": "O trio clássico de exame é espelho, pinça e sonda exploradora."
+"w": "O exame clínico básico usa espelho bucal (afasta e reflete), pinça clínica (segura algodão e gaze) e sonda exploradora (percorre superfícies). Hoje a sonda é usada com delicadeza, sem forçar nas fóssulas, porque pode romper uma lesão inicial de cárie que ainda poderia remineralizar.",
+"r": [
+{
+"t": "StatPearls. Testes diagnósticos de cárie. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK574510/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4896,7 +5256,13 @@ window.BANCO_MILHAO = [
 "Uma película de flúor que se forma sobre o dente depois da escovação"
 ],
 "a": 1,
-"w": "A placa é um biofilme: bactérias organizadas e aderidas à superfície do dente, base da cárie e das doenças periodontais."
+"w": "A placa é um biofilme: comunidade organizada de bactérias presa ao dente e envolta por uma matriz de polímeros que ela mesma produz. Marsh (2006) explica que, em saúde, a comunidade é estável; com açúcar frequente ou inflamação, ela muda de composição e passa a causar cárie ou doença periodontal (hipótese da placa ecológica).",
+"r": [
+{
+"t": "Marsh PD. Placa dental como biofilme e comunidade microbiana. BMC Oral Health, 2006",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2147593/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4909,7 +5275,17 @@ window.BANCO_MILHAO = [
 "Deixa o esmalte mais resistente aos ácidos e favorece a remineralização"
 ],
 "a": 3,
-"w": "O flúor reduz a desmineralização e favorece a remineralização, formando um mineral mais resistente aos ácidos."
+"w": "O flúor age principalmente na boca, em baixa concentração e o tempo todo: reduz a desmineralização e favorece a remineralização, formando fluorapatita, menos solúvel em ácido. Por isso o flúor tópico (pasta, água fluoretada) importa mais que o ingerido na formação do dente (Yeh et al., 2025).",
+"r": [
+{
+"t": "Yeh CH et al. Flúor na prevenção e tratamento da cárie: mecanismos e evidências. Healthcare, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12427920/"
+},
+{
+"t": "StatPearls. Papel do flúor na prevenção da cárie. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK587342/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4922,7 +5298,17 @@ window.BANCO_MILHAO = [
 "Ligamento periodontal"
 ],
 "a": 2,
-"w": "O cemento recobre a dentina da raiz e é onde as fibras do ligamento periodontal se inserem."
+"w": "O cemento é um tecido mineralizado fino que cobre a dentina da raiz; nele se prendem as fibras do ligamento periodontal (fibras de Sharpey), que ancoram o dente ao osso. É formado pelos cementoblastos e, diferente do osso, não tem vasos.",
+"r": [
+{
+"t": "StatPearls. Doença periodontal. NCBI Bookshelf, 2025",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK554590/"
+},
+{
+"t": "StatPearls. Embriologia dos dentes. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK560515/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4935,7 +5321,17 @@ window.BANCO_MILHAO = [
 "Só a gengivite tem relação com o acúmulo de placa bacteriana sobre os dentes e a gengiva"
 ],
 "a": 0,
-"w": "Gengivite é inflamação restrita à gengiva e reversível; na periodontite há perda de inserção e de osso, e o osso perdido não volta sozinho."
+"w": "Gengivite é inflamação só da gengiva, reversível com higiene; periodontite é quando a inflamação destrói o ligamento e o osso, com perda de inserção clínica. Pela classificação de 2017, a gengivite pode preceder a periodontite, mas nem toda gengivite evolui, e o osso perdido não volta sozinho (Caton et al., 2018).",
+"r": [
+{
+"t": "Caton JG et al. Nova classificação das doenças periodontais e peri-implantares, 2017. J Periodontol, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/29926946/"
+},
+{
+"t": "StatPearls. Gengivite. NCBI Bookshelf, 2026",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK557422/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4948,7 +5344,17 @@ window.BANCO_MILHAO = [
 "Seringa carpule"
 ],
 "a": 1,
-"w": "Óculos, máscara, luvas, gorro e jaleco são EPIs: protegem o profissional de respingos, aerossóis e sangue."
+"w": "Óculos, máscara, luvas, gorro e avental são EPIs: barreiras entre o profissional e sangue, saliva e aerossóis gerados pelas canetas de alta rotação. As diretrizes do CDC para odontologia (Kohn et al., 2003) tratam todo paciente como potencialmente infectado (precauções-padrão), por isso o EPI é de uso em todo atendimento.",
+"r": [
+{
+"t": "Kohn WG et al. Diretrizes de controle de infecção em odontologia, CDC 2003. MMWR Recomm Rep, 2003",
+"u": "https://pubmed.ncbi.nlm.nih.gov/14685139/"
+},
+{
+"t": "StatPearls. Prevenção de infecção cruzada no consultório odontológico. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK589669/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4961,7 +5367,13 @@ window.BANCO_MILHAO = [
 "Cálculo dental (tártaro)"
 ],
 "a": 3,
-"w": "O cálculo, ou tártaro, é placa mineralizada por minerais da saliva e do fluido gengival, e não sai só com a escovação."
+"w": "O cálculo (tártaro) é biofilme que mineralizou com cálcio e fosfato da saliva (supragengival) ou do fluido gengival (subgengival, mais escuro). Sua superfície rugosa acumula mais placa, e por isso ele precisa ser removido com raspagem profissional; a escova não tira (White, 1997).",
+"r": [
+{
+"t": "White DJ. Cálculo dental: formação, prevenção e remoção. Eur J Oral Sci, 1997",
+"u": "https://pubmed.ncbi.nlm.nih.gov/9395117/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4974,7 +5386,13 @@ window.BANCO_MILHAO = [
 "Cefalométrica lateral"
 ],
 "a": 2,
-"w": "A interproximal (bite-wing) mostra as coroas superiores e inferiores juntas e é a clássica para ver cárie nas faces proximais."
+"w": "A interproximal (bite-wing) mostra ao mesmo tempo as coroas superiores e inferiores de um lado, com o feixe quase paralelo às faces proximais, onde a cárie começa escondida. Kamburoglu et al. (2012) acharam a bite-wing intraoral mais precisa que a panorâmica para cárie proximal.",
+"r": [
+{
+"t": "Kamburoglu K et al. Detecção de cárie proximal: bite-wing intraoral, extraoral e panorâmica. Dentomaxillofac Radiol, 2012",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3520392/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4987,7 +5405,17 @@ window.BANCO_MILHAO = [
 "Wilhelm Röntgen"
 ],
 "a": 0,
-"w": "O francês Pierre Fauchard publicou em 1728 o livro \"Le Chirurgien Dentiste\" e é chamado de pai da Odontologia moderna."
+"w": "O francês Pierre Fauchard publicou em 1728 'Le Chirurgien Dentiste', primeiro tratado completo de odontologia, que reunia prótese, ortodontia, periodontia e cirurgia e tirou a profissão do segredo dos práticos. Por isso é chamado de pai da odontologia moderna (Aksoy et al., 2024).",
+"r": [
+{
+"t": "Aksoy U et al. Pierre Fauchard (1678-1761), pioneiro da cirurgia dentária. Cureus, 2024",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11484655/"
+},
+{
+"t": "Spielman AI. O nascimento de Le Chirurgien Dentiste, de Fauchard. J Dent Res, 2007",
+"u": "https://pubmed.ncbi.nlm.nih.gov/17890667/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -5000,7 +5428,13 @@ window.BANCO_MILHAO = [
 "Esmalte"
 ],
 "a": 3,
-"w": "O periodonto sustenta e protege o dente (gengiva, ligamento periodontal, cemento e osso alveolar); o esmalte é tecido do próprio dente."
+"w": "O periodonto de sustentação (cemento, ligamento periodontal e osso alveolar) prende o dente, e o periodonto de proteção (gengiva) sela a entrada. O esmalte é tecido do próprio dente, de origem ectodérmica, enquanto cemento, ligamento e osso vêm do folículo dentário.",
+"r": [
+{
+"t": "StatPearls. Doença periodontal. NCBI Bookshelf, 2025",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK554590/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -5013,7 +5447,13 @@ window.BANCO_MILHAO = [
 "Gesso especial misturado com água destilada"
 ],
 "a": 1,
-"w": "A resina composta junta matriz resinosa orgânica e partículas inorgânicas de carga, unidas por um agente de união (silano)."
+"w": "A resina composta junta uma matriz orgânica de monômeros (como Bis-GMA e TEGDMA), partículas inorgânicas de carga (vidro, sílica) e o silano, que une as duas fases. A carga dá resistência e reduz a contração de polimerização; o tamanho dela define se a resina é micro, nanohíbrida ou nanoparticulada (Al-Ibrahim et al., 2025).",
+"r": [
+{
+"t": "Al-Ibrahim I et al. Cinco anos de avanços em resinas compostas: revisão narrativa. BMC Oral Health, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12225228/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -5026,7 +5466,13 @@ window.BANCO_MILHAO = [
 "Segundo pré-molar superior direito"
 ],
 "a": 0,
-"w": "Nos decíduos os quadrantes são 5 a 8 e os dentes vão de 1 a 5, então o 55 é o 2º molar de leite superior direito."
+"w": "Nos dentes decíduos os quadrantes da FDI são 5 a 8 (5 = superior direito) e os dentes vão de 1 a 5; o 5 é o segundo molar decíduo. Logo, 55 é o segundo molar decíduo superior direito, que será substituído pelo segundo pré-molar (15).",
+"r": [
+{
+"t": "Havale R et al. Notação dentária para dentes decíduos: revisão. Eur J Paediatr Dent, 2015",
+"u": "https://pubmed.ncbi.nlm.nih.gov/26147826/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -5039,7 +5485,13 @@ window.BANCO_MILHAO = [
 "A dentina que fica sob ele impede a formação de qualquer tecido novo"
 ],
 "a": 2,
-"w": "O esmalte é acelular e os ameloblastos desaparecem após a formação; por isso a cavidade não se regenera, só lesões iniciais podem remineralizar."
+"w": "Os ameloblastos que formam o esmalte morrem ou se perdem quando o dente erupciona, por isso o esmalte é acelular e não se regenera. Só lesões iniciais (mancha branca) podem remineralizar com saliva e flúor, que repõem mineral nos cristais que restaram; a cavidade, não (Lacruz et al., 2017).",
+"r": [
+{
+"t": "Lacruz RS et al. Formação do esmalte dentário e implicações para a saúde bucal. Physiol Rev, 2017",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6151498/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -5052,7 +5504,13 @@ window.BANCO_MILHAO = [
 "Osteoblastos"
 ],
 "a": 1,
-"w": "Os odontoblastos ficam na periferia da polpa e formam a dentina, deixando prolongamentos dentro dos túbulos dentinários."
+"w": "Os odontoblastos ficam enfileirados na borda da polpa e formam a dentina durante toda a vida do dente, deixando um prolongamento dentro de cada túbulo dentinário. Por isso dentina e polpa funcionam como um complexo único: estímulos na dentina chegam à polpa (Goldberg et al., 2011).",
+"r": [
+{
+"t": "Goldberg M et al. Dentina: estrutura, composição e mineralização. Front Biosci, 2011",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3360947/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -5065,7 +5523,17 @@ window.BANCO_MILHAO = [
 "Hospedeiro (dente), microbiota, substrato (dieta) e tempo"
 ],
 "a": 3,
-"w": "A cárie exige hospedeiro suscetível, microbiota cariogênica e substrato (açúcares) agindo por tempo suficiente: a tríade de Keyes, com o tempo acrescentado depois."
+"w": "Keyes (década de 1960) propôs a tríade hospedeiro, microbiota e dieta, e Newbrun acrescentou o tempo: sem os quatro juntos, não há cárie. Hoje se entende a cárie como doença do biofilme modulada pelo açúcar, com fatores sociais e comportamentais por trás (Selwitz et al., 2007).",
+"r": [
+{
+"t": "Selwitz RH, Ismail AI, Pitts NB. Cárie dentária. Lancet, 2007",
+"u": "https://pubmed.ncbi.nlm.nih.gov/17208642/"
+},
+{
+"t": "Cota JE et al. Tríade de Keyes no diabetes tipo 2. Adv Biomed Res, 2021",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8744421/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -5078,7 +5546,13 @@ window.BANCO_MILHAO = [
 "A esterilização vale só para superfícies do consultório e a desinfecção só para instrumentais"
 ],
 "a": 0,
-"w": "Esterilizar é destruir todas as formas de vida microbiana, esporos inclusive; desinfetar elimina boa parte dos microrganismos, mas não garante a eliminação dos esporos."
+"w": "Esterilizar é eliminar todas as formas de vida microbiana, inclusive esporos bacterianos, os mais resistentes; desinfetar elimina boa parte dos microrganismos, mas não garante a destruição dos esporos. Por isso instrumentos que penetram tecido (críticos) vão para a autoclave, e superfícies vão para desinfecção (Kohn et al., 2003).",
+"r": [
+{
+"t": "Kohn WG et al. Diretrizes de controle de infecção em odontologia, CDC 2003. MMWR Recomm Rep, 2003",
+"u": "https://pubmed.ncbi.nlm.nih.gov/14685139/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -5091,7 +5565,17 @@ window.BANCO_MILHAO = [
 "Incisivos laterais"
 ],
 "a": 2,
-"w": "Os molares decíduos dão lugar aos pré-molares; os molares permanentes nascem atrás deles, sem substituir nenhum dente de leite."
+"w": "Os pré-molares são sucessores dos molares decíduos e nascem embaixo deles, reabsorvendo suas raízes. Os molares permanentes não substituem nenhum dente de leite: o primeiro molar nasce por volta dos 6 anos, atrás do segundo molar decíduo.",
+"r": [
+{
+"t": "StatPearls. Anatomia da cabeça e pescoço: dentes. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK557543/"
+},
+{
+"t": "StatPearls. Embriologia dos dentes. NCBI Bookshelf, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK560515/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -6296,6 +6780,1029 @@ window.BANCO_MILHAO = [
 ],
 "a": 3,
 "w": "O mesmo modelo existe em várias cores, e dentes da mesma cor podem ter modelos diferentes."
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Na prótese total, como se chama a resistência da prótese a ser deslocada para longe do rebordo, como quando o paciente abre a boca ou come algo pegajoso?",
+"o": [
+"Estabilidade",
+"Suporte",
+"Retenção",
+"Reciprocidade"
+],
+"a": 2,
+"w": "Retenção é a resistência ao deslocamento no sentido oposto ao rebordo. Estabilidade é a resistência a forças horizontais e de rotação, e suporte é a resistência à força em direção aos tecidos. A revisão clássica de Jacobson e Krol (J Prosthet Dent, 1983) organiza a prótese total nesse tripé, e o Glossário de Termos Protéticos traz as mesmas definições.",
+"r": [
+{
+"t": "Jacobson TE, Krol AJ. Retenção, estabilidade e suporte da prótese total, parte I. J Prosthet Dent, 1983",
+"u": "https://pubmed.ncbi.nlm.nih.gov/6337253/"
+},
+{
+"t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Uma prótese total inferior afunda e machuca o rebordo quando o paciente mastiga com força. Qual dos três pilares da prótese total está falhando principalmente?",
+"o": [
+"Suporte, a resistência à força em direção aos tecidos",
+"Retenção, a resistência ao deslocamento para fora",
+"Estética, a harmonia dos dentes com o rosto",
+"Fonética, a articulação correta das palavras"
+],
+"a": 0,
+"w": "Suporte é a capacidade da área chapeável de resistir às forças que empurram a base em direção à mucosa. Ele depende de cobrir a maior área possível dentro dos limites anatômicos e de aliviar as regiões que não aguentam carga. O tripé retenção, estabilidade e suporte foi sistematizado por Jacobson e Krol (J Prosthet Dent, 1983).",
+"r": [
+{
+"t": "Jacobson TE, Krol AJ. Retenção, estabilidade e suporte da prótese total, parte I. J Prosthet Dent, 1983",
+"u": "https://pubmed.ncbi.nlm.nih.gov/6337253/"
+},
+{
+"t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "O espaço funcional livre (espaço interoclusal de repouso) corresponde a quê?",
+"o": [
+"À soma da dimensão vertical de oclusão com a de repouso",
+"À diferença entre a dimensão vertical de repouso e a de oclusão",
+"À distância entre os incisivos durante a fala do som 'S'",
+"Ao espaço entre a base da prótese e a mucosa do rebordo"
+],
+"a": 1,
+"w": "Com a mandíbula em repouso, os dentes ficam separados; essa folga é a diferença entre a dimensão vertical de repouso e a de oclusão, em média de 2 a 4 mm. Se a prótese invade esse espaço, os dentes batem ao falar e o rebordo dói. O consenso de melhor evidência sobre dimensão vertical (Goldstein et al., J Prosthodont, 2021) discute como esse valor varia entre as pessoas.",
+"r": [
+{
+"t": "Goldstein G et al. Dimensão vertical de oclusão: consenso de melhor evidência. J Prosthodont, 2021",
+"u": "https://pubmed.ncbi.nlm.nih.gov/33783090/"
+},
+{
+"t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Na classificação de Kennedy, um arco com ausência dos dentes posteriores dos dois lados, sem dente atrás dos espaços (extremo livre bilateral), é de que classe?",
+"o": [
+"Classe III",
+"Classe IV",
+"Classe II",
+"Classe I"
+],
+"a": 3,
+"w": "Classe I de Kennedy são áreas desdentadas bilaterais atrás dos dentes remanescentes (extremo livre bilateral). Classe II é o extremo livre de um lado só, Classe III é o espaço intercalado (com dente atrás) e Classe IV é um único espaço anterior que cruza a linha média. Estudos de prevalência, como o de Charyeva et al. (J Prosthodont, 2012), usam essa classificação; na amostra deles, a Classe III foi a mais frequente.",
+"r": [
+{
+"t": "Charyeva OO et al. Classificação de Kennedy e opções de tratamento. J Prosthodont, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22340839/"
+},
+{
+"t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual microrganismo é o principal envolvido na estomatite protética, a vermelhidão da mucosa coberta pela prótese?",
+"o": [
+"Candida albicans",
+"Streptococcus mutans",
+"Porphyromonas gingivalis",
+"Staphylococcus aureus"
+],
+"a": 0,
+"w": "A estomatite protética é uma candidíase atrófica crônica: o biofilme de Candida albicans se instala nos poros da resina e na mucosa coberta pela base. Higiene ruim, uso contínuo (inclusive à noite) e prótese mal adaptada favorecem o quadro. As revisões de Abuhajar et al. (2023) e Perić et al. (2024) confirmam a C. albicans como espécie predominante.",
+"r": [
+{
+"t": "Abuhajar E et al. Manejo da estomatite protética: revisão narrativa. Int J Environ Res Public Health, 2023 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9967389/"
+},
+{
+"t": "Perić M et al. Estomatite protética: revisão sistemática. J Fungi, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11122031/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual é a orientação padrão a um idoso que usa prótese total sobre dormir com ela?",
+"o": [
+"Dormir com a prótese para não perder a dimensão vertical",
+"Tirar a prótese à noite, limpa e guardada fora da boca",
+"Dormir com a prótese só nas primeiras semanas de uso",
+"Dormir com ela desde que use adesivo à noite"
+],
+"a": 1,
+"w": "A remoção noturna deixa a mucosa descansar e reduz o biofilme de Candida. Num estudo prospectivo com 524 idosos de 85 anos ou mais (Iinuma et al., J Dent Res, 2015), quem dormia com a prótese teve cerca de 2,4 vezes mais risco de pneumonia. Por isso a orientação é tirar, limpar e guardar a prótese durante o sono.",
+"r": [
+{
+"t": "Iinuma T et al. Dormir com a prótese dobra o risco de pneumonia em idosos muito idosos. J Dent Res, 2015 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4541085/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Para o troquel de uma coroa, onde se precisa de alta resistência e mínima expansão, qual tipo de gesso odontológico é o indicado?",
+"o": [
+"Tipo I, gesso para moldagem",
+"Tipo II, gesso comum (Paris)",
+"Tipo IV, gesso pedra de alta resistência",
+"Tipo III, gesso pedra comum"
+],
+"a": 2,
+"w": "A especificação ISO/ADA divide os gessos em cinco tipos. O tipo IV (pedra de alta resistência e baixa expansão) é o padrão para troquéis; o tipo V tem resistência ainda maior, mas expansão alta. Heshmati et al. (J Prosthet Dent, 2002) mostraram que a expansão dos tipos IV e V continua por horas depois das 2 horas previstas na norma (Anusavice, Phillips Materiais Dentários).",
+"r": [
+{
+"t": "Heshmati RH et al. Expansão linear tardia do gesso pedra melhorado. J Prosthet Dent, 2002",
+"u": "https://pubmed.ncbi.nlm.nih.gov/12239476/"
+},
+{
+"t": "Kenyon BJ et al. Precisão dimensional de 7 materiais de troquel. J Prosthodont, 2005",
+"u": "https://pubmed.ncbi.nlm.nih.gov/15733132/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Por que o dente artificial de resina acrílica fica preso à base da prótese total sem precisar de retenção mecânica?",
+"o": [
+"Porque é colado à base com cianoacrilato depois da acrilização",
+"Porque a mufla prensa o dente até ele se encaixar na gengiva",
+"Porque a cera da montagem vira cola durante a polimerização",
+"Porque dente e base são polímeros acrílicos que se unem quimicamente"
+],
+"a": 3,
+"w": "Dente e base são de polimetilmetacrilato: o monômero da base amolece a superfície do dente e os dois se unem quimicamente na polimerização, desde que a área esteja limpa de cera. Dentes de porcelana não se unem assim e dependem de pinos ou orifícios (diatóricos). A revisão de Patil et al. (Gerodontology, 2006) e o estudo de Cunningham e Benington (J Dent, 1993) tratam dessa união e de como a contaminação a enfraquece.",
+"r": [
+{
+"t": "Patil SB et al. União de dentes acrílicos à base de resina: revisão. Gerodontology, 2006",
+"u": "https://pubmed.ncbi.nlm.nih.gov/16919093/"
+},
+{
+"t": "Cunningham JL, Benington IC. Resistência de união de dentes artificiais à base acrílica. J Dent, 1993",
+"u": "https://pubmed.ncbi.nlm.nih.gov/8227688/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Para que serve o delineador no planejamento da PPR?",
+"o": [
+"Definir o plano de inserção, as áreas retentivas e o equador protético",
+"Medir a cor dos dentes pilares antes da moldagem",
+"Registrar a relação cêntrica do paciente no articulador",
+"Polir a estrutura metálica depois da fundição"
+],
+"a": 0,
+"w": "No delineador, o modelo é inclinado até achar a melhor trajetória de inserção; a ponta analisadora marca o equador protético (linha de maior contorno) e mostra onde há retenção para as pontas dos grampos. Com isso se decidem planos guia, grampos e alívios. Mamoun (J Adv Prosthodont, 2015) descreve o delineamento e o desenho a partir do plano de inserção.",
+"r": [
+{
+"t": "Mamoun JS. O plano de inserção da PPR: delineamento e desenho. J Adv Prosthodont, 2015 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4341191/"
+},
+{
+"t": "Bezzon OL et al. Delineamento da PPR: planos guia e plano de inserção. J Prosthet Dent, 1997",
+"u": "https://pubmed.ncbi.nlm.nih.gov/9338875/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Na PPR, qual componente une as partes da prótese de um lado do arco ao outro, como a barra lingual ou a placa palatina?",
+"o": [
+"Conector menor",
+"Conector maior",
+"Apoio oclusal",
+"Braço de oposição"
+],
+"a": 1,
+"w": "O conector maior liga as selas e os retentores dos dois lados e precisa ser rígido para distribuir as forças pelo arco; os conectores menores saem dele até apoios e grampos. Exemplos são a barra lingual, a placa lingual, a barra palatina e a placa palatina. A revisão de estudos de elementos finitos de Mousa et al. (2021) mostra como o desenho do conector muda a distribuição de tensões.",
+"r": [
+{
+"t": "Mousa MA et al. Biomecânica da PPR: revisão de estudos por elementos finitos. Biomed Res Int, 2021 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8416386/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual é a principal função do apoio oclusal de uma PPR?",
+"o": [
+"Prender a prótese no dente pela área retentiva",
+"Dar estética, escondendo o metal do grampo",
+"Impedir que a prótese afunde em direção à mucosa",
+"Unir o grampo ao conector maior"
+],
+"a": 2,
+"w": "O apoio repousa num nicho preparado no dente e transmite a força mastigatória ao longo do eixo do pilar, impedindo que a prótese se desloque em direção aos tecidos: é suporte, não retenção. Um apoio mal adaptado concentra carga e machuca a mucosa. Stern et al. (J Prosthet Dent, 1985) avaliaram clinicamente a adaptação dos apoios nos nichos.",
+"r": [
+{
+"t": "Stern MA et al. Avaliação clínica da adaptação do apoio no nicho da PPR. J Prosthet Dent, 1985",
+"u": "https://pubmed.ncbi.nlm.nih.gov/3889306/"
+},
+{
+"t": "Pelletier S et al. Adaptação de apoios em PPR sinterizada a laser x fundida. J Prosthet Dent, 2024",
+"u": "https://pubmed.ncbi.nlm.nih.gov/35786347/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "O que caracteriza a relação cêntrica?",
+"o": [
+"É a posição em que os dentes se encaixam com o máximo de contatos",
+"É a posição da mandíbula quando o paciente fala o som 'M'",
+"É a posição em que os incisivos ficam topo a topo",
+"É uma posição articular, dos côndilos, que não depende dos dentes"
+],
+"a": 3,
+"w": "Relação cêntrica é uma relação maxilomandibular definida pela posição dos côndilos, sem depender do contato dos dentes; por isso pode ser reproduzida no desdentado. A máxima intercuspidação habitual é definida pelos dentes e pode não coincidir com ela. Wiens e Goldstein (J Prosthet Dent, 2018) e Palaskar (2013) revisam a evolução dessa definição.",
+"r": [
+{
+"t": "Wiens JP, Goldstein GR. Definindo a relação cêntrica. J Prosthet Dent, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/29526300/"
+},
+{
+"t": "Palaskar JN. Definição de relação cêntrica: perspectiva histórica e atual. J Indian Prosthodont Soc, 2013 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3732724/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "O que o arco facial transfere para o articulador semiajustável?",
+"o": [
+"A posição da maxila em relação ao eixo das articulações temporomandibulares",
+"A cor e a forma dos dentes escolhidos",
+"A dimensão vertical de oclusão medida no rosto",
+"A linha média e a linha do sorriso do paciente"
+],
+"a": 0,
+"w": "O arco facial registra a posição da maxila em relação ao eixo de abertura (côndilos) e a um terceiro ponto de referência, para montar o modelo superior no articulador numa relação parecida com a do paciente. A dimensão vertical e a relação cêntrica vêm de outros registros. As revisões sistemáticas de Suman et al. (2021) e Prakash et al. (2020) discutem quando isso muda o resultado clínico.",
+"r": [
+{
+"t": "Suman V et al. Uso do arco facial em prótese: revisão sistemática de ensaios clínicos. J Indian Prosthodont Soc, 2021 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8061434/"
+},
+{
+"t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual destes é o cuidado básico recomendado para higienizar a prótese removível em casa?",
+"o": [
+"Ferver a prótese uma vez por semana",
+"Escovar com escova própria e sabão neutro, fora da boca, e enxaguar",
+"Escovar com pasta de dente bem abrasiva para tirar manchas",
+"Deixar a prótese de molho em álcool para desinfetar"
+],
+"a": 1,
+"w": "A escovação com escova própria e sabão neutro (ou produto específico), somada à imersão em limpador de prótese, é a base da higiene. Água fervente deforma a resina, álcool resseca e pasta abrasiva risca a superfície, que passa a acumular mais biofilme. A revisão Cochrane de de Souza et al. (2009) e a revisão de Abuhajar et al. (2023) apoiam esse cuidado combinado.",
+"r": [
+{
+"t": "de Souza RF et al. Intervenções para limpeza de próteses em adultos. Cochrane, 2009 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12086014/"
+},
+{
+"t": "Abuhajar E et al. Manejo da estomatite protética: revisão narrativa, 2023 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9967389/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Em prótese total, o que é a zona neutra?",
+"o": [
+"A área do palato onde não se pode colocar alívio",
+"A faixa do rebordo coberta só por mucosa fixa",
+"O espaço onde as forças da língua e das bochechas e lábios se equilibram",
+"A linha imaginária que liga os dois côndilos"
+],
+"a": 2,
+"w": "Zona neutra é o espaço da boca onde a pressão da língua, de dentro para fora, se equilibra com a dos lábios e bochechas, de fora para dentro. Montar os dentes ali ajuda a prótese, principalmente a inferior, a não ser empurrada. Na revisão sistemática de Limpuangthip et al. (BDJ Open, 2024), próteses feitas pela técnica da zona neutra tiveram melhores resultados relatados pelos pacientes, como conforto e estabilidade.",
+"r": [
+{
+"t": "Limpuangthip N et al. Zona neutra x técnica convencional na prótese total: revisão sistemática. BDJ Open, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11116395/"
+},
+{
+"t": "Beresin VE, Schiesser FJ. A zona neutra na prótese total. J Prosthet Dent, 1976",
+"u": "https://pubmed.ncbi.nlm.nih.gov/787504/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Depois de instalar uma prótese total, o paciente diz que os dentes 'batem' quando fala e que o rebordo dói no fim do dia. O rosto parece alongado. Qual a causa mais provável?",
+"o": [
+"Dimensão vertical de oclusão diminuída",
+"Dimensão vertical de oclusão aumentada, sem espaço livre",
+"Falta de alívio no palato duro",
+"Dentes de cor mais branca que o ideal"
+],
+"a": 1,
+"w": "Com a dimensão vertical de oclusão aumentada, o espaço funcional livre some: os dentes se tocam durante a fala, músculos e mucosa ficam sobrecarregados e o terço inferior da face parece alongado. A dimensão diminuída dá o quadro oposto (queixo projetado, comissuras caídas, queilite angular). Alhajj et al. (J Oral Rehabil, 2017) revisam os métodos para determinar essa medida.",
+"r": [
+{
+"t": "Alhajj MN et al. Determinação da dimensão vertical de oclusão na prótese total: revisão. J Oral Rehabil, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28600914/"
+},
+{
+"t": "Fayad MI et al. Dimensão vertical em prótese, parte II: revisão. Cureus, 2025 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12501398/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Por que, na prótese total, se busca a oclusão balanceada bilateral (contatos dos dois lados nos movimentos excursivos)?",
+"o": [
+"Para deixar os dentes mais brancos ao sorrir",
+"Para aumentar a dimensão vertical de oclusão",
+"Para dispensar a prova dos dentes em cera",
+"Para a prótese não bascular e soltar quando a mandíbula desliza"
+],
+"a": 3,
+"w": "Na prótese total, um contato só de um lado na lateralidade ou na protrusão faz a base girar e soltar; contatos simultâneos de trabalho e de balanceio mantêm a prótese assentada. O consenso de melhor evidência (Goldstein et al., J Prosthodont, 2021) concluiu que o paciente com bom rebordo funciona bem com vários esquemas, mas que o balanceio é necessário quando faltam estabilidade e retenção.",
+"r": [
+{
+"t": "Goldstein G et al. Oclusão da prótese total: consenso de melhor evidência. J Prosthodont, 2021",
+"u": "https://pubmed.ncbi.nlm.nih.gov/33336857/"
+},
+{
+"t": "Poljak N et al. Oclusão lingualizada x balanceada e qualidade de vida. J Pers Med, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11433608/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "No grampo de uma PPR, qual é a função do braço recíproco (de oposição), colocado acima do equador do dente?",
+"o": [
+"Contrapor a força da ponta retentiva quando ela passa pelo equador",
+"Entrar na área retentiva para segurar a prótese",
+"Apoiar a prótese na face oclusal do pilar",
+"Servir de conector maior entre as selas"
+],
+"a": 0,
+"w": "Quando a ponta retentiva flexiona ao passar pelo equador, ela empurra o dente para o lado. O braço recíproco, rígido e acima do equador, encosta do outro lado e neutraliza essa força, protegendo o pilar. A revisão de conceitos clínicos de PPR de Bohnenkamp (Dent Clin North Am, 2014) descreve essa função (McCracken, Prótese Parcial Removível).",
+"r": [
+{
+"t": "Bohnenkamp DM. Prótese parcial removível: conceitos clínicos. Dent Clin North Am, 2014",
+"u": "https://pubmed.ncbi.nlm.nih.gov/24286646/"
+},
+{
+"t": "Khan SB, Geerts GA. Desenho de grampos estéticos para PPR: revisão. SADJ, 2005",
+"u": "https://pubmed.ncbi.nlm.nih.gov/16052751/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Qual é uma limitação conhecida da prótese parcial removível flexível (náilon/poliamida)?",
+"o": [
+"Não pode ser usada por quem tem alergia a metal",
+"É difícil de reembasar e ajustar, e costuma não ter apoios rígidos",
+"Precisa de estrutura de cobalto-cromo por baixo da gengiva",
+"Só pode ser feita para desdentados totais"
+],
+"a": 1,
+"w": "A flexível é estética e boa para quem tem alergia ao metal, mas a poliamida é difícil de reembasar, polir e consertar, e sem apoios rígidos a prótese tende a afundar sobre a mucosa e o rebordo. Por isso é vista mais como opção provisória ou de casos selecionados. As revisões de Binaljadm (Cureus, 2024) e Mendoza-Carrasco et al. (2020) discutem esses limites.",
+"r": [
+{
+"t": "Binaljadm TM. Prótese flexível: revisão de literatura. Cureus, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10985649/"
+},
+{
+"t": "Mendoza-Carrasco I et al. Prótese de grampo não metálico: qual a evidência? J Indian Prosthodont Soc, 2020 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7654199/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Em que situação é típica a indicação de uma PPR provisória de acrílico com grampos de fio?",
+"o": [
+"Como prótese definitiva para extremo livre bilateral",
+"Para substituir a coroa de um dente tratado endodonticamente",
+"Durante a cicatrização após extrações ou implantes, até a definitiva",
+"Só em pacientes com alergia à resina acrílica"
+],
+"a": 2,
+"w": "A PPR provisória (interina) devolve estética, fala e função por um período, por exemplo enquanto o rebordo cicatriza depois de extrações ou os implantes osseointegram. É simples e fácil de modificar, mas não tem o suporte de uma estrutura metálica bem planejada. Bural et al. (Gen Dent, 2008) relatam casos com essa indicação, até que as condições clínicas permitam a prótese definitiva.",
+"r": [
+{
+"t": "Bural C et al. PPR provisória: relato de dois casos. Gen Dent, 2008",
+"u": "https://pubmed.ncbi.nlm.nih.gov/18254564/"
+},
+{
+"t": "Pellizzer EP et al. PPR provisória em tratamento de longo prazo. J Prosthodont, 2010",
+"u": "https://pubmed.ncbi.nlm.nih.gov/19682219/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Numa prótese tipo protocolo parafusada sobre vários implantes, o que pode acontecer se a barra não tiver assentamento passivo?",
+"o": [
+"Nada, porque o aperto do parafuso corrige qualquer desajuste",
+"Só uma mudança de cor na gengiva artificial",
+"Aumento da retenção, o que seria desejável",
+"Afrouxamento ou fratura de parafusos e perda óssea ao redor dos implantes"
+],
+"a": 3,
+"w": "Se a estrutura não assenta passivamente, o aperto dos parafusos força os implantes e deixa tensão permanente. Isso favorece afrouxamento e fratura de parafusos e componentes, dor e perda óssea marginal. A revisão de Buzayan e Yunus (2014) resume as causas do desajuste e as formas de alcançar a passividade (moldagem com ferulização, soldagem, CAD/CAM).",
+"r": [
+{
+"t": "Buzayan MM, Yunus NB. Assentamento passivo em prótese parafusada sobre implantes: revisão. J Indian Prosthodont Soc, 2014 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3935037/"
+},
+{
+"t": "Sahin S, Cehreli MC. A importância do assentamento passivo em prótese sobre implante. Implant Dent, 2001",
+"u": "https://pubmed.ncbi.nlm.nih.gov/11450418/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Qual requisito é considerado essencial para a carga imediata de uma prótese fixa total sobre implantes?",
+"o": [
+"Boa estabilidade primária e implantes unidos rigidamente pela prótese",
+"Esperar a gengiva cicatrizar por três meses antes de tudo",
+"Usar implantes curtos, de no máximo 6 mm",
+"Deixar os implantes sem conexão entre si"
+],
+"a": 0,
+"w": "Na carga imediata, os implantes recebem a prótese em poucos dias, então precisam de alta estabilidade primária (torque de inserção adequado) e ficam unidos por uma estrutura rígida, que divide a carga e limita micromovimentos. Na revisão de Peñarrocha-Oltra et al. (2014), com 2.484 implantes de carga imediata na maxila, a sobrevida dos implantes variou de 87,5 % a 100 %.",
+"r": [
+{
+"t": "Peñarrocha-Oltra D et al. Carga imediata com prótese fixa total na maxila: revisão. Med Oral Patol Oral Cir Bucal, 2014 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4192577/"
+},
+{
+"t": "Peñarrocha-Diago M et al. Consenso sobre o conceito all-on-four. J Clin Exp Dent, 2017 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5429486/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "O que diz a declaração de consenso de McGill (2002) sobre o desdentado total inferior?",
+"o": [
+"Que a prótese total convencional basta e implante é exceção",
+"Que o padrão deve ser a prótese fixa sobre seis implantes",
+"Que a sobredentadura sobre dois implantes deve ser a primeira escolha",
+"Que a mandíbula desdentada não deve receber prótese"
+],
+"a": 2,
+"w": "O consenso de McGill (Feine et al., 2002) defendeu que a sobredentadura mandibular retida por dois implantes seja o tratamento de primeira escolha para o desdentado inferior, pela melhora em satisfação e qualidade de vida em relação à prótese convencional. A revisão sistemática de Kutkut et al. (2018) também comparou prótese convencional e sobredentadura sobre implantes.",
+"r": [
+{
+"t": "Feine JS et al. Consenso de McGill sobre sobredentaduras. Gerodontology, 2002",
+"u": "https://pubmed.ncbi.nlm.nih.gov/12164236/"
+},
+{
+"t": "Kutkut A et al. Prótese total convencional x sobredentadura sobre implantes: revisão sistemática. J Prosthodont Res, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28666845/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Em dente tratado endodonticamente que vai receber coroa, o que é o 'efeito férula' e quanto se recomenda?",
+"o": [
+"Um pino mais longo, com pelo menos 10 mm",
+"Uma camada extra de cimento, de 0,5 mm",
+"Um bisel no esmalte para melhorar a cor",
+"Um colar de dentina sadia abraçado pela coroa, de 1,5 a 2 mm"
+],
+"a": 3,
+"w": "A férula é a faixa de dentina sadia acima do término do preparo que a coroa abraça como um anel. Ela distribui as forças e diminui o risco de fratura da raiz. Na revisão de Juloski et al. (J Endod, 2012), férula de 1,5 a 2 mm aumentou a resistência à fratura, e férula parcial foi melhor que nenhuma.",
+"r": [
+{
+"t": "Juloski J et al. Efeito férula: revisão de literatura. J Endod, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22152612/"
+},
+{
+"t": "Stankiewicz NR, Wilson PR. O efeito férula: revisão. Int Endod J, 2002",
+"u": "https://pubmed.ncbi.nlm.nih.gov/12190896/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Na prótese fixa, por que o dente preparado recebe coroa provisória enquanto a definitiva é feita?",
+"o": [
+"Para proteger o dente e manter a gengiva e a posição dos dentes",
+"Só por estética, sem nenhum papel biológico",
+"Para clarear o dente antes da coroa definitiva",
+"Para testar a resistência do cimento definitivo"
+],
+"a": 0,
+"w": "O provisório protege a dentina exposta (sensibilidade e contaminação), mantém a saúde da gengiva com margem bem adaptada e evita que o dente preparado e os vizinhos se movam. Também serve de teste de forma, fala e oclusão. Strassler (Compend Contin Educ Dent, 2013) revisa a escolha dos materiais provisórios (Shillingburg, Fundamentos de Prótese Fixa).",
+"r": [
+{
+"t": "Strassler HE. Materiais provisórios em prótese fixa: como escolher. Compend Contin Educ Dent, 2013",
+"u": "https://pubmed.ncbi.nlm.nih.gov/23550328/"
+},
+{
+"t": "Jain S et al. Propriedades de resinas impressas para coroas provisórias. Polymers, 2022 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9269394/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Qual é a diferença entre a curva de Spee e a curva de Wilson?",
+"o": [
+"São a mesma curva, com nomes diferentes em cada país",
+"Spee é a curva anteroposterior (vista lateral); Wilson, a de um lado ao outro (vista frontal)",
+"Spee é dos dentes anteriores; Wilson é só dos terceiros molares",
+"Spee existe só na maxila; Wilson existe só na mandíbula"
+],
+"a": 1,
+"w": "A curva de Spee acompanha as pontas de cúspide do canino aos molares no plano sagital. A de Wilson liga as cúspides vestibulares e linguais de molares de lados opostos no plano frontal. As duas entram na montagem dos dentes e na harmonia com os movimentos excursivos (Glossário de Termos Protéticos; Dhiman et al., 2015; Okeson, Tratamento das Desordens Temporomandibulares e Oclusão).",
+"r": [
+{
+"t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+},
+{
+"t": "Dhiman S et al. Curva de Spee na perspectiva ortodôntica. Indian J Dent, 2015 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4691990/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Paciente com estomatite protética recebe antifúngico, melhora e o quadro volta semanas depois. Qual falha é a mais provável no tratamento?",
+"o": [
+"A dose do antifúngico foi alta demais para o caso",
+"A prótese tinha dentes de porcelana em vez de resina",
+"O paciente deixou de usar adesivo na prótese",
+"A prótese seguiu contaminada, usada à noite e sem higiene adequada"
+],
+"a": 3,
+"w": "A Candida vive no biofilme da base da prótese; tratar só a mucosa e devolver a prótese contaminada faz o quadro voltar. O manejo combina higiene e desinfecção da prótese, retirá-la à noite, ajustar ou refazer a prótese mal adaptada e, se preciso, antifúngico (Abuhajar et al., 2023; McReynolds et al., J Prosthodont, 2023).",
+"r": [
+{
+"t": "Abuhajar E et al. Manejo da estomatite protética: revisão narrativa, 2023 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9967389/"
+},
+{
+"t": "McReynolds DE et al. Estomatite protética: revisão clínica interdisciplinar. J Prosthodont, 2023",
+"u": "https://pubmed.ncbi.nlm.nih.gov/36988151/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Num estudo com 80 pacientes de prótese total (Saraswati et al., 2021), o que se viu sobre as consultas de ajuste depois da instalação?",
+"o": [
+"A maioria precisou de ajuste por lesão na mucosa, e a inferior pediu mais consultas",
+"Quase ninguém precisou de ajuste depois da instalação",
+"Só a prótese superior precisou de ajustes",
+"Os ajustes foram todos por falta de retenção, sem lesão"
+],
+"a": 0,
+"w": "Saraswati et al. acompanharam 80 pacientes: cerca de 86 % precisaram de ajuste já na primeira consulta por lesões traumáticas, com média de 4 consultas para a prótese superior e 6 para a inferior, e o fundo de vestíbulo foi o local mais lesado. Por isso a consulta de controle logo depois da instalação faz parte do protocolo.",
+"r": [
+{
+"t": "Saraswati S et al. Úlceras traumáticas e consultas de ajuste após instalação da prótese total. J Pharm Bioallied Sci, 2021 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8686897/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Qual é a diferença entre reembasamento e rebase (troca de base) de uma prótese total?",
+"o": [
+"São sinônimos e usam exatamente o mesmo material",
+"No reembasamento se acrescenta material na face interna; no rebase se troca a base, mantendo os dentes",
+"No reembasamento se trocam os dentes; no rebase só se pole a base",
+"O rebase é feito só na boca e o reembasamento só no laboratório"
+],
+"a": 1,
+"w": "Reembasar é acrescentar uma camada de resina na superfície que toca a mucosa para recuperar a adaptação perdida com a reabsorção. No rebase, a base antiga é quase toda substituída por resina nova, aproveitando os dentes e a relação oclusal. As definições estão no Glossário de Termos Protéticos e em van Meegen e Kalk (2011).",
+"r": [
+{
+"t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+},
+{
+"t": "van Meegen HG, Kalk W. Melhorar a prótese total por reembasamento ou rebase. Ned Tijdschr Tandheelkd, 2011",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22235517/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Comparando dentes artificiais de porcelana com os de resina na prótese total, qual afirmação está correta?",
+"o": [
+"A porcelana se une quimicamente à base acrílica",
+"A resina desgasta mais o dente natural antagonista que a porcelana",
+"A porcelana resiste mais ao desgaste, mas desgasta o antagonista e precisa de retenção mecânica",
+"A resina é mais dura que a porcelana"
+],
+"a": 2,
+"w": "A porcelana é mais dura e resiste ao desgaste, mas abrasiona dentes naturais e restaurações antagonistas, faz barulho ao contato e não se une quimicamente ao acrílico, por isso usa pinos ou diatóricos. As resinas com ligação cruzada melhoraram a resistência ao desgaste (Ghazal et al., Int J Prosthodont, 2008; Ekfeldt e Øilo, Acta Odontol Scand, 1989).",
+"r": [
+{
+"t": "Ghazal M et al. Resistência ao desgaste de dentes artificiais. Int J Prosthodont, 2008",
+"u": "https://pubmed.ncbi.nlm.nih.gov/18546774/"
+},
+{
+"t": "Ekfeldt A, Øilo G. Mecanismos de desgaste de dentes de resina e de porcelana. Acta Odontol Scand, 1989",
+"u": "https://pubmed.ncbi.nlm.nih.gov/2692379/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Paciente perdeu 36 e 37 (extremo livre do lado esquerdo) e também 44 e 45, com o 46 presente. Pela classificação de Kennedy com as regras de Applegate, como fica esse arco?",
+"o": [
+"Classe I, porque há dois espaços",
+"Classe III, modificação 1",
+"Classe IV, porque cruza a linha média",
+"Classe II, modificação 1"
+],
+"a": 3,
+"w": "Pela regra de Applegate, a área desdentada mais posterior define a classe: o extremo livre unilateral (36-37) faz o arco ser Classe II. Os outros espaços viram modificações, contadas pelo número de espaços e não de dentes, então o espaço intercalado 44-45 é a modificação 1. Outra regra: a classificação se faz depois das extrações planejadas (McCracken, Prótese Parcial Removível; Glossário de Termos Protéticos).",
+"r": [
+{
+"t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+},
+{
+"t": "Charyeva OO et al. Classificação de Kennedy e opções de tratamento. J Prosthodont, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22340839/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "No conceito 'All-on-4', por que os dois implantes posteriores são instalados inclinados?",
+"o": [
+"Para facilitar a higiene embaixo da prótese",
+"Para levar a plataforma para trás, encurtar o cantiléver e desviar de seio e nervo",
+"Para a prótese poder ser removida pelo paciente",
+"Porque implante reto não aceita carga imediata"
+],
+"a": 1,
+"w": "Inclinar os implantes distais permite usar o osso disponível sem enxerto, desviando do seio maxilar ou do nervo alveolar inferior, e leva a plataforma mais para trás, o que encurta o cantiléver. A revisão sistemática de Soto-Penaloza et al. (2017) relatou sobrevida de 99,8 % após mais de 24 meses, mas com evidência de qualidade limitada.",
+"r": [
+{
+"t": "Soto-Penaloza D et al. O conceito all-on-four: revisão sistemática. J Clin Exp Dent, 2017 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5347302/"
+},
+{
+"t": "Huber BR et al. Reabilitação all-on-four: revisão sistemática. Dent J, 2026 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13605651/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Num ensaio clínico randomizado com desdentados de rebordo comprometido (Kawai et al., 2017), o que se viu ao comparar oclusão lingualizada e balanceada bilateral completa?",
+"o": [
+"Sem diferença no geral; nos rebordos muito reabsorvidos, a lingualizada foi melhor",
+"A balanceada foi superior em todos os desfechos avaliados",
+"A lingualizada causou mais dor em todos os subgrupos",
+"A lingualizada teve mais fratura de dentes e de base"
+],
+"a": 0,
+"w": "No ensaio de Kawai et al. (J Prosthodont Res, 2017), 60 desdentados receberam oclusão lingualizada ou balanceada bilateral completa e não houve diferença no desfecho principal. No subgrupo de mandíbula muito atrófica, quem tinha a balanceada deu nota menor à retenção da prótese inferior e relatou mais dor. A ideia é que a lingualizada reduz forças laterais sobre o rebordo fraco.",
+"r": [
+{
+"t": "Kawai Y et al. Ensaio randomizado: oclusão lingualizada x balanceada bilateral na prótese total. J Prosthodont Res, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/27474364/"
+},
+{
+"t": "Goldstein G et al. Oclusão da prótese total: consenso de melhor evidência. J Prosthodont, 2021",
+"u": "https://pubmed.ncbi.nlm.nih.gov/33336857/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "O que concluiu a revisão sistemática de Prakash et al. (2020) sobre o uso do arco facial na confecção de próteses totais?",
+"o": [
+"Que sem arco facial a prótese total sempre fracassa",
+"Que os ensaios não mostraram vantagem nítida com o arco facial",
+"Que o arco facial dobra a eficiência mastigatória",
+"Que o arco facial é obrigatório por norma internacional"
+],
+"a": 1,
+"w": "A revisão reuniu 7 ensaios clínicos: 4 não encontraram diferença com ou sem arco facial e 3 tiveram resultados melhores sem ele, avaliando satisfação, mastigação, ajustes e tempo clínico. Por isso a técnica simplificada, montando a prótese total em valores médios, é defensável na rotina, como já sugeria o ensaio de Heydecke et al. (2008) de técnica simplificada x completa.",
+"r": [
+{
+"t": "Prakash P et al. Utilidade ou futilidade do arco facial na prótese total: revisão sistemática. J Indian Prosthodont Soc, 2020 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7654196/"
+},
+{
+"t": "Heydecke G et al. Prótese total simplificada x completa: ensaio randomizado. Quintessence Int, 2008",
+"u": "https://pubmed.ncbi.nlm.nih.gov/18560649/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Sobre usar a distância anteroposterior entre implantes (AP spread) para calcular o cantiléver de uma prótese protocolo, o que diz a revisão de Walter et al. (2020)?",
+"o": [
+"Que a regra de 1,5 vez o AP spread foi validada por estudos prospectivos",
+"Que o cantiléver pode ter qualquer tamanho se a barra for de titânio",
+"Que a relação não é linear, a regra não foi validada e outros fatores pesam",
+"Que o cantiléver deve medir sempre o dobro do AP spread"
+],
+"a": 2,
+"w": "A revisão concluiu que a relação entre AP spread e comprimento do cantiléver não é linear e que as recomendações baseadas nela não foram validadas por estudos prospectivos. Contam também a arcada (maxila ou mandíbula), o número e a distribuição dos implantes, o material e o desenho da estrutura; o AP spread é só um dos critérios.",
+"r": [
+{
+"t": "Walter L et al. AP spread para definir o cantiléver distal em prótese fixa total sobre implantes: revisão. J Am Dent Assoc, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/32979958/"
+},
+{
+"t": "Kim YK et al. Razão de área prótese-implante como alternativa ao AP spread. J Prosthodont, 2023",
+"u": "https://pubmed.ncbi.nlm.nih.gov/35512845/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Na avaliação fonética da dimensão vertical, o que se observa quando o paciente pronuncia sons sibilantes (como o 'S')?",
+"o": [
+"Os dentes devem se tocar levemente a cada 'S'",
+"A mandíbula volta à posição de repouso",
+"Os lábios precisam se fechar por completo",
+"Os dentes chegam ao menor espaço de fala, quase se tocando"
+],
+"a": 3,
+"w": "Nos sons sibilantes, a mandíbula vai ao menor espaço de fala (closest speaking space), em geral cerca de 1 mm entre os dentes. Se os dentes batem no 'S', a dimensão vertical de oclusão provavelmente está aumentada. Burnett e Clifford (J Dent Res, 1993) mostraram que um teste com todos os sibilantes dá o mesmo menor espaço que um teste com todos os sons da fala.",
+"r": [
+{
+"t": "Burnett CA, Clifford TJ. Menor espaço de fala nos sons sibilantes e a dimensão vertical. J Dent Res, 1993",
+"u": "https://pubmed.ncbi.nlm.nih.gov/8496479/"
+},
+{
+"t": "Sakar O et al. Menor espaço de fala em diferentes oclusões. J Prosthet Dent, 2013",
+"u": "https://pubmed.ncbi.nlm.nih.gov/23566602/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "O que concluiu a revisão sistemática de Jiménez-Silva et al. (2017) sobre a discrepância entre relação cêntrica e máxima intercuspidação e as disfunções temporomandibulares?",
+"o": [
+"Houve associação na maioria dos estudos, mas a evidência é fraca e inconclusiva",
+"Que a discrepância é a causa comprovada da DTM",
+"Que não existe discrepância nenhuma em pessoas saudáveis",
+"Que corrigir a discrepância cura a DTM em todos os casos"
+],
+"a": 0,
+"w": "A revisão analisou 20 estudos observacionais: na maioria, a discrepância apareceu associada a dor muscular e a alterações articulares, mas a qualidade foi baixa (média 3,36 na escala Newcastle-Ottawa) e os resultados inconsistentes. Por isso não se pode afirmar causa nem indicar ajuste oclusal como tratamento com base nesses dados.",
+"r": [
+{
+"t": "Jiménez-Silva A et al. Discrepância RC-MIH e DTM: revisão sistemática. Acta Odontol Scand, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28641068/"
+},
+{
+"t": "Goldstein GR, Goodacre CJ. Relação cêntrica: uma posição de referência necessária. J Prosthodont, 2023",
+"u": "https://pubmed.ncbi.nlm.nih.gov/36074517/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Para qual paciente a técnica da zona neutra costuma ser mais lembrada na prótese total?",
+"o": [
+"Paciente com rebordo superior largo e bem retentivo",
+"Paciente com rebordo inferior muito reabsorvido e prótese que não para",
+"Paciente que vai receber só prótese fixa unitária",
+"Paciente jovem com todos os dentes"
+],
+"a": 1,
+"w": "Quando o rebordo inferior está muito reabsorvido, a retenção e o suporte ficam pequenos e a estabilidade passa a depender dos músculos. Moldar e montar os dentes na zona neutra faz língua e bochechas segurarem a prótese em vez de deslocá-la. Na revisão sistemática de Limpuangthip et al. (2024), a técnica melhorou conforto, estabilidade e fala relatados pelo paciente, embora os desfechos objetivos tenham sido parecidos com os da técnica convencional.",
+"r": [
+{
+"t": "Limpuangthip N et al. Zona neutra x técnica convencional na prótese total: revisão sistemática. BDJ Open, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11116395/"
+},
+{
+"t": "Beresin VE, Schiesser FJ. A zona neutra na prótese total. J Prosthet Dent, 1976",
+"u": "https://pubmed.ncbi.nlm.nih.gov/787504/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Um estudo (Hassel et al., 2013) testou tirar a cor com a escala VITA 3D-Master e converter para a VITA Classical por tabela. Qual foi o resultado?",
+"o": [
+"A conversão gerou erro de cor grosseiro e foi desaconselhada",
+"As duas escalas não têm relação nenhuma entre si",
+"A conversão foi possível sem erro clinicamente perceptível",
+"A 3D-Master só funciona com espectrofotômetro"
+],
+"a": 2,
+"w": "No estudo, a diferença de cor mediana (ΔE) foi 2,38 com a escolha direta na VITA Classical e 2,86 pela 3D-Master convertida por tabela. A diferença foi estatística, mas os autores concluíram que a conversão não acrescenta erro clinicamente aparente. A 3D-Master organiza as amostras primeiro pela luminosidade (valor), o que ajuda na seleção.",
+"r": [
+{
+"t": "Hassel AJ et al. Determinar cores VITA Classical com a escala 3D-Master. Acta Odontol Scand, 2013",
+"u": "https://pubmed.ncbi.nlm.nih.gov/23146130/"
+},
+{
+"t": "Zenthöfer A et al. Selecionar cores VITA Classical com a escala 3D-Master. Int J Prosthodont, 2014",
+"u": "https://pubmed.ncbi.nlm.nih.gov/25010883/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Por que se diz que o 'equador protético' de um dente pilar não é uma linha fixa?",
+"o": [
+"Porque muda conforme a cor do dente",
+"Porque é sempre o maior diâmetro anatômico do dente",
+"Porque desaparece depois do preparo do nicho",
+"Porque depende da inclinação do modelo, isto é, do plano de inserção"
+],
+"a": 3,
+"w": "O equador protético (linha de maior contorno) é traçado em relação ao eixo de inserção. Se o modelo inclina no delineador, a linha muda de lugar e com ela as áreas retentivas e expulsivas. Por isso primeiro se escolhe o plano de inserção (planos guia, estética, interferências) e depois se marcam as retenções (Bezzon et al., J Prosthet Dent, 1997; Mamoun, 2015).",
+"r": [
+{
+"t": "Bezzon OL et al. Delineamento da PPR: planos guia e plano de inserção. J Prosthet Dent, 1997",
+"u": "https://pubmed.ncbi.nlm.nih.gov/9338875/"
+},
+{
+"t": "Mamoun JS. O plano de inserção da PPR: delineamento e desenho. J Adv Prosthodont, 2015 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4341191/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Qual a principal função dos planos guia preparados nas faces proximais dos dentes pilares de uma PPR?",
+"o": [
+"Definir uma trajetória de inserção única e dar estabilidade",
+"Aumentar a retenção do grampo pela fricção do cimento",
+"Dar espaço para a cor da gengiva artificial",
+"Permitir que a prótese gire livremente ao mastigar"
+],
+"a": 0,
+"w": "Superfícies proximais paralelas ao plano de inserção guiam a prótese numa trajetória só, ajudam a retenção por atrito, dão estabilidade horizontal e reduzem o acúmulo de alimento entre prótese e dente. Bezzon et al. (J Prosthet Dent, 1997) destacaram os planos guia como fator de estabilidade da PPR.",
+"r": [
+{
+"t": "Bezzon OL et al. Delineamento da PPR: planos guia e plano de inserção. J Prosthet Dent, 1997",
+"u": "https://pubmed.ncbi.nlm.nih.gov/9338875/"
+},
+{
+"t": "Mamoun JS. O plano de inserção da PPR: delineamento e desenho. J Adv Prosthodont, 2015 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4341191/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Em PPR de extremo livre, qual é a lógica do grampo RPI (apoio mesial, placa proximal e barra em I)?",
+"o": [
+"Prender o pilar com força máxima para a sela não se mover",
+"Deixar a sela afundar sob carga sem que o grampo puxe o pilar para distal",
+"Eliminar a necessidade de conector maior",
+"Substituir o apoio por uma retenção na face oclusal"
+],
+"a": 1,
+"w": "Na sela de extremo livre, apoiada em mucosa compressível, a prótese gira sob a mastigação. Com o apoio mesial, a barra em I e a placa proximal se afastam do dente nesse giro, em vez de puxá-lo para distal como um grampo convencional faria. O grampo RPA segue a mesma ideia de liberar o pilar (Eliason, J Prosthet Dent, 1983; McCracken, Prótese Parcial Removível).",
+"r": [
+{
+"t": "Eliason CM. Grampo RPA para PPR de extremo livre. J Prosthet Dent, 1983",
+"u": "https://pubmed.ncbi.nlm.nih.gov/6337247/"
+},
+{
+"t": "Bohnenkamp DM. Prótese parcial removível: conceitos clínicos. Dent Clin North Am, 2014",
+"u": "https://pubmed.ncbi.nlm.nih.gov/24286646/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Por que o gesso tipo V tem expansão de presa maior que o tipo IV, mesmo sendo de alta resistência?",
+"o": [
+"Para facilitar a remoção do modelo da moldagem",
+"Para deixar o modelo mais claro na fotografia",
+"Para compensar a contração de ligas fundidas que contraem mais",
+"Porque a expansão não interfere em nada no troquel"
+],
+"a": 2,
+"w": "O tipo V (alta resistência e alta expansão) foi pensado para compensar a contração de solidificação de ligas que contraem mais que as de ouro: um troquel um pouco maior compensa a peça que sairia menor. Heshmati et al. (J Prosthet Dent, 2002) mediram a expansão de gessos tipo IV e V e viram que ela seguia até 96 a 120 horas, além das 2 horas da norma ADA nº 25 (Anusavice, Phillips Materiais Dentários).",
+"r": [
+{
+"t": "Heshmati RH et al. Expansão linear tardia do gesso pedra melhorado. J Prosthet Dent, 2002",
+"u": "https://pubmed.ncbi.nlm.nih.gov/12239476/"
+},
+{
+"t": "Kenyon BJ et al. Precisão dimensional de 7 materiais de troquel. J Prosthodont, 2005",
+"u": "https://pubmed.ncbi.nlm.nih.gov/15733132/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Para que serve a classificação de Cawood e Howell, muito usada no planejamento de prótese total e implantes?",
+"o": [
+"Classificar a cor dos dentes artificiais",
+"Classificar os espaços desdentados parciais",
+"Classificar o tipo de grampo da PPR",
+"Classificar os estágios de reabsorção do rebordo desdentado"
+],
+"a": 3,
+"w": "Cawood e Howell (Int J Oral Maxillofac Surg, 1988) descreveram as classes I a VI de reabsorção dos maxilares desdentados, do dente presente até o rebordo basal muito atrofiado, com padrões diferentes na região anterior e na posterior. O estágio do rebordo pesa na escolha entre prótese convencional, sobredentadura ou implantes com enxerto. A reabsorção do rebordo residual é crônica e progressiva (Kondo et al., J Prosthodont Res, 2023).",
+"r": [
+{
+"t": "Cawood JI, Howell RA. Classificação dos maxilares desdentados. Int J Oral Maxillofac Surg, 1988",
+"u": "https://pubmed.ncbi.nlm.nih.gov/3139793/"
+},
+{
+"t": "Kondo T et al. Perspectivas atuais da reabsorção do rebordo residual. J Prosthodont Res, 2023",
+"u": "https://pubmed.ncbi.nlm.nih.gov/35185111/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Na prova de uma barra de protocolo, em que consiste o teste de um parafuso só (teste de Sheffield)?",
+"o": [
+"Apertar um parafuso no implante da ponta e ver se a barra levanta nos outros",
+"Apertar todos os parafusos com torque máximo e ver se a gengiva fica branca",
+"Medir a cor da barra com a escala de cor",
+"Morder papel carbono sobre a barra e ver as marcas"
+],
+"a": 0,
+"w": "Com um só parafuso apertado num implante da extremidade, uma estrutura passiva continua assentada em todos os outros pilares; se aparece fresta nos demais, há desajuste. Kan et al. (J Prosthet Dent, 1999) revisaram esse e outros métodos clínicos (visão e tato, radiografia, resistência ao aperto do parafuso) e recomendaram combiná-los, porque nenhum sozinho dá resultado objetivo.",
+"r": [
+{
+"t": "Kan JY et al. Métodos clínicos para avaliar o assentamento da estrutura sobre implantes. J Prosthet Dent, 1999",
+"u": "https://pubmed.ncbi.nlm.nih.gov/9878969/"
+},
+{
+"t": "Buzayan MM, Yunus NB. Assentamento passivo em prótese parafusada sobre implantes: revisão, 2014 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3935037/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
