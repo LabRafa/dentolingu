@@ -633,7 +633,7 @@ ${sw('bateria', 'Bateria na música', '')}
           const q = st.perguntas[st.i], valendo = ESCADA[st.i], garantido = premio(seguro(st.acertos));
           const aberto = !resultado;
           el.innerHTML = `<div class="${c('palco')}">
-<div class="${c('topo')}"><div class="${c('sislugar')}"></div><div class="${c('valendo')}"><small>Pergunta ${st.i + 1} de 15 · valendo</small><b>${reais(valendo)}</b>${aberto ? `<div><span class="${c('relogio')}${(st.resta ?? TEMPO) <= 10 ? ' ' + c('urgente') : ''}" role="timer" aria-label="Tempo restante">${st.resta ?? TEMPO}s</span></div>` : ''}</div><div class="${c('barra')}"><button type="button" class="${c('engr')} ${c('engrmini')}" aria-label="Configurações de som">⚙️</button><button type="button" class="${c('engrmini')} ${c('livros')}" aria-label="Escolher as matérias">📚</button></div></div>
+<div class="${c('topo')}"><div class="${c('sislugar')}"></div><div class="${c('valendo')}"><small>Pergunta ${st.i + 1} de 15 · valendo</small><b>${reais(valendo)}</b>${aberto ? `<div><span class="${c('relogio')}${(st.resta ?? TEMPO) <= 10 ? ' ' + c('urgente') : ''}" role="timer" aria-label="Tempo restante">${st.resta ?? TEMPO}s</span></div>` : ''}</div><div class="${c('barra')}"><button type="button" class="${c('engr')} ${c('engrmini')}" aria-label="Configurações de som">⚙️</button><button type="button" class="${c('engrmini')} ${c('livros')}" aria-label="Escolher as matérias">📚</button><button type="button" class="${c('engrmini')} ${c('megafone')}" aria-label="${CONF.voz ? 'Calar o locutor' : 'Ligar o locutor'}" aria-pressed="${!CONF.voz}" title="${CONF.voz ? 'Calar o locutor' : 'Ligar o locutor'}">${CONF.voz ? '📢' : '🔇'}</button></div></div>
 <div class="${c('escada')}" aria-hidden="true">${pips()}</div>
 <div class="${c('info')}"><span>Ganhou <b>${reais(premio(st.acertos))}</b></span><span>Garantido <b>${garantido ? reais(garantido) : 'R$ 0'}</b></span></div>
 <span class="${c('tag')}">${api.esc(q.m || 'Odontologia')} · ${['fácil', 'média', 'difícil'][q.n - 1]}</span>
@@ -668,6 +668,8 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
           const $ = k => el.querySelector('.' + c(k));
           if ($('engrmini')) $('engrmini').onclick = abrirConf;
           if ($('livros')) $('livros').onclick = () => abrirMaterias(() => { pararRelogio(); calar(); nova(); });
+          // Rafael 11/11: megafone pra calar o locutor na hora (o resto do som continua)
+          if ($('megafone')) $('megafone').onclick = ev => { CONF.voz = !CONF.voz; try { localStorage.setItem('sisao-conf', JSON.stringify(CONF)); } catch (e) { } if (!CONF.voz) calar(); const bt = ev.currentTarget; bt.textContent = CONF.voz ? '📢' : '🔇'; bt.setAttribute('aria-pressed', String(!CONF.voz)); bt.title = bt.ariaLabel = CONF.voz ? 'Calar o locutor' : 'Ligar o locutor'; };
           $('confirmar').onclick = confirmar;
           $('a50').onclick = () => { if (st.c50) return; st.c50 = true; sisReage('pensando', { depois: 'neutro' }); st.fora = cinquenta(st.ops); if (st.fora.includes(st.sel)) st.sel = -1; desenhar(); };
           $('apular').onclick = () => {
