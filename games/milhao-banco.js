@@ -4382,6 +4382,551 @@ window.BANCO_MILHAO = [
 ]
 },
 {
+"m": "Ética odontológica",
+"n": 2,
+"q": "Um parente de um paciente adulto liga pedindo detalhes do tratamento. Sem autorização do paciente e sem outra justificativa, o cirurgião-dentista:",
+"o": [
+"Não deve revelar: é fato sigiloso sem justa causa",
+"Pode revelar, porque a família tem esse direito",
+"Pode revelar se o parente morar com o paciente",
+"Pode revelar desde que seja só por telefone"
+],
+"a": 0,
+"w": "O art. 14, I, do Código de Ética proíbe revelar, sem justa causa, fato sigiloso conhecido no exercício da profissão, e o art. 9º, VIII, põe o sigilo entre os deveres fundamentais. O Código Penal (art. 154) também pune a violação de segredo profissional que possa causar dano.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+},
+{
+"t": "Código Penal (Decreto-Lei 2.848), Planalto, 1940",
+"u": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "Qual destas situações o Código de Ética Odontológica lista como justa causa para revelar fato sigiloso?",
+"o": [
+"Pedido do empregador do paciente",
+"Notificação compulsória de doença",
+"Pedido de um colega de outra cidade",
+"Post educativo com o nome do paciente"
+],
+"a": 1,
+"w": "O parágrafo único do art. 14 lista como justa causa: notificação compulsória de doença, colaboração com a justiça nos casos previstos em lei, perícia nos seus exatos limites, estrita defesa de interesse legítimo do profissional e revelação ao responsável pelo incapaz.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 3,
+"q": "Durante a consulta, um paciente menor de idade conta algo relevante para a própria saúde. Contar isso ao responsável legal é, pelo Código de Ética:",
+"o": [
+"Sempre proibido, mesmo sendo menor",
+"Permitido apenas com ordem judicial",
+"Justa causa prevista: revelação ao responsável pelo incapaz",
+"Permitido só por ofício ao Conselho Regional"
+],
+"a": 2,
+"w": "O art. 14, parágrafo único, V, do Código de Ética inclui entre as justas causas a revelação de fato sigiloso ao responsável pelo incapaz. Fora das hipóteses de justa causa, revelar segredo continua sendo infração (art. 14, I).",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 1,
+"q": "Fora de urgência ou emergência, um cirurgião-dentista inicia um procedimento numa criança sem o consentimento prévio do responsável. Isso é:",
+"o": [
+"Permitido se a criança concordar",
+"Permitido se o procedimento for simples",
+"Permitido se o responsável for avisado depois",
+"Infração ética prevista no Código"
+],
+"a": 3,
+"w": "O art. 11, X, do Código de Ética proíbe iniciar qualquer procedimento sem o consentimento prévio do paciente ou de seu responsável legal, exceto em urgência ou emergência. Em menores, quem consente é o responsável; registrar o consentimento por escrito (TCLE) protege os dois lados.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "Um dentista apresenta só o plano que prefere, sem falar de riscos, custos nem alternativas, e o paciente aceita. Pelo Código de Ética:",
+"o": [
+"Não há infração se o paciente não perguntou",
+"Infringe o dever de esclarecer propósitos, riscos, custos e alternativas",
+"É só uma questão de marketing do consultório",
+"Só haveria problema pela LGPD"
+],
+"a": 1,
+"w": "O art. 11, IV, do Código de Ética considera infração deixar de esclarecer adequadamente os propósitos, riscos, custos e alternativas do tratamento. É a base do consentimento livre e esclarecido: o paciente só consente de verdade quando conhece as opções.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 1,
+"q": "No meio de uma prótese, sem motivo justificável, o dentista simplesmente deixa de atender o paciente. Isso é:",
+"o": [
+"Permitido se o paciente faltou uma vez",
+"Infração ética: abandono de paciente",
+"Permitido avisando só por mensagem",
+"Assunto só da Justiça, não do CRO"
+],
+"a": 1,
+"w": "O art. 11, VI, do Código de Ética proíbe abandonar paciente, salvo por motivo justificável; nesse caso os honorários devem ser conciliados e o paciente ou responsável deve ser informado da necessidade de continuar o tratamento.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "A relação com um paciente se deteriorou e o cirurgião-dentista decide não continuar o tratamento. Qual é o caminho correto?",
+"o": [
+"Parar de marcar consultas, sem explicar nada",
+"Pedir autorização prévia ao CRO para sair do caso",
+"Avisar antes, por escrito, e passar ao sucessor as informações",
+"Devolver o prontuário original e apagar a cópia"
+],
+"a": 2,
+"w": "O art. 5º, V, do Código de Ética dá ao profissional o direito de renunciar ao atendimento quando fatos prejudicam a relação, com o dever de comunicar previamente, por escrito, ao paciente ou responsável e fornecer ao dentista sucessor as informações necessárias à continuidade.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 1,
+"q": "Uma paciente pede cópia do próprio prontuário. O cirurgião-dentista:",
+"o": [
+"Pode negar, pois o prontuário é só dele",
+"Só entrega mediante ordem judicial",
+"Entrega o original e fica sem registro",
+"Deve fornecer a cópia e explicar o necessário"
+],
+"a": 3,
+"w": "O art. 18, I, do Código de Ética considera infração negar ao paciente acesso ao prontuário, deixar de fornecer cópia quando pedida ou deixar de dar as explicações necessárias, salvo risco ao paciente ou a terceiros. O original fica guardado com o profissional (art. 17).",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 1,
+"q": "Pela Lei Geral de Proteção de Dados (LGPD), as informações de saúde registradas no prontuário odontológico são:",
+"o": [
+"Dados pessoais sensíveis",
+"Dados públicos de livre uso",
+"Dados anonimizados por natureza",
+"Dados de uso comercial livre"
+],
+"a": 0,
+"w": "O art. 5º, II, da LGPD define como dado pessoal sensível o dado referente à saúde, entre outros. Por isso exige cuidado redobrado: acesso restrito, segurança e uso só para a finalidade do atendimento.",
+"r": [
+{
+"t": "Lei 13.709 (LGPD), Planalto, 2018",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 3,
+"q": "Um consultório precisa colher consentimento específico da LGPD para registrar no prontuário os dados de saúde do atendimento?",
+"o": [
+"Sim, sempre; sem ele o prontuário é nulo",
+"Não necessariamente: a lei permite o tratamento para tutela da saúde",
+"Sim, mas apenas para pacientes menores de idade",
+"Não, porque dados de saúde ficam fora da LGPD"
+],
+"a": 1,
+"w": "O art. 11, II, f, da LGPD permite tratar dados sensíveis sem consentimento quando indispensável para a tutela da saúde, em procedimento feito por profissionais de saúde. O paciente continua tendo direito de acesso aos seus dados (art. 18, II), e o Código de Ética exige guardar o prontuário (art. 17).",
+"r": [
+{
+"t": "Lei 13.709 (LGPD), Planalto, 2018",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+},
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "Um consultório quer postar nas redes uma arte com o preço do clareamento e as formas de pagamento. Pelo Código de Ética:",
+"o": [
+"É permitido se o preço for justo",
+"É permitido somente no Instagram",
+"É infração: publicidade com preços e formas de pagamento",
+"É permitido se a arte trouxer o número do CRO"
+],
+"a": 2,
+"w": "O art. 44, I, do Código de Ética proíbe publicidade com preços, serviços gratuitos, modalidades de pagamento ou outras formas de comercialização da Odontologia. A Lei 5.081/1966 (art. 7º) também veda anunciar preços e modalidades de pagamento que configurem competição desleal.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+},
+{
+"t": "Lei 5.081 (exercício da Odontologia), Planalto, 1966",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l5081.htm"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "Pela Resolução CFO-196/2019 (ainda em vigor), publicar nas redes imagens do diagnóstico e do resultado final de um tratamento é:",
+"o": [
+"Proibido em qualquer meio de comunicação",
+"Livre, sem autorização, se o rosto for cortado",
+"Permitido só a clínicas com vários dentistas",
+"Permitido a quem fez o caso, com TCLE do paciente"
+],
+"a": 3,
+"w": "A Resolução CFO-196/2019 (art. 2º) autoriza imagens de diagnóstico e conclusão do tratamento quando publicadas pelo dentista que executou o procedimento, com autorização prévia por TCLE. Continuam proibidos sensacionalismo, autopromoção e promessa de resultado, e toda publicação deve trazer nome e número de inscrição (art. 4º).",
+"r": [
+{
+"t": "Resolução CFO-196 (selfies e imagens de diagnóstico e resultado), CFO, 2019",
+"u": "https://website.cfo.org.br/wp-content/uploads/2019/01/Resolu%c3%a7%c3%a3o-CFO-196-2019.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "Um dentista grava e publica nas redes o vídeo do procedimento sendo realizado. Pela Resolução CFO-196/2019:",
+"o": [
+"É proibido, exceto em publicações científicas",
+"É permitido se tiver autorização verbal",
+"É permitido se o vídeo for curto",
+"É permitido se o paciente não aparecer"
+],
+"a": 0,
+"w": "O art. 3º da Resolução CFO-196/2019 proíbe expressamente divulgar vídeos ou imagens do transcurso e da realização dos procedimentos, exceto em publicações científicas. O art. 5º trata como infração de manifesta gravidade a divulgação de imagens de pacientes fora dessas regras.",
+"r": [
+{
+"t": "Resolução CFO-196 (selfies e imagens de diagnóstico e resultado), CFO, 2019",
+"u": "https://website.cfo.org.br/wp-content/uploads/2019/01/Resolu%c3%a7%c3%a3o-CFO-196-2019.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 3,
+"q": "A Resolução CFO-196/2019 permite selfies do dentista com o paciente (com TCLE), desde que a imagem:",
+"o": [
+"Mostre em destaque a marca dos materiais e equipamentos",
+"Seja publicada sem nome nem número de inscrição",
+"Não identifique equipamentos, instrumentais, materiais ou tecidos",
+"Mostre a boca aberta do paciente durante a anestesia"
+],
+"a": 2,
+"w": "O art. 1º autoriza selfies com ou sem pacientes, com TCLE, e o §1º proíbe imagens que permitam identificar equipamentos, instrumentais, materiais e tecidos biológicos. O art. 4º exige o nome do profissional e o número de inscrição em toda publicação.",
+"r": [
+{
+"t": "Resolução CFO-196 (selfies e imagens de diagnóstico e resultado), CFO, 2019",
+"u": "https://website.cfo.org.br/wp-content/uploads/2019/01/Resolu%c3%a7%c3%a3o-CFO-196-2019.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 3,
+"q": "Em 2025, a Resolução CFO-271 alterou o Código de Ética para cumprir decisão do CADE (2023). O que deixou de ser vedado por si só?",
+"o": [
+"Sortear tratamentos entre seguidores",
+"Fazer telemarketing ativo para atrair pacientes",
+"Aceitar cartões de vantagens e oferecer redução de preço",
+"Participar de esquemas de vale-presente"
+],
+"a": 2,
+"w": "A Resolução CFO-271/2025 suprimiu as restrições sobre cartões que dão abatimento no preço e sobre oferecer redução de valores, como determinou o CADE em 2023, e revogou o inciso XIII do art. 32. Continuam vedados brindes, prêmios e sorteios (art. 20, VIII), vale-presente e atividades mercantilistas (art. 20, X) e telemarketing ativo para aliciar pacientes (art. 44, XIV).",
+"r": [
+{
+"t": "Resolução CFO-SEC-271 (altera o Código de Ética), CFO, 2025",
+"u": "https://sistemas.cfo.org.br/visualizar/atos/RESOLU%C3%87%C3%83O/SEC/2025/271"
+},
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "Um cirurgião-dentista quer sortear uma limpeza entre os seguidores do perfil do consultório. Pelo Código de Ética, na redação de 2025:",
+"o": [
+"É permitido se o sorteio for gratuito",
+"É permitido desde 2025, por decisão do CADE",
+"É permitido se o ganhador for maior de idade",
+"É vedado oferecer serviços como brinde, prêmio ou sorteio"
+],
+"a": 3,
+"w": "A Resolução CFO-271/2025 deu nova redação ao art. 20, VIII: é infração permitir o oferecimento, ainda que indireto, dos serviços como brinde, premiação e sorteios. O art. 44, X, também veda anunciar serviços como prêmio em concurso de qualquer natureza.",
+"r": [
+{
+"t": "Resolução CFO-SEC-271 (altera o Código de Ética), CFO, 2025",
+"u": "https://sistemas.cfo.org.br/visualizar/atos/RESOLU%C3%87%C3%83O/SEC/2025/271"
+},
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 1,
+"q": "Em todo anúncio ou post profissional de um cirurgião-dentista, o que é obrigatório constar?",
+"o": [
+"Nome e número de inscrição no CRO",
+"Foto do profissional de jaleco",
+"Endereço residencial do dentista",
+"Lista de procedimentos com valores"
+],
+"a": 0,
+"w": "O art. 43 do Código de Ética obriga constar na comunicação e divulgação o nome e o número de inscrição da pessoa física ou jurídica e o nome da profissão; para pessoa jurídica, também o nome e o número do responsável técnico.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 1,
+"q": "Um paciente chega com um trabalho malfeito por outro dentista, que não está presente. Criticar o colega na frente do paciente:",
+"o": [
+"É permitido, pois o paciente tem direito de saber",
+"É infração; o caminho é a representação ao CRO",
+"É permitido se o colega for de outra cidade",
+"É permitido se a crítica for feita por escrito"
+],
+"a": 1,
+"w": "O art. 13, VI, do Código de Ética proíbe criticar erro técnico-científico de colega ausente, salvo por meio de representação ao Conselho Regional. O art. 12 pede respeito, lealdade e colaboração entre os inscritos; o paciente deve ser informado do seu estado, sem ataque ao colega.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "Um cirurgião-dentista oferece aos colegas uma porcentagem por paciente encaminhado ao seu consultório. Isso:",
+"o": [
+"É permitido se estiver em contrato",
+"É permitido entre especialistas",
+"É infração: gratificação por encaminhamento",
+"É permitido se o paciente concordar"
+],
+"a": 2,
+"w": "O art. 20, III, do Código de Ética considera infração receber ou dar gratificação por encaminhamento de paciente. O art. 13, I, também proíbe agenciar, aliciar ou desviar paciente de colega.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "No meio do tratamento, o paciente descobre um custo alto que nunca tinha sido informado. Pelo Código de Ética:",
+"o": [
+"Não há problema se o tratamento for bem feito",
+"É aceitável se o custo novo for pequeno",
+"Só importa se houver contrato assinado",
+"É infração: os custos devem ser informados antes"
+],
+"a": 3,
+"w": "O art. 19, parágrafo único, manda comunicar previamente ao paciente os custos dos honorários, e o art. 20, V, proíbe abusar da confiança do paciente submetendo-o a tratamento de custo inesperado. O art. 11, IV, reforça o dever de esclarecer custos e alternativas.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 3,
+"q": "O paciente não paga e o cirurgião-dentista entra com ação judicial para receber os honorários, descrevendo o tratamento feito. Pelo Código de Ética, isso:",
+"o": [
+"Não constitui quebra de sigilo profissional",
+"É sempre quebra de sigilo profissional",
+"Só é permitido com autorização do CRO",
+"Só é permitido se o paciente for menor"
+],
+"a": 0,
+"w": "O art. 15 do Código de Ética diz que não constitui quebra de sigilo a declinação do tratamento empreendido na ação judicial de honorários. Ainda assim, deve-se revelar só o necessário para a causa.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 1,
+"q": "Um técnico em prótese dentária passa a moldar e entregar dentaduras direto aos pacientes no laboratório. Isso:",
+"o": [
+"É permitido se ele tiver muitos anos de profissão",
+"É vedado: o TPD não pode atender clientes diretamente",
+"É permitido somente para próteses totais",
+"É permitido se o paciente assinar um termo"
+],
+"a": 1,
+"w": "A Lei 6.710/1979, art. 4º, veda ao técnico em prótese dentária prestar, sob qualquer forma, assistência direta a clientes e manter equipamento de consultório na oficina. O Código de Ética (art. 11, XIII) também proíbe ao TPD executar procedimentos além dos previstos na lei.",
+"r": [
+{
+"t": "Lei 6.710 (técnico em prótese dentária), Planalto, 1979",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l6710.htm"
+},
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "Um laboratório de prótese dentária quer divulgar seus serviços. Pelo Código de Ética, ele pode anunciar:",
+"o": [
+"Ao público em geral, em redes sociais e outdoors",
+"De forma alguma, nem para dentistas em revista técnica",
+"Só para dentistas, em meio especializado, com nome, RT e CRO",
+"Ao público em geral, desde que mostre a tabela de valores"
+],
+"a": 2,
+"w": "O art. 41, §1º, veda a TPDs e laboratórios publicidade dirigida ao público em geral, e o §2º permite propaganda em revistas, jornais ou folhetos especializados dirigidos aos cirurgiões-dentistas, com nome, responsável técnico e número de inscrição no CRO. A Lei 6.710/1979 (art. 4º, III) também proíbe ao TPD propaganda ao público.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+},
+{
+"t": "Lei 6.710 (técnico em prótese dentária), Planalto, 1979",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l6710.htm"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 2,
+"q": "Ao enviar um trabalho ao laboratório de prótese, o cirurgião-dentista deve:",
+"o": [
+"Mandar só o modelo, sem documento",
+"Pedir que o técnico vá ao consultório moldar",
+"Combinar tudo apenas por mensagem de voz",
+"Encaminhar com ficha específica assinada"
+],
+"a": 3,
+"w": "O art. 9º, XVIII, do Código de Ética põe entre os deveres do inscrito encaminhar o material ao laboratório acompanhado de ficha específica assinada; o inciso XIX obriga o TPD a registrar os procedimentos laboratoriais em arquivo próprio.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 3,
+"q": "Um cirurgião-dentista com o exercício suspenso pelo CRO continua atendendo. Além da infração ética de manifesta gravidade, a conduta pode configurar:",
+"o": [
+"Exercício ilegal da profissão, previsto no Código Penal",
+"Apenas uma falta administrativa leve",
+"Violação de direito autoral do conselho",
+"Nada, se o paciente souber da suspensão"
+],
+"a": 0,
+"w": "O art. 53, VI, do Código de Ética considera de manifesta gravidade manter atividade profissional durante penalidade suspensiva. O art. 282, §5º, do Código Penal inclui no crime de exercício ilegal quem exerce a profissão durante a suspensão ou após o cancelamento do registro (detenção de 6 meses a 2 anos).",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+},
+{
+"t": "Código Penal (Decreto-Lei 2.848), Planalto, 1940",
+"u": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 1,
+"q": "Qual é a pena ética mais grave prevista no Código de Ética Odontológica?",
+"o": [
+"Advertência confidencial em aviso reservado",
+"Cassação do exercício, ad referendum do CFO",
+"Censura pública em publicação oficial",
+"Suspensão do exercício por até 30 dias"
+],
+"a": 1,
+"w": "O art. 51 lista, em ordem crescente: advertência confidencial, censura confidencial, censura pública, suspensão de até 30 dias e cassação do exercício profissional ad referendum do Conselho Federal. Pelo art. 52, a gradação é seguida salvo nos casos de manifesta gravidade.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Ética odontológica",
+"n": 3,
+"q": "Além das penas disciplinares, o Conselho Regional pode aplicar ao infrator uma pena pecuniária de:",
+"o": [
+"1 a 5 salários mínimos",
+"10 a 100 vezes a anuidade",
+"1 a 25 vezes o valor da anuidade",
+"Valor livre, sem limite fixado"
+],
+"a": 2,
+"w": "O art. 57 do Código de Ética prevê pena pecuniária fixada pelo Conselho Regional entre 1 e 25 vezes o valor da anuidade, e o §1º manda que o aumento seja proporcional à gravidade da infração.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
 "m": "Farmacologia e Anestesiologia",
 "n": 1,
 "q": "O que a farmacocinética estuda?",
@@ -6458,6 +7003,536 @@ window.BANCO_MILHAO = [
 {
 "t": "StatPearls/NCBI Bookshelf. Bloqueio do nervo infraorbital",
 "u": "https://www.ncbi.nlm.nih.gov/books/NBK499881/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 1,
+"q": "Um corpo carbonizado, sem impressões digitais aproveitáveis, chega ao IML. A equipe pede ao dentista da suposta vítima a ficha e as radiografias. Qual é o princípio da identificação pelos dentes?",
+"o": [
+"Comparar o que se vê no corpo com os registros feitos em vida",
+"Estimar a identidade pela cor dos dentes e pelo desgaste incisal",
+"Reconstruir o rosto em argila a partir do crânio encontrado",
+"Pedir aos familiares que reconheçam o corpo visualmente"
+],
+"a": 0,
+"w": "A identificação odontológica compara achados post mortem com registros ante mortem (prontuário, odontograma, radiografias). No protocolo da INTERPOL, impressões digitais, DNA e exame dentário são os identificadores primários; o reconhecimento visual por parentes deve ser evitado porque gera erros (Arrighi et al., Forensic Sci Res 2020).",
+"r": [
+{
+"t": "Arrighi et al. Identificação de vítimas de atentados (protocolo INTERPOL). Forensic Sci Res, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/33209508/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 1,
+"q": "Em desastres, às vezes o único resto identificável da vítima é a prótese total. Que prática feita na confecção ajuda nesses casos?",
+"o": [
+"Usar sempre dentes de estoque da mesma marca",
+"Polir com mais cuidado a base da prótese",
+"Marcar a prótese com a identificação do paciente",
+"Fazer a prótese sem o registro de mordida"
+],
+"a": 2,
+"w": "A marcação (etiquetagem) de próteses é apontada como método rápido e preciso para identificar vítimas quando a prótese é o que resta. A revisão também lembra que o dentista deve manter registros do paciente, inclusive da marcação feita (Bathala et al., J Forensic Dent Sci 2016).",
+"r": [
+{
+"t": "Bathala et al. Prótese como arsenal na odontologia forense. J Forensic Dent Sci, 2016",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28123274/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 1,
+"q": "Pela Lei 13.787/2018, depois de quanto tempo os prontuários (em papel ou digitalizados) podem ser eliminados?",
+"o": [
+"5 anos depois da alta do paciente",
+"10 anos depois do primeiro registro",
+"20 anos a partir do último registro",
+"Nunca, devem ser guardados para sempre"
+],
+"a": 2,
+"w": "O art. 6º da Lei 13.787/2018 fixa o prazo mínimo de 20 anos a partir do último registro para eliminar prontuários. Como alternativa à eliminação, o prontuário pode ser devolvido ao paciente (§2º), sempre preservando sigilo e confidencialidade (§3º).",
+"r": [
+{
+"t": "Lei 13.787 (digitalização e guarda de prontuário), Planalto, 2018",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13787.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Um consultório digitaliza os prontuários em papel seguindo as regras da Lei 13.787/2018. Em um processo, o documento digitalizado:",
+"o": [
+"Vale só como cópia simples, sem força em juízo",
+"Precisa ser reimpresso e assinado para valer",
+"Só vale se o paciente autorizou a digitalização",
+"Tem o mesmo valor probatório do original"
+],
+"a": 3,
+"w": "O art. 5º da Lei 13.787/2018 diz que o documento digitalizado conforme a lei e seus regulamentos tem o mesmo valor probatório do original para todos os fins de direito. O Código de Ética (art. 17) aceita prontuário físico ou digital, desde que legível e atualizado.",
+"r": [
+{
+"t": "Lei 13.787 (digitalização e guarda de prontuário), Planalto, 2018",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13787.htm"
+},
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 1,
+"q": "Depois de uma agressão, a vítima tem fratura de mandíbula e fica mais de 30 dias sem conseguir fazer as ocupações habituais. Pelo art. 129 do Código Penal, a lesão é:",
+"o": [
+"Leve",
+"Grave",
+"Gravíssima",
+"Culposa"
+],
+"a": 1,
+"w": "O art. 129, §1º, I, do Código Penal classifica como grave a lesão que resulta em incapacidade para as ocupações habituais por mais de 30 dias (reclusão de 1 a 5 anos). Na face, o exame complementar após 30 dias é o que confirma esse enquadramento.",
+"r": [
+{
+"t": "Código Penal (Decreto-Lei 2.848), Planalto, 1940",
+"u": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Após um soco, a vítima perde vários dentes posteriores e o perito conclui que a mastigação ficou permanentemente prejudicada, mas não abolida. O enquadramento mais provável no art. 129 do CP é:",
+"o": [
+"Lesão grave, por debilidade permanente de função",
+"Lesão gravíssima, por perda total da função",
+"Lesão leve, porque dentes podem ser repostos",
+"Não é lesão corporal, só dano ao patrimônio"
+],
+"a": 0,
+"w": "Debilidade permanente de membro, sentido ou função é lesão grave (art. 129, §1º, III); perda ou inutilização da função seria gravíssima (§2º, III). A perícia odontolegal descreve o quanto a função mastigatória ficou reduzida, e é isso que separa debilidade de perda (Lopes Sá et al., J Clin Exp Dent 2020, sobre classificação de lesões faciais em IML brasileiro).",
+"r": [
+{
+"t": "Código Penal (Decreto-Lei 2.848), Planalto, 1940",
+"u": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+},
+{
+"t": "Lopes Sá et al. Lesões maxilofaciais em instituto de ciência forense brasileiro. J Clin Exp Dent, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/32913570/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Uma agressão deixa cicatriz extensa e permanente no rosto, com dano estético visível. Pelo art. 129 do Código Penal, a hipótese é de lesão:",
+"o": [
+"Grave, por perigo de vida",
+"Gravíssima, por deformidade permanente",
+"Leve, por atingir só tecido mole",
+"Grave, por aceleração de parto"
+],
+"a": 1,
+"w": "O art. 129, §2º, IV, do Código Penal classifica como gravíssima a lesão que resulta em deformidade permanente (reclusão de 2 a 8 anos). Na face o dano estético costuma ser mais evidente, e o laudo deve descrevê-lo com fotos e medidas.",
+"r": [
+{
+"t": "Código Penal (Decreto-Lei 2.848), Planalto, 1940",
+"u": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Num processo civil por suposto erro de tratamento, o juiz nomeia um perito e o paciente contrata outro cirurgião-dentista para acompanhar a perícia. Esse segundo profissional é:",
+"o": [
+"Perito oficial, com as mesmas funções do nomeado",
+"Testemunha, sujeita a impedimento e suspeição",
+"Assistente técnico, de confiança da parte",
+"Auditor do convênio, sem papel no processo"
+],
+"a": 2,
+"w": "O CPC (art. 465, §1º, II) permite às partes indicar assistente técnico em 15 dias da nomeação do perito, e o art. 466, §1º diz que os assistentes técnicos são de confiança da parte e não estão sujeitos a impedimento ou suspeição. O perito, ao contrário, é auxiliar do juiz e deve ser imparcial.",
+"r": [
+{
+"t": "Código de Processo Civil (Lei 13.105), Planalto, 2015",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 3,
+"q": "Numa comarca sem perito oficial, uma lesão na boca precisa de exame de corpo de delito. Pelo Código de Processo Penal:",
+"o": [
+"A confissão do acusado dispensa o exame",
+"O delegado descreve a lesão e encerra o caso",
+"O dentista da vítima faz o exame sozinho",
+"Duas pessoas idôneas com diploma superior fazem o exame"
+],
+"a": 3,
+"w": "O art. 158 do CPP diz que, se a infração deixa vestígios, o exame de corpo de delito é indispensável e a confissão não o supre. Pelo art. 159, §1º, na falta de perito oficial o exame é feito por 2 pessoas idôneas com diploma superior, de preferência na área específica.",
+"r": [
+{
+"t": "Código de Processo Penal (Decreto-Lei 3.689), Planalto, 1941",
+"u": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 3,
+"q": "No processo penal, a defesa indica um cirurgião-dentista como assistente técnico. Quando ele começa a atuar?",
+"o": [
+"Antes do perito oficial, examinando a vítima primeiro",
+"Depois de admitido pelo juiz e de concluído o laudo oficial",
+"Só se o perito oficial se declarar suspeito",
+"Apenas na fase de recurso, nunca antes dela"
+],
+"a": 1,
+"w": "O art. 159, §3º, do CPP faculta às partes indicar assistente técnico, e o §4º diz que ele atua a partir da admissão pelo juiz e após a conclusão dos exames e do laudo pelos peritos oficiais. Diferente do processo civil, onde o assistente acompanha a perícia desde o início.",
+"r": [
+{
+"t": "Código de Processo Penal (Decreto-Lei 3.689), Planalto, 1941",
+"u": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Para estimar a idade de uma criança sem documentos pela radiografia panorâmica, o método de Demirjian avalia:",
+"o": [
+"Os estágios de formação de sete dentes permanentes inferiores esquerdos",
+"O desgaste oclusal dos molares decíduos de ambos os lados",
+"A cor da dentina e do esmalte vista na radiografia",
+"O número de cáries e de restaurações na boca"
+],
+"a": 0,
+"w": "Demirjian, Goldstein e Tanner (1973) atribuíram estágios de formação (de A a H) a sete dentes permanentes do lado esquerdo da mandíbula e somaram escores de maturidade convertidos em idade dentária. É um dos métodos mais usados no mundo (Maber et al., Forensic Sci Int 2006).",
+"r": [
+{
+"t": "Demirjian, Goldstein, Tanner. Um novo sistema de avaliação da idade dentária. Hum Biol, 1973",
+"u": "https://pubmed.ncbi.nlm.nih.gov/4714564/"
+},
+{
+"t": "Maber et al. Exatidão dos métodos radiográficos de estimativa de idade. Forensic Sci Int, 2006",
+"u": "https://pubmed.ncbi.nlm.nih.gov/16533584/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 3,
+"q": "Ao aplicar as tabelas originais de Demirjian (feitas com crianças franco-canadenses) em outras populações, os estudos costumam encontrar:",
+"o": [
+"Exatidão perfeita, igual em qualquer população",
+"Subestimação média de cerca de cinco anos",
+"Tendência a superestimar a idade, pedindo padrões locais",
+"Bom resultado apenas em adultos acima de 25 anos"
+],
+"a": 2,
+"w": "Em 946 crianças britânicas e bengalis, o método de Demirjian superestimou a idade em cerca de 0,24 ano, enquanto a adaptação de Willems foi a mais exata (Maber et al., Forensic Sci Int 2006). Um estudo com 1.491 crianças cearenses (Forensic Sci Int 2010) propôs uma escala de conversão própria para a população do Nordeste.",
+"r": [
+{
+"t": "Maber et al. Exatidão dos métodos radiográficos de estimativa de idade. Forensic Sci Int, 2006",
+"u": "https://pubmed.ncbi.nlm.nih.gov/16533584/"
+},
+{
+"t": "Demirjian em crianças do Nordeste brasileiro. Forensic Sci Int, 2010",
+"u": "https://pubmed.ncbi.nlm.nih.gov/20399048/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 3,
+"q": "O método de Nicodemo, Moraes e Médici Filho, popular na América do Sul, foi testado em 3.271 radiografias panorâmicas brasileiras (2024). O resultado foi:",
+"o": [
+"Acerto alto em todas as idades, sobretudo após os 12 anos",
+"Acerto razoável só em crianças pequenas e falha após os 12",
+"Desempenho melhor que Demirjian em adultos de 20 a 25 anos",
+"Bom desempenho, mas apenas para dentes decíduos"
+],
+"a": 1,
+"w": "No maior estudo brasileiro sobre o método, o acerto geral foi de 22,5%: chegou a 90% aos 6 anos e caiu progressivamente; depois dos 12 anos não houve classificação correta. Os autores concluem que o método é muito limitado e não deve ser usado na prática forense atual (Valente et al., Braz Oral Res 2024).",
+"r": [
+{
+"t": "Valente et al. Método de Nicodemo em 3.271 crianças e adolescentes. Braz Oral Res, 2024",
+"u": "https://pubmed.ncbi.nlm.nih.gov/39536201/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 1,
+"q": "Para saber se um jovem sem documentos tem mais ou menos de 18 anos, qual dente costuma ser o principal indicador radiográfico?",
+"o": [
+"Incisivo central, que fecha a raiz aos 18",
+"Primeiro molar permanente",
+"Canino decíduo ainda presente",
+"Terceiro molar, ainda em formação"
+],
+"a": 3,
+"w": "Os terceiros molares são os únicos dentes que seguem em formação depois dos 14 anos, cobrindo a faixa da maioridade legal. Índices como o de Cameriere ajudam a decidir se a pessoa passou dos 18, com limitações pela variação de posição e desenvolvimento (AlQahtani et al., Forensic Sci Int 2017).",
+"r": [
+{
+"t": "AlQahtani et al. Terceiro molar e a idade legal de 18 anos. Forensic Sci Int, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28122322/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Num julgamento, uma marca de mordida na pele é apresentada como prova de que o suspeito é o autor. O que diz a avaliação científica recente?",
+"o": [
+"É prova definitiva, tão segura quanto o DNA",
+"Tem validade questionada; o relatório PCAST de 2016 a reprovou",
+"Só perde validade quando a mordida é em alimento",
+"Vale mais que a impressão digital no tribunal"
+],
+"a": 1,
+"w": "O relatório PCAST (EUA, 2016) concluiu que a análise de marcas de mordida não atende aos padrões científicos de validade fundamental e desaconselhou investir para tentar validá-la (Cordner et al., J Law Med 2016). Revisões pedem atenção às taxas de erro quando essa prova é usada (Rivera-Mendoza et al., J Forensic Sci 2018).",
+"r": [
+{
+"t": "Cordner et al. O relatório PCAST e as ciências forenses de comparação. J Law Med, 2016",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30137704/"
+},
+{
+"t": "Rivera-Mendoza et al. Marcas de mordida: validade e aceitação judicial (revisão sistemática). J Forensic Sci, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28691774/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 3,
+"q": "Diante de uma mordida na pele de uma vítima, qual vestígio tende a dar evidência mais robusta do que a comparação do formato dos dentes?",
+"o": [
+"O DNA da saliva deixada na região",
+"A distância intercanina medida a olho",
+"A cor da equimose no dia seguinte",
+"Uma fotografia tirada sem escala"
+],
+"a": 0,
+"w": "A comparação morfológica da mordida depende do método e da subjetividade do examinador. Um estudo de 2024 obteve perfil de DNA a partir de 1 µl de saliva mesmo 9 horas depois do depósito, mostrando o valor de coletar saliva na marca (Ishikawa et al., Forensic Sci Med Pathol 2024).",
+"r": [
+{
+"t": "Ishikawa et al. Saliva, tempo e perfil de DNA na análise de mordida. Forensic Sci Med Pathol, 2024",
+"u": "https://pubmed.ncbi.nlm.nih.gov/37926778/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 1,
+"q": "Depois de uma exodontia, o paciente pede um atestado para justificar a falta ao trabalho. O cirurgião-dentista:",
+"o": [
+"Não pode: só o médico atesta falta ao trabalho",
+"Só pode se o paciente tiver plano odontológico",
+"Pode emitir, pois a lei lhe permite atestar",
+"Pode, mas apenas com data anterior ao atendimento"
+],
+"a": 2,
+"w": "A Lei 5.081/1966, art. 6º, permite ao cirurgião-dentista atestar estados mórbidos e outros no seu setor de atuação, inclusive para justificar faltas ao emprego. O mesmo artigo lhe dá competência para prescrever e para fazer perícia odontolegal.",
+"r": [
+{
+"t": "Lei 5.081 (exercício da Odontologia), Planalto, 1966",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l5081.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Um paciente pede um atestado de dois dias referente a uma data em que não foi atendido. Emitir esse documento:",
+"o": [
+"É aceitável se o paciente for antigo no consultório",
+"É aceitável se constar apenas o código da doença",
+"É aceitável se o dentista não assinar o papel",
+"É infração: documento sem ato profissional que o justifique"
+],
+"a": 3,
+"w": "O art. 18, III, do Código de Ética proíbe expedir atestados, declarações, relatórios, pareceres ou laudos sem ter praticado ato profissional que os justifique, ou que não correspondam à verdade. O inciso VII exige identificação e registro no CRO em todo documento.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 1,
+"q": "Para agilizar, um dentista deixa folhas de receituário e de atestado assinadas em branco para a recepção preencher. Isso é:",
+"o": [
+"Infração ética prevista no Código",
+"Permitido se a recepcionista for treinada",
+"Permitido só para receitas simples",
+"Permitido se o carimbo estiver junto"
+],
+"a": 0,
+"w": "O art. 18, VII, do Código de Ética proíbe assinar em branco folhas de receituários, atestados, laudos ou quaisquer documentos odontológicos. Documento odontológico precisa de ato profissional real e da identificação do responsável.",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Numa ação por suposto erro, o cirurgião-dentista não apresenta o prontuário do paciente. Na jurisprudência do TJDFT, essa ausência:",
+"o": [
+"Não pesa, pois só quem acusa precisa provar",
+"Gera presunção de falha na prestação do serviço",
+"Leva automaticamente à cassação do registro",
+"Passa toda a responsabilidade ao laboratório"
+],
+"a": 1,
+"w": "O TJDFT registra que a ausência de prontuário gera presunção de falha na prestação do serviço odontológico. Por isso o prontuário completo é também a principal defesa do profissional; o Código de Ética (art. 17) obriga mantê-lo legível e atualizado.",
+"r": [
+{
+"t": "Falha na prestação de serviço odontológico, jurisprudência em temas, TJDFT",
+"u": "https://www.tjdft.jus.br/consultas/jurisprudencia/jurisprudencia-em-temas/dano-moral-no-tjdft/saude/falha-na-prestacao-de-servico-odontologico"
+},
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Pelo Código de Defesa do Consumidor, a responsabilidade pessoal do cirurgião-dentista, como profissional liberal, é apurada:",
+"o": [
+"Independentemente de culpa, como a de uma empresa",
+"Somente se houver contrato escrito com o paciente",
+"Mediante verificação de culpa",
+"Apenas pelo Conselho Regional, nunca pela Justiça"
+],
+"a": 2,
+"w": "O art. 14, §4º, do CDC diz que a responsabilidade pessoal dos profissionais liberais é apurada mediante verificação de culpa (responsabilidade subjetiva). Já o fornecedor de serviços em geral, como uma clínica pessoa jurídica, responde independentemente de culpa (art. 14, caput).",
+"r": [
+{
+"t": "Código de Defesa do Consumidor (Lei 8.078), Planalto, 1990",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 3,
+"q": "Sobre a natureza da obrigação do cirurgião-dentista, como o TJDFT classificou o tratamento com implantes dentários?",
+"o": [
+"Obrigação de meio em qualquer situação",
+"Contrato de risco assumido só pelo paciente",
+"Serviço sem responsabilidade civil possível",
+"Obrigação de resultado"
+],
+"a": 3,
+"w": "Na obrigação de meio o profissional se compromete a usar técnica e diligência adequadas; na de resultado, a alcançar um fim determinado. O TJDFT (acórdão 2119846) caracterizou o tratamento com implantes como obrigação de resultado, mas manteve que a condenação do dentista depende de culpa e nexo causal com o dano.",
+"r": [
+{
+"t": "Falha na prestação de serviço odontológico, jurisprudência em temas, TJDFT",
+"u": "https://www.tjdft.jus.br/consultas/jurisprudencia/jurisprudencia-em-temas/dano-moral-no-tjdft/saude/falha-na-prestacao-de-servico-odontologico"
+},
+{
+"t": "Código de Defesa do Consumidor (Lei 8.078), Planalto, 1990",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 3,
+"q": "Uma paciente processa a clínica (pessoa jurídica) e o cirurgião-dentista que a atendeu. Segundo a jurisprudência resumida pelo TJDFT:",
+"o": [
+"A clínica responde objetivamente; o dentista, mediante culpa",
+"Os dois respondem só se a culpa for provada",
+"Os dois respondem objetivamente, sem discutir culpa",
+"Só o dentista responde; a clínica nunca responde"
+],
+"a": 0,
+"w": "O TJDFT resume que a responsabilidade da clínica é objetiva (CDC, art. 14, caput), enquanto a indenização contra o dentista requer apuração de culpa, por ser profissional liberal (art. 14, §4º).",
+"r": [
+{
+"t": "Falha na prestação de serviço odontológico, jurisprudência em temas, TJDFT",
+"u": "https://www.tjdft.jus.br/consultas/jurisprudencia/jurisprudencia-em-temas/dano-moral-no-tjdft/saude/falha-na-prestacao-de-servico-odontologico"
+},
+{
+"t": "Código de Defesa do Consumidor (Lei 8.078), Planalto, 1990",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Num estudo de 12 anos de exames de lesão corporal em um instituto de medicina legal do Ceará, as lesões bucomaxilofaciais por agressão foram mais associadas a:",
+"o": [
+"Arma branca em vítimas idosas, à noite",
+"Violência doméstica com instrumento contundente",
+"Acidentes de trabalho com queimadura química",
+"Mordidas de animais em crianças pequenas"
+],
+"a": 1,
+"w": "Entre 1.031 exames, predominaram vítimas homens de 21 a 30 anos; nas agressões prevaleceu a violência doméstica, praticada pelo parceiro, com instrumento contundente e associada a lesão de tecidos moles. Nos acidentes de trânsito, sobretudo de moto, predominaram as fraturas (Lopes Sá et al., J Clin Exp Dent 2020).",
+"r": [
+{
+"t": "Lopes Sá et al. Lesões maxilofaciais em instituto de ciência forense brasileiro. J Clin Exp Dent, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/32913570/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 2,
+"q": "Num teste com 78 avaliadores comparando radiografias ante e post mortem para identificação (2012), quem teve o melhor desempenho?",
+"o": [
+"Médicos especialistas em emergência",
+"Estudantes de graduação em Odontologia",
+"Médicos especialistas em medicina legal",
+"Odontolegistas experientes"
+],
+"a": 3,
+"w": "Os odontolegistas experientes tiveram exatidão de 0,97 e especificidade de 1, superando os demais grupos, sobretudo nos casos difíceis. O estudo também apontou viés cognitivo (efeito do observador) como fonte de variação entre examinadores (Pinchi et al., Forensic Sci Int 2012).",
+"r": [
+{
+"t": "Pinchi et al. Identificação por radiografias ante e post mortem: formação do examinador e viés. Forensic Sci Int, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22770720/"
+}
+]
+},
+{
+"m": "Odontologia Legal",
+"n": 1,
+"q": "Por que um prontuário bem preenchido, com odontograma e radiografias, importa também fora da clínica?",
+"o": [
+"Pode ser o registro ante mortem que identifica o paciente",
+"Serve só para organizar a agenda do consultório",
+"Só tem valor se registrado em cartório pelo paciente",
+"Dispensa exame de DNA em qualquer identificação"
+],
+"a": 0,
+"w": "O Código de Ética obriga elaborar e manter o prontuário legível e atualizado (art. 17; art. 9º, X). Na identificação humana, esses registros são a base ante mortem comparada com os achados post mortem, por isso o dentista é peça-chave em desastres (Arrighi et al., Forensic Sci Res 2020).",
+"r": [
+{
+"t": "Código de Ética Odontológica (Resolução CFO-118/2012), CFO, 2012",
+"u": "https://website.cfo.org.br/wp-content/uploads/2018/03/codigo_etica.pdf"
+},
+{
+"t": "Arrighi et al. Identificação de vítimas de atentados (protocolo INTERPOL). Forensic Sci Res, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/33209508/"
 }
 ]
 },
