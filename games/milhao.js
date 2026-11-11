@@ -38,7 +38,7 @@
     return embaralhar(out, rnd);
   }
   // Rafael 11/11: perguntas das matérias do simulado (window.BANCOS, simulado/bancos.js) viram perguntas do Sisão (4 alternativas)
-  const NOMES_SIM = { bases: 'Bases Morfológicas', carie: 'Cárie', inter: 'Interações' };
+  const NOMES_SIM = { bases: 'Bases Morfológicas', carie: 'Cárie', inter: 'Interações', farmaco: 'Farmacologia', imagino: 'Imaginologia (palestra)' };
   function bancoDoSimulado(chaves, rnd) {
     const B = (typeof window !== 'undefined' && window.BANCOS) || {}, lista = [];
     (chaves || []).forEach(m => (B[m] && B[m].q || []).forEach(q => {
@@ -658,6 +658,36 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
           };
           el.querySelector('.' + c('prox')).scrollIntoView({ block: 'nearest' });
         }
+        // Rafael 11/11: musiquinha de "perdeu" de videogame 8-bit, nostálgica. Melodia ORIGINAL (não copia jogo nenhum):
+        // onda quadrada como os consoles antigos, um "tropeço" subindo e uma descida triste, fechando com o "plim" grave.
+        function gameOver8bit() {
+          try {
+            if (!CONF.efeitos || (window.Sons && Sons.mudo())) return;
+            const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
+            const ctx = window.__ctxGameOver || (window.__ctxGameOver = new AC());
+            if (ctx.state === 'suspended') ctx.resume();
+            let vol = 0.18; try { vol = 0.12 + 0.2 * (Sons.volume ? Sons.volume() : 0.5); } catch (e) { }
+            const g = ctx.createGain(); g.gain.value = vol; g.connect(ctx.destination);
+            const nota = (f, t0, dur, tipo, ate) => {
+              const o = ctx.createOscillator(), e = ctx.createGain();
+              o.type = tipo || 'square'; o.frequency.setValueAtTime(f, t0);
+              if (ate) o.frequency.exponentialRampToValueAtTime(ate, t0 + dur);
+              e.gain.setValueAtTime(0.0001, t0); e.gain.exponentialRampToValueAtTime(1, t0 + 0.01);
+              e.gain.setValueAtTime(1, t0 + dur * 0.7); e.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+              o.connect(e); e.connect(g); o.start(t0); o.stop(t0 + dur + 0.02);
+            };
+            const t = ctx.currentTime + 0.15, B = 0.11; // B = uma "batida" curta
+            // tropeço: sobe rápido e engasga
+            [[784, 0], [988, 1], [1175, 2], [1109, 3]].forEach(([f, k]) => nota(f, t + k * B, B * 0.9));
+            // pausa de susto, depois a descida triste em passos
+            const d = t + 5 * B;
+            [[659, 0, 2], [587, 2, 2], [523, 4, 2], [440, 6, 3]].forEach(([f, k, n]) => nota(f, d + k * B, n * B * 0.95));
+            // baixo acompanhando (onda triangular, como o canal de baixo dos consoles)
+            [[165, 0], [147, 2], [131, 4], [110, 6]].forEach(([f, k]) => nota(f, d + k * B, 2 * B * 0.95, 'triangle'));
+            // final: "plim" grave caindo
+            nota(392, d + 9.5 * B, 6 * B, 'square', 98);
+          } catch (e) { }
+        }
         function encerrar(modo) {
           if (st.fim) return; st.fim = true; limpar(); pararFundo();
           const acertos = st.acertos, pts = modo === 'milhao' ? 60 : pontos(acertos, modo);
@@ -665,6 +695,7 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
           const titulo = modo === 'milhao' ? 'VOCÊ GANHOU O MILHÃO' : modo === 'parou' ? 'Você parou e levou' : 'Não foi dessa vez, você leva';
           const msg = modo === 'milhao' ? 'Milhão da Odontologia' : 'Show do Sisão';
           if (pts > 0) api.ganhou(pts, msg); else api.perdeu(msg);
+          if (modo === 'errou') gameOver8bit();
           if (modo !== 'errou' && levou > 0) { auditorio(); if (modo === 'parou') fala('parou', 'Parou e levou! Muito bem!'); }
           el.innerHTML = `<div class="${c('palco')}"><div class="${c('fim')}"><div class="${c('titulo')} ${c('h2')}">${titulo}</div>
 <div class="${c('big')}">${levou ? reais(levou) : 'R$ 0'}</div>
