@@ -181,6 +181,7 @@
 .X-lista{width:100%;text-align:left;display:flex;flex-direction:column;gap:6px}
 .X-lista div{background:rgba(5,10,46,.55);border:1px solid rgba(255,210,74,.4);border-radius:12px;padding:8px 10px;font-size:14px}
 .X-nota{font-size:12px;color:#9fb6ee;text-align:center}
+.X-refs{margin-top:8px;display:flex;flex-direction:column;gap:4px;font-size:13px;text-align:left}.X-refs a{color:#ffe27a;text-decoration:underline}
 @media (prefers-reduced-motion:reduce){.X-palco::before,.X-palco::after,.X-op.X-pisca,.X-pip.X-agora{animation:none}}
 `.replace(/X-/g, ID + '-');
 
@@ -644,7 +645,7 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
           efeito(acertou ? (ultima ? 'milhao' : 'acerto_tv') : 'erro_tv');
           apos(() => acertou ? (ultima ? fala('milhao', 'É o milhão!') : fala('certa', 'Certa resposta!')) : st.esgotou ? fala('tempo', 'O tempo acabou!') : fala('errada', 'Que pena! Resposta errada.'), 450);
           const certa = st.ops.findIndex(o => o.c);
-          const res = `<div class="${c('res')} ${acertou ? c('ok') : c('bad')}"><b>${acertou ? (ultima ? 'É O MILHÃO!' : 'Resposta certa') : st.esgotou ? 'O tempo acabou' : 'Resposta errada'}</b>${!acertou ? `<div>A certa era a ${LETRAS[certa]}.</div>` : ''}${q.w ? `<div>${api.esc(q.w)}</div>` : ''}</div>
+          const res = `<div class="${c('res')} ${acertou ? c('ok') : c('bad')}"><b>${acertou ? (ultima ? 'É O MILHÃO!' : 'Resposta certa') : st.esgotou ? 'O tempo acabou' : 'Resposta errada'}</b>${!acertou ? `<div>A certa era a ${LETRAS[certa]}.</div>` : ''}${q.w ? `<div>${api.esc(q.w)}</div>` : ''}${Array.isArray(q.r) && q.r.length ? `<div class="${c('refs')}"><b>Quer saber mais?</b>${q.r.map(x => `<a href="${api.esc(x.u)}" target="_blank" rel="noopener">${api.esc(x.t)}</a>`).join('')}</div>` : ''}</div>
 <div class="${c('linha')}"><button type="button" class="${c('btn')} ${c('prox')}">${acertou ? (ultima ? 'Ver o prêmio' : 'Próxima pergunta') : 'Ver resultado'}</button></div>`;
           desenhar(res);
         }

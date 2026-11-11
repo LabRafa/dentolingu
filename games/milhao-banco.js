@@ -3318,6 +3318,375 @@ window.BANCO_MILHAO = [
 "w": "Os molares decíduos dão lugar aos pré-molares; os molares permanentes nascem atrás deles, sem substituir nenhum dente de leite."
 },
 {
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Sobre qual modelo o laboratório confecciona a moldeira individual da prótese total?",
+"o": [
+"Sobre o modelo de trabalho que vem da moldagem funcional",
+"Sobre o modelo anatômico que vem da primeira moldagem do dentista",
+"Sobre o modelo antagonista, para copiar a mordida do paciente",
+"Sobre a prótese antiga do paciente, usada como molde direto"
+],
+"a": 1,
+"w": "A primeira moldagem (alginato em moldeira de estoque) gera o modelo anatômico; sobre ele se faz a moldeira individual. (Komagamine et al., J Dent 2019; Zarb, Prosthodontic Treatment for Edentulous Patients)",
+"r": [
+{
+"t": "Komagamine et al. Moldeira individual x moldeira de estoque na prótese total: ensaio clínico. J Dent, 2019",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30711603/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Na sequência convencional da prótese total, qual é a primeira peça que o laboratório confecciona?",
+"o": [
+"A montagem dos dentes no articulador",
+"O plano de cera sobre a placa base",
+"A moldeira individual sobre o modelo anatômico",
+"A base definitiva acrilizada em resina termo"
+],
+"a": 2,
+"w": "Na técnica convencional, depois da moldagem preliminar vem a moldeira individual; plano de cera, montagem e acrilização vêm depois. (Komagamine et al., J Dent 2019; Zarb, Prosthodontic Treatment for Edentulous Patients)",
+"r": [
+{
+"t": "Komagamine et al. Moldeira individual x moldeira de estoque na prótese total: ensaio clínico. J Dent, 2019",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30711603/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual problema da moldeira padrão (de estoque) justifica fazer a moldeira individual na prótese total?",
+"o": [
+"Ela estica e modifica demais os tecidos, registrando a mucosa deformada",
+"Ela só aceita alginato, e a prótese total exige moldagem em gesso",
+"Ela é feita de metal e esquenta a mucosa durante a moldagem",
+"Ela não tem cabo, então o dentista não consegue levá-la à boca"
+],
+"a": 0,
+"w": "A moldeira genérica não acompanha a anatomia e desloca a mucosa; a manipulação da moldeira pode distorcer o tecido. (Bindhoo et al., J Prosthodont 2012; Zarb, Prosthodontic Treatment for Edentulous Patients)",
+"r": [
+{
+"t": "Bindhoo et al. Moldagem mucostática em rebordo flácido. J Prosthodont, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22356157/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual material de moldagem final com moldeira individual foi o mais citado em levantamento de programas de pós-graduação em prótese?",
+"o": [
+"Alginato",
+"Gesso tipo 3",
+"Silicone de adição",
+"Cera rosa"
+],
+"a": 2,
+"w": "O silicone de adição (polivinilsiloxano) foi o material mais usado na moldagem final (42%). (Mehra et al., J Prosthodont 2014)",
+"r": [
+{
+"t": "Mehra et al. Técnicas de moldagem de prótese total ensinadas nos EUA. J Prosthodont, 2014",
+"u": "https://pubmed.ncbi.nlm.nih.gov/24118134/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Depois que a moldagem feita com a moldeira individual volta ao laboratório e vira modelo de trabalho, qual é a próxima etapa da prótese total?",
+"o": [
+"Plano de cera",
+"Acrilização",
+"Polimento final",
+"Prova dos dentes"
+],
+"a": 0,
+"w": "Sobre o modelo de trabalho se faz a base de prova com o plano de cera (plano de orientação), antes da montagem dos dentes. (Zarb, Prosthodontic Treatment for Edentulous Patients)",
+"r": [
+{
+"t": "Komagamine et al. Moldeira individual x moldeira de estoque na prótese total: ensaio clínico. J Dent, 2019",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30711603/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Por que a moldagem em silicone de adição feita com a moldeira individual não exige a mesma pressa de vazamento que o alginato?",
+"o": [
+"Porque o silicone só pode ser vazado depois de uma semana",
+"Porque o silicone é estável e mantém a precisão por bem mais tempo",
+"Porque o silicone já vem com gesso dentro e endurece sozinho",
+"Porque o silicone só é usado em moldagem de dentes, não de rebordo"
+],
+"a": 1,
+"w": "Silicones de adição mantiveram a precisão mesmo com vazamento tardio; o alginato deve ser vazado o quanto antes. (Al-Zarea et al., J Contemp Dent Pract 2011; Erbe et al., J Prosthet Dent 2012)",
+"r": [
+{
+"t": "Al-Zarea et al. Precisão dimensional de silicones de adição ao longo do tempo. J Contemp Dent Pract, 2011",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22186818/"
+},
+{
+"t": "Erbe et al. Estabilidade do alginato conforme o armazenamento. J Prosthet Dent, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22867808/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Em que material a moldeira individual costuma ser confeccionada?",
+"o": [
+"Em gesso pedra, recortado sobre o modelo",
+"Em cera branca, a mesma do plano de orientação",
+"Em metal fundido, como a estrutura do roach",
+"Em resina acrílica, autopolimerizável ou fotopolimerizável"
+],
+"a": 3,
+"w": "Estudos comparam moldeiras individuais de resina acrílica autopolimerizável e de resina fotopolimerizável. (Shafa et al., J Contemp Dent Pract 2008)",
+"r": [
+{
+"t": "Shafa et al. Material da moldeira individual e precisão do modelo. J Contemp Dent Pract, 2008",
+"u": "https://pubmed.ncbi.nlm.nih.gov/18784859/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Por que a moldeira individual recebe alívio (espaçador) em algumas áreas do modelo?",
+"o": [
+"Para deixar a moldeira mais leve e rápida de confeccionar",
+"Para que o paciente consiga respirar pela boca durante a moldagem",
+"Para não comprimir áreas que não devem ser pressionadas na moldagem",
+"Para marcar a linha média e a altura do sorriso do paciente"
+],
+"a": 2,
+"w": "Com alívio, a área aliviada sofreu menos tensão e a pressão ficou nas áreas de suporte (crista e fundo vestibular). (Dadarwal et al., Cureus 2022)",
+"r": [
+{
+"t": "Dadarwal et al. Alívio na moldeira e pressão seletiva na prótese total inferior. Cureus, 2022",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9060722/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Por que a moldeira individual é feita deixando um espaço uniforme entre ela e o modelo?",
+"o": [
+"Para caber o material de moldagem entre a moldeira e a mucosa",
+"Para a moldeira encaixar direto na boca sem nenhum material",
+"Para o laboratório colar os dentes de estoque nesse espaço",
+"Para a cera do plano de orientação escorrer sem deformar"
+],
+"a": 0,
+"w": "O espaço (alívio uniforme, ex. 1 mm) é ocupado pelo material de moldagem, que é quem copia a mucosa. (Sun et al., J Prosthodont 2026; Zarb, Prosthodontic Treatment for Edentulous Patients)",
+"r": [
+{
+"t": "Sun et al. Quantidade de alívio da moldeira e precisão da moldagem. J Prosthodont, 2026",
+"u": "https://pubmed.ncbi.nlm.nih.gov/42703698/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Por que as bordas da moldeira individual ficam um pouco aquém do fundo de sulco?",
+"o": [
+"Para a moldeira não encostar no palato duro durante a moldagem",
+"Para sobrar lugar para o dentista fazer o selado periférico",
+"Para o paciente conseguir falar enquanto o material toma presa",
+"Para gastar menos resina na confecção da moldeira"
+],
+"a": 1,
+"w": "As bordas curtas (cerca de 2 mm) recebem o material do selado periférico, aplicado sobre a borda da moldeira. (Park et al., Int J Prosthodont 2016; Zarb, Prosthodontic Treatment for Edentulous Patients)",
+"r": [
+{
+"t": "Park et al. Selado periférico com godiva aplicada na borda da moldeira. Int J Prosthodont, 2016",
+"u": "https://pubmed.ncbi.nlm.nih.gov/27824973/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Qual a principal função do cabo da moldeira individual?",
+"o": [
+"Servir de apoio para o registro da mordida do paciente",
+"Indicar a posição da linha média para a montagem dos dentes",
+"Segurar o material de moldagem que sobra pela borda",
+"Permitir manipular a moldeira sem pressionar a área moldada"
+],
+"a": 3,
+"w": "O cabo é para levar, posicionar e retirar a moldeira; ele não pode atrapalhar o lábio e a língua durante o selado. (Malachias et al., Braz Dent J 2005)",
+"r": [
+{
+"t": "Malachias et al. Cabo removível na moldeira individual para moldagem funcional. Braz Dent J, 2005",
+"u": "https://pubmed.ncbi.nlm.nih.gov/16475608/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Qual a diferença entre o modelo anatômico e o modelo de trabalho da prótese total?",
+"o": [
+"O anatômico vem da moldagem com a moldeira individual; o de trabalho, da moldeira de estoque",
+"O anatômico é de gesso e o de trabalho é sempre impresso em resina",
+"O anatômico vem da primeira moldagem; o de trabalho, da moldagem com a moldeira individual",
+"O anatômico serve só para a arcada superior; o de trabalho, para a inferior"
+],
+"a": 2,
+"w": "Moldagem preliminar (estoque) gera o modelo anatômico; a moldagem final na moldeira individual gera o modelo de trabalho. (Komagamine et al., J Dent 2019)",
+"r": [
+{
+"t": "Komagamine et al. Moldeira individual x moldeira de estoque na prótese total: ensaio clínico. J Dent, 2019",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30711603/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Em ensaio clínico, o que aconteceu com as próteses feitas por moldagem em moldeira individual com selado, comparadas às de moldeira de estoque com alginato?",
+"o": [
+"Precisaram de menos ajustes depois de instaladas",
+"Mudaram de cor mais rápido depois da acrilização",
+"Ficaram mais pesadas e menos estáveis na boca",
+"Não houve nenhuma diferença em nenhum aspecto"
+],
+"a": 0,
+"w": "A técnica convencional teve maior área de contato oclusal e menos ajustes pós-instalação. (Komagamine et al., J Dent 2019, ensaio randomizado)",
+"r": [
+{
+"t": "Komagamine et al. Moldeira individual x moldeira de estoque na prótese total: ensaio clínico. J Dent, 2019",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30711603/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
+"q": "Quais materiais aparecem na literatura para o selado periférico feito na borda da moldeira individual?",
+"o": [
+"Alginato fluido",
+"Godiva ou silicone pesado",
+"Cera branca de plano",
+"Gesso tipo 4"
+],
+"a": 1,
+"w": "Godiva em bastão foi a mais usada (71%) e o silicone pesado de adição é alternativa estudada. (Mehra et al., J Prosthodont 2014; Pachar et al., J Contemp Dent Pract 2018)",
+"r": [
+{
+"t": "Mehra et al. Técnicas de moldagem de prótese total ensinadas nos EUA. J Prosthodont, 2014",
+"u": "https://pubmed.ncbi.nlm.nih.gov/24118134/"
+},
+{
+"t": "Pachar et al. Materiais de selado periférico e retenção da prótese total. J Contemp Dent Pract, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30150501/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "O que a literatura diz sobre a estabilidade dos silicones de moldagem?",
+"o": [
+"O de condensação é o mais estável e permite vazar dias depois",
+"Os dois perdem a precisão em minutos, como o alginato",
+"Os dois são iguais; só muda a cor da pasta",
+"O de adição é mais estável e permite vazamento tardio"
+],
+"a": 3,
+"w": "O de adição manteve a precisão por semanas; o de condensação libera subproduto (álcool) e contrai, devendo ser vazado cedo. (Al-Zarea et al., J Contemp Dent Pract 2011; Anusavice, Phillips Materiais Dentários)",
+"r": [
+{
+"t": "Al-Zarea et al. Precisão dimensional de silicones de adição ao longo do tempo. J Contemp Dent Pract, 2011",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22186818/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Segundo estudo de armazenamento do alginato (moldagem anatômica), qual é a conduta mais segura até o vazamento?",
+"o": [
+"Deixar secar ao ar livre, para o alginato endurecer mais",
+"Vazar o gesso o quanto antes, mesmo guardado em ambiente úmido",
+"Mergulhar em água por algumas horas antes de vazar",
+"Esperar 24 horas para o alginato estabilizar"
+],
+"a": 1,
+"w": "O alginato muda de dimensão com o tempo; em saco com lenço úmido o resultado foi imprevisível, e a regra é vazar o quanto antes. (Erbe et al., J Prosthet Dent 2012)",
+"r": [
+{
+"t": "Erbe et al. Estabilidade do alginato conforme o armazenamento. J Prosthet Dent, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22867808/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Em levantamento de programas de pós em prótese, qual filosofia de moldagem com moldeira individual predominou?",
+"o": [
+"Mucocompressiva",
+"Mucostática",
+"Pressão seletiva",
+"Boca aberta sem selado"
+],
+"a": 2,
+"w": "A pressão seletiva foi a filosofia de 80% dos programas, e todos faziam selado periférico na moldeira individual. (Mehra et al., J Prosthodont 2014)",
+"r": [
+{
+"t": "Mehra et al. Técnicas de moldagem de prótese total ensinadas nos EUA. J Prosthodont, 2014",
+"u": "https://pubmed.ncbi.nlm.nih.gov/24118134/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Em estudo de moldeiras com alívio palatino de 0, 1,5 e 3 mm, o que aconteceu ao aumentar o alívio?",
+"o": [
+"O desvio da moldagem aumentou, pela contração do material",
+"A moldagem ficou mais precisa em todos os materiais",
+"Nada mudou, o alívio não interfere na precisão",
+"A moldeira trincou durante a remoção da boca"
+],
+"a": 0,
+"w": "Mais alívio = mais material = mais contração de polimerização e mais desvio; alívio demais também atrapalha. (Sun et al., J Prosthodont 2026)",
+"r": [
+{
+"t": "Sun et al. Quantidade de alívio da moldeira e precisão da moldagem. J Prosthodont, 2026",
+"u": "https://pubmed.ncbi.nlm.nih.gov/42703698/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 3,
+"q": "Em rebordo flácido localizado, que modificação da moldeira individual é descrita para uma moldagem que não comprima o tecido?",
+"o": [
+"Bordas mais longas, até passar do fundo de sulco",
+"Moldeira sem cabo e sem nenhum alívio",
+"Janela ou várias perfurações de alívio na área flácida",
+"Troca da moldeira individual pela de estoque"
+],
+"a": 2,
+"w": "Técnicas mucostáticas usam moldeira com janela, múltiplos furos de alívio ou espaçador duplo na área flácida. (Bindhoo et al., J Prosthodont 2012)",
+"r": [
+{
+"t": "Bindhoo et al. Moldagem mucostática em rebordo flácido. J Prosthodont, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22356157/"
+}
+]
+},
+{
 "m": "Bases Morfológicas e Histologia",
 "n": 1,
 "q": "Qual plano de secção divide o corpo em duas metades simétricas, direita e esquerda?",
@@ -3757,7 +4126,17 @@ window.BANCO_MILHAO = [
 "Para a cera esfriar mais depressa e endurecer antes de a boca fechar totalmente"
 ],
 "a": 0,
-"w": "Com a língua no palato a mandíbula não desvia, e o registro captura a relação intermaxilar certa."
+"w": "A língua tocando a parte de trás do palato puxa a mandíbula para trás e ajuda a registrar a relação cêntrica sem desvio. É um dos métodos fisiológicos reconhecidos na literatura (retrusão da língua ao longo do palato; Melo Neto et al., Eur J Dent 2022, revisão sistemática; Chidambaranathan et al., Gerodontology 2023). As revisões não mostram que ele seja mais reproduzível que a manipulação bimanual.",
+"r": [
+{
+"t": "Melo Neto et al. Técnicas para obter relação cêntrica: revisão sistemática. Eur J Dent, 2022 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9339936/"
+},
+{
+"t": "Chidambaranathan et al. Treino da língua para guiar a mandíbula em desdentados. Gerodontology, 2023",
+"u": "https://pubmed.ncbi.nlm.nih.gov/36850069/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
