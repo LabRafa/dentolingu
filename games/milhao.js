@@ -38,7 +38,7 @@
     return embaralhar(out, rnd);
   }
   // Rafael 11/11: perguntas das matérias do simulado (window.BANCOS, simulado/bancos.js) viram perguntas do Sisão (4 alternativas)
-  const NOMES_SIM = { bases: 'Bases Morfológicas', carie: 'Cárie', inter: 'Interações', farmaco: 'Farmacologia', imagino: 'Imaginologia (palestra)' };
+  const NOMES_SIM = { bases: 'Bases Morfológicas', carie: 'Cárie', inter: 'Interações', farmaco: 'Farmacologia', imagino: 'Imaginologia' };
   function bancoDoSimulado(chaves, rnd) {
     const B = (typeof window !== 'undefined' && window.BANCOS) || {}, lista = [];
     (chaves || []).forEach(m => (B[m] && B[m].q || []).forEach(q => {

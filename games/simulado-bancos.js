@@ -2083,8 +2083,8 @@ window.BANCOS = window.BANCOS || {};
     ],
     q: [
       { id: 'im01', tema: 'Diagnóstico',
-        ctx: 'Um colega vê uma área radiolúcida bem definida na panorâmica e diz que já pode fechar o diagnóstico só com a imagem. A palestra comparou o diagnóstico a um quebra-cabeça.',
-        p: 'De acordo com a palestra, qual afirmação está correta?',
+        ctx: 'Um colega vê uma área radiolúcida bem definida na panorâmica e diz que já pode fechar o diagnóstico só com a imagem. O diagnóstico por imagem pode ser comparado a um quebra-cabeça.',
+        p: 'Qual afirmação está correta?',
         o: ['A radiografia sozinha fecha o diagnóstico sempre que a lesão é bem definida.',
             'O diagnóstico vem da união de clínica, imagem e biópsia (histopatológico); nenhuma peça sozinha resolve.',
             'A biópsia dispensa a imagem, porque o patologista só precisa da lâmina.',
@@ -2096,7 +2096,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im02', tema: 'Densidade',
         ctx: 'Na radiografia, um cisto aparece escuro (radiolúcido) dentro do osso.',
-        p: 'Segundo a explicação da palestra, por que isso acontece?',
+        p: 'Por que isso acontece?',
         o: ['Porque o cisto é mais mineralizado que o osso e barra o raio X.',
             'Porque o interior do cisto (líquido) é menos mineralizado que o osso e deixa o feixe passar.',
             'Porque o cisto absorve totalmente o raio X.',
@@ -2124,7 +2124,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im05', tema: 'Anatomia normal',
         ctx: 'Na periapical de um pré-molar inferior aparece uma imagem circular radiolúcida bem perto do ápice. O dente não tem cárie e responde ao teste de vitalidade.',
-        p: 'Qual é o raciocínio mais adequado, segundo a palestra?',
+        p: 'Qual é o raciocínio mais adequado?',
         o: ['Pensar em forame mentual e fazer nova radiografia variando a angulação horizontal: se a imagem sair do ápice, é anatomia.',
             'Indicar tratamento de canal, pois toda imagem radiolúcida no ápice é lesão periapical.',
             'Fazer nova radiografia variando a angulação vertical, que funciona melhor que a horizontal.',
@@ -2142,12 +2142,12 @@ window.BANCOS = window.BANCOS || {};
         af: ['A dúvida existe porque a radiografia é bidimensional (sobreposição); na tomografia ela não acontece.',
              'Se, ao variar a angulação horizontal, a imagem continuar presa ao ápice, deve-se pensar em lesão daquele dente.',
              'Variar a angulação vertical é mais eficiente do que a horizontal para essa distinção.'],
-        w: 'I e II verdadeiras (fala da palestra). III falsa: ela disse que variar na HORIZONTAL funciona melhor que na vertical.',
+        w: 'I e II verdadeiras. III falsa: ela disse que variar na HORIZONTAL funciona melhor que na vertical.',
         f: F + ', fala sobre forame mentual x lesão periapical' },
 
       { id: 'im07', tema: 'Anatomia normal',
         ctx: 'Antes de procurar lesão, é preciso reconhecer as estruturas normais da panorâmica.',
-        p: 'Qual alternativa reúne apenas estruturas RADIOPACAS, conforme o slide da palestra?',
+        p: 'Qual alternativa reúne apenas estruturas RADIOPACAS?',
         o: ['Seio maxilar, cavidade nasal e côndilo',
             'Palato duro, base da mandíbula e côndilo',
             'Canal mandibular, forame mentual e palato duro',
@@ -2167,7 +2167,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im09', tema: 'Exames',
         ctx: 'Um paciente sem queixa vai ao consultório só para a limpeza de 6 em 6 meses. Na panorâmica de rotina aparece uma lesão que não dá sintoma.',
-        p: 'Como esse achado é chamado e o que ele mostra, segundo a palestra?',
+        p: 'Como esse achado é chamado e o que ele mostra?',
         o: ['Achado incidental; mostra a importância da panorâmica de triagem.',
             'Erro de técnica; a panorâmica deve ser repetida e o achado, desconsiderado.',
             'Diagnóstico definitivo; dispensa a biópsia.',
@@ -2178,7 +2178,7 @@ window.BANCOS = window.BANCOS || {};
         f: F + ', slide 15 e fala sobre achados incidentais' },
 
       { id: 'im10', tema: 'Exames',
-        ctx: 'A palestra apresentou três exames de imagem. Analise as afirmativas.',
+        ctx: 'Existem três exames de imagem. Analise as afirmativas.',
         p: AFP,
         o: ['I, apenas.', 'II, apenas.', 'I e II, apenas.', 'I e III, apenas.', 'I, II e III.'],
         a: 3, fixa: true,
@@ -2190,7 +2190,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im11', tema: 'Exames',
         ctx: 'Uma lesão grande na mandíbula parece estufar o osso e, talvez, romper a cortical lingual. Na panorâmica só se vê parte do contorno.',
-        p: 'Qual exame a palestra indica para avaliar as corticais vestibular e lingual?',
+        p: 'Qual exame é indicado para avaliar as corticais vestibular e lingual?',
         o: ['Outra panorâmica com mais tempo de exposição',
             'Periapical de um único dente',
             'Tomografia computadorizada de feixe cônico (TCFC)',
@@ -2210,7 +2210,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im13', tema: 'Localização',
         ctx: 'Um paciente teve um dente extraído por causa de uma lesão no ápice (cisto radicular). Anos depois, a radiografia mostra uma área radiolúcida bem definida exatamente na região da extração, onde não há mais dente.',
-        p: 'Qual é a hipótese mais coerente com a palestra?',
+        p: 'Qual é a hipótese mais coerente?',
         o: ['Cisto dentígero', 'Cisto residual', 'Cisto de erupção', 'Cisto periodontal lateral', 'Odontoma'],
         a: 1,
         w: 'Residual = área de extração. Ela explicou: era um cisto radicular (inflamatório), o dente foi removido e a lesão ficou; "ele não é mais radicular, agora é residual".',
@@ -2218,7 +2218,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im14', tema: 'Desafios',
         ctx: 'No Desafio 2, a imagem mostrava, no corpo do osso entre dois dentes, uma lesão escura com várias lojas, cada uma com contorno branco. Os dois dentes estavam afastados e inclinados para os lados.',
-        p: 'Aplicando as 4 perguntas da palestra, qual descrição está correta?',
+        p: 'Aplicando as 4 perguntas básicas de leitura da imagem, qual descrição está correta?',
         o: ['Entre os dentes; radiolúcida; multilocular, bem definida e com bordas corticadas; desloca os dentes.',
             'No ápice; radiopaca; unilocular e difusa; reabsorve as raízes.',
             'Entre os dentes; mista; borda difusa; rompe a cortical.',
@@ -2241,7 +2241,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im16', tema: 'Limites e lóculos',
         ctx: 'Duas lesões radiolúcidas de tamanho parecido. A lesão A tem uma linha branca bem marcada em volta. Na lesão B a borda é borrada: não dá pra saber onde ela termina.',
-        p: 'Qual interpretação é coerente com a palestra?',
+        p: 'Qual interpretação é coerente?',
         o: ['A sugere crescimento lento; B é sinal de alerta para comportamento mais agressivo.',
             'A é sinal de alerta; B sugere crescimento lento.',
             'As duas são igualmente tranquilas, porque ambas são radiolúcidas.',
@@ -2252,7 +2252,7 @@ window.BANCOS = window.BANCOS || {};
         f: F + ', slides 21 e 22' },
 
       { id: 'im17', tema: 'Limites e lóculos',
-        ctx: 'A borda da lesão é uma das 4 perguntas da palestra.' + ARCTX,
+        ctx: 'A borda da lesão é uma das 4 perguntas básicas de leitura da imagem.' + ARCTX,
         p: ARP, o: AR, a: 2, fixa: true, ar: true,
         af: ['A borda difusa, borrada, é considerada sinal de alerta.',
              'Lesões de borda difusa crescem devagar, e por isso o osso tem tempo de formar uma linha cortical em volta delas.'],
@@ -2273,7 +2273,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im19', tema: 'Efeitos nos vizinhos',
         ctx: 'Lesão X: empurrou os dentes e estufou o osso, deixando a cortical fina como casca de ovo. Lesão Y: destruiu o osso sem deslocar os dentes, que ficaram como se "flutuassem", e a cortical sumiu.',
-        p: 'Qual leitura está de acordo com a palestra?',
+        p: 'Qual leitura está correta?',
         o: ['X sugere crescimento lento; Y sugere comportamento mais agressivo, como o descrito para lesões malignas.',
             'X é mais agressiva, porque deslocar dentes exige crescimento rápido.',
             'As duas têm o mesmo comportamento, pois ambas afetam os vizinhos.',
@@ -2304,7 +2304,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im22', tema: 'Analogias',
         ctx: 'Uma lesão multilocular tem septos bem retinhos, lembrando as cordas de uma raquete de tênis.',
-        p: 'Segundo as analogias mostradas na palestra, em qual lesão pensar?',
+        p: 'Pelas analogias clássicas da radiologia, em qual lesão pensar?',
         o: ['Ameloblastoma', 'Mixoma odontogênico', 'Odontoma composto', 'Osteossarcoma', 'Displasia cemento-óssea'],
         a: 1,
         w: 'Slide 28: raquete de tênis = mixoma odontogênico (septos retinhos). Bolhas de sabão = ameloblastoma; dentículos = odontoma composto; raios de sol = osteossarcoma.',
@@ -2332,7 +2332,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im25', tema: 'Diagnóstico',
         ctx: 'No exame clínico há uma lesão ulcerada na mucosa. A panorâmica do mesmo paciente não mostra nenhuma alteração óssea.',
-        p: 'Qual conduta segue a orientação da palestra?',
+        p: 'Qual é a conduta adequada?',
         o: ['Tranquilizar o paciente, já que a imagem está normal.',
             'Fazer biópsia: imagem normal não quer dizer lesão menos importante, pode até ser maligna.',
             'Repetir a panorâmica em 6 meses antes de qualquer outra coisa.',
@@ -2344,7 +2344,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im26', tema: 'Diagnóstico',
         ctx: 'A radiografia mostra massas radiopacas em vários quadrantes. O paciente é um menino de 10 anos.',
-        p: 'Segundo o exemplo da palestra, em que hipóteses pensar?',
+        p: 'Nesse exemplo, em que hipóteses pensar?',
         o: ['Displasia cemento-óssea florida',
             'Cementoma gigantiforme familiar ou síndrome de Gardner (osteomas múltiplos)',
             'Cisto dentígero múltiplo',
@@ -2355,7 +2355,7 @@ window.BANCOS = window.BANCOS || {};
         f: F + ', slide 34' },
 
       { id: 'im27', tema: 'Diagnóstico',
-        ctx: 'Considere o que a palestra disse sobre o paciente e sobre os exames.' + ARCTX,
+        ctx: 'Considere o paciente e os exames.' + ARCTX,
         p: ARP, o: AR, a: 1, fixa: true, ar: true,
         af: ['Massas radiopacas em vários quadrantes, numa mulher negra de meia-idade, fazem pensar em displasia cemento-óssea florida.',
              'A periapical mostra o detalhe de poucos dentes, e a panorâmica dá a visão geral dos maxilares.'],
@@ -2395,7 +2395,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im31', tema: 'Cistos e lesão periapical',
         ctx: 'Um incisivo central superior SEM cárie tem uma área radiolúcida bem definida no ápice. O paciente conta que levou uma pancada nesse dente há alguns anos.',
-        p: 'Qual hipótese e qual passo seguinte estão de acordo com a palestra?',
+        p: 'Qual hipótese e qual passo seguinte estão corretos?',
         o: ['Lesão periapical inflamatória por trauma; fazer o teste de vitalidade pulpar.',
             'Descartar lesão periapical, porque o dente não tem cárie.',
             'Displasia cemento-óssea, porque dente sem cárie sempre tem vitalidade.',
@@ -2407,7 +2407,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im32', tema: 'Displasia e radiopacidades',
         ctx: 'Uma periapical mostra áreas radiolúcidas nos ápices dos incisivos inferiores. Os dentes não têm cárie nem história de trauma, e TODOS respondem normalmente ao teste de vitalidade.',
-        p: 'Qual é a hipótese mais coerente com a palestra?',
+        p: 'Qual é a hipótese mais coerente?',
         o: ['Lesão periapical inflamatória, que se trata com canal',
             'Displasia cemento-óssea periapical na fase inicial',
             'Cisto dentígero',
@@ -2419,7 +2419,7 @@ window.BANCOS = window.BANCOS || {};
 
       { id: 'im33', tema: 'Cistos e lesão periapical',
         ctx: 'Em volta da coroa de um terceiro molar incluso existe um espaço radiolúcido (pericoronário) medindo cerca de 5 mm.',
-        p: 'Como a palestra orienta interpretar esse espaço?',
+        p: 'Como interpretar esse espaço?',
         o: ['É sempre normal: é o capuz pericoronário de todo dente incluso.',
             'Com 4 a 6 mm já não se considera normal; começa-se a pensar em cisto (dentígero), com o folículo aumentado como diferencial.',
             'Indica odontoma, por estar sobre um dente que não erupcionou.',
@@ -2430,7 +2430,7 @@ window.BANCOS = window.BANCOS || {};
         f: F + ', desafio extra e slide 41' },
 
       { id: 'im34', tema: 'Cistos e lesão periapical',
-        ctx: 'Analise as afirmativas sobre o cisto dentígero apresentado na palestra.',
+        ctx: 'Analise as afirmativas sobre o cisto dentígero.',
         p: AFP,
         o: ['I, apenas.', 'I e II, apenas.', 'I e III, apenas.', 'II e III, apenas.', 'I, II e III.'],
         a: 4, fixa: true,
@@ -2449,7 +2449,7 @@ window.BANCOS = window.BANCOS || {};
         f: F + ', slides 28 e 42' },
 
       { id: 'im36', tema: 'Ameloblastoma e odontoma',
-        ctx: 'No caso de antes e depois mostrado na palestra, o paciente teve parte da mandíbula removida e reconstruída com osso do ilíaco, placa e implantes.' + ARCTX,
+        ctx: 'No caso de antes e depois, o paciente teve parte da mandíbula removida e reconstruída com osso do ilíaco, placa e implantes.' + ARCTX,
         p: ARP, o: AR, a: 0, fixa: true, ar: true,
         af: ['Mesmo sendo benigno, o ameloblastoma pode exigir a ressecção de parte da mandíbula.',
              'É uma lesão que expande muito, e a remoção exige tirar a região com margem de segurança.'],
