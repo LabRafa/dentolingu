@@ -284,7 +284,7 @@
           if (CONF.modo === 'personalizar') {
             const cats = new Set(CONF.categorias);
             const b = orig.filter(q => cats.has(q.m || 'Odontologia'));
-            if (podeJogar(b)) return { b, chave: 'sisao-vistas-cat-' + [...cats].sort().join('-') };
+            if (podeJogar(b) || b.length >= 15) return { b, chave: 'sisao-vistas-cat-' + [...cats].sort().join('-') };
             return { b: orig, chave: 'sisao-vistas-geral', aviso: 'Poucas perguntas nesses temas, juntei com tudo.' };
           }
           // Rafael 11/11: no Geral entra TUDO, inclusive as perguntas das matérias da facul
