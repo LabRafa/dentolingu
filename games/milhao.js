@@ -123,8 +123,28 @@
 @keyframes X-bate{from{transform:scale(1)}to{transform:scale(1.08)}}
 @media (prefers-reduced-motion:reduce){.X-relogio.X-urgente{animation:none}}
 .X-conf{display:flex;flex-direction:column;gap:8px;background:#0b1a4a;border:2px solid #ffd24a;border-radius:14px;padding:14px;margin-bottom:12px;color:#fff;text-align:left}
-.X-conf label{display:flex;gap:8px;align-items:center;justify-content:space-between;font-size:15px}
-.X-conf select,.X-conf input[type=range]{max-width:55%}
+.X-conf{gap:14px}
+.X-ctopo{display:flex;align-items:center;justify-content:space-between;font-family:'Bungee',var(--f-display),sans-serif;font-size:18px;color:#ffd24a}
+.X-xis{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);color:#fff;border-radius:50%;width:36px;height:36px;font-size:16px;cursor:pointer}
+.X-sec{background:rgba(5,10,46,.55);border:1px solid rgba(255,210,74,.25);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:10px}
+.X-sec h4{margin:0;font-family:var(--f-display);font-size:15px;color:#ffd24a;font-weight:600}
+.X-fontes{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.X-fonte{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;padding:14px 8px;border-radius:14px;border:2px solid rgba(255,255,255,.18);background:rgba(255,255,255,.04);color:#fff;cursor:pointer;font-family:var(--f-body)}
+.X-fonte b{font-size:15px}.X-fonte small{font-size:12px;color:#b8c8f0}
+.X-fic{font-size:26px;line-height:1}
+.X-fonte[aria-pressed="true"]{border-color:#ffd24a;background:rgba(255,210,74,.14);box-shadow:0 0 0 3px rgba(255,210,74,.18)}
+.X-mats{display:flex;flex-wrap:wrap;gap:8px}.X-mats[hidden]{display:none}
+.X-mats p{width:100%;margin:0;font-size:13px;color:#cfdcff}
+.X-mat{border-radius:999px;padding:9px 14px;border:2px solid rgba(255,255,255,.25);background:transparent;color:#fff;font-family:var(--f-display);font-weight:600;font-size:14px;cursor:pointer}
+.X-mat[aria-pressed="true"]{background:#ffd24a;border-color:#ffd24a;color:#3b2500}
+.X-mat[aria-pressed="true"]::before{content:'✓ '}
+.X-lin{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:15px;cursor:pointer}
+.X-lin span{display:flex;flex-direction:column}.X-lin small{font-size:12px;color:#b8c8f0}
+.X-lin input[type=range]{width:45%}
+.X-sw{appearance:none;-webkit-appearance:none;flex:0 0 46px;width:46px;height:26px;border-radius:13px;background:#3a4672;position:relative;cursor:pointer;transition:background .2s}
+.X-sw::after{content:'';position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:left .2s}
+.X-sw:checked{background:#2bd67b}.X-sw:checked::after{left:23px}
+.X-sw:focus-visible,.X-fonte:focus-visible,.X-mat:focus-visible{outline:3px solid #ffd24a;outline-offset:2px}
 .X-engrmini{float:right;background:none;border:0;font-size:22px;cursor:pointer;min-width:44px;min-height:44px}
 .X-escada{display:grid;grid-template-columns:repeat(15,1fr);gap:3px}
 .X-pip{height:8px;border-radius:4px;background:rgba(255,255,255,.2)}
@@ -277,37 +297,48 @@
         // painel de configurações
         function painelConf() {
           const box = document.createElement('div'); box.className = c('conf');
-          box.innerHTML = `<b>Configurações</b>
-<label><input type="checkbox" data-k="musica" ${CONF.musica ? 'checked' : ''}> Música de fundo</label>
-<label><input type="checkbox" data-k="voz" ${CONF.voz ? 'checked' : ''}> Locutor</label>
-<label><input type="checkbox" data-k="efeitos" ${CONF.efeitos ? 'checked' : ''}> Efeitos (acerto, erro, rufar)</label>
-<label><input type="checkbox" data-k="bateria" ${CONF.bateria ? 'checked' : ''}> Bateria na música</label>
-<label>Volume da música <input type="range" min="0.1" max="1" step="0.1" value="${CONF.volMusica}" data-k="volMusica"></label>
-${temSimulado() ? `<b>Perguntas</b>
-<label><input type="radio" name="fonte" data-fonte="geral" ${CONF.materias.length ? '' : 'checked'}> Conhecimentos gerais da odontologia</label>
-<label><input type="radio" name="fonte" data-fonte="materias" ${CONF.materias.length ? 'checked' : ''}> Só as matérias que eu escolher:</label>
-${Object.keys(NOMES_SIM).filter(k => window.BANCOS[k]).map(k => `<label style="margin-left:22px"><input type="checkbox" data-mat="${k}" ${CONF.materias.includes(k) ? 'checked' : ''}> ${NOMES_SIM[k]}</label>`).join('')}
-<span class="${c('nota')}">Vale a partir da próxima partida.</span>` : ''}
-
-<button type="button" class="${c('btn')} ${c('azul')}" data-fechar>Fechar</button>`;
+          const sw = (k, titulo, sub) => `<label class="${c('lin')}"><span><b>${titulo}</b>${sub ? `<small>${sub}</small>` : ''}</span><input type="checkbox" class="${c('sw')}" data-k="${k}" ${CONF[k] ? 'checked' : ''}></label>`;
+          const matsDisp = temSimulado() ? Object.keys(NOMES_SIM).filter(k => window.BANCOS[k]) : [];
+          box.innerHTML = `<div class="${c('ctopo')}"><b>Configurações</b><button type="button" class="${c('xis')}" data-fechar aria-label="Fechar">✕</button></div>
+${matsDisp.length ? `<section class="${c('sec')}"><h4>O que vai cair no jogo?</h4>
+<div class="${c('fontes')}">
+<button type="button" class="${c('fonte')}" data-fonte="geral" aria-pressed="${!CONF.materias.length}"><span class="${c('fic')}">🦷</span><b>Odontologia geral</b><small>Perguntas de todas as áreas</small></button>
+<button type="button" class="${c('fonte')}" data-fonte="materias" aria-pressed="${!!CONF.materias.length}"><span class="${c('fic')}">📚</span><b>Minhas matérias</b><small>Só o que cai na prova</small></button>
+</div>
+<div class="${c('mats')}" ${CONF.materias.length ? '' : 'hidden'}><p>Toque nas matérias que você quer estudar:</p>
+${matsDisp.map(k => `<button type="button" class="${c('mat')}" data-mat="${k}" aria-pressed="${CONF.materias.includes(k)}">${NOMES_SIM[k]}</button>`).join('')}
+</div>
+<p class="${c('nota')}">Vale a partir da próxima partida</p></section>` : ''}
+<section class="${c('sec')}"><h4>Som</h4>
+${sw('voz', 'Locutor', 'Lê a pergunta e as alternativas')}
+${sw('musica', 'Música de fundo', '')}
+${sw('efeitos', 'Efeitos', 'Acerto, erro e rufar')}
+${sw('bateria', 'Bateria na música', '')}
+<label class="${c('lin')}"><span><b>Volume da música</b></span><input type="range" min="0.1" max="1" step="0.1" value="${CONF.volMusica}" data-k="volMusica"></label>
+</section>
+<button type="button" class="${c('btn')} ${c('azul')}" data-fechar>Pronto</button>`;
           box.querySelectorAll('[data-k]').forEach(inp => inp.onchange = () => {
             const k = inp.dataset.k;
             CONF[k] = inp.type === 'checkbox' ? inp.checked : k === 'trilha' ? inp.value : +inp.value; gravaConf();
             if (k === 'musica' || k === 'volMusica' || k === 'bateria' || k === 'trilha') { pararFundo(); if (CONF.musica && st && !st.fim) iniciarFundo(); }
             if (k === 'voz' && !CONF.voz) calar();
           });
-          const mats = () => [...box.querySelectorAll('[data-mat]')].filter(x => x.checked).map(x => x.dataset.mat);
-          box.querySelectorAll('[data-fonte]').forEach(r => r.onchange = () => {
-            if (r.dataset.fonte === 'geral') { CONF.materias = []; box.querySelectorAll('[data-mat]').forEach(x => { x.checked = false; }); }
-            else { if (!mats().length) { const p = box.querySelector('[data-mat]'); if (p) p.checked = true; } CONF.materias = mats(); }
-            gravaConf();
+          const pintar = () => {
+            box.querySelectorAll('[data-fonte]').forEach(b => b.setAttribute('aria-pressed', String((b.dataset.fonte === 'materias') === !!CONF.materias.length)));
+            box.querySelectorAll('[data-mat]').forEach(b => b.setAttribute('aria-pressed', String(CONF.materias.includes(b.dataset.mat))));
+            const m = box.querySelector('.' + c('mats')); if (m) m.hidden = !CONF.materias.length;
+          };
+          box.querySelectorAll('[data-fonte]').forEach(b => b.onclick = () => {
+            CONF.materias = b.dataset.fonte === 'geral' ? [] : (CONF.materias.length ? CONF.materias : matsDisp.slice());
+            gravaConf(); pintar();
           });
-          box.querySelectorAll('[data-mat]').forEach(x => x.onchange = () => {
-            CONF.materias = mats(); const g = box.querySelector('[data-fonte="geral"]'), m = box.querySelector('[data-fonte="materias"]');
-            if (g && m) { g.checked = !CONF.materias.length; m.checked = !!CONF.materias.length; }
-            gravaConf();
+          box.querySelectorAll('[data-mat]').forEach(b => b.onclick = () => {
+            const k = b.dataset.mat, tem = CONF.materias.includes(k);
+            if (tem && CONF.materias.length === 1) { api.toast('Deixe pelo menos uma matéria marcada'); return; }
+            CONF.materias = tem ? CONF.materias.filter(x => x !== k) : CONF.materias.concat(k);
+            gravaConf(); pintar();
           });
-          box.querySelector('[data-fechar]').onclick = () => { box.remove(); if (!st || st.fim) pararFundo(); };
+          box.querySelectorAll('[data-fechar]').forEach(x => x.onclick = () => { box.remove(); if (!st || st.fim) pararFundo(); });
           return box;
         }
         function abrirConf() { const velho = el.querySelector('.' + c('conf')); if (velho) { velho.remove(); return; } const pal = el.querySelector('.' + c('palco')); if (pal) pal.prepend(painelConf()); }
