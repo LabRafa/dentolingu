@@ -355,7 +355,37 @@
           if (!CONF.voz) ok = false;
           if (!ok || !urls.length) { if (aoFim) aoFim(); return; }
           const tok = { c: false, a: null }; fila = tok; let i = 0;
-          // carrega todos os áudios da fila de uma vez (sem esperar baixar um por um entre "Letra A" e a alternativa)
+          // Rafael 11/11: "Letra A" e a alternativa têm que sair colados. Web Audio: baixa tudo, corta o silêncio
+          // das pontas de cada gravação e agenda uma atrás da outra, sem buraco. Sem Web Audio = jeito antigo.
+          const AC = window.AudioContext || window.webkitAudioContext;
+          if (AC) {
+            const ctx = window.__ctxFala || (window.__ctxFala = new AC());
+            const cache = window.__bufFala || (window.__bufFala = {});
+            const aparar = b => {
+              const d = b.getChannelData(0), lim = 0.012, pad = Math.floor(b.sampleRate * 0.03);
+              let ini = 0, fim = d.length - 1;
+              while (ini < fim && Math.abs(d[ini]) < lim) ini++;
+              while (fim > ini && Math.abs(d[fim]) < lim) fim--;
+              ini = Math.max(0, ini - pad); fim = Math.min(d.length, fim + pad);
+              const nb = ctx.createBuffer(b.numberOfChannels, Math.max(1, fim - ini), b.sampleRate);
+              for (let ch = 0; ch < b.numberOfChannels; ch++) nb.getChannelData(ch).set(b.getChannelData(ch).subarray(ini, fim));
+              return nb;
+            };
+            const lista = urls.filter(u => typeof u === 'string');
+            const fontes = []; let timer = null;
+            tok.a = { pause() { fontes.forEach(x => { try { x.stop(); } catch (e) { } }); if (timer) clearTimeout(timer); } };
+            Promise.all(lista.map(u => cache[u] || (cache[u] = fetch(u).then(r => r.arrayBuffer()).then(b => new Promise((ok, no) => ctx.decodeAudioData(b, ok, no))).then(aparar)))).then(bufs => {
+              if (tok.c) return;
+              if (ctx.state === 'suspended') { try { ctx.resume(); } catch (e) { } }
+              const g = ctx.createGain(); let vol = 0.9; try { vol = Math.min(1, (Sons.volume ? Sons.volume() : 0.5) * 1.8); } catch (e) { } g.gain.value = vol; g.connect(ctx.destination);
+              let t = ctx.currentTime + 0.05;
+              bufs.forEach((b, k) => { const x = ctx.createBufferSource(); x.buffer = b; x.connect(g); x.start(t); fontes.push(x); t += b.duration + (/letra[A-D]/.test(lista[k]) ? 0.06 : 0.28); });
+              timer = setTimeout(() => { if (tok.c) return; fila = null; if (aoFim) aoFim(); }, Math.max(0, (t - ctx.currentTime) * 1000));
+            }).catch(() => { if (tok.c) return; simples(); });
+            return;
+          }
+          simples();
+          function simples() {
           const pre = urls.map(u => { if (typeof u !== 'string') return null; const x = new Audio(); x.preload = 'auto'; x.src = u; try { x.load(); } catch (e) { } return x; });
           const prox = () => {
             if (tok.c) return;
@@ -368,6 +398,7 @@
             const p = a.play(); if (p && p.catch) p.catch(prox);
           };
           prox();
+          }
         }
         function fala(chave, reserva) { const L = window.LOCUTOR; if (L && L.fixas[chave]) tocarFila([L.fixas[chave]]); else falar(reserva); }
         function calar() {
