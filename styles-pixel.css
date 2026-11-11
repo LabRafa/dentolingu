@@ -1,0 +1,228 @@
+/* =====================================================================
+   Dentolingu · VISUAL PIXEL (opção do Perfil, 11/11/2026). Vem POR CIMA do styles.css
+   e só vale quando o <html> tem a classe "tema-pixel" (padrão = visual normal).
+   Ideia: o pixel é tempero. Fonte pixel só em título, número e botão curto;
+   pergunta e texto corrido seguem em Nunito. Cantos em degrau feitos com
+   box-shadow (sem imagem), botões que afundam como botão de console.
+   Paleta puxada do Sisão (contorno #1b2250, ouro #ffc83d, céu #2348d8).
+   ===================================================================== */
+:root.tema-pixel{
+  /* Gesso, Contorno, Menta, Gengiva, Ouro, Céu */
+  --bg:#e6ebf3; --surface:#fbfcfe; --ink:#1b2250; --muted:#4f5b7d; --line:#b9c3d6;
+  --mint:#17a889; --mint-d:#0e6f5b; --gum:#e8384f; --gum-d:#8f1c2e; --sun:#ffc83d; --sun-d:#b07a00;
+  --vio:#2348d8; --vio-d:#16318f; --sky:#2f8fe0;
+  --ok-bg:#cdf3e6; --bad-bg:#ffd9de;
+  --contorno:#1b2250; --grade:rgba(27,34,80,.07);
+  --f-display:'Pixelify Sans','Courier New',monospace;
+  --f-body:'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root.tema-pixel:not([data-theme="light"]){
+  --bg:#10173a; --surface:#1b2552; --ink:#eef2ff; --muted:#a9b4d8; --line:#34417a;
+  --mint:#2fc9a6; --mint-d:#137a63; --gum:#ff5b73; --gum-d:#8f1c2e; --sun:#ffc83d; --sun-d:#9a6a00;
+  --vio:#4a74ff; --vio-d:#1a2f9a; --sky:#5ec8ff; --ok-bg:#0f4a3c; --bad-bg:#521a2a;
+  --contorno:#050a24; --grade:rgba(255,255,255,.04)}}
+:root.tema-pixel[data-theme="dark"]{
+  --bg:#10173a; --surface:#1b2552; --ink:#eef2ff; --muted:#a9b4d8; --line:#34417a;
+  --mint:#2fc9a6; --mint-d:#137a63; --gum:#ff5b73; --gum-d:#8f1c2e; --sun:#ffc83d; --sun-d:#9a6a00;
+  --vio:#4a74ff; --vio-d:#1a2f9a; --sky:#5ec8ff; --ok-bg:#0f4a3c; --bad-bg:#521a2a;
+  --contorno:#050a24; --grade:rgba(255,255,255,.04)}
+
+/* fundo: grade de pontinhos de 2px, bem apagada (papel de fase de jogo) */
+.tema-pixel body{background-color:var(--bg);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect width='2' height='2' fill='%231b2250' fill-opacity='.07'/%3E%3C/svg%3E")}
+:root.tema-pixel[data-theme="dark"] body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect width='2' height='2' fill='%23ffffff' fill-opacity='.05'/%3E%3C/svg%3E")}
+@media (prefers-color-scheme: dark){:root.tema-pixel:not([data-theme="light"]) body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect width='2' height='2' fill='%23ffffff' fill-opacity='.05'/%3E%3C/svg%3E")}}
+
+.tema-pixel svg{shape-rendering:crispEdges}
+.tema-pixel h1,.tema-pixel h2,.tema-pixel h3{font-family:var(--f-display);font-weight:600;letter-spacing:0}
+
+/* ---------- O BLOCO EM DEGRAU ----------
+   --b = espessura do contorno, --z = altura do "degrau" de baixo, --o = cor do contorno, --d = cor do degrau.
+   Os 4 contornos deixam os cantos vazios: é isso que faz o canto em degrau. */
+.tema-pixel .btn,.tema-pixel .tema,.tema-pixel .opt,.tema-pixel .no,.tema-pixel .card,.tema-pixel .stat,.tema-pixel .tab,.tema-pixel .rrow,.tema-pixel .stats div,.tema-pixel .rev div,
+.tema-pixel .face,.tema-pixel .ultima,.tema-pixel .milhao-faixa,.tema-pixel .folha,.tema-pixel .ramo,.tema-pixel .centro,.tema-pixel .skel,.tema-pixel .perfil .av{
+  --b:3px; --z:5px; --o:var(--contorno); --d:var(--line); --bev:inset 0 0 0 transparent;
+  border:0; border-radius:0;
+  box-shadow:var(--bev),
+    0 calc(-1*var(--b)) 0 var(--o), calc(-1*var(--b)) 0 0 var(--o), var(--b) 0 0 var(--o),
+    calc(-1*var(--b)) var(--z) 0 var(--o), var(--b) var(--z) 0 var(--o),
+    0 var(--z) 0 var(--d), 0 calc(var(--z) + var(--b)) 0 var(--o);
+  transition:transform .06s steps(2),box-shadow .06s steps(2);
+}
+/* peças pequenas: contorno fino e sem degrau */
+.tema-pixel .stat,.tema-pixel .tab,.tema-pixel .folha,.tema-pixel .rrow,.tema-pixel .stats div,.tema-pixel .rev div{--b:2px; --z:0px}
+.tema-pixel .card,.tema-pixel .ramo,.tema-pixel .centro,.tema-pixel .skel{--z:0px}
+/* aperto: afunda o que o degrau tinha */
+.tema-pixel .btn:active,.tema-pixel .tema:active,.tema-pixel .opt:active,.tema-pixel .no:active,.tema-pixel .milhao-faixa:active{--z:1px; transform:translateY(4px);
+  box-shadow:var(--bev),
+    0 calc(-1*var(--b)) 0 var(--o), calc(-1*var(--b)) 0 0 var(--o), var(--b) 0 0 var(--o),
+    calc(-1*var(--b)) var(--z) 0 var(--o), var(--b) var(--z) 0 var(--o),
+    0 var(--z) 0 var(--d), 0 calc(var(--z) + var(--b)) 0 var(--o)}
+.tema-pixel .btn,.tema-pixel .tema,.tema-pixel .opt,.tema-pixel .no,.tema-pixel .milhao-faixa{margin-bottom:var(--b)}
+
+/* foco: quadrado e afastado do contorno */
+.tema-pixel button:focus-visible,.tema-pixel a:focus-visible,.tema-pixel input:focus-visible,.tema-pixel textarea:focus-visible{outline:3px dashed var(--sky);outline-offset:6px}
+
+/* ---------- topo e barra de baixo ---------- */
+.tema-pixel .top{background:var(--bg)}
+.tema-pixel .brand{font-family:var(--f-display);font-weight:700;font-size:22px}
+.tema-pixel .brand .lg{width:26px;height:26px}
+.tema-pixel .stat{min-height:36px;font-family:var(--f-display);font-weight:600;font-size:16px;background:var(--surface);padding:4px 10px;gap:6px}
+.tema-pixel .stat svg{width:16px;height:16px}
+.tema-pixel .nav{border-top:3px solid var(--contorno)}
+.tema-pixel .nav button{font-family:var(--f-display);font-weight:500;font-size:13px;border-radius:0}
+.tema-pixel .nav button svg{width:24px;height:24px}
+.tema-pixel .nav button[aria-current="page"]{color:var(--mint-d);background:color-mix(in srgb,var(--mint) 16%,transparent);box-shadow:inset 0 -3px 0 var(--mint)}
+:root.tema-pixel[data-theme="dark"] .nav button[aria-current="page"]{color:var(--mint)}
+
+/* ---------- botões ---------- */
+.tema-pixel .btn{--d:var(--mint-d); --bev:inset 3px 3px 0 rgba(255,255,255,.28),inset -3px -3px 0 rgba(0,0,0,.14);
+  font-family:var(--f-display);font-weight:600;font-size:18px;letter-spacing:0;text-transform:none;padding:13px 20px}
+.tema-pixel .btn.gum{--d:var(--gum-d)} .tema-pixel .btn.vio{--d:var(--vio-d)}
+.tema-pixel .btn.ghost,.tema-pixel .btn.google{--d:var(--line); --bev:inset 0 0 0 transparent}
+.tema-pixel .btn.sm{padding:9px 14px;font-size:15px}
+.tema-pixel .btn[disabled]{opacity:.5}
+
+/* ---------- home ---------- */
+.tema-pixel .hero h1{font-size:32px;line-height:1.05}
+.tema-pixel .materia h2{font-family:var(--f-display);font-weight:600;font-size:18px;letter-spacing:0;text-transform:none;color:var(--ink);
+  display:flex;align-items:center;gap:8px}
+.tema-pixel .materia h2::before{content:"";width:8px;height:8px;background:var(--mint);box-shadow:3px 3px 0 var(--contorno);flex:none}
+.tema-pixel .temas{gap:18px}
+.tema-pixel .tema{padding:14px;background:var(--surface)}
+.tema-pixel .tema .ico{border-radius:0;width:52px;height:52px;box-shadow:inset 3px 3px 0 rgba(255,255,255,.3),inset -3px -3px 0 rgba(0,0,0,.18),0 0 0 3px var(--contorno)}
+.tema-pixel .tema .ico svg{width:30px;height:30px}
+.tema-pixel .tema h3{font-size:19px;line-height:1.15}
+.tema-pixel .tema small{font-size:14px}
+.tema-pixel .tema .meta{font-family:var(--f-display);font-size:13px}
+.tema-pixel .ultima{--d:var(--vio-d); --bev:inset 3px 3px 0 rgba(255,255,255,.18);
+  background:var(--vio);gap:8px}
+.tema-pixel .ultima h3{line-height:1.15}
+.tema-pixel .ultima .eyebrow{font-family:var(--f-display);font-weight:500;font-size:14px;letter-spacing:0;text-transform:none;opacity:1;color:#ffe27a}
+.tema-pixel .ultima .btn{background:#fff;color:var(--vio-d);--d:#0a1450}
+/* barra de progresso em gomos */
+.tema-pixel .bar{height:12px;border-radius:0;background:var(--line);box-shadow:0 0 0 2px var(--contorno)}
+.tema-pixel .bar>i{border-radius:0;background:repeating-linear-gradient(90deg,var(--mint) 0 8px,var(--mint-d) 8px 10px)}
+.tema-pixel .note{font-size:13px}
+
+/* ---------- tela do tema ---------- */
+.tema-pixel .thead h2{font-size:28px;line-height:1.1}
+.tema-pixel .tabs{gap:7px;grid-template-columns:repeat(5,minmax(0,1fr))}
+.tema-pixel .tab{font-family:var(--f-display);font-weight:500;font-size:clamp(10.5px,3vw,13px);padding:8px 1px;overflow:hidden}
+.tema-pixel .tab svg{width:20px;height:20px}
+.tema-pixel .tab[aria-selected="true"]{--o:var(--vio); background:color-mix(in srgb,var(--vio) 14%,var(--surface));color:var(--ink)}
+
+/* trilha = blocos de fase */
+.tema-pixel .trilha{gap:12px}
+.tema-pixel .no{width:76px;height:76px;--z:7px;--d:var(--sun-d);--bev:inset 4px 4px 0 rgba(255,255,255,.45),inset -4px -4px 0 rgba(0,0,0,.16);color:var(--contorno)}
+.tema-pixel .no.feito{--d:var(--mint-d);color:#fff}
+.tema-pixel .no svg{width:36px;height:36px}
+.tema-pixel .no-wrap span{font-family:var(--f-display);font-weight:600;font-size:17px;line-height:1.15}
+.tema-pixel .card{gap:12px}
+.tema-pixel .card h3{font-size:20px}
+
+/* ---------- sessão de perguntas ---------- */
+.tema-pixel .prog .bar{height:14px}
+.tema-pixel .hearts{font-family:var(--f-display);font-size:18px;gap:4px}
+.tema-pixel .timer{font-family:var(--f-display);font-size:18px}
+.tema-pixel .tag{font-family:var(--f-display);font-weight:500;font-size:14px;letter-spacing:0;text-transform:none;color:var(--vio)}
+/* a pergunta fica na fonte de leitura: é o texto mais importante do app */
+.tema-pixel .q{font-family:var(--f-body);font-weight:800;font-size:20px;line-height:1.35}
+.tema-pixel .opts{gap:14px}
+.tema-pixel .opt{--z:4px;font-family:var(--f-body);font-weight:700;padding:13px 15px;background:var(--surface)}
+.tema-pixel .opt.sel{--d:var(--vio);background:color-mix(in srgb,var(--vio) 14%,var(--surface))}
+.tema-pixel .opt.ok{--d:var(--mint-d);background:var(--ok-bg)}
+.tema-pixel .opt.bad{--d:var(--gum-d);background:var(--bad-bg)}
+.tema-pixel .vf .opt{font-family:var(--f-display);font-weight:600;font-size:21px}
+.tema-pixel .shake{animation:px-shake .3s steps(3)}
+@keyframes px-shake{33%{transform:translateX(-4px)}66%{transform:translateX(4px)}}
+.tema-pixel .feed{border-radius:0;box-shadow:0 -3px 0 var(--contorno)}
+.tema-pixel .feed b{font-family:var(--f-display);font-weight:700;font-size:22px}
+.tema-pixel .fim h2{font-size:32px}
+.tema-pixel .big{font-family:var(--f-display);font-weight:700;font-size:60px;text-shadow:4px 4px 0 var(--line)}
+.tema-pixel .rev b{color:var(--gum-d)}
+
+/* cartas */
+.tema-pixel .face{--z:7px;--d:rgba(0,0,0,.35);font-family:var(--f-body);font-weight:700;font-size:20px;line-height:1.35}
+.tema-pixel .face.f{background:var(--vio);--d:var(--vio-d)} .tema-pixel .face.v{background:var(--mint);--d:var(--mint-d)}
+.tema-pixel .face small{font-family:var(--f-display);font-weight:500;font-size:14px;letter-spacing:0;text-transform:none;opacity:.9}
+.tema-pixel .fcount{font-family:var(--f-display);font-weight:500}
+
+/* mapa mental */
+.tema-pixel .centro{background:var(--ink);color:var(--bg);font-family:var(--f-display);font-size:20px;padding:14px 22px}
+.tema-pixel .tronco{width:6px;background:repeating-linear-gradient(var(--contorno) 0 4px,transparent 4px 7px)}
+.tema-pixel .ramo{--o:var(--c);background:color-mix(in srgb,var(--c) 12%,var(--surface))}
+.tema-pixel .ramo>div{font-family:var(--f-display);font-weight:600}
+.tema-pixel .ramo>div i{border-radius:0;font-family:var(--f-display);box-shadow:inset 2px 2px 0 rgba(255,255,255,.3)}
+.tema-pixel .folha{--o:var(--c);font-family:var(--f-body)}
+
+/* ranking e perfil */
+.tema-pixel .rrow.me{--o:var(--vio)}
+.tema-pixel .rrow .pos{border-radius:0;font-family:var(--f-display);box-shadow:inset 2px 2px 0 rgba(255,255,255,.35),inset -2px -2px 0 rgba(0,0,0,.15)}
+.tema-pixel .rrow .av{border-radius:0}
+.tema-pixel .rrow .val{font-family:var(--f-display);font-weight:700}
+.tema-pixel .perfil .av{border-radius:0}
+.tema-pixel .stats b{font-family:var(--f-display);font-weight:700}
+.tema-pixel .stats small{font-family:var(--f-display);font-weight:500;font-size:12.5px;letter-spacing:0;text-transform:none}
+
+/* avisos */
+.tema-pixel .toast{border-radius:0;font-family:var(--f-display);font-weight:500;box-shadow:0 0 0 3px var(--contorno),4px 7px 0 rgba(0,0,0,.25)}
+.tema-pixel .skel{background:linear-gradient(90deg,var(--line) 0 33%,var(--surface) 33% 66%,var(--line) 66%);background-size:300% 100%;animation:sk 1.2s steps(3) infinite}
+
+/* ---------- jogos (CSS de cada jogo vem por dentro do JS) ---------- */
+.tema-pixel #jg *{border-radius:0}
+.tema-pixel .cruzadinha-dtexto{font-family:var(--f-body);font-weight:700;font-size:18px}
+
+/* ---------- SHOW DO SISÃO (classes milhao-*, injetadas pelo jogo; aqui só a pele) ---------- */
+.tema-pixel .milhao-faixa{--o:#ffc83d;--d:#8a5a00;background:linear-gradient(#1a2f9a calc(100% - 8px),#0a1450 calc(100% - 8px))}
+.tema-pixel .milhao-faixa .mf-luz{background:linear-gradient(90deg,#ffe58a 0 6px,transparent 6px) 0 50%/16px 6px repeat-x;height:6px}
+.tema-pixel .milhao-faixa small{font-family:var(--f-display);font-weight:500;font-size:13px;letter-spacing:0;text-transform:none}
+.tema-pixel .milhao-faixa b{font-family:var(--f-display);font-weight:700;font-size:clamp(19px,5.6vw,24px);text-shadow:2px 2px 0 #8a5a00}
+.tema-pixel .milhao-faixa .mf-go{border-radius:0;font-family:var(--f-display);font-weight:700;font-size:16px;background:#ffc83d;box-shadow:inset 2px 2px 0 rgba(255,255,255,.5),0 0 0 2px #050a24,0 4px 0 #8a5a00}
+
+html.tema-pixel .milhao-palco{border:0;border-radius:0;
+  box-shadow:0 -3px 0 #ffc83d,-3px 0 0 #ffc83d,3px 0 0 #ffc83d,0 3px 0 #ffc83d,0 -6px 0 #050a24,-6px 0 0 #050a24,6px 0 0 #050a24,0 6px 0 #050a24,-3px -3px 0 #050a24,3px -3px 0 #050a24,-3px 3px 0 #050a24,3px 3px 0 #050a24;
+  background:linear-gradient(#2348d8 0 36px,#1f3fc4 36px 72px,#1a2f9a 72px 120px,#13247a 120px);margin:6px 3px}
+html.tema-pixel .milhao-palco::before,html.tema-pixel .milhao-palco::after{height:6px;background:linear-gradient(90deg,#ffe58a 0 6px,transparent 6px) 0 50%/18px 6px repeat-x}
+html.tema-pixel .milhao-titulo{font-family:var(--f-display);font-weight:700;text-shadow:3px 3px 0 #8a5a00;letter-spacing:0}
+html.tema-pixel .milhao-sub{font-weight:700}
+html.tema-pixel .milhao-regras,html.tema-pixel .milhao-sec,html.tema-pixel .milhao-lista div,html.tema-pixel .milhao-plateia{border-radius:0;border-width:2px}
+html.tema-pixel .milhao-conf{border-radius:0;border:0;box-shadow:0 0 0 3px #ffc83d,0 0 0 6px #050a24}
+html.tema-pixel .milhao-ctopo,html.tema-pixel .milhao-sec h4{font-family:var(--f-display);font-weight:600}
+html.tema-pixel .milhao-btn{border-radius:0;font-family:var(--f-display);font-weight:700;font-size:18px;letter-spacing:0;background:#ffc83d;
+  box-shadow:inset 3px 3px 0 rgba(255,255,255,.45),inset -3px -3px 0 rgba(0,0,0,.12),0 -3px 0 #050a24,-3px 0 0 #050a24,3px 0 0 #050a24,-3px 5px 0 #050a24,3px 5px 0 #050a24,0 5px 0 #8a5a00,0 8px 0 #050a24;margin-bottom:3px}
+html.tema-pixel .milhao-btn:active{transform:translateY(4px);box-shadow:inset 3px 3px 0 rgba(255,255,255,.45),0 -3px 0 #050a24,-3px 0 0 #050a24,3px 0 0 #050a24,-3px 1px 0 #050a24,3px 1px 0 #050a24,0 1px 0 #8a5a00,0 4px 0 #050a24}
+html.tema-pixel .milhao-btn.milhao-azul{background:#2348d8;box-shadow:inset 3px 3px 0 rgba(255,255,255,.22),0 -3px 0 #050a24,-3px 0 0 #050a24,3px 0 0 #050a24,-3px 5px 0 #050a24,3px 5px 0 #050a24,0 5px 0 #0a1450,0 8px 0 #050a24}
+html.tema-pixel .milhao-btn.milhao-vermelho{background:#e8384f;box-shadow:inset 3px 3px 0 rgba(255,255,255,.22),0 -3px 0 #050a24,-3px 0 0 #050a24,3px 0 0 #050a24,-3px 5px 0 #050a24,3px 5px 0 #050a24,0 5px 0 #7f1414,0 8px 0 #050a24}
+html.tema-pixel .milhao-valendo small{font-family:var(--f-display);font-weight:500;font-size:13px;letter-spacing:0;text-transform:none}
+html.tema-pixel .milhao-valendo b,html.tema-pixel .milhao-big{font-family:var(--f-display);font-weight:700;text-shadow:3px 3px 0 #8a5a00}
+html.tema-pixel .milhao-relogio{border-radius:0;font-family:var(--f-display);font-weight:600}
+html.tema-pixel .milhao-pip{border-radius:0;height:8px}
+html.tema-pixel .milhao-tag{border-radius:0;font-family:var(--f-display);font-weight:500;letter-spacing:0;text-transform:none;font-size:13px}
+/* pergunta do jogo: fonte de leitura, moldura em degrau */
+html.tema-pixel .milhao-pergunta{border:0;border-radius:0;background:#0f2470;font-family:var(--f-body);font-weight:800;font-size:clamp(17px,5vw,21px);line-height:1.35;
+  box-shadow:0 -3px 0 #ffc83d,-3px 0 0 #ffc83d,3px 0 0 #ffc83d,0 3px 0 #ffc83d,inset 0 4px 0 rgba(255,255,255,.08)}
+html.tema-pixel .milhao-ops{gap:12px}
+html.tema-pixel .milhao-op{border:0;border-radius:0;background:#16318f;font-family:var(--f-body);
+  box-shadow:0 -2px 0 #ffc83d,-2px 0 0 #ffc83d,2px 0 0 #ffc83d,0 2px 0 #ffc83d}
+html.tema-pixel .milhao-op i{border-radius:0;font-family:var(--f-display);font-weight:700;box-shadow:inset 2px 2px 0 rgba(255,255,255,.5)}
+html.tema-pixel .milhao-op.milhao-sel{background:#ffb347;box-shadow:0 -2px 0 #fff,-2px 0 0 #fff,2px 0 0 #fff,0 2px 0 #fff}
+html.tema-pixel .milhao-op.milhao-certa{background:#17a889;color:#04271a;box-shadow:0 -2px 0 #fff,-2px 0 0 #fff,2px 0 0 #fff,0 2px 0 #fff}
+html.tema-pixel .milhao-op.milhao-errada{background:#e8384f;box-shadow:0 -2px 0 #fff,-2px 0 0 #fff,2px 0 0 #fff,0 2px 0 #fff}
+html.tema-pixel .milhao-aj{border:0;border-radius:0;background:rgba(5,10,46,.6);box-shadow:0 -2px 0 #ffc83d,-2px 0 0 #ffc83d,2px 0 0 #ffc83d,0 2px 0 #ffc83d}
+html.tema-pixel .milhao-bar span:nth-child(2),html.tema-pixel .milhao-bar span:nth-child(2) i{border-radius:0}
+html.tema-pixel .milhao-bar span:nth-child(2) i{background:repeating-linear-gradient(90deg,#ffc83d 0 6px,#b07a00 6px 8px)}
+html.tema-pixel .milhao-res{border-radius:0}
+html.tema-pixel .milhao-res b{font-family:var(--f-display);font-weight:700}
+html.tema-pixel .milhao-mat{border-radius:0;font-family:var(--f-display);font-weight:500}
+html.tema-pixel .milhao-fonte{border-radius:0}
+html.tema-pixel .milhao-xis{border-radius:0}
+html.tema-pixel .milhao-sw{border-radius:0}
+html.tema-pixel .milhao-sw::after{border-radius:0}
+
+@media (prefers-reduced-motion: reduce){.tema-pixel .btn:active,.tema-pixel .tema:active,.tema-pixel .opt:active,.tema-pixel .no:active{transform:none}}
+@media (prefers-color-scheme: dark){:root.tema-pixel:not([data-theme="light"]) .nav button[aria-current="page"]{color:var(--mint)}}
+/* escolha do visual no Perfil (fica no styles-pixel.css pra ficar tudo do visual num lugar; vale nos dois modos) */
+.visual{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.visual .btn{text-transform:none;letter-spacing:0}
+.visual .btn.px-amostra{font-family:'Pixelify Sans',var(--f-display)}

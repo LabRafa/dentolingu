@@ -24,6 +24,40 @@ const I = {
   game: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12a4 4 0 0 1 4 4v3a3 3 0 0 1-5.2 2L15 15H9l-1.8 2A3 3 0 0 1 2 15v-3a4 4 0 0 1 4-4z"/><path d="M7 12h4M9 10v4M15.5 11.5h.01M17.5 13.5h.01"/></svg>',
   google: '<svg viewBox="0 0 24 24"><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.7-2.4 3.6v3h3.8c2.3-2.1 3.6-5.1 3.6-8.8z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 7.9-2.9l-3.8-3c-1.1.7-2.4 1.2-4.1 1.2-3.1 0-5.8-2.1-6.7-5H1.4v3.1C3.4 21.3 7.4 24 12 24z"/><path fill="#FBBC05" d="M5.3 14.3c-.3-.7-.4-1.5-.4-2.3s.1-1.6.4-2.3V6.6H1.4A12 12 0 0 0 0 12c0 1.9.5 3.8 1.4 5.4z"/><path fill="#EA4335" d="M12 4.8c1.8 0 3.3.6 4.6 1.8l3.4-3.4C17.9 1.2 15.2 0 12 0 7.4 0 3.4 2.7 1.4 6.6l3.9 3.1c.9-2.9 3.6-4.9 6.7-4.9z"/></svg>'
 };
+/* ===== VISUAL PIXEL (opção do Perfil, 11/11/2026): ícones em quadradinhos de 12x12. '#' = cor do texto; letras = cores fixas.
+   A classe 'tema-pixel' no <html> liga o styles-pixel.css; já é posta no <head> antes de pintar. ===== */
+const VISUAL_KEY = 'dentolingu-visual', I_NORMAL = Object.assign({}, I);
+const I_PIXEL = (function () {
+  const PAL = { o: '#ff8a1f', y: '#ffd24a', d: '#b07a00', w: '#ffffff', k: '#1b2250' };
+  function px(rows) {
+    const h = rows.length, w = rows[0].length; let r = '';
+    rows.forEach((ln, y) => { let x = 0; while (x < w) { const ch = ln[x]; if (ch === '.') { x++; continue; } let n = 1; while (x + n < w && ln[x + n] === ch) n++; r += `<rect x="${x}" y="${y}" width="${n}" height="1" fill="${ch === '#' ? 'currentColor' : PAL[ch]}"/>`; x += n; } });
+    return `<svg viewBox="0 0 ${w} ${h}" shape-rendering="crispEdges" aria-hidden="true">${r}</svg>`;
+  }
+  return Object.assign({}, I, {
+    tooth: px(['............', '.###....###.', '############', '############', '############', '############', '.##########.', '.##########.', '..###..###..', '..###..###..', '..##....##..', '..#......#..']),
+    flame: px(['.....o......', '.....oo.....', '....ooo.....', '....oooo..o.', '...ooooo.oo.', '..oooooooooo', '..ooooyooooo', '.ooooyyyoooo', '.oooyyyyyooo', '.oooyyyyyooo', '..ooyyyyyoo.', '...ooooooo..']),
+    xp: px(['.....yy.....', '.....yy.....', '....yyyy....', 'yyyyyyyyyyyy', '.yyyyyyyyyy.', '..yyyyyyyy..', '...yyyyyy...', '...yyyyyy...', '..yyy..yyy..', '..yy....yy..', '.yy......yy.', '............']),
+    heart: px(['............', '.###....###.', '#####..#####', '############', '############', '############', '.##########.', '..########..', '...######...', '....####....', '.....##.....', '............']),
+    check: px(['............', '..........##', '.........###', '........###.', '.##....###..', '.###..###...', '..######....', '...####.....', '....##......', '............']),
+    play: px(['............', '...##.......', '...####.....', '...######...', '...########.', '...#########', '...#########', '...########.', '...######...', '...####.....', '...##.......', '............']),
+    home: px(['.....##.....', '....####....', '...######...', '..########..', '.##########.', '############', '.##########.', '.###....###.', '.###....###.', '.###....###.', '.###....###.', '............']),
+    trophy: px(['.##########.', '#.########.#', '#.########.#', '#.########.#', '.##########.', '..########..', '...######...', '.....##.....', '.....##.....', '....####....', '..########..', '..########..']),
+    user: px(['....####....', '...######...', '...######...', '...######...', '....####....', '............', '..########..', '.##########.', '.##########.', '############', '############', '............']),
+    trilha: px(['.........###', '.........###', '.........###', '..........#.', '......####..', '.....#......', '.....#......', '..####......', '.#..........', '###.........', '###.........', '###.........']),
+    simu: px(['....####....', '............', '...######...', '.##......##.', '.#...#....#.', '#....#.....#', '#....###...#', '#..........#', '.#........#.', '.##......##.', '...######...', '............']),
+    cards: px(['...#########', '...#.......#', '#########..#', '#.......#..#', '#.......#..#', '#.......#..#', '#.......#..#', '#.......#..#', '#.......#..#', '#.......####', '#.......#...', '#########...']),
+    mapa: px(['##........##', '##........##', '..#......#..', '...#....#...', '....####....', '....####....', '....####....', '....####....', '...#....#...', '..#......#..', '##........##', '##........##']),
+    game: px(['............', '............', '.##########.', '############', '##.#####.###', '#...###.#.##', '##.#####.###', '############', '####....####', '.##......##.', '............', '............'])
+  });
+})();
+function visualAtual() { try { return localStorage.getItem(VISUAL_KEY) === 'pixel' ? 'pixel' : 'normal'; } catch (e) { return 'normal'; } }
+function aplicaVisual(v) {
+  document.documentElement.classList.toggle('tema-pixel', v === 'pixel');
+  Object.assign(I, v === 'pixel' ? I_PIXEL : I_NORMAL);
+  const tc = document.querySelector('meta[name="theme-color"]'); if (tc) tc.content = v === 'pixel' ? '#1b2250' : '#1fa88f';
+}
+aplicaVisual(visualAtual());
 
 /* ===== ESTADO ===== */
 const CORES = ['#7566f0', '#ec5b78', '#1fa88f', '#2f8fe0', '#e89a00', '#8a5a44'];
@@ -322,9 +356,11 @@ function perfil() {
   const pct = pctDe(S), feitas = Object.values(S.done || {}).reduce((a, d) => a + Object.values(d).filter(Boolean).length, 0);
   const admin = USER && ADMIN_EMAILS.includes(USER.email || '');
   app.innerHTML = topo(false) + `<div class="perfil"><img class="av" src="${esc(S.foto || (USER && USER.photoURL) || '')}" alt="" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"><h2>${esc(S.nome || (USER && USER.displayName) || 'Visitante')}</h2>${DEMO ? '<p class="note">Modo demonstração: sem login, progresso só neste aparelho.</p>' : ''}<div class="stats"><div><b>${S.xp}</b><small>pontos</small></div><div><b>${S.streak}</b><small>dias seguidos</small></div><div><b>${pct == null ? '–' : pct + '%'}</b><small>acertos</small></div><div><b>${feitas}</b><small>lições feitas</small></div><div><b>${S.total}</b><small>respostas</small></div><div><b>${(S.xpSemana || {})[semanaKey()] || 0}</b><small>esta semana</small></div></div>` +
+    (() => { const v = visualAtual(); return `<div class="card" style="width:100%;text-align:left"><h3>Visual</h3><div class="visual" role="group" aria-label="Visual do app"><button type="button" class="btn sm ${v === 'normal' ? '' : 'ghost'}" data-vis="normal" aria-pressed="${v === 'normal'}">Normal</button><button type="button" class="btn sm px-amostra ${v === 'pixel' ? '' : 'ghost'}" data-vis="pixel" aria-pressed="${v === 'pixel'}">Pixel</button></div><p class="fonte">Pixel deixa botões e títulos com cara de videogame. Fica salvo neste aparelho.</p></div>`; })() +
     (DEMO ? '' : `<div class="card" style="width:100%;text-align:left"><label class="switch"><input type="checkbox" id="rk" ${S.ranking ? 'checked' : ''}> Aparecer no ranking da turma</label><p class="fonte">Quem marca aparece com nome e foto do Google pra turma. Desmarque quando quiser.</p></div><button class="btn ghost" id="out">Sair</button>`) +
     (admin ? `<div class="card" style="width:100%;text-align:left"><h3>Publicar tema (admin)</h3><p class="fonte">Cole o JSON de um tema gerado pela Mônica. Ele entra na coleção "temas" e aparece pra turma.</p><textarea id="tj" rows="6" style="width:100%;font:13px monospace;border-radius:12px;border:2px solid var(--line);background:var(--surface);color:var(--ink);padding:8px"></textarea><button class="btn vio sm" id="tp">Publicar</button><p class="fonte" id="ts"></p></div>` : '') + `</div>`;
   ligaTopo();
+  app.querySelectorAll('[data-vis]').forEach(b => b.onclick = () => { const v = b.dataset.vis; try { localStorage.setItem(VISUAL_KEY, v); } catch (e) { } aplicaVisual(v); perfil(); toast(v === 'pixel' ? 'Visual pixel ligado' : 'Visual normal ligado'); });
   if (!DEMO) {
     $('#rk').onchange = e => { S.ranking = e.target.checked; salvar(); toast(S.ranking ? 'Você entrou no ranking' : 'Você saiu do ranking'); };
     $('#out').onclick = () => FB.auth().signOut();
