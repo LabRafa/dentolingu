@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mesa de som</title>
+<meta name="description" content="Mesa de som do Simulado do simulado: sons nostálgicos de videogame e auditório, todos sintetizados na hora.">
+<style>
+:root{--fundo:#eceef1;--papel:#fff;--tinta:#1d1d1f;--cinza:#6b6f76;--linha:#d6d8dc;--barra:#e9eaec;--marca:#1f3b73}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--tinta);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.45}
+.topo{position:sticky;top:0;z-index:5;background:var(--marca);color:#fff;padding:10px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.topo b{font-size:15px}.topo a{color:#fff;font-size:14px}
+.som{margin-left:auto;background:transparent;border:1px solid rgba(255,255,255,.55);color:#fff;border-radius:6px;padding:4px 10px;font:inherit;font-size:15px;cursor:pointer;min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+main{max-width:860px;margin:0 auto;padding:16px}
+.card{background:var(--papel);border:1px solid var(--linha);border-radius:10px;padding:18px;margin-bottom:14px}
+h1{font-size:22px;margin:0 0 6px}h2{font-size:18px;margin:0 0 4px}
+.sub{color:var(--cinza);font-size:14px;margin:0 0 12px}
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+.tecla{display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;border:1.5px solid var(--marca);background:#fff;color:var(--tinta);border-radius:10px;padding:10px 12px;font:inherit;cursor:pointer;min-width:0}
+.tecla:hover{background:#f2f5fb}.tecla.toca{background:var(--marca);color:#fff}.tecla.toca small{color:#dfe6f5}
+.tecla b{font-size:15px;color:inherit}.tecla small{font-size:12px;color:var(--cinza);overflow-wrap:anywhere}
+.vol{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.vol input{flex:1;min-width:140px;max-width:320px}
+.btn{display:inline-block;border:0;border-radius:8px;padding:9px 14px;font:inherit;font-weight:bold;background:var(--marca);color:#fff;cursor:pointer;margin:4px 8px 4px 0}
+.btn.ghost{background:#fff;color:var(--marca);border:1.5px solid var(--marca)}
+.bordoes{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.bordoes li{background:var(--barra);border-radius:8px;padding:7px 10px;font-size:14px;overflow-wrap:anywhere}
+.bordoes li span{display:inline-block;min-width:96px;color:var(--cinza);font-size:12px;text-transform:uppercase;letter-spacing:.3px}
+.aviso{font-size:13px;color:var(--cinza)}
+footer{text-align:center;font-size:12px;color:var(--cinza);padding:10px 16px 24px}
+footer a{color:var(--cinza)}
+@media (max-width:760px){main{padding:12px}.grade{grid-template-columns:1fr 1fr}}
+@media (max-width:380px){.grade{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="topo">
+  <b>Mesa de som</b><a href="index.html">voltar ao simulado</a>
+  <button type="button" class="som" id="mudo" aria-label="Silenciar sons"></button>
+</div>
+<main>
+  <div class="card">
+    <h1>Sons dos anos 90</h1>
+    <p class="sub">Videogame de 8 e 16 bits e auditório de TV, todos criados na hora pelo próprio navegador. Nenhuma gravação, nenhuma voz, nenhuma música de programa ou de jogo de verdade.</p>
+    <div class="vol"><label for="vol">Volume</label><input type="range" id="vol" min="0" max="1" step="0.05"><span id="volv" class="aviso"></span></div>
+    <p class="aviso" id="semaudio" hidden>Este navegador não tocou som. A página funciona do mesmo jeito, só que em silêncio.</p>
+  </div>
+  <div class="card"><h2>Videogame</h2><p class="sub">Clique, moedinha, acerto, erro, poder extra, nível, fim de jogo, vitória e contagem.</p><div class="grade" id="g-jogo"></div></div>
+  <div class="card"><h2>Auditório</h2><p class="sub">Vinheta, rufar, metais, buzininha, plateia, prêmio máximo e os sons da nota.</p><div class="grade" id="g-tv"></div></div>
+  <div class="card">
+    <h2>Bordões</h2><p class="sub">Só em texto, um sorteado de cada momento.</p>
+    <ul class="bordoes" id="bordoes"></ul>
+    <button type="button" class="btn ghost" id="sortear">Sortear de novo</button>
+    <button type="button" class="btn" id="todos">Tocar todos em sequência</button>
+  </div>
+</main>
+<footer>Mesa de som do <a href="index.html">Simulado do simulado</a>. Os sons usam a Web Audio API; sem ela, fica tudo em silêncio.</footer>
+<script src="sons.js"></script>
+<script>
+(function () {
+  var $ = function (s) { return document.querySelector(s); };
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  var NOMES = { moeda: 'Moedinha', acerto_jogo: 'Acerto (jogo)', erro_jogo: 'Erro (jogo)', powerup: 'Poder extra', nivel: 'Subiu de nível', gameover: 'Fim de jogo', vitoria_jogo: 'Vitória', contagem: 'Contagem', inicio: 'Início', faltam: 'Faltam questões', confirmar: 'Confirmar', acerto: 'Acerto', erro: 'Erro', nota_alta: 'Nota alta', nota_media: 'Nota média', nota_baixa: 'Nota baixa', novo: 'Novo' };
+  if (!window.Sons) { $('#semaudio').hidden = false; return; }
+  function pintaMudo() { var m = Sons.mudo(); var b = $('#mudo'); b.textContent = m ? '🔇 Som desligado' : '🔊 Som ligado'; b.setAttribute('aria-pressed', String(m)); }
+  $('#mudo').onclick = function () { Sons.alternarMudo(); pintaMudo(); };
+  pintaMudo();
+  var v = $('#vol');
+  v.value = Sons.volume(); $('#volv').textContent = Math.round(Sons.volume() * 100) + '%';
+  v.oninput = function () { Sons.volume(+v.value); $('#volv').textContent = Math.round(Sons.volume() * 100) + '%'; };
+  v.onchange = function () { Sons.tocar('clique'); };
+  var lista = Sons.lista();
+  ['jogo', 'tv'].forEach(function (g) {
+    $('#g-' + g).innerHTML = lista.filter(function (s) { return s.grupo === g; }).map(function (s) {
+      return '<button type="button" class="tecla" data-som="' + esc(s.nome) + '"><b>' + esc(s.rotulo) + '</b><small>' + esc(s.uso) + '</small></button>';
+    }).join('');
+  });
+  function tocar(el) {
+    var ok = Sons.tocar(el.dataset.som);
+    if (!ok && !Sons.mudo() && !Sons.disponivel()) $('#semaudio').hidden = false;
+    el.classList.add('toca'); setTimeout(function () { el.classList.remove('toca'); }, 350);
+  }
+  document.querySelectorAll('.tecla').forEach(function (el) { el.onclick = function () { tocar(el); }; });
+  function sorteia() {
+    $('#bordoes').innerHTML = Sons.momentos().map(function (m) { return '<li><span>' + esc(NOMES[m] || m) + '</span> ' + esc(Sons.bordao(m)) + '</li>'; }).join('');
+  }
+  $('#sortear').onclick = sorteia; sorteia();
+  var fila = null;
+  $('#todos').onclick = function () {
+    if (fila) { clearTimeout(fila); fila = null; Sons.parar(); $('#todos').textContent = 'Tocar todos em sequência'; return; }
+    var teclas = Array.prototype.slice.call(document.querySelectorAll('.tecla')), i = 0;
+    var durs = { gameover: 2.4, vitoria_jogo: 2.6, contagem: 3.8, vinheta: 3.3, suspense: 1.8, aplausos: 2.8, milhao: 3.5, nota_alta: 1.7, nota_baixa: 1.7, nota_media: 1.3, novo: 1.2 };
+    $('#todos').textContent = 'Parar a sequência';
+    (function proximo() {
+      if (i >= teclas.length) { fila = null; $('#todos').textContent = 'Tocar todos em sequência'; return; }
+      var el = teclas[i++]; tocar(el);
+      fila = setTimeout(proximo, ((durs[el.dataset.som] || 0.9) + 0.35) * 1000);
+    })();
+  };
+})();
+</script>
+</body>
+</html>

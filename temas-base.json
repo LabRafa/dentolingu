@@ -1,0 +1,1082 @@
+[
+ {
+  "id": "mand",
+  "titulo": "Anestesia na mandíbula",
+  "sub": "Nervo mandibular (V3): técnicas, posição, volume e complicações",
+  "cor": "#7566f0",
+  "fonte": "Slides do Prof. Gustavo Holderbaum, Técnicas Anestésicas na Mandíbula (22/10/2026). Mentoniano e incisivo ficaram de fora porque no slide estão em imagem. Doses e condutas que valem são as do professor.",
+  "licoes": [
+   {
+    "nome": "Quem anestesia o quê",
+    "qs": [
+     {
+      "t": "par",
+      "q": "Ligue a técnica ou o nervo ao que ele alcança",
+      "p": [
+       [
+        "Alveolar inferior (convencional)",
+        "Todos os dentes de um lado da mandíbula e tecidos moles do hemiarco, menos a vestibular dos molares"
+       ],
+       [
+        "Nervo lingual",
+        "Metade anterior da língua, soalho da boca e gengiva lingual"
+       ],
+       [
+        "Nervo bucal",
+        "Mucosa e gengiva vestibular dos molares inferiores"
+       ],
+       [
+        "Gow-Gates",
+        "Todo o ramo mandibular: alveolar inferior, lingual, bucal, auriculotemporal e milo-hióideo"
+       ],
+       [
+        "Vazirani-Akinosi",
+        "Indicada em trismo, alternativa ao convencional"
+       ]
+      ]
+     },
+     {
+      "t": "mc",
+      "q": "Paciente com trismo (abre pouco a boca). Qual técnica fica indicada?",
+      "o": [
+       "Vazirani-Akinosi",
+       "Nervo bucal",
+       "Intrapapilar",
+       "Bloqueio convencional com boca bem aberta"
+      ],
+      "a": 0,
+      "w": "O Vazirani-Akinosi é feito com a boca fechada, por isso serve quando a abertura é limitada."
+     },
+     {
+      "t": "vf",
+      "q": "O nervo bucal anestesia a mucosa e a gengiva vestibular dos molares inferiores.",
+      "a": true,
+      "w": "É por isso que o bucal costuma ser complementar ao alveolar inferior."
+     },
+     {
+      "t": "vf",
+      "q": "O bloqueio do alveolar inferior anestesia também a região vestibular dos molares.",
+      "a": false,
+      "w": "Essa região vestibular dos molares fica de fora. Ela é do nervo bucal."
+     },
+     {
+      "t": "mc",
+      "q": "O nervo lingual alcança qual região?",
+      "o": [
+       "Metade anterior da língua, soalho bucal e gengiva lingual",
+       "Lábio superior e asa do nariz",
+       "Palato duro de canino a canino",
+       "Todo o ramo mandibular"
+      ],
+      "a": 0,
+      "w": "Lingual: língua (metade anterior), soalho da boca e gengiva por lingual."
+     }
+    ]
+   },
+   {
+    "nome": "Posição e punção",
+    "qs": [
+     {
+      "t": "par",
+      "q": "Ligue a técnica ao posicionamento",
+      "p": [
+       [
+        "Alveolar inferior",
+        "Boca bem aberta, operador contralateral, punção no triângulo retromolar, 6 a 10 mm acima do plano oclusal"
+       ],
+       [
+        "Lingual",
+        "Feito no recuo da agulha do alveolar inferior"
+       ],
+       [
+        "Bucal",
+        "Paciente parcialmente aberto, agulha curta na mucosa distal ao último molar inferior"
+       ],
+       [
+        "Gow-Gates",
+        "Boca bem aberta, punção distal ao 2º molar superior, na cúspide mésio-palatina, rumo ao colo do côndilo"
+       ],
+       [
+        "Vazirani-Akinosi",
+        "Dentes ocluídos (boca fechada), agulha longa paralela ao plano oclusal"
+       ]
+      ]
+     },
+     {
+      "t": "mc",
+      "q": "Em qual técnica o paciente fica de boca fechada, com os dentes ocluídos?",
+      "o": [
+       "Vazirani-Akinosi",
+       "Gow-Gates",
+       "Alveolar inferior",
+       "Bucal"
+      ],
+      "a": 0,
+      "w": "Vazirani-Akinosi: dentes ocluídos e agulha paralela ao plano oclusal."
+     },
+     {
+      "t": "vf",
+      "q": "No Gow-Gates, a agulha é direcionada ao colo do côndilo.",
+      "a": true,
+      "w": "A punção é distal ao 2º molar superior, na altura da cúspide mésio-palatina, rumo ao colo do côndilo."
+     },
+     {
+      "t": "mc",
+      "q": "Como se faz a anestesia do nervo lingual?",
+      "o": [
+       "No recuo da agulha do alveolar inferior",
+       "Com punção separada no fundo de vestíbulo",
+       "Por via palatina",
+       "Só com a boca fechada"
+      ],
+      "a": 0,
+      "w": "O lingual aproveita o recuo da agulha do alveolar inferior."
+     }
+    ]
+   },
+   {
+    "nome": "Volumes e profundidade",
+    "qs": [
+     {
+      "t": "par",
+      "q": "Ligue a técnica ao volume e à profundidade",
+      "p": [
+       [
+        "Alveolar inferior",
+        "Agulha longa até o osso (20 a 25 mm), recua 1 mm, aspira, 1,0 a 1,5 mL devagar"
+       ],
+       [
+        "Lingual",
+        "0,3 mL"
+       ],
+       [
+        "Bucal",
+        "0,3 a 0,5 mL no vestíbulo"
+       ],
+       [
+        "Gow-Gates",
+        "Inserir 25 a 30 mm, aspirar, 1,8 mL, manter a boca aberta 1 a 2 min"
+       ],
+       [
+        "Vazirani-Akinosi",
+        "Avançar 25 mm até o espaço pterigomandibular, 1,5 a 1,8 mL"
+       ]
+      ]
+     },
+     {
+      "t": "mc",
+      "q": "Qual o volume do nervo lingual?",
+      "o": [
+       "0,3 mL",
+       "1,8 mL",
+       "1,0 a 1,5 mL",
+       "0,9 mL"
+      ],
+      "a": 0,
+      "w": "Lingual 0,3 mL. Bucal 0,3 a 0,5 mL."
+     },
+     {
+      "t": "vf",
+      "q": "No alveolar inferior, depois de tocar o osso, recua-se cerca de 1 mm antes de aspirar.",
+      "a": true,
+      "w": "Depois vem a injeção lenta de 1,0 a 1,5 mL."
+     },
+     {
+      "t": "mc",
+      "q": "Depois de injetar o Gow-Gates, o que se faz com a boca do paciente?",
+      "o": [
+       "Mantém aberta por 1 a 2 minutos",
+       "Fecha na hora",
+       "Pede para mastigar",
+       "Sela com gaze e libera"
+      ],
+      "a": 0,
+      "w": "Manter a boca aberta de 1 a 2 minutos ajuda a solução a chegar onde deve."
+     }
+    ]
+   },
+   {
+    "nome": "Situações e complicações",
+    "qs": [
+     {
+      "t": "par",
+      "q": "Ligue a situação à técnica indicada",
+      "p": [
+       [
+        "O bloqueio convencional falhou",
+        "Gow-Gates"
+       ],
+       [
+        "Paciente com trismo",
+        "Vazirani-Akinosi"
+       ],
+       [
+        "Gengiva vestibular dos molares inferiores",
+        "Nervo bucal"
+       ],
+       [
+        "Soalho bucal e metade anterior da língua",
+        "Nervo lingual"
+       ],
+       [
+        "Todos os dentes de um lado da mandíbula",
+        "Alveolar inferior"
+       ]
+      ]
+     },
+     {
+      "t": "par",
+      "q": "Ligue a complicação à causa",
+      "p": [
+       [
+        "Falha anestésica",
+        "Localização incorreta"
+       ],
+       [
+        "Parestesia transitória",
+        "Lesão do nervo lingual ou alveolar inferior"
+       ],
+       [
+        "Hematoma",
+        "Lesão vascular"
+       ],
+       [
+        "Trismo",
+        "Infiltração no músculo pterigóideo"
+       ],
+       [
+        "Paralisia facial transitória",
+        "Injeção inadvertida no nervo facial"
+       ]
+      ]
+     },
+     {
+      "t": "mc",
+      "q": "Paralisia facial transitória depois da anestesia. Qual a causa?",
+      "o": [
+       "Injeção inadvertida no nervo facial",
+       "Lesão vascular",
+       "Infiltração no músculo pterigóideo",
+       "Localização incorreta"
+      ],
+      "a": 0,
+      "w": "O anestésico chegou ao nervo facial por engano. É transitório."
+     }
+    ]
+   }
+  ],
+  "cards": [
+   [
+    "Alveolar inferior: o que anestesia?",
+    "Todos os dentes de um lado da mandíbula e tecidos moles do hemiarco, exceto a vestibular dos molares"
+   ],
+   [
+    "Alveolar inferior: profundidade e volume",
+    "Agulha longa até o osso (20 a 25 mm), recua 1 mm, aspira, 1,0 a 1,5 mL devagar"
+   ],
+   [
+    "Nervo lingual: alcance e volume",
+    "Metade anterior da língua, soalho bucal e gengiva lingual. 0,3 mL, no recuo da agulha"
+   ],
+   [
+    "Nervo bucal: alcance e volume",
+    "Mucosa e gengiva vestibular dos molares inferiores. 0,3 a 0,5 mL no vestíbulo"
+   ],
+   [
+    "Gow-Gates: posição",
+    "Boca bem aberta, punção distal ao 2º molar superior (cúspide mésio-palatina), rumo ao colo do côndilo. 1,8 mL"
+   ],
+   [
+    "Gow-Gates: o que alcança?",
+    "Todo o ramo mandibular: alveolar inferior, lingual, bucal, auriculotemporal e milo-hióideo"
+   ],
+   [
+    "Vazirani-Akinosi: quando e como?",
+    "Trismo. Boca fechada, dentes ocluídos, agulha longa paralela ao plano oclusal, avança 25 mm, 1,5 a 1,8 mL"
+   ],
+   [
+    "Hematoma: causa",
+    "Lesão vascular"
+   ],
+   [
+    "Trismo pós-anestesia: causa",
+    "Infiltração no músculo pterigóideo"
+   ],
+   [
+    "Paralisia facial transitória: causa",
+    "Injeção inadvertida no nervo facial"
+   ]
+  ],
+  "mapa": {
+   "centro": "Nervo mandibular (V3)",
+   "ramos": [
+    {
+     "t": "Alveolar inferior",
+     "cor": "#7566f0",
+     "n": "1",
+     "i": [
+      "Todos os dentes de um lado do hemiarco",
+      "Exceto a vestibular dos molares",
+      "Boca bem aberta, 6 a 10 mm acima do plano oclusal",
+      "Recua 1 mm e aspira",
+      "1,0 a 1,5 mL"
+     ]
+    },
+    {
+     "t": "Lingual",
+     "cor": "#ec5b78",
+     "n": "2",
+     "i": [
+      "Metade anterior da língua",
+      "Soalho bucal e gengiva lingual",
+      "No recuo da agulha do alveolar inferior",
+      "0,3 mL"
+     ]
+    },
+    {
+     "t": "Bucal",
+     "cor": "#1fa88f",
+     "n": "3",
+     "i": [
+      "Gengiva e mucosa vestibular dos molares",
+      "Agulha curta distal ao último molar",
+      "0,3 a 0,5 mL"
+     ]
+    },
+    {
+     "t": "Gow-Gates",
+     "cor": "#2f8fe0",
+     "n": "4",
+     "i": [
+      "Todo o ramo mandibular",
+      "Boca bem aberta, rumo ao colo do côndilo",
+      "1,8 mL, boca aberta 1 a 2 min",
+      "Quando o convencional falha"
+     ]
+    },
+    {
+     "t": "Vazirani-Akinosi",
+     "cor": "#e89a00",
+     "n": "5",
+     "i": [
+      "Boca fechada, dentes ocluídos",
+      "Agulha paralela ao plano oclusal",
+      "Avança 25 mm, 1,5 a 1,8 mL",
+      "Indicada no trismo"
+     ]
+    },
+    {
+     "t": "Complicações",
+     "cor": "#8a5a44",
+     "n": "6",
+     "i": [
+      "Falha: localização incorreta",
+      "Parestesia: lesão do lingual ou alveolar inferior",
+      "Hematoma: lesão vascular",
+      "Trismo: pterigóideo",
+      "Paralisia facial: nervo facial"
+     ]
+    }
+   ]
+  },
+  "materia": "Farmacologia e Anestesiologia",
+  "aula": "2026-10-22",
+  "termos": [
+   {
+    "p": "LINGUAL",
+    "e": "lingual",
+    "d": "Nervo que anestesia a metade anterior da língua e o soalho da boca"
+   },
+   {
+    "p": "BUCAL",
+    "e": "bucal",
+    "d": "Nervo complementar ao alveolar inferior, que pega a mucosa e a gengiva vestibular dos molares de baixo"
+   },
+   {
+    "p": "GOWGATES",
+    "e": "Gow-Gates",
+    "d": "Técnica que alcança todo o ramo mandibular e entra quando o bloqueio convencional falha"
+   },
+   {
+    "p": "AKINOSI",
+    "e": "Akinosi",
+    "d": "Segundo nome da técnica de boca fechada, com os dentes ocluídos, indicada no trismo"
+   },
+   {
+    "p": "TRISMO",
+    "e": "trismo",
+    "d": "Abertura limitada da boca, que pode surgir por infiltração no músculo pterigóideo"
+   },
+   {
+    "p": "HEMATOMA",
+    "e": "hematoma",
+    "d": "Complicação causada por lesão vascular"
+   },
+   {
+    "p": "PTERIGOIDEO",
+    "e": "pterigóideo",
+    "d": "Músculo que, infiltrado por engano, causa trismo"
+   },
+   {
+    "p": "CONDILO",
+    "e": "côndilo",
+    "d": "Estrutura cujo colo é o alvo da agulha no Gow-Gates"
+   },
+   {
+    "p": "PARESTESIA",
+    "e": "parestesia",
+    "d": "Complicação transitória por lesão do nervo lingual ou do alveolar inferior"
+   },
+   {
+    "p": "RETROMOLAR",
+    "e": "retromolar",
+    "d": "Triângulo onde se faz a punção do alveolar inferior, 6 a 10 mm acima do plano oclusal"
+   },
+   {
+    "p": "MILOHIOIDEO",
+    "e": "milo-hióideo",
+    "d": "Nervo alcançado pelo Gow-Gates, citado junto com o auriculotemporal"
+   },
+   {
+    "p": "ALVEOLAR",
+    "e": "alveolar",
+    "d": "Nervo inferior do bloqueio convencional, que pega todos os dentes de um lado da mandíbula"
+   },
+   {
+    "p": "ASPIRAR",
+    "e": "aspirar",
+    "d": "Gesto feito depois de recuar 1 mm e antes de injetar devagar"
+   },
+   {
+    "p": "PARALISIA",
+    "e": "paralisia",
+    "d": "Complicação facial transitória, por injeção inadvertida no nervo facial"
+   }
+  ]
+ },
+ {
+  "id": "max",
+  "titulo": "Anestesia na maxila",
+  "sub": "Infiltração, palato, bloqueios PSA, ASA e infraorbitário",
+  "cor": "#1fa88f",
+  "fonte": "Slides do Prof. Gustavo, Técnicas Anestésicas (Parte 1 e Maxila), arquivos de 12/10/2026. Só o texto dos slides foi lido. A dose que vale é a do professor.",
+  "licoes": [
+   {
+    "nome": "Por que a maxila é diferente",
+    "qs": [
+     {
+      "t": "mc",
+      "q": "Por que a infiltração funciona bem na maxila?",
+      "o": [
+       "O osso é poroso e a solução difunde",
+       "O osso é mais denso",
+       "A mucosa é mais fina em toda parte",
+       "O nervo fica exposto"
+      ],
+      "a": 0,
+      "w": "Maxila: osso poroso, a solução difunde. Mandíbula: osso mais denso, infiltração menos eficaz."
+     },
+     {
+      "t": "vf",
+      "q": "Na mandíbula as infiltrações são mais eficazes que na maxila.",
+      "a": false,
+      "w": "É o contrário. O osso da mandíbula é mais denso."
+     },
+     {
+      "t": "mc",
+      "q": "Qual a técnica mais usada na maxila?",
+      "o": [
+       "Infiltração supraperiosteal",
+       "Intraóssea",
+       "Intrapulpar",
+       "Gow-Gates"
+      ],
+      "a": 0,
+      "w": "Supraperiosteal: simples, alta taxa de sucesso e poucas complicações."
+     },
+     {
+      "t": "mc",
+      "q": "Na supraperiosteal, qual a profundidade e o volume?",
+      "o": [
+       "Agulha curta, 2 a 3 mm, 0,6 a 1,0 mL",
+       "Agulha longa, 25 mm, 1,8 mL",
+       "1 a 2 mm, 0,2 mL",
+       "Até o osso, 1,5 mL"
+      ],
+      "a": 0,
+      "w": "Agulha curta na mucosa vestibular, 2 a 3 mm, depósito lento de 0,6 a 1,0 mL."
+     },
+     {
+      "t": "mc",
+      "q": "A supraperiosteal anestesia o quê?",
+      "o": [
+       "Dente, osso alveolar e tecido mole vestibular",
+       "Só a mucosa",
+       "Todo o lado da maxila",
+       "Só o palato"
+      ],
+      "a": 0,
+      "w": "Dente, osso alveolar adjacente e tecido mole vestibular."
+     }
+    ]
+   },
+   {
+    "nome": "Palato e bloqueios",
+    "qs": [
+     {
+      "t": "par",
+      "q": "Ligue a técnica ao que ela anestesia",
+      "p": [
+       [
+        "Nasopalatino",
+        "Mucosa palatina de incisivos e caninos"
+       ],
+       [
+        "Palatino maior",
+        "Mucosa palatina de pré-molares e molares"
+       ],
+       [
+        "PSA",
+        "Molares superiores"
+       ],
+       [
+        "ASA",
+        "Incisivos e caninos"
+       ],
+       [
+        "Infraorbitário",
+        "Incisivos, caninos e pré-molares, lábio superior, asa do nariz e pálpebra inferior"
+       ]
+      ]
+     },
+     {
+      "t": "mc",
+      "q": "Onde se pune no nasopalatino, e quanto se injeta?",
+      "o": [
+       "Papila incisiva, 0,2 a 0,3 mL",
+       "Forame palatino maior, 0,25 a 0,5 mL",
+       "Fossa canina, 0,9 mL",
+       "Acima do 2º molar, 0,9 a 1,2 mL"
+      ],
+      "a": 0,
+      "w": "Nasopalatino na papila incisiva, 0,2 a 0,3 mL, devagar porque incomoda."
+     },
+     {
+      "t": "mc",
+      "q": "Palatino maior: ponto de punção e volume?",
+      "o": [
+       "Perto do forame palatino maior, 0,25 a 0,5 mL",
+       "Papila incisiva, 0,2 mL",
+       "Fundo de vestíbulo, 1 mL",
+       "Sulco gengival, 0,2 mL"
+      ],
+      "a": 0,
+      "w": "Cobre área ampla com pouco volume, ótimo em cirurgia palatina."
+     },
+     {
+      "t": "mc",
+      "q": "PSA: qual agulha e qual volume?",
+      "o": [
+       "Curta 27 ou 30, 0,9 a 1,2 mL",
+       "Longa 25, 1,8 mL",
+       "Curta 30, 0,2 mL",
+       "Longa 27, 0,3 mL"
+      ],
+      "a": 0,
+      "w": "Inserção na vestibular acima do 2º molar, para trás, para cima e para dentro, a 45 graus."
+     },
+     {
+      "t": "vf",
+      "q": "O PSA pode não anestesiar a raiz mésio-vestibular do 1º molar superior.",
+      "a": true,
+      "w": "É a exceção que o professor cita."
+     }
+    ]
+   },
+   {
+    "nome": "Técnicas especiais",
+    "qs": [
+     {
+      "t": "par",
+      "q": "Ligue a técnica ao volume",
+      "p": [
+       [
+        "Intrapapilar",
+        "0,2 mL na papila interdental"
+       ],
+       [
+        "Intraligamentar",
+        "0,2 mL por raiz, sob pressão"
+       ],
+       [
+        "Intrasseptal",
+        "0,2 a 0,4 mL no osso interproximal"
+       ]
+      ]
+     },
+     {
+      "t": "vf",
+      "q": "A técnica intraóssea tem risco de taquicardia.",
+      "a": true,
+      "w": "O vasoconstritor cai rápido na circulação. Exige perfuração prévia do osso."
+     },
+     {
+      "t": "mc",
+      "q": "Qual técnica é muito dolorosa, eficaz e raramente indicada na rotina?",
+      "o": [
+       "Intrapulpar",
+       "Supraperiosteal",
+       "Nasopalatino",
+       "Tópica"
+      ],
+      "a": 0,
+      "w": "Intrapulpar: direto na polpa exposta, volume mínimo."
+     },
+     {
+      "t": "mc",
+      "q": "A intraligamentar (PDL) é usada para...",
+      "o": [
+       "Anestesia unitária, por raiz",
+       "Todos os dentes da hemiarcada",
+       "O palato duro inteiro",
+       "Lábio superior"
+      ],
+      "a": 0,
+      "w": "Aplica no sulco gengival, sob pressão, 0,2 mL por raiz."
+     }
+    ]
+   }
+  ],
+  "cards": [
+   [
+    "Maxila x mandíbula",
+    "Maxila: osso poroso, a solução difunde. Mandíbula: osso mais denso, infiltração menos eficaz"
+   ],
+   [
+    "Supraperiosteal",
+    "Agulha curta, 2 a 3 mm na mucosa vestibular, 0,6 a 1,0 mL devagar. Dente, osso e tecido mole vestibular"
+   ],
+   [
+    "Nasopalatino",
+    "Papila incisiva, 0,2 a 0,3 mL. Mucosa palatina de incisivos e caninos"
+   ],
+   [
+    "Palatino maior",
+    "Forame palatino maior, 0,25 a 0,5 mL. Mucosa palatina de pré-molares e molares"
+   ],
+   [
+    "PSA",
+    "Molares superiores. Agulha curta 27 ou 30, 0,9 a 1,2 mL, 45 graus. Exceção: raiz mésio-vestibular do 1º molar"
+   ],
+   [
+    "ASA",
+    "Incisivos e caninos. Agulha curta 30, fossa canina, 0,9 mL"
+   ],
+   [
+    "Infraorbitário",
+    "Incisivos, caninos e pré-molares + lábio superior, asa do nariz e pálpebra inferior. 0,9 a 1,2 mL"
+   ],
+   [
+    "Intraóssea: risco",
+    "Taquicardia, porque o vasoconstritor cai rápido na circulação"
+   ]
+  ],
+  "mapa": {
+   "centro": "Anestesia na maxila",
+   "ramos": [
+    {
+     "t": "Infiltração",
+     "cor": "#1fa88f",
+     "n": "1",
+     "i": [
+      "Supraperiosteal: a mais usada",
+      "2 a 3 mm, agulha curta",
+      "0,6 a 1,0 mL",
+      "Dente, osso e mucosa vestibular"
+     ]
+    },
+    {
+     "t": "Palato",
+     "cor": "#ec5b78",
+     "n": "2",
+     "i": [
+      "Nasopalatino: incisivos e caninos, 0,2 a 0,3 mL",
+      "Palatino maior: pré-molares e molares, 0,25 a 0,5 mL"
+     ]
+    },
+    {
+     "t": "Bloqueios",
+     "cor": "#2f8fe0",
+     "n": "3",
+     "i": [
+      "PSA: molares, 0,9 a 1,2 mL",
+      "ASA: incisivos e caninos, 0,9 mL",
+      "Infraorbitário: até pré-molares, lábio, asa do nariz, pálpebra"
+     ]
+    },
+    {
+     "t": "Especiais",
+     "cor": "#7566f0",
+     "n": "4",
+     "i": [
+      "Intrapapilar 0,2 mL",
+      "Intraligamentar 0,2 mL por raiz",
+      "Intrasseptal 0,2 a 0,4 mL",
+      "Intraóssea: risco de taquicardia",
+      "Intrapulpar: dolorosa e rara"
+     ]
+    }
+   ]
+  },
+  "materia": "Farmacologia e Anestesiologia",
+  "termos": [
+   {
+    "p": "MAXILA",
+    "e": "maxila",
+    "d": "Osso poroso onde a infiltração funciona bem"
+   },
+   {
+    "p": "NASOPALATINO",
+    "e": "nasopalatino",
+    "d": "Bloqueio feito na papila incisiva, 0,2 a 0,3 mL, devagar porque incomoda"
+   },
+   {
+    "p": "PALATINO",
+    "e": "palatino",
+    "d": "Bloqueio maior, feito perto do forame, com 0,25 a 0,5 mL, para pré-molares e molares"
+   },
+   {
+    "p": "INFRAORBITARIO",
+    "e": "infraorbitário",
+    "d": "Bloqueio que pega até os pré-molares, o lábio superior, a asa do nariz e a pálpebra inferior"
+   },
+   {
+    "p": "PSA",
+    "e": "PSA",
+    "d": "Sigla do bloqueio dos molares superiores, agulha a 45 graus, 0,9 a 1,2 mL"
+   },
+   {
+    "p": "ASA",
+    "e": "ASA",
+    "d": "Sigla do bloqueio de incisivos e caninos superiores, na fossa canina, 0,9 mL"
+   },
+   {
+    "p": "INTRAPAPILAR",
+    "e": "intrapapilar",
+    "d": "Técnica especial de 0,2 mL, aplicada no tecido gengival entre dois dentes"
+   },
+   {
+    "p": "INTRASSEPTAL",
+    "e": "intrasseptal",
+    "d": "Técnica de 0,2 a 0,4 mL no osso interproximal"
+   },
+   {
+    "p": "INTRAOSSEA",
+    "e": "intraóssea",
+    "d": "Técnica que exige perfuração prévia e tem risco de taquicardia"
+   },
+   {
+    "p": "INTRAPULPAR",
+    "e": "intrapulpar",
+    "d": "Técnica muito dolorosa, direto na polpa exposta, raramente indicada na rotina"
+   },
+   {
+    "p": "TAQUICARDIA",
+    "e": "taquicardia",
+    "d": "Risco da técnica intraóssea, porque o vasoconstritor cai rápido na circulação"
+   },
+   {
+    "p": "VASOCONSTRITOR",
+    "e": "vasoconstritor",
+    "d": "Componente da solução que, na intraóssea, cai rápido na circulação e acelera o coração"
+   },
+   {
+    "p": "PDL",
+    "e": "PDL",
+    "d": "Sigla da intraligamentar, 0,2 mL por raiz, sob pressão, no sulco gengival"
+   },
+   {
+    "p": "POROSO",
+    "e": "poroso",
+    "d": "Como é o osso da maxila, deixando a solução difundir"
+   }
+  ]
+ },
+ {
+  "id": "musc",
+  "titulo": "Músculo estriado esquelético",
+  "sub": "Lâmina de histologia da aula de hoje: como descrever",
+  "cor": "#ec5b78",
+  "fonte": "Conhecimento geral de histologia, montado a partir da ficha de descrição da aula de 26/10/2026. Não veio de slide do professor. Confere com o material dele.",
+  "licoes": [
+   {
+    "nome": "Reconhecer a lâmina",
+    "qs": [
+     {
+      "t": "mc",
+      "q": "Como são as células do músculo estriado esquelético?",
+      "o": [
+       "Longas, cilíndricas e multinucleadas",
+       "Curtas, fusiformes e com 1 núcleo central",
+       "Ramificadas e unidas por discos",
+       "Achatadas, coladas, com superfície livre"
+      ],
+      "a": 0,
+      "w": "Cada fibra é uma célula longa com vários núcleos."
+     },
+     {
+      "t": "mc",
+      "q": "Onde ficam os núcleos dessas fibras?",
+      "o": [
+       "Na periferia, junto à membrana",
+       "No centro, um por célula",
+       "Soltos na matriz",
+       "Não existem núcleos"
+      ],
+      "a": 0,
+      "w": "Núcleos periféricos, vários por fibra. É um jeito rápido de separar do músculo liso (núcleo central)."
+     },
+     {
+      "t": "vf",
+      "q": "Esse tecido tem estriações transversais, por causa dos sarcômeros.",
+      "a": true,
+      "w": "Actina e miosina organizadas em sarcômeros dão o aspecto estriado."
+     },
+     {
+      "t": "vf",
+      "q": "O músculo estriado esquelético tem contração involuntária.",
+      "a": false,
+      "w": "É voluntário. O involuntário estriado é o cardíaco."
+     },
+     {
+      "t": "mc",
+      "q": "Na coloração HE, como aparecem as fibras e os núcleos?",
+      "o": [
+       "Fibras rosas (eosina), núcleos azulados ou roxos (hematoxilina)",
+       "Fibras azuis, núcleos rosas",
+       "Tudo rosa",
+       "Tudo azul"
+      ],
+      "a": 0,
+      "w": "Eosina cora o citoplasma de rosa. Hematoxilina cora os núcleos de azul ou roxo."
+     }
+    ]
+   },
+   {
+    "nome": "O que fica ao redor",
+    "qs": [
+     {
+      "t": "par",
+      "q": "Ligue o envoltório de conjuntivo ao que ele envolve",
+      "p": [
+       [
+        "Endomísio",
+        "Cada fibra muscular"
+       ],
+       [
+        "Perimísio",
+        "Cada fascículo (feixe de fibras)"
+       ],
+       [
+        "Epimísio",
+        "O músculo inteiro"
+       ]
+      ]
+     },
+     {
+      "t": "mc",
+      "q": "As fendas claras entre as fibras rosas na lâmina correspondem a...",
+      "o": [
+       "Conjuntivo com fibroblastos e capilares",
+       "Superfície livre",
+       "Glândulas",
+       "Cartilagem"
+      ],
+      "a": 0,
+      "w": "Entre as fibras fica conjuntivo fino, com núcleos de fibroblastos e capilares."
+     },
+     {
+      "t": "vf",
+      "q": "Os capilares sanguíneos ficam no conjuntivo entre as fibras.",
+      "a": true,
+      "w": "Por isso a vascularização aparece junto das fendas, não dentro da fibra."
+     },
+     {
+      "t": "mc",
+      "q": "Duas regiões de cabeça e pescoço onde esse tecido aparece:",
+      "o": [
+       "Músculos da mastigação e língua",
+       "Esmalte e dentina",
+       "Mucosa gengival e palato duro",
+       "Glândula parótida e tireoide"
+      ],
+      "a": 0,
+      "w": "Masseter, temporal, pterigóideos e a língua são músculo estriado esquelético."
+     }
+    ]
+   }
+  ],
+  "cards": [
+   [
+    "Célula do músculo estriado esquelético",
+    "Longa, cilíndrica, multinucleada (fibra)"
+   ],
+   [
+    "Posição dos núcleos",
+    "Periféricos, vários por célula"
+   ],
+   [
+    "Por que é \"estriado\"?",
+    "Sarcômeros: actina e miosina em bandas transversais"
+   ],
+   [
+    "Controle",
+    "Voluntário"
+   ],
+   [
+    "HE: cores",
+    "Citoplasma rosa (eosina), núcleos azulados (hematoxilina)"
+   ],
+   [
+    "Endomísio, perimísio, epimísio",
+    "Fibra, fascículo, músculo inteiro"
+   ],
+   [
+    "O que há entre as fibras",
+    "Conjuntivo com fibroblastos e capilares"
+   ],
+   [
+    "Em cabeça e pescoço",
+    "Músculos da mastigação (masseter, temporal, pterigóideos) e língua"
+   ]
+  ],
+  "mapa": {
+   "centro": "Músculo estriado esquelético",
+   "ramos": [
+    {
+     "t": "Células",
+     "cor": "#ec5b78",
+     "n": "1",
+     "i": [
+      "Fibras longas e cilíndricas",
+      "Multinucleadas",
+      "Núcleos periféricos"
+     ]
+    },
+    {
+     "t": "Aspecto",
+     "cor": "#7566f0",
+     "n": "2",
+     "i": [
+      "Estriações transversais",
+      "Sarcômero: actina e miosina",
+      "Contração voluntária"
+     ]
+    },
+    {
+     "t": "Coloração HE",
+     "cor": "#1fa88f",
+     "n": "3",
+     "i": [
+      "Rosa: citoplasma (eosina)",
+      "Azul ou roxo: núcleos (hematoxilina)"
+     ]
+    },
+    {
+     "t": "Conjuntivo",
+     "cor": "#e89a00",
+     "n": "4",
+     "i": [
+      "Endomísio: cada fibra",
+      "Perimísio: fascículo",
+      "Epimísio: músculo inteiro",
+      "Capilares e fibroblastos"
+     ]
+    },
+    {
+     "t": "Onde está",
+     "cor": "#2f8fe0",
+     "n": "5",
+     "i": [
+      "Músculos da mastigação",
+      "Língua"
+     ]
+    }
+   ]
+  },
+  "materia": "Bases Morfológicas da Odontologia",
+  "aula": "2026-10-26",
+  "termos": [
+   {
+    "p": "SARCOMERO",
+    "e": "sarcômero",
+    "d": "Unidade de actina e miosina responsável pelas estriações transversais"
+   },
+   {
+    "p": "ENDOMISIO",
+    "e": "endomísio",
+    "d": "Conjuntivo que envolve cada fibra muscular"
+   },
+   {
+    "p": "PERIMISIO",
+    "e": "perimísio",
+    "d": "Conjuntivo que envolve cada fascículo"
+   },
+   {
+    "p": "EPIMISIO",
+    "e": "epimísio",
+    "d": "Conjuntivo que envolve o músculo inteiro"
+   },
+   {
+    "p": "EOSINA",
+    "e": "eosina",
+    "d": "Corante que deixa o citoplasma das fibras rosa"
+   },
+   {
+    "p": "HEMATOXILINA",
+    "e": "hematoxilina",
+    "d": "Corante que deixa os núcleos azulados ou roxos"
+   },
+   {
+    "p": "ACTINA",
+    "e": "actina",
+    "d": "Proteína que, com a miosina, forma o sarcômero"
+   },
+   {
+    "p": "MIOSINA",
+    "e": "miosina",
+    "d": "Proteína que, com a actina, forma o sarcômero"
+   },
+   {
+    "p": "FASCICULO",
+    "e": "fascículo",
+    "d": "Feixe de fibras envolvido pelo perimísio"
+   },
+   {
+    "p": "FIBROBLASTOS",
+    "e": "fibroblastos",
+    "d": "Células do conjuntivo cujos núcleos aparecem nas fendas claras, junto aos capilares"
+   },
+   {
+    "p": "CAPILARES",
+    "e": "capilares",
+    "d": "Vasos sanguíneos do conjuntivo entre as fibras, não dentro delas"
+   },
+   {
+    "p": "MASSETER",
+    "e": "masseter",
+    "d": "Músculo da mastigação citado como exemplo, junto com o temporal e os pterigóideos"
+   },
+   {
+    "p": "VOLUNTARIO",
+    "e": "voluntário",
+    "d": "Tipo de controle da contração desse músculo, ao contrário do cardíaco"
+   },
+   {
+    "p": "CONJUNTIVO",
+    "e": "conjuntivo",
+    "d": "Tecido fino entre as fibras, com fibroblastos e capilares"
+   }
+  ]
+ }
+]

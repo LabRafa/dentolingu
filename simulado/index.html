@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Simulado do simulado</title>
+<meta name="description" content="Treino no formato do simulado da Estácio, feito pela Mônica com o material do professor.">
+<style>
+:root{--fundo:#eceef1;--papel:#fff;--tinta:#1d1d1f;--cinza:#6b6f76;--linha:#d6d8dc;--barra:#e9eaec;--marca:#1f3b73;--certo:#17803d;--errado:#c0392b;--net:#6b3fb5;--btn:#1f3b73}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--tinta);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.45}
+.topo{position:sticky;top:0;z-index:5;background:var(--marca);color:#fff;padding:10px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.topo b{font-size:15px;letter-spacing:.2px}
+.trilha{display:flex;align-items:center;gap:6px;font-size:14px;flex-wrap:wrap}
+.trilha select{font:inherit;font-size:14px;padding:5px 8px;border-radius:6px;border:0;max-width:100%}
+main{max-width:860px;margin:0 auto;padding:16px}
+.card{background:var(--papel);border:1px solid var(--linha);border-radius:10px;padding:18px 18px;margin-bottom:14px}
+h1{font-size:22px;margin:0 0 6px}h2{font-size:18px;margin:0 0 10px}
+.sub{color:var(--cinza);font-size:14px;margin:0 0 12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
+.chip{background:var(--barra);border-radius:20px;padding:4px 10px;font-size:13px}
+.btn{display:inline-block;border:0;border-radius:8px;padding:11px 16px;font:inherit;font-weight:bold;background:var(--btn);color:#fff;cursor:pointer;margin:4px 8px 4px 0}
+.btn.ghost{background:#fff;color:var(--btn);border:1.5px solid var(--btn)}
+.aviso{font-size:13px;color:var(--cinza)}
+.rev h3{font-size:16px;margin:14px 0 6px}.rev ul{margin:0;padding-left:20px}.rev li{margin:3px 0}
+/* folha */
+.folha{background:var(--papel);border:1px solid var(--linha);padding:18px 18px 10px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.cab{display:grid;grid-template-columns:1fr auto;gap:6px 14px;font-size:13px;border-bottom:1px solid var(--linha);padding-bottom:10px;margin-bottom:12px}
+.cab .cod{font-size:12px;color:var(--cinza)}.cab .cod b{display:block;font-size:20px;color:var(--tinta);letter-spacing:1px}
+.sm{text-align:right}.sm .tag{display:inline-block;background:var(--tinta);color:#fff;font-weight:bold;padding:4px 10px;border-radius:6px;font-size:18px;margin-left:6px}
+.campo{border:1px solid var(--linha);border-radius:4px;padding:5px 8px;font-size:13px;background:#fafafa}
+.campo input{border:0;background:transparent;font:inherit;width:70%;outline:none}
+.linha2{grid-column:1/-1;display:grid;grid-template-columns:2fr 1.2fr;gap:6px}
+.linha3{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}
+.questoes{columns:2;column-gap:22px}
+.q{break-inside:avoid;margin:0 0 16px;display:inline-block;width:100%}
+.qbar{display:flex;justify-content:space-between;align-items:center;background:var(--barra);border-radius:4px;padding:6px 10px;font-weight:bold;font-size:14px}
+.qbar span{font-weight:normal;font-size:13px}
+.q.net .qbar{color:var(--net)}
+.q p{margin:8px 2px;font-size:15px}
+.op{display:flex;align-items:flex-start;gap:10px;width:100%;min-height:44px;text-align:left;background:none;border:0;padding:10px 6px;font:inherit;font-size:15px;cursor:pointer;color:var(--tinta);border-radius:6px}
+.op:hover{background:#f4f5f7}
+.op .l{font-weight:bold;min-width:14px}
+.op .b{flex:0 0 18px;height:18px;border:2px solid #444;border-radius:50%;margin-top:2px}
+.op[aria-checked="true"] .b{background:#1d1d6b;border-color:#1d1d6b;box-shadow:inset 0 0 0 3px #fff}
+.rodape{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;font-size:12px;color:var(--cinza);border-top:1px solid var(--linha);padding-top:8px;margin-top:4px}
+.netnota{color:var(--net);font-size:12px}
+.err{color:var(--errado);font-size:14px;margin:8px 0}
+/* resultado */
+.nota{font-size:44px;font-weight:bold;color:var(--marca);margin:4px 0}
+.res{border-left:4px solid var(--linha);padding:8px 12px;margin:10px 0;background:#fafbfc;border-radius:0 6px 6px 0}
+.res.ok{border-color:var(--certo)}.res.no{border-color:var(--errado)}
+.res .st{font-weight:bold}.res.ok .st{color:var(--certo)}.res.no .st{color:var(--errado)}
+.res .f{font-size:12px;color:var(--cinza);margin-top:4px}.res.net .f{color:var(--net)}
+footer{text-align:center;font-size:12px;color:var(--cinza);padding:10px 16px 24px}
+footer a{color:var(--cinza)}
+.som{margin-left:auto;background:transparent;border:1px solid rgba(255,255,255,.55);color:#fff;border-radius:6px;padding:4px 10px;font:inherit;font-size:16px;line-height:1.2;cursor:pointer;min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+.bordao{display:block;color:var(--marca);font-style:italic;font-size:14px;margin-top:4px}
+.balao{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);max-width:calc(100% - 32px);background:var(--marca);color:#fff;font-size:14px;padding:8px 14px;border-radius:18px;box-shadow:0 2px 8px rgba(0,0,0,.2);z-index:9;text-align:center;transition:opacity .3s;pointer-events:none}
+.balao[hidden]{display:block;opacity:0}
+@media (max-width:760px){.questoes{columns:1}.linha3{grid-template-columns:1fr 1fr}.linha2{grid-template-columns:1fr}main{padding:12px}}
+</style>
+</head>
+<body>
+<div class="topo">
+  <b>Simulado do simulado</b>
+  <div class="trilha"><span id="curso">Odontologia</span><span>›</span><label for="mat" class="aviso" style="color:#fff;position:absolute;left:-9999px">Matéria</label><select id="mat" aria-label="Trocar de matéria"></select></div>
+  <button type="button" class="som" id="som" aria-label="Silenciar sons">🔊</button>
+</div>
+<main id="app"></main>
+<div class="balao" id="balao" role="status" aria-live="polite" hidden></div>
+<footer>Feito pela Mônica Fontes, IA da turma de Odontologia, com o material do professor. É treino, não é o simulado oficial.<br><a href="sons.html">Mesa de som</a></footer>
+<script src="bancos.js"></script>
+<script src="sons.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const app = $('#app');
+const LETRAS = ['A', 'B', 'C', 'D', 'E'];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const ler = (k, padrao) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : padrao; } catch (e) { return padrao; } };
+const grava = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+const embaralha = a => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
+const hoje = () => { const d = new Date(); return d.toLocaleDateString('pt-BR'); };
+const agora = () => { const d = new Date(); return d.toLocaleDateString('pt-BR') + ', às ' + d.toLocaleTimeString('pt-BR'); };
+
+/* sons e bordões (sons.js): se faltar ou der erro, tudo segue em silêncio */
+const som = (n, op) => { try { return !!(window.Sons && Sons.tocar(n, op)); } catch (e) { return false; } };
+const bordao = m => { try { return window.Sons ? Sons.bordao(m) : ''; } catch (e) { return ''; } };
+const somAtivo = () => { try { return !!(window.Sons && Sons.disponivel()); } catch (e) { return false; } };
+let balaoTimer = null;
+function balao(txt) { const b = $('#balao'); if (!b || !txt) return; b.textContent = txt; b.hidden = false; clearTimeout(balaoTimer); balaoTimer = setTimeout(() => { b.hidden = true; }, 2200); }
+function pintaSom() { const b = $('#som'); if (!b) return; let m = false; try { m = !!(window.Sons && Sons.mudo()); } catch (e) {} b.textContent = m ? '🔇' : '🔊'; b.setAttribute('aria-pressed', String(m)); b.title = m ? 'Som desligado' : 'Som ligado'; }
+$('#som').onclick = () => { try { if (window.Sons) Sons.alternarMudo(); } catch (e) {} pintaSom(); som('clique'); };
+pintaSom();
+
+let MAT = ler('sds-materia', 'bases');
+if (!BANCOS[MAT]) MAT = 'bases';
+let prova = null;
+let timerNota = null; /* nota atrasada pelo rufar; cancelada se o aluno sair da folha antes */
+const cancelaNota = () => { if (timerNota) { clearTimeout(timerNota); timerNota = null; } };
+
+function montaSeletor() {
+  const s = $('#mat');
+  s.innerHTML = MATERIAS.map(m => `<option value="${m.id}" ${m.id === MAT ? 'selected' : ''} ${m.pronto ? '' : 'disabled'}>${esc(m.nome)}${m.pronto ? '' : ' (' + esc(m.nota) + ')'}</option>`).join('');
+  s.onchange = () => { cancelaNota(); MAT = s.value; grava('sds-materia', MAT); inicio(); };
+}
+
+function inicio() {
+  cancelaNota();
+  const b = BANCOS[MAT];
+  const feitos = ler('sds-n-' + MAT, 0);
+  const net = b.q.filter(q => q.net).length;
+  app.innerHTML = `<div class="card"><h1>${esc(b.materia)}</h1><p class="sub">Treino no mesmo formato do simulado da Estácio: 10 questões de 0,1 ponto, 5 alternativas, nota no final.</p>
+  <div class="chips"><span class="chip">${b.q.length} questões no banco</span><span class="chip">${feitos} simulado(s) feito(s) aqui</span><span class="chip">${net} questões de pesquisa, marcadas com *</span></div>
+  <p class="sub"><b>Próxima avaliação:</b> ${esc(b.proxima)}</p>
+  <button class="btn ghost" id="rev">Revisão rápida</button><button class="btn" id="go">Começar simulado</button>
+  <p class="aviso">Antes de começar, dá uma olhada na revisão. Durante o simulado você pode voltar nela pelo botão no fim da folha.</p></div>`;
+  $('#rev').onclick = () => { som('pagina'); revisao(); };
+  $('#go').onclick = () => { som('vinheta'); balao(bordao('inicio')); novaProva(); };
+}
+
+function revisao() {
+  cancelaNota();
+  const b = BANCOS[MAT];
+  app.innerHTML = `<div class="card rev"><h2>Revisão rápida: ${esc(b.materia)}</h2>${b.revisao.map(r => `<h3>${esc(r.t)}</h3><ul>${r.i.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`).join('')}
+  <p style="margin-top:16px">${prova && !prova.entregue ? '<button class="btn" id="volta">Voltar para o simulado</button>' : '<button class="btn" id="go">Começar simulado</button>'}<button class="btn ghost" id="ini">Início</button></p></div>`;
+  if ($('#volta')) $('#volta').onclick = () => { som('pagina'); folha(); };
+  if ($('#go')) $('#go').onclick = () => { som('vinheta'); balao(bordao('inicio')); novaProva(); };
+  $('#ini').onclick = () => { som('pagina'); inicio(); };
+  window.scrollTo(0, 0);
+}
+
+function sorteia() {
+  const b = BANCOS[MAT];
+  let usadas = ler('sds-usadas-' + MAT, []);
+  let livres = b.q.filter(q => !usadas.includes(q.id));
+  if (livres.length < 10) { usadas = []; livres = b.q.slice(); }
+  const escolhidas = embaralha(livres).slice(0, 10);
+  grava('sds-usadas-' + MAT, usadas.concat(escolhidas.map(q => q.id)));
+  return escolhidas.map(q => { const ordem = embaralha([0, 1, 2, 3, 4]); return { q, ordem, certa: ordem.indexOf(q.a) }; });
+}
+
+function novaProva() {
+  cancelaNota();
+  const n = ler('sds-n-' + MAT, 0) + 1;
+  prova = { itens: sorteia(), marcas: {}, n, codigo: String(Math.floor(1000000 + Math.random() * 8999999)).padStart(7, '0'), gerado: agora(), entregue: false, nome: ler('sds-nome', '') };
+  folha();
+}
+
+function folha() {
+  const b = BANCOS[MAT];
+  const temNet = prova.itens.some(it => it.q.net);
+  app.innerHTML = `<div class="folha">
+  <div class="cab">
+    <div class="cod">Código da Avaliação<b>${prova.codigo}</b></div>
+    <div class="sm">Simulado do simulado nº ${prova.n}<span class="tag">${LETRAS[(prova.n - 1) % 5]}</span><div class="cod">2026.2</div></div>
+    <div class="linha2"><div class="campo">Nome: <input id="nome" value="${esc(prova.nome)}" autocomplete="name" aria-label="Seu nome"></div><div class="campo">Matrícula: <input id="matr" aria-label="Matrícula (opcional)"></div></div>
+    <div class="linha2"><div class="campo">Disciplina: ${esc(b.codigo)}-${esc(b.materia.toUpperCase())}</div><div class="campo">Prof.: ${esc(b.prof)}</div></div>
+    <div class="linha3"><div class="campo">Unid.: PETRÓPOLIS</div><div class="campo">Tur.: ${esc(b.turma)}</div><div class="campo">Data: ${hoje()}</div></div>
+  </div>
+  <div class="questoes">${prova.itens.map((it, i) => `<div class="q${it.q.net ? ' net' : ''}"><div class="qbar">Questão ${i + 1}${it.q.net ? ' *' : ''}<span>Valor: 0.1 ponto(s)</span></div>
+    <p>${esc(it.q.ctx)} ${esc(it.q.p)}</p>
+    <div role="radiogroup" aria-label="Questão ${i + 1}">${it.ordem.map((oi, k) => `<button type="button" class="op" role="radio" aria-checked="${prova.marcas[i] === k}" data-q="${i}" data-k="${k}"><span class="l">${LETRAS[k]}</span><span class="b" aria-hidden="true"></span><span>${esc(it.q.o[oi])}</span></button>`).join('')}</div></div>`).join('')}</div>
+  ${temNet ? '<p class="netnota">* Questão de pesquisa na internet, dentro da matéria. A fonte aparece no gabarito.</p>' : ''}
+  <p class="err" id="falta" hidden></p>
+  <button class="btn" id="entrega">Entregar e ver a nota</button><button class="btn ghost" id="rv">Ver a revisão</button>
+  <div class="rodape"><span>Documento gerado em ${esc(prova.gerado)}</span><span>Simulado do simulado · treino da turma</span></div></div>`;
+  app.querySelectorAll('.op').forEach(el => el.onclick = () => {
+    const i = +el.dataset.q, k = +el.dataset.k;
+    prova.marcas[i] = k;
+    som('clique');
+    el.parentNode.querySelectorAll('.op').forEach(x => x.setAttribute('aria-checked', String(+x.dataset.k === k)));
+    $('#falta').hidden = true;
+  });
+  $('#nome').oninput = e => { prova.nome = e.target.value; grava('sds-nome', prova.nome); };
+  $('#rv').onclick = () => { som('pagina'); revisao(); };
+  let confirmou = false, entregando = false;
+  $('#entrega').onclick = () => {
+    if (entregando) return;
+    const faltam = prova.itens.length - Object.keys(prova.marcas).length;
+    if (faltam > 0 && !confirmou) {
+      confirmou = true; const f = $('#falta');
+      f.textContent = `Faltam ${faltam} questão(ões) sem marcar. Toque de novo em "Entregar" para entregar assim mesmo.`;
+      const bd = bordao('faltam'); if (bd) { const s = document.createElement('span'); s.className = 'bordao'; s.textContent = bd; f.appendChild(s); }
+      f.hidden = false; som('alerta'); return;
+    }
+    entregando = true; $('#entrega').disabled = true;
+    const tocou = somAtivo() && som('suspense');
+    if (tocou) {
+      balao(bordao('confirmar'));
+      const p = prova;
+      clearTimeout(timerNota);
+      timerNota = setTimeout(() => { timerNota = null; if (prova === p && !p.entregue) resultado(); }, 1550);
+    } else resultado();
+  };
+  window.scrollTo(0, 0);
+}
+
+function resultado() {
+  prova.entregue = true;
+  grava('sds-n-' + MAT, prova.n);
+  const certas = prova.itens.filter((it, i) => prova.marcas[i] === it.certa).length;
+  const nota = (certas / 10).toFixed(1).replace('.', ',');
+  const faixa = certas >= 8 ? 'nota_alta' : certas >= 5 ? 'nota_media' : 'nota_baixa';
+  const frase = bordao(faixa);
+  app.innerHTML = `<div class="card"><p class="sub">Simulado do simulado nº ${prova.n}${prova.nome ? ' · ' + esc(prova.nome) : ''}</p><div class="nota">${nota} <span style="font-size:20px;color:var(--cinza)">de 1,0</span></div>
+  ${frase ? `<p class="bordao" style="font-size:16px;margin:0 0 6px">${esc(frase)}</p>` : ''}
+  <div class="chips"><span class="chip">${certas} de 10 certas</span><span class="chip">cada questão vale 0,1</span></div>
+  <button class="btn" id="novo">Gerar novo simulado</button><button class="btn ghost" id="ini">Início</button></div>
+  <div class="card"><h2>Gabarito comentado</h2>${prova.itens.map((it, i) => { const m = prova.marcas[i]; const ok = m === it.certa; return `<div class="res ${ok ? 'ok' : 'no'}${it.q.net ? ' net' : ''}"><div class="st">Questão ${i + 1}${it.q.net ? ' *' : ''}: ${ok ? 'certa' : m === undefined ? 'em branco' : 'errada'}</div>
+    <div>${esc(it.q.p)}</div>
+    ${!ok && m !== undefined ? `<div>Você marcou ${LETRAS[m]}: ${esc(it.q.o[it.ordem[m]])}</div>` : ''}
+    <div><b>Certa, ${LETRAS[it.certa]}:</b> ${esc(it.q.o[it.q.a])}</div>
+    <div><b>Por quê:</b> ${esc(it.q.w)}</div>
+    <div class="f">${it.q.net ? '* Pesquisa. ' : ''}Fonte: ${esc(it.q.f)}</div></div>`; }).join('')}</div>`;
+  $('#novo').onclick = () => { som('novo'); balao(bordao('novo')); novaProva(); };
+  $('#ini').onclick = () => { som('pagina'); inicio(); };
+  window.scrollTo(0, 0);
+  if (certas === 10) { som('milhao'); } else { som(faixa); }
+}
+
+montaSeletor();
+inicio();
+</script>
+</body>
+</html>
