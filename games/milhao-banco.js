@@ -657,7 +657,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Silva WT. Cerâmicas odontológicas: considerações históricas e sua evolução ao longo dos anos. Monografia, UNESP Araçatuba, 2012 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/31661962-df65-4680-9054-190877885836/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/31661962-df65-4680-9054-190877885836/content"
 },
 {
 "t": "Aksoy U et al. Pierre Fauchard, cirurgião-dentista pioneiro do Iluminismo. Cureus, 2024",
@@ -5435,7 +5435,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "Becker DE, Reed KL. Anestésicos locais: revisão farmacológica. Anesth Prog, 2012 (texto grátis)",
@@ -5485,7 +5485,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
@@ -5512,7 +5512,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
@@ -5566,7 +5566,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "Boopathi T et al. Anestesia pulpar suplementar em dentes inferiores (intraligamentar, intraóssea, intrapulpar). J Pharm Bioallied Sci, 2013 (texto grátis)",
@@ -5616,7 +5616,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "Meechan JG. Anestesia tópica intraoral. Periodontol 2000, 2008",
@@ -5689,7 +5689,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
@@ -5897,7 +5897,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
@@ -5955,7 +5955,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
@@ -5982,7 +5982,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "Ghafoor H et al. Complicações neurológicas da anestesia local em odontologia: revisão. Cureus, 2023 (texto grátis)",
@@ -6090,7 +6090,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "Boopathi T et al. Anestesia pulpar suplementar em dentes inferiores (intraligamentar, intraóssea, intrapulpar). J Pharm Bioallied Sci, 2013 (texto grátis)",
@@ -7618,7 +7618,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/content"
 },
 {
 "t": "StatPearls/NCBI Bookshelf. Anatomia: nervo mandibular",
@@ -10104,7 +10104,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Goiato MC et al. Técnicas de reembasamento para prótese total. Rev Odontol Araçatuba, 2013 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/73bedf90-8d54-4d81-abf1-0c5b9533b356/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/73bedf90-8d54-4d81-abf1-0c5b9533b356/content"
 },
 {
 "t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
@@ -10535,7 +10535,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Mendonça MJ. Tratamentos térmicos e resinas para reembasamento (dissertação, revisão sobre ciclos e monômero residual). UNESP Araraquara, 2003 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/content"
 },
 {
 "t": "Vallittu et al. Temperatura e tempo de polimerização e o monômero residual das bases de prótese. Eur J Oral Sci, 1998",
@@ -10666,7 +10666,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Pero AC. Método de polimerização, espessura da base e porosidade da resina acrílica (dissertação). UNESP Araraquara, 2005 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/0f86215e-3145-4ecc-8830-472a9e0b5e45/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/0f86215e-3145-4ecc-8830-472a9e0b5e45/content"
 },
 {
 "t": "Pero et al. Método de polimerização por micro-ondas, espessura e porosidade da resina. J Prosthodont, 2008",
@@ -10689,7 +10689,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Mendonça MJ. Tratamentos térmicos e resinas para reembasamento (dissertação, revisão sobre ciclos e monômero residual). UNESP Araraquara, 2003 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/content"
 },
 {
 "t": "Vallittu et al. Temperatura e tempo de polimerização e o monômero residual. Eur J Oral Sci, 1998",
@@ -10716,7 +10716,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Mendonça MJ. Tratamentos térmicos e resinas para reembasamento (dissertação; revisão cita Mello: polimento químico x mecânico e liberação de monômero). UNESP Araraquara, 2003 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/content"
 },
 {
 "t": "Vallittu. Tratamento de superfície da resina e liberação de monômero residual na água. Acta Odontol Scand, 1996",
@@ -10978,7 +10978,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Urban VM. Tratamentos térmicos e monômero residual de resinas para reembasamento (dissertação). UNESP Araraquara, 2003 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/b6353979-1a73-4d89-b79f-d3b9bed1ef31/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/b6353979-1a73-4d89-b79f-d3b9bed1ef31/content"
 },
 {
 "t": "Leles et al. União entre reembasador rígido direto e resina de base. J Oral Rehabil, 2001",
@@ -11105,7 +11105,7 @@ window.BANCO_MILHAO = [
 "r": [
 {
 "t": "Mendonça MJ. Tratamentos térmicos e resinas para reembasamento (dissertação, revisão sobre ciclos e monômero residual). UNESP Araraquara, 2003 (texto grátis)",
-"u": "https://repositorio.unesp.br/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/download"
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/content"
 },
 {
 "t": "Shim & Watts. Monômero residual após ciclo térmico adicional de reembasador resiliente. Dent Mater, 1999",
