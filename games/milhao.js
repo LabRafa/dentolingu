@@ -203,7 +203,7 @@
 
     const jogo = {
       id: ID, nome: NOME, global: true,
-      desc: 'Quinze perguntas de todas as matérias, do R$ 1 mil ao R$ 1 milhão. Tem 50:50, pular e plateia.',
+      desc: 'Jogo de 15 perguntas, só pela diversão: o prêmio é de mentirinha. Tem 50:50, pular e plateia.',
       icone: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 6v12M15.5 8.8c-.9-1-2.2-1.4-3.5-1.4-1.9 0-3.2 1-3.2 2.5 0 3.4 6.8 1.8 6.8 5.3 0 1.5-1.4 2.6-3.6 2.6-1.4 0-2.8-.5-3.8-1.6"/></svg>',
       disponivel() { return podeJogar(window.BANCO_MILHAO); },
       montar(el, t, api) {
