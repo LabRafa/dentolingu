@@ -128,7 +128,7 @@
 .X-xis{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);color:#fff;border-radius:50%;width:36px;height:36px;font-size:16px;cursor:pointer}
 .X-sec{background:rgba(5,10,46,.55);border:1px solid rgba(255,210,74,.25);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:10px}
 .X-sec h4{margin:0;font-family:var(--f-display);font-size:15px;color:#ffd24a;font-weight:600}
-.X-fontes{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.X-fontes{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
 .X-fonte{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;padding:14px 8px;border-radius:14px;border:2px solid rgba(255,255,255,.18);background:rgba(255,255,255,.04);color:#fff;cursor:pointer;font-family:var(--f-body)}
 .X-fonte b{font-size:15px}.X-fonte small{font-size:12px;color:#b8c8f0}
 .X-fic{font-size:26px;line-height:1}
@@ -222,14 +222,30 @@
         const CONF_PADRAO = { musica: true, voz: true, efeitos: true, bateria: false, volMusica: 0.5 };
         let CONF = Object.assign({}, CONF_PADRAO);
         try { CONF = Object.assign(CONF, JSON.parse(localStorage.getItem('sisao-conf') || '{}')); } catch (e) { }
-        if (!Array.isArray(CONF.materias)) CONF.materias = []; // vazio = Conhecimentos gerais da odontologia
+        if (!Array.isArray(CONF.materias)) CONF.materias = [];
+        if (!Array.isArray(CONF.categorias)) CONF.categorias = [];
+        if (!CONF.modo) CONF.modo = CONF.materias.length ? 'materias' : 'geral';
         const temSimulado = () => !!(window.BANCOS && Object.keys(NOMES_SIM).some(k => window.BANCOS[k]));
+        const simDisp = () => temSimulado() ? Object.keys(NOMES_SIM).filter(k => window.BANCOS[k]) : [];
+        // categorias = o campo "m" das perguntas originais (Curiosidades da odonto, Prótese e laboratório...)
+        const categoriasDisp = () => { const c = {}; bancoValido(window.BANCO_MILHAO).forEach(q => { const m = q.m || 'Odontologia'; c[m] = (c[m] || 0) + 1; }); return Object.keys(c).sort().map(m => ({ m, n: c[m] })); };
         function bancoEscolhido() {
-          const sel = CONF.materias.filter(k => window.BANCOS && window.BANCOS[k]);
-          if (!sel.length) return { b: bancoValido(window.BANCO_MILHAO), chave: 'sisao-vistas-geral' };
-          const b = bancoValido(bancoDoSimulado(sel));
-          if (!podeJogar(b)) return { b: bancoValido(window.BANCO_MILHAO), chave: 'sisao-vistas-geral', aviso: 'Poucas perguntas nessa matéria. Junte com outra.' };
-          return { b, chave: 'sisao-vistas-' + sel.slice().sort().join('-') };
+          const orig = bancoValido(window.BANCO_MILHAO);
+          if (CONF.modo === 'materias') {
+            const sel = CONF.materias.filter(k => window.BANCOS && window.BANCOS[k]);
+            const b = bancoValido(bancoDoSimulado(sel));
+            if (sel.length && podeJogar(b)) return { b, chave: 'sisao-vistas-' + sel.slice().sort().join('-') };
+            return { b: orig, chave: 'sisao-vistas-geral', aviso: 'Poucas perguntas nessas matérias, joguei com tudo.' };
+          }
+          if (CONF.modo === 'personalizar') {
+            const cats = new Set(CONF.categorias);
+            const b = orig.filter(q => cats.has(q.m || 'Odontologia'));
+            if (podeJogar(b)) return { b, chave: 'sisao-vistas-cat-' + [...cats].sort().join('-') };
+            return { b: orig, chave: 'sisao-vistas-geral', aviso: 'Poucas perguntas nesses temas, juntei com tudo.' };
+          }
+          // Rafael 11/11: no Geral entra TUDO, inclusive as perguntas das matérias da facul
+          const tudo = orig.concat(bancoValido(bancoDoSimulado(simDisp())));
+          return { b: tudo, chave: 'sisao-vistas-geral' };
         }
         const gravaConf = () => { try { localStorage.setItem('sisao-conf', JSON.stringify(CONF)); } catch (e) { } };
         const efeito = (nome, extra) => { if (CONF.efeitos && window.Sons) Sons.tocar(nome, extra); };
@@ -298,17 +314,21 @@
         function painelConf() {
           const box = document.createElement('div'); box.className = c('conf');
           const sw = (k, titulo, sub) => `<label class="${c('lin')}"><span><b>${titulo}</b>${sub ? `<small>${sub}</small>` : ''}</span><input type="checkbox" class="${c('sw')}" data-k="${k}" ${CONF[k] ? 'checked' : ''}></label>`;
-          const matsDisp = temSimulado() ? Object.keys(NOMES_SIM).filter(k => window.BANCOS[k]) : [];
+          const matsDisp = simDisp();
           box.innerHTML = `<div class="${c('ctopo')}"><b>Configurações</b><button type="button" class="${c('xis')}" data-fechar aria-label="Fechar">✕</button></div>
-${matsDisp.length ? `<section class="${c('sec')}"><h4>O que vai cair no jogo?</h4>
+<section class="${c('sec')}"><h4>O que vai cair no jogo?</h4>
 <div class="${c('fontes')}">
-<button type="button" class="${c('fonte')}" data-fonte="geral" aria-pressed="${!CONF.materias.length}"><span class="${c('fic')}">🦷</span><b>Odontologia geral</b><small>Perguntas de todas as áreas</small></button>
-<button type="button" class="${c('fonte')}" data-fonte="materias" aria-pressed="${!!CONF.materias.length}"><span class="${c('fic')}">📚</span><b>Minhas matérias</b><small>Só o que cai na prova</small></button>
+<button type="button" class="${c('fonte')}" data-modo="geral" aria-pressed="${CONF.modo === 'geral'}"><span class="${c('fic')}">🦷</span><b>Tudo</b><small>Odontologia geral, de tudo um pouco</small></button>
+${matsDisp.length ? `<button type="button" class="${c('fonte')}" data-modo="materias" aria-pressed="${CONF.modo === 'materias'}"><span class="${c('fic')}">📚</span><b>Minhas matérias</b><small>Só o que cai na prova da facul</small></button>` : ''}
+<button type="button" class="${c('fonte')}" data-modo="personalizar" aria-pressed="${CONF.modo === 'personalizar'}"><span class="${c('fic')}">🎛️</span><b>Personalizar</b><small>Escolha os temas</small></button>
 </div>
-<div class="${c('mats')}" ${CONF.materias.length ? '' : 'hidden'}><p>Toque nas matérias que você quer estudar:</p>
+<div class="${c('mats')}" data-painel="materias" ${CONF.modo === 'materias' ? '' : 'hidden'}><p>Toque nas matérias que você quer estudar:</p>
 ${matsDisp.map(k => `<button type="button" class="${c('mat')}" data-mat="${k}" aria-pressed="${CONF.materias.includes(k)}">${NOMES_SIM[k]}</button>`).join('')}
 </div>
-<p class="${c('nota')}">Vale a partir da próxima partida</p></section>` : ''}
+<div class="${c('mats')}" data-painel="personalizar" ${CONF.modo === 'personalizar' ? '' : 'hidden'}><p>Toque nos temas que você quer no jogo:</p>
+${categoriasDisp().map(x => `<button type="button" class="${c('mat')}" data-cat="${api.esc(x.m)}" aria-pressed="${CONF.categorias.includes(x.m)}">${api.esc(x.m)} <small style="opacity:.6">${x.n}</small></button>`).join('')}
+</div>
+<p class="${c('nota')}">Vale a partir da próxima partida</p></section>
 <section class="${c('sec')}"><h4>Som</h4>
 ${sw('voz', 'Locutor', 'Lê a pergunta e as alternativas')}
 ${sw('musica', 'Música de fundo', '')}
@@ -324,20 +344,25 @@ ${sw('bateria', 'Bateria na música', '')}
             if (k === 'voz' && !CONF.voz) calar();
           });
           const pintar = () => {
-            box.querySelectorAll('[data-fonte]').forEach(b => b.setAttribute('aria-pressed', String((b.dataset.fonte === 'materias') === !!CONF.materias.length)));
+            box.querySelectorAll('[data-modo]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.modo === CONF.modo)));
             box.querySelectorAll('[data-mat]').forEach(b => b.setAttribute('aria-pressed', String(CONF.materias.includes(b.dataset.mat))));
-            const m = box.querySelector('.' + c('mats')); if (m) m.hidden = !CONF.materias.length;
+            box.querySelectorAll('[data-cat]').forEach(b => b.setAttribute('aria-pressed', String(CONF.categorias.includes(b.dataset.cat))));
+            box.querySelectorAll('[data-painel]').forEach(p => { p.hidden = p.dataset.painel !== CONF.modo; });
           };
-          box.querySelectorAll('[data-fonte]').forEach(b => b.onclick = () => {
-            CONF.materias = b.dataset.fonte === 'geral' ? [] : (CONF.materias.length ? CONF.materias : matsDisp.slice());
+          box.querySelectorAll('[data-modo]').forEach(b => b.onclick = () => {
+            CONF.modo = b.dataset.modo;
+            if (CONF.modo === 'materias' && !CONF.materias.length) CONF.materias = matsDisp.slice();
+            if (CONF.modo === 'personalizar' && !CONF.categorias.length) CONF.categorias = categoriasDisp().map(x => x.m);
             gravaConf(); pintar();
           });
-          box.querySelectorAll('[data-mat]').forEach(b => b.onclick = () => {
-            const k = b.dataset.mat, tem = CONF.materias.includes(k);
-            if (tem && CONF.materias.length === 1) { api.toast('Deixe pelo menos uma matéria marcada'); return; }
-            CONF.materias = tem ? CONF.materias.filter(x => x !== k) : CONF.materias.concat(k);
+          const alterna = (lista, k) => {
+            const tem = CONF[lista].includes(k);
+            if (tem && CONF[lista].length === 1) { api.toast('Deixe pelo menos um marcado'); return; }
+            CONF[lista] = tem ? CONF[lista].filter(x => x !== k) : CONF[lista].concat(k);
             gravaConf(); pintar();
-          });
+          };
+          box.querySelectorAll('[data-mat]').forEach(b => b.onclick = () => alterna('materias', b.dataset.mat));
+          box.querySelectorAll('[data-cat]').forEach(b => b.onclick = () => alterna('categorias', b.dataset.cat));
           box.querySelectorAll('[data-fechar]').forEach(x => x.onclick = () => { box.remove(); if (!st || st.fim) pararFundo(); });
           return box;
         }
