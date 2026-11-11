@@ -2036,7 +2036,7 @@ window.BANCOS = window.BANCOS || {};
     curta: 'Imaginologia',
     prof: 'Profa. Mariana',
     turma: '3008',
-    proxima: 'Palestra de 10/11. Bônus pra treinar leitura de imagem, não é matéria de prova',
+    proxima: 'Palestra de 10/11. Bônus pra treinar leitura de imagem',
     modos: [
       { id: 'completo', nome: 'Simulado completo', sub: '10 questões sorteadas de toda a palestra.', temas: null },
       { id: 't-leitura', nome: 'Como ler a imagem', sub: 'Densidade, borda, lóculos e efeitos nos vizinhos.', temas: ['Densidade', 'Limites e lóculos', 'Efeitos nos vizinhos'] },
