@@ -8529,15 +8529,15 @@ window.BANCO_MILHAO = [
 {
 "m": "Prótese e laboratório",
 "n": 1,
-"q": "Qual material de moldagem vem em pó, é misturado com água e é muito usado para modelos de estudo?",
+"q": "Qual material de moldagem elástico, que vem em pó e é misturado com água, é o mais usado pra moldar a boca na hora de fazer o modelo de estudo?",
 "o": [
-"Gesso pedra",
+"Silicone de adição",
 "Cera rosa",
 "Alginato",
-"Resina acrílica"
+"Godiva"
 ],
 "a": 2,
-"w": "O alginato é barato, rápido e fácil de usar, por isso é o mais comum em moldagens iniciais. Ele perde e ganha água com facilidade, então a moldagem deve ser vazada logo.",
+"w": "O alginato é um hidrocoloide irreversível: o pó vira gel em contato com a água e copia a boca com detalhe suficiente para o modelo de estudo. É barato, rápido e fácil de usar, mas perde e ganha água com facilidade, então a moldagem deve ser vazada logo. O gesso pedra também é pó com água, mas é o material que vai DENTRO da moldagem para formar o modelo, não o que molda a boca.",
 "r": [
 {
 "t": "Gennari Filho H et al. Alteração dimensional linear de hidrocoloides irreversíveis pelo método fotográfico. Arch Health Invest, 2017 (texto grátis)",
