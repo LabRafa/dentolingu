@@ -355,12 +355,14 @@
           if (!CONF.voz) ok = false;
           if (!ok || !urls.length) { if (aoFim) aoFim(); return; }
           const tok = { c: false, a: null }; fila = tok; let i = 0;
+          // carrega todos os áudios da fila de uma vez (sem esperar baixar um por um entre "Letra A" e a alternativa)
+          const pre = urls.map(u => { if (typeof u !== 'string') return null; const x = new Audio(); x.preload = 'auto'; x.src = u; try { x.load(); } catch (e) { } return x; });
           const prox = () => {
             if (tok.c) return;
             if (i >= urls.length) { fila = null; if (aoFim) aoFim(); return; }
-            const item = urls[i++];
-            if (typeof item === 'object') { prox(); return; } // nunca outra voz: sem áudio gravado, pula
-            const a = new Audio(item); tok.a = a;
+            const a = pre[i++];
+            if (!a) { prox(); return; } // nunca outra voz: sem áudio gravado, pula
+            tok.a = a;
             try { a.volume = Math.min(1, (Sons.volume ? Sons.volume() : 0.5) * 1.8); } catch (e) { }
             a.onended = prox; a.onerror = prox;
             const p = a.play(); if (p && p.catch) p.catch(prox);
