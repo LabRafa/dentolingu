@@ -986,7 +986,13 @@ window.BANCO_MILHAO = [
 "Comissão de Radiologia Oral"
 ],
 "a": 0,
-"w": "O CRO registra e fiscaliza os profissionais da odontologia em cada estado."
+"w": "O CRO é uma autarquia criada pela Lei 4.324/1964: há um conselho em cada estado e no Distrito Federal, e só com inscrição nele o cirurgião-dentista pode trabalhar. Ele registra os profissionais, fiscaliza o exercício e julga a ética em primeira instância. Por isso o número do CRO vai no carimbo, no receituário e na propaganda.",
+"r": [
+{
+"t": "Presidência da República. Lei nº 4.324, de 14/04/1964 (cria o CFO e os CROs). Planalto, 1964",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/L4324.htm"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -999,7 +1005,17 @@ window.BANCO_MILHAO = [
 "Conselho Federal de Odontologia"
 ],
 "a": 3,
-"w": "O CFO, sediado em Brasília, coordena os conselhos regionais e cuida da ética profissional no país."
+"w": "A mesma Lei 4.324/1964 criou o CFO, com sede na capital federal (hoje Brasília). Ele coordena os CROs, edita o Código de Ética Odontológica e as resoluções, como a que lista as especialidades reconhecidas, e julga os recursos que vêm dos regionais.",
+"r": [
+{
+"t": "Presidência da República. Lei nº 4.324, de 14/04/1964 (cria o CFO e os CROs). Planalto, 1964",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/L4324.htm"
+},
+{
+"t": "CFO. Manual de especialização, com a lista das especialidades reconhecidas. CFO, 2022",
+"u": "https://website.cfo.org.br/wp-content/uploads/2022/01/Manual-especializacao_versao_2022.pdf"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1012,7 +1028,17 @@ window.BANCO_MILHAO = [
 "Contenção ortodôntica"
 ],
 "a": 2,
-"w": "O protetor bucal amortece impactos e protege dentes, lábios e bochechas."
+"w": "O protetor bucal absorve e espalha a energia do impacto, protegendo dentes, lábios, bochechas e língua. A ADA lembra que o protetor feito sob medida, a partir de um modelo do paciente, adapta melhor que o de prateleira ou o de ferver e morder. Uma revisão guarda-chuva de 2025 (J Indian Soc Pedod Prev Dent) concluiu que o uso reduz fraturas e avulsões, e o sob medida protege e incomoda menos.",
+"r": [
+{
+"t": "American Dental Association. Protetores bucais esportivos (mouthguards). ADA, 2025",
+"u": "https://www.ada.org/resources/ada-library/oral-health-topics/athletic-mouth-protectors-mouthguards"
+},
+{
+"t": "Agarwal A e cols. Protetores bucais na prevenção de lesões dentofaciais: revisão guarda-chuva. J Indian Soc Pedod Prev Dent, 2025",
+"u": "https://pubmed.ncbi.nlm.nih.gov/40586455/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1025,7 +1051,17 @@ window.BANCO_MILHAO = [
 "Técnico em Prótese Dentária"
 ],
 "a": 3,
-"w": "O TPD é o profissional do laboratório que confecciona próteses a pedido do dentista."
+"w": "TPD é o Técnico em Prótese Dentária, profissão regulamentada pela Lei 6.710/1979 e pelo Decreto 87.689/1982. Ele trabalha no laboratório confeccionando próteses totais, parciais, coroas e aparelhos a partir da moldagem e da prescrição do dentista, e precisa de inscrição no CRO.",
+"r": [
+{
+"t": "Presidência da República. Lei nº 6.710, de 05/11/1979 (profissão de Técnico em Prótese Dentária). Planalto, 1979",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l6710.htm"
+},
+{
+"t": "Presidência da República. Decreto nº 87.689, de 11/10/1982 (regulamenta a Lei 6.710). Planalto, 1982",
+"u": "https://www.planalto.gov.br/ccivil_03/decreto/1980-1989/D87689.htm"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1038,7 +1074,17 @@ window.BANCO_MILHAO = [
 "Sim, mas só para consertos rápidos"
 ],
 "a": 2,
-"w": "O Decreto 87.689/1982 veda ao TPD prestar assistência direta a clientes; ele trabalha a pedido do dentista."
+"w": "A Lei 6.710/1979 (art. 4º) e o Decreto 87.689/1982 vedam ao TPD prestar, sob qualquer forma, assistência direta a clientes. Também proíbem manter no laboratório equipamento de consultório e fazer propaganda ao público. Moldar, provar ou ajustar prótese na boca é ato do cirurgião-dentista.",
+"r": [
+{
+"t": "Presidência da República. Lei nº 6.710, de 05/11/1979 (profissão de Técnico em Prótese Dentária). Planalto, 1979",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l6710.htm"
+},
+{
+"t": "Presidência da República. Decreto nº 87.689, de 11/10/1982 (regulamenta a Lei 6.710). Planalto, 1982",
+"u": "https://www.planalto.gov.br/ccivil_03/decreto/1980-1989/D87689.htm"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1051,7 +1097,13 @@ window.BANCO_MILHAO = [
 "Associação de Saúde Bucal"
 ],
 "a": 0,
-"w": "A ASB ajuda no atendimento, organiza o consultório e cuida da biossegurança, sempre com supervisão."
+"w": "A Lei 11.889/2008 regulamentou o Auxiliar em Saúde Bucal (ASB) e o Técnico em Saúde Bucal (TSB). O ASB trabalha sempre sob supervisão do cirurgião-dentista ou do TSB: organiza o consultório, instrumenta, cuida da limpeza e esterilização e faz atividades de higiene bucal, mas não executa procedimentos clínicos no paciente.",
+"r": [
+{
+"t": "Presidência da República. Lei nº 11.889, de 24/12/2008 (TSB e ASB). Planalto, 2008",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11889.htm"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1064,7 +1116,13 @@ window.BANCO_MILHAO = [
 "Endodontista"
 ],
 "a": 3,
-"w": "A endodontia cuida da polpa e dos canais da raiz."
+"w": "Endodontia vem do grego endo (dentro) e odontos (dente): cuida da polpa e dos tecidos ao redor da raiz. O tratamento de canal remove a polpa inflamada ou necrosada, limpa e modela os canais e os sela com material obturador. É especialidade reconhecida pelo CFO.",
+"r": [
+{
+"t": "CFO. Manual de especialização, com a lista das especialidades reconhecidas. CFO, 2022",
+"u": "https://website.cfo.org.br/wp-content/uploads/2022/01/Manual-especializacao_versao_2022.pdf"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1077,7 +1135,17 @@ window.BANCO_MILHAO = [
 "Prótese dentária"
 ],
 "a": 0,
-"w": "A periodontia trata a gengiva e os tecidos que sustentam o dente."
+"w": "A periodontia cuida do periodonto: gengiva, ligamento periodontal, cemento e osso alveolar. O consenso mundial de 2017 de classificação das doenças periodontais separa a gengivite (inflamação só da gengiva, reversível) da periodontite, que destrói o suporte e causa retração e mobilidade.",
+"r": [
+{
+"t": "CFO. Manual de especialização, com a lista das especialidades reconhecidas. CFO, 2022",
+"u": "https://website.cfo.org.br/wp-content/uploads/2022/01/Manual-especializacao_versao_2022.pdf"
+},
+{
+"t": "Chapple ILC e cols. Saúde periodontal e doenças gengivais: consenso do World Workshop 2017. J Periodontol, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/29926944/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1090,7 +1158,13 @@ window.BANCO_MILHAO = [
 "Odontologia legal"
 ],
 "a": 0,
-"w": "A ortodontia move dentes e corrige a relação entre as arcadas."
+"w": "A ortodontia move os dentes aplicando forças leves e contínuas: o osso é reabsorvido do lado da pressão e formado do lado da tração. Aparelhos fixos, alinhadores e aparelhos funcionais corrigem a posição dos dentes e a relação entre as arcadas (a mordida).",
+"r": [
+{
+"t": "CFO. Manual de especialização, com a lista das especialidades reconhecidas. CFO, 2022",
+"u": "https://website.cfo.org.br/wp-content/uploads/2022/01/Manual-especializacao_versao_2022.pdf"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1103,7 +1177,13 @@ window.BANCO_MILHAO = [
 "Estomatologia"
 ],
 "a": 1,
-"w": "A odontopediatria atende do bebê ao adolescente."
+"w": "A odontopediatria atende do bebê ao adolescente, cuidando da dentição decídua e mista, do controle da cárie precoce e do manejo do comportamento infantil. A primeira consulta é recomendada quando nasce o primeiro dente.",
+"r": [
+{
+"t": "CFO. Manual de especialização, com a lista das especialidades reconhecidas. CFO, 2022",
+"u": "https://website.cfo.org.br/wp-content/uploads/2022/01/Manual-especializacao_versao_2022.pdf"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1116,7 +1196,13 @@ window.BANCO_MILHAO = [
 "Dentística"
 ],
 "a": 2,
-"w": "A implantodontia planeja e instala os implantes dentários."
+"w": "A implantodontia planeja e instala implantes, parafusos que ficam no osso como raiz artificial, e depois recebem a coroa, a ponte ou a prótese protocolo. É especialidade reconhecida pelo CFO e trabalha junto com a prótese no planejamento reverso (planejar a prótese antes do implante).",
+"r": [
+{
+"t": "CFO. Manual de especialização, com a lista das especialidades reconhecidas. CFO, 2022",
+"u": "https://website.cfo.org.br/wp-content/uploads/2022/01/Manual-especializacao_versao_2022.pdf"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1129,7 +1215,17 @@ window.BANCO_MILHAO = [
 "Prata"
 ],
 "a": 2,
-"w": "O titânio se integra ao osso, fenômeno chamado osseointegração."
+"w": "A maioria dos implantes é de titânio comercialmente puro ou liga de titânio. Ele forma na superfície uma camada de óxido estável à qual o osso se liga diretamente, a osseointegração, descrita por Brånemark. Uma revisão de 2017 no Periodontology 2000 compara titânio, ligas e zircônia, mostrando que o titânio continua sendo a referência.",
+"r": [
+{
+"t": "Bosshardt DD e cols. Osseointegração de implantes de titânio, liga de titânio e zircônia. Periodontol 2000, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28000277/"
+},
+{
+"t": "Guillaume B. Implantes dentários: revisão. Morphologie, 2016",
+"u": "https://pubmed.ncbi.nlm.nih.gov/26995275/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1142,7 +1238,17 @@ window.BANCO_MILHAO = [
 "Protesista"
 ],
 "a": 2,
-"w": "A estomatologia diagnostica doenças da boca, incluindo lesões suspeitas de câncer."
+"w": "A estomatologia diagnostica e trata doenças da boca e as manifestações bucais de doenças sistêmicas. Ferida que não cicatriza em mais de 2 a 3 semanas é sinal de alerta para câncer bucal e pede avaliação e, muitas vezes, biópsia. O NHS também orienta procurar o dentista quando uma úlcera passa de 3 semanas.",
+"r": [
+{
+"t": "CFO. Manual de especialização, com a lista das especialidades reconhecidas. CFO, 2022",
+"u": "https://website.cfo.org.br/wp-content/uploads/2022/01/Manual-especializacao_versao_2022.pdf"
+},
+{
+"t": "NHS. Úlceras na boca (mouth ulcers). NHS",
+"u": "https://www.nhs.uk/conditions/mouth-ulcers/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1155,7 +1261,13 @@ window.BANCO_MILHAO = [
 "Faceta"
 ],
 "a": 0,
-"w": "A prótese total repõe todos os dentes de uma arcada."
+"w": "Prótese total é a prótese removível que repõe todos os dentes de uma arcada e se apoia só na mucosa e no osso do rebordo. A retenção da superior vem da adesão, coesão da saliva e do selamento periférico (vácuo). Pode ser convencional ou sobre implantes (overdenture ou protocolo).",
+"r": [
+{
+"t": "Wikipedia. Dentures (próteses totais)",
+"u": "https://en.wikipedia.org/wiki/Dentures"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1168,7 +1280,17 @@ window.BANCO_MILHAO = [
 "Primeiro molar"
 ],
 "a": 0,
-"w": "O siso é o terceiro molar, o último dente de cada lado da arcada."
+"w": "O siso é o terceiro molar, nº 18, 28, 38 e 48 na notação FDI. É o último dente a nascer, em geral entre 17 e 21 anos, e muitas vezes fica incluso por falta de espaço. O nome popular vem de nascer na idade do juízo.",
+"r": [
+{
+"t": "ADA. Tabela de erupção dos dentes permanentes (PDF). ADA",
+"u": "https://www.mouthhealthy.org/-/media/project/ada-organization/ada/mouthhealthy/files/activity-sheets/adapermanentteethdev_eng.pdf"
+},
+{
+"t": "Wikipedia. FDI World Dental Federation notation (notação de dois dígitos)",
+"u": "https://en.wikipedia.org/wiki/FDI_World_Dental_Federation_notation"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1181,7 +1303,17 @@ window.BANCO_MILHAO = [
 "Segundo pré-molar inferior esquerdo"
 ],
 "a": 2,
-"w": "O 4 é o quadrante inferior direito e o 8 é o terceiro molar, o siso."
+"w": "Na notação FDI (ISO 3950), o primeiro dígito é o quadrante, no sentido horário a partir do superior direito do paciente: 1 superior direito, 2 superior esquerdo, 3 inferior esquerdo, 4 inferior direito. O segundo é a posição contando da linha média: 8 é o terceiro molar. Então 48 é o siso inferior direito.",
+"r": [
+{
+"t": "Wikipedia. FDI World Dental Federation notation (notação de dois dígitos)",
+"u": "https://en.wikipedia.org/wiki/FDI_World_Dental_Federation_notation"
+},
+{
+"t": "Peck S, Peck L. Hora de mudar os sistemas de numeração dental. J Dent Educ, 1993",
+"u": "https://pubmed.ncbi.nlm.nih.gov/8349894/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1194,7 +1326,17 @@ window.BANCO_MILHAO = [
 "Primeiro molar inferior esquerdo"
 ],
 "a": 3,
-"w": "O 3 é o quadrante inferior esquerdo e o 6 é o primeiro molar."
+"w": "Quadrante 3 é o inferior esquerdo e a posição 6 é o primeiro molar (1 incisivo central, 2 lateral, 3 canino, 4 e 5 pré-molares, 6, 7 e 8 molares). O 36 é um dos primeiros dentes permanentes a nascer, por volta dos 6 anos.",
+"r": [
+{
+"t": "Wikipedia. FDI World Dental Federation notation (notação de dois dígitos)",
+"u": "https://en.wikipedia.org/wiki/FDI_World_Dental_Federation_notation"
+},
+{
+"t": "Peck S, Peck L. Hora de mudar os sistemas de numeração dental. J Dent Educ, 1993",
+"u": "https://pubmed.ncbi.nlm.nih.gov/8349894/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1207,7 +1349,17 @@ window.BANCO_MILHAO = [
 "O número de raízes"
 ],
 "a": 0,
-"w": "O primeiro algarismo é o quadrante e o segundo é a posição do dente nele."
+"w": "O primeiro algarismo é o quadrante (1 a 4 no permanente e 5 a 8 no decíduo) e o segundo é a posição a partir da linha média. O sistema foi adotado pela FDI em 1970 e virou norma ISO 3950; nos EUA ainda se usa o Sistema Universal, de 1 a 32.",
+"r": [
+{
+"t": "Wikipedia. FDI World Dental Federation notation (notação de dois dígitos)",
+"u": "https://en.wikipedia.org/wiki/FDI_World_Dental_Federation_notation"
+},
+{
+"t": "Peck S, Peck L. Hora de mudar os sistemas de numeração dental. J Dent Educ, 1993",
+"u": "https://pubmed.ncbi.nlm.nih.gov/8349894/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1220,7 +1372,13 @@ window.BANCO_MILHAO = [
 "Amalgamador"
 ],
 "a": 1,
-"w": "A alta rotação desgasta o dente com a broca e a água evita o superaquecimento."
+"w": "A caneta de alta rotação é movida a ar e a broca gira em torno de 300.000 a 400.000 rpm. O atrito gera calor, e o spray de água resfria o dente para não lesar a polpa. Um estudo de 2022 no Clin Oral Investig mediu a temperatura dentro da polpa e mostrou que a regulagem do spray muda o aquecimento durante o desgaste.",
+"r": [
+{
+"t": "Lempel E e cols. Ajuste do spray de ar e água e temperatura intrapulpar no desgaste. Clin Oral Investig, 2022",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8212794/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1233,7 +1391,13 @@ window.BANCO_MILHAO = [
 "Para extrair dentes"
 ],
 "a": 3,
-"w": "O fórceps é uma pinça especial que segura o dente na extração."
+"w": "O fórceps é uma pinça de extração com pontas desenhadas para cada grupo de dentes e arcada. Ele agarra a raiz e, com movimentos de luxação, rompe o ligamento periodontal até soltar o dente. O primeiro fórceps moderno com pontas anatômicas é atribuído a John Tomes, em 1840.",
+"r": [
+{
+"t": "Wikipedia. Dental instrument (instrumentais odontológicos)",
+"u": "https://en.wikipedia.org/wiki/Dental_instrument"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1246,7 +1410,13 @@ window.BANCO_MILHAO = [
 "Autoclave"
 ],
 "a": 3,
-"w": "A autoclave usa vapor sob pressão e alta temperatura para esterilizar."
+"w": "A autoclave esteriliza com vapor saturado sob pressão, em geral 121 °C por cerca de 30 minutos ou 134 °C por menos tempo. O vapor sob pressão desnatura as proteínas e mata inclusive esporos bacterianos, o que a estufa de calor seco faz pior. É o método padrão para instrumentais que aguentam calor.",
+"r": [
+{
+"t": "Patiño-Marín N e cols. Esterilização e desinfecção no consultório odontológico. Cureus, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11912515/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1259,7 +1429,17 @@ window.BANCO_MILHAO = [
 "Autoclave"
 ],
 "a": 2,
-"w": "A luz azul ativa a reação que endurece a resina composta."
+"w": "A resina composta tem um fotoiniciador, quase sempre a canforoquinona, que absorve luz azul (pico perto de 468 nm) e inicia a polimerização dos monômeros. Por isso o fotopolimerizador emite luz azul, e a potência e o tempo de exposição definem o quanto a resina endurece.",
+"r": [
+{
+"t": "Santini A e cols. Fotoiniciadores na odontologia: revisão. Prim Dent J, 2013",
+"u": "https://pubmed.ncbi.nlm.nih.gov/24466621/"
+},
+{
+"t": "Revisão: fotopolimerização na odontologia. Dent Clin North Am, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28886767/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1272,7 +1452,13 @@ window.BANCO_MILHAO = [
 "Raspar a língua"
 ],
 "a": 1,
-"w": "Ela tem marcações em milímetros para medir sulco e bolsa periodontal."
+"w": "A sonda periodontal milimetrada mede a distância da margem gengival ao fundo do sulco ou da bolsa. Em gengiva saudável o sulco tem até cerca de 3 mm; acima disso pode haver bolsa periodontal. Uma revisão clássica (Hefti, 1997) mostra que a força aplicada e a inflamação mudam a leitura, por isso a sondagem deve ser suave.",
+"r": [
+{
+"t": "Hefti AF. Sondagem periodontal. Crit Rev Oral Biol Med, 1997",
+"u": "https://pubmed.ncbi.nlm.nih.gov/9260047/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1285,7 +1471,17 @@ window.BANCO_MILHAO = [
 "Afastar a bochecha e a língua"
 ],
 "a": 3,
-"w": "O espelho reflete, ilumina e afasta tecidos moles durante o exame."
+"w": "O espelho clínico tem três funções: visão indireta de áreas escondidas, como a face palatina; iluminação, refletindo a luz do refletor; e afastamento de bochecha e língua. Isso deixa o campo visível e protege os tecidos moles durante o exame.",
+"r": [
+{
+"t": "Wikipedia. Mouth mirror (espelho clínico)",
+"u": "https://en.wikipedia.org/wiki/Mouth_mirror"
+},
+{
+"t": "Wikipedia. Dental instrument (instrumentais odontológicos)",
+"u": "https://en.wikipedia.org/wiki/Dental_instrument"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1298,7 +1494,13 @@ window.BANCO_MILHAO = [
 "Seringa tríplice"
 ],
 "a": 3,
-"w": "É tríplice porque tem três funções: ar, água e spray."
+"w": "A seringa tríplice fica no equipo e solta ar, água ou spray (ar e água juntos), daí o nome. Serve para lavar e secar o campo. A ponta deve ser trocada ou esterilizada entre pacientes e a mangueira purgada, pelo risco de contaminação da água do equipo.",
+"r": [
+{
+"t": "ANVISA. Serviços odontológicos: prevenção e controle de riscos (manual). Ministério da Saúde, 2006",
+"u": "https://cvs.saude.sp.gov.br/zip/MANUAL%20de%20ODONTO-ANVISA.pdf"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1311,7 +1513,13 @@ window.BANCO_MILHAO = [
 "Moldeira individual"
 ],
 "a": 2,
-"w": "O dique de borracha deixa o dente seco e protege o paciente durante o procedimento."
+"w": "O isolamento absoluto usa um lençol de borracha perfurado, preso ao dente por grampo e esticado num arco. Deixa o dente seco e longe da saliva, melhora a adesão e impede que o paciente engula ou aspire instrumentos e soluções. Uma revisão Cochrane de 2021 mostrou que restaurações feitas com dique tendem a falhar menos.",
+"r": [
+{
+"t": "Wang Y e cols. Isolamento com dique de borracha em tratamentos restauradores. Cochrane, 2021",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8127531/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1324,7 +1532,13 @@ window.BANCO_MILHAO = [
 "Higienista dental"
 ],
 "a": 1,
-"w": "A Lei 5.081/1966, que regula a odontologia, usa o termo cirurgião-dentista."
+"w": "A Lei 5.081/1966, que regula o exercício da odontologia, diz que ela só pode ser exercida pelo cirurgião-dentista habilitado. Por isso o título oficial no diploma e no CRO é cirurgião-dentista, e não só dentista.",
+"r": [
+{
+"t": "Presidência da República. Lei nº 5.081, de 24/08/1966 (exercício da odontologia). Planalto, 1966",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l5081.htm"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1337,7 +1551,13 @@ window.BANCO_MILHAO = [
 "Arquivo Brasileiro de Odontólogos"
 ],
 "a": 0,
-"w": "A ABO é uma entidade de classe que oferece cursos e eventos para dentistas."
+"w": "A ABO (Associação Brasileira de Odontologia) é uma entidade de classe com seções estaduais e regionais. Oferece cursos de atualização e especialização, congressos e defende os interesses da profissão. É diferente do CFO e dos CROs, que são autarquias de fiscalização.",
+"r": [
+{
+"t": "ABO Nacional. Site oficial da Associação Brasileira de Odontologia",
+"u": "https://www.abo.org.br/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1350,7 +1570,17 @@ window.BANCO_MILHAO = [
 "Dez minutos"
 ],
 "a": 1,
-"w": "A recomendação de consenso é escovar dois minutos, duas vezes ao dia."
+"w": "A ADA recomenda escovar duas vezes ao dia, por dois minutos, com creme dental com flúor. Um estudo de 2009 no J Dent Hyg mostrou que escovar 120 segundos remove cerca de 26 % mais placa do que 45 segundos, o tempo médio que as pessoas escovam.",
+"r": [
+{
+"t": "American Dental Association. Toothbrushes (tópico de saúde bucal). ADA",
+"u": "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes"
+},
+{
+"t": "Gallagher A e cols. Efeito do tempo de escovação e do creme dental na remoção de placa. J Dent Hyg, 2009",
+"u": "https://pubmed.ncbi.nlm.nih.gov/19723429/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1363,7 +1593,17 @@ window.BANCO_MILHAO = [
 "Só quando quebrar o cabo"
 ],
 "a": 0,
-"w": "Cerdas gastas limpam pior, por isso a troca periódica."
+"w": "A ADA orienta trocar a escova a cada três a quatro meses, ou antes se as cerdas abrirem. Cerda deformada perde a ponta e limpa menos; estudos clínicos da década de 2000 (J Clin Dent) compararam escovas novas e com três meses de uso.",
+"r": [
+{
+"t": "American Dental Association. Toothbrushes (tópico de saúde bucal). ADA",
+"u": "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes"
+},
+{
+"t": "Conforti NJ e cols. Efeito de três meses de uso na eficácia da escova. J Clin Dent, 2003",
+"u": "https://pubmed.ncbi.nlm.nih.gov/12723100/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1376,7 +1616,13 @@ window.BANCO_MILHAO = [
 "Macia"
 ],
 "a": 3,
-"w": "Cerdas macias limpam bem sem machucar a gengiva nem desgastar o dente."
+"w": "A ADA recomenda cerdas macias porque reduzem o risco de abrasão da gengiva. Cerda dura com força exagerada pode causar retração gengival e desgaste do esmalte e da raiz exposta, as lesões cervicais não cariosas.",
+"r": [
+{
+"t": "American Dental Association. Toothbrushes (tópico de saúde bucal). ADA",
+"u": "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1389,7 +1635,17 @@ window.BANCO_MILHAO = [
 "Nenhum, só água"
 ],
 "a": 0,
-"w": "Uma quantidade mínima protege contra cárie sem excesso de flúor engolido."
+"w": "Para menores de 3 anos, a ADA indica creme com flúor (cerca de 1.000 ppm) numa quantidade de no máximo um esfregaço ou grão de arroz; de 3 a 6 anos, um grão de ervilha. A criança pequena engole parte do creme, e o excesso de flúor na fase de formação do esmalte pode causar fluorose. O Ministério da Saúde segue a mesma linha.",
+"r": [
+{
+"t": "American Dental Association. Fluoride: topical and systemic supplements. ADA",
+"u": "https://www.ada.org/resources/ada-library/oral-health-topics/fluoride-topical-and-systemic-supplements"
+},
+{
+"t": "Ministério da Saúde. Guia de recomendações para o uso de fluoretos no Brasil. MS, 2009",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_recomendacoes_uso_fluoretos.pdf"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1402,7 +1658,17 @@ window.BANCO_MILHAO = [
 "Um tipo de cárie"
 ],
 "a": 2,
-"w": "O bruxismo pode desgastar os dentes e causar dor na mandíbula."
+"w": "O consenso internacional (Lobbezoo e cols., J Oral Rehabil 2013 e 2018) define bruxismo como atividade repetitiva dos músculos da mastigação de apertar ou ranger os dentes, ou de travar e empurrar a mandíbula. Pode ser do sono ou da vigília. Desgasta os dentes, fratura restaurações e próteses e pode dar dor muscular; a placa protege os dentes, mas não cura a causa.",
+"r": [
+{
+"t": "Lobbezoo F e cols. Bruxismo definido e graduado: consenso internacional. J Oral Rehabil, 2013",
+"u": "https://pubmed.ncbi.nlm.nih.gov/23121262/"
+},
+{
+"t": "Lobbezoo F e cols. Consenso internacional sobre avaliação do bruxismo. J Oral Rehabil, 2018",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287494/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1415,7 +1681,17 @@ window.BANCO_MILHAO = [
 "Mau hálito"
 ],
 "a": 3,
-"w": "A causa mais comum do mau hálito está na própria boca, como a saburra da língua."
+"w": "Halitose é o mau hálito. Na grande maioria dos casos a origem é a própria boca: bactérias anaeróbias da saburra lingual e de bolsas periodontais degradam proteínas e liberam compostos sulfurados voláteis (como sulfeto de hidrogênio e metilmercaptana). Uma revisão de 2008 no Braz Oral Res resume esses fatores.",
+"r": [
+{
+"t": "Cortelli JR e cols. Halitose: revisão dos fatores associados e do tratamento. Braz Oral Res, 2008",
+"u": "https://pubmed.ncbi.nlm.nih.gov/19838550/"
+},
+{
+"t": "ADA MouthHealthy. Bad breath (mau hálito). ADA",
+"u": "https://www.mouthhealthy.org/all-topics-a-z/bad-breath"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1428,7 +1704,17 @@ window.BANCO_MILHAO = [
 "Dor de dente"
 ],
 "a": 1,
-"w": "Pode vir de remédios, de doenças ou da diminuição da saliva."
+"w": "Xerostomia é a sensação subjetiva de boca seca; a redução medida da saliva se chama hipossalivação. Causas comuns são remédios (antidepressivos, anti-hipertensivos, anti-histamínicos), radioterapia de cabeça e pescoço e síndrome de Sjögren. Uma meta-análise de 2018 (J Am Geriatr Soc) listou as classes de remédios que mais causam boca seca em idosos, e a falta de saliva aumenta cárie e piora a retenção da prótese total.",
+"r": [
+{
+"t": "NIDCR/NIH. Dry mouth (boca seca). NIH",
+"u": "https://www.nidcr.nih.gov/health-info/dry-mouth"
+},
+{
+"t": "Tan ECK e cols. Remédios que causam boca seca em idosos: revisão sistemática. J Am Geriatr Soc, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/29071719/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1441,7 +1727,17 @@ window.BANCO_MILHAO = [
 "Esmalte lingual"
 ],
 "a": 2,
-"w": "A saburra junta restos e bactérias e é grande causa de mau hálito; limpar a língua ajuda."
+"w": "A saburra lingual é uma camada de células descamadas, restos de alimento e bactérias presa entre as papilas do dorso da língua, principalmente no terço posterior. É a principal fonte dos compostos sulfurados do mau hálito; revisões sistemáticas mostram que limpar a língua reduz a saburra e o odor, ao menos a curto prazo.",
+"r": [
+{
+"t": "Van der Sleen MI e cols. Limpeza mecânica da língua, odor e saburra: revisão sistemática. Int J Dent Hyg, 2010",
+"u": "https://pubmed.ncbi.nlm.nih.gov/20961381/"
+},
+{
+"t": "Cortelli JR e cols. Halitose: revisão dos fatores associados e do tratamento. Braz Oral Res, 2008",
+"u": "https://pubmed.ncbi.nlm.nih.gov/19838550/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1454,7 +1750,17 @@ window.BANCO_MILHAO = [
 "No leite das escolas"
 ],
 "a": 1,
-"w": "A Lei 6.050/1974 tornou obrigatória a fluoretação da água tratada."
+"w": "A Lei 6.050, de 24/05/1974, manda que os sistemas públicos de abastecimento com estação de tratamento incluam a fluoretação da água. É uma das medidas de saúde pública que mais reduziram a cárie no Brasil, como mostra o histórico publicado em 2022 no Int J Environ Res Public Health.",
+"r": [
+{
+"t": "Presidência da República. Lei nº 6.050, de 24/05/1974 (fluoretação da água). Planalto, 1974",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/L6050.htm"
+},
+{
+"t": "Frazão P, Narvai PC. O uso de fluoretos na saúde pública: 65 anos de história no Brasil. Int J Environ Res Public Health, 2022",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9367810/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1467,7 +1773,21 @@ window.BANCO_MILHAO = [
 "Sorriso Feliz"
 ],
 "a": 0,
-"w": "O Brasil Sorridente começou em 2004 e virou lei em 2023 (Lei 14.572)."
+"w": "O Brasil Sorridente nasceu em 2004 e criou os Centros de Especialidades Odontológicas (CEO) e os Laboratórios Regionais de Prótese Dentária (LRPD), que fazem próteses pelo SUS. Em 2023 virou lei: a Lei 14.572 instituiu a Política Nacional de Saúde Bucal no SUS.",
+"r": [
+{
+"t": "Ministério da Saúde. Brasil Sorridente. gov.br",
+"u": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente"
+},
+{
+"t": "Presidência da República. Lei nº 14.572, de 08/05/2023 (Política Nacional de Saúde Bucal). Planalto, 2023",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14572.htm"
+},
+{
+"t": "Pucca GA e cols. Dez anos da política nacional de saúde bucal no Brasil. J Dent Res, 2015",
+"u": "https://pubmed.ncbi.nlm.nih.gov/26316461/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1480,7 +1800,13 @@ window.BANCO_MILHAO = [
 "Um tipo de anestesia"
 ],
 "a": 1,
-"w": "No odontograma o dentista marca cáries, restaurações e ausências dente por dente."
+"w": "O odontograma é a ficha com o desenho de todos os dentes, onde o dentista marca cárie, restauração, ausência, prótese e o que precisa ser feito, com códigos e cores. Faz parte do prontuário, que é documento legal e também serve na identificação de pessoas pela odontologia legal.",
+"r": [
+{
+"t": "Wikipédia. Odontograma",
+"u": "https://pt.wikipedia.org/wiki/Odontograma"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1493,7 +1819,17 @@ window.BANCO_MILHAO = [
 "Radiografia de tórax"
 ],
 "a": 1,
-"w": "A panorâmica dá a visão geral das arcadas, ótima para ver os sisos."
+"w": "A radiografia panorâmica mostra numa só imagem as duas arcadas, as articulações e os seios maxilares: a fonte e o filme giram em volta da cabeça. É ótima para ver sisos, lesões grandes e o desenvolvimento dentário, mas tem menos detalhe que a periapical e a interproximal, por isso não substitui essas para diagnosticar cárie.",
+"r": [
+{
+"t": "Tsiklakis K e cols. Indicações da radiografia panorâmica em crianças: revisão sistemática. Eur Arch Paediatr Dent, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/31602555/"
+},
+{
+"t": "ADA MouthHealthy. X-rays (radiografias). ADA",
+"u": "https://www.mouthhealthy.org/all-topics-a-z/x-rays"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1506,7 +1842,13 @@ window.BANCO_MILHAO = [
 "Restauração"
 ],
 "a": 3,
-"w": "Restaurar é devolver ao dente a forma e a função perdidas."
+"w": "Obturação é o nome popular; o termo técnico é restauração, que devolve forma, função e estética à parte perdida do dente. Na linguagem técnica, obturação é usada para o preenchimento dos canais na endodontia. As restaurações podem ser diretas (resina, amálgama) ou indiretas (feitas no laboratório, como inlay e onlay).",
+"r": [
+{
+"t": "Wikipedia. Dental restoration (restauração dentária)",
+"u": "https://en.wikipedia.org/wiki/Dental_restoration"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1519,7 +1861,13 @@ window.BANCO_MILHAO = [
 "Um clareamento a laser"
 ],
 "a": 2,
-"w": "Na profilaxia se removem placa e manchas e se polem os dentes."
+"w": "A profilaxia profissional remove placa, manchas e, quando há, tártaro, e termina com polimento com pasta e taça de borracha ou escova de Robinson. Não substitui a escovação diária, mas facilita o controle de placa e deixa a superfície mais lisa.",
+"r": [
+{
+"t": "Wikipedia. Dental prophylaxis (profilaxia dentária)",
+"u": "https://en.wikipedia.org/wiki/Dental_prophylaxis"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1532,7 +1880,17 @@ window.BANCO_MILHAO = [
 "Segurar o aparelho"
 ],
 "a": 2,
-"w": "O selante fecha fóssulas e fissuras, onde o biofilme se esconde."
+"w": "O selante é uma resina fluida aplicada nas fóssulas e fissuras dos molares, onde a escova não alcança e o biofilme se acumula. A revisão Cochrane de 2017 mostrou que selantes resinosos reduzem a cárie oclusal em crianças e adolescentes em comparação a não selar.",
+"r": [
+{
+"t": "Ahovuo-Saloranta A e cols. Selantes de fóssulas e fissuras para prevenir cárie. Cochrane, 2017",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6483295/"
+},
+{
+"t": "NIDCR/NIH. Dental sealants (selantes). NIH",
+"u": "https://www.nidcr.nih.gov/health-info/dental-sealants"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1545,7 +1903,13 @@ window.BANCO_MILHAO = [
 "Flúor"
 ],
 "a": 0,
-"w": "Os peróxidos liberam oxigênio que quebra os pigmentos do dente."
+"w": "Os géis de clareamento usam peróxido de hidrogênio (no consultório, em geral 25 a 40 %) ou peróxido de carbamida (caseiro, 10 a 22 %), que se decompõe em peróxido de hidrogênio e ureia. Os radicais livres atravessam o esmalte e quebram as moléculas de pigmento em moléculas menores e mais claras, como explica a revisão de 2014 no J Evid Based Dent Pract.",
+"r": [
+{
+"t": "Carey CM. Clareamento dental: o que sabemos hoje. J Evid Based Dent Pract, 2014",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4058574/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1558,7 +1922,17 @@ window.BANCO_MILHAO = [
 "Inflamação da gengiva (gengivite)"
 ],
 "a": 3,
-"w": "O sangramento é o sinal mais comum da gengivite e merece avaliação do dentista."
+"w": "O sangramento é o sinal mais precoce da gengivite, a inflamação causada pelo biofilme acumulado na margem da gengiva. É reversível com boa escovação, fio e limpeza profissional. O consenso de 2017 usa o sangramento à sondagem para definir gengivite e diferenciá-la da gengiva saudável.",
+"r": [
+{
+"t": "Chapple ILC e cols. Saúde periodontal e doenças gengivais: consenso do World Workshop 2017. J Periodontol, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/29926944/"
+},
+{
+"t": "NIDCR/NIH. Gum disease (doença da gengiva). NIH",
+"u": "https://www.nidcr.nih.gov/health-info/gum-disease"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1571,7 +1945,17 @@ window.BANCO_MILHAO = [
 "Por volta dos 3 anos"
 ],
 "a": 1,
-"w": "Geralmente o primeiro a nascer é o incisivo central inferior."
+"w": "Os dentes de leite começam a nascer por volta dos 6 meses, quase sempre o incisivo central inferior primeiro, e a dentição decídua (20 dentes) fica completa por volta dos 2 anos e meio a 3 anos. Uma meta-análise de 2024 (Arch Oral Biol) mostrou que essa idade varia entre populações, mas a média fica perto dos 6 meses.",
+"r": [
+{
+"t": "ADA MouthHealthy. Tabelas de erupção dos dentes decíduos e permanentes. ADA",
+"u": "https://www.mouthhealthy.org/all-topics-a-z/eruption-charts"
+},
+{
+"t": "Muthu MS e cols. Variações globais na cronologia de erupção dos dentes decíduos: meta-análise. Arch Oral Biol, 2024",
+"u": "https://pubmed.ncbi.nlm.nih.gov/38128337/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1584,7 +1968,17 @@ window.BANCO_MILHAO = [
 "Incisivo lateral superior"
 ],
 "a": 1,
-"w": "Ele não substitui nenhum dente de leite, por isso muita gente acha que é de leite."
+"w": "O primeiro molar permanente nasce entre 6 e 7 anos, atrás do segundo molar decíduo, sem substituir nenhum dente de leite. Por isso muitos pais acham que é de leite e descuidam dele, que é o dente mais atingido por cárie na infância. É a chave da oclusão de Angle.",
+"r": [
+{
+"t": "ADA. Tabela de erupção dos dentes permanentes (PDF). ADA",
+"u": "https://www.mouthhealthy.org/-/media/project/ada-organization/ada/mouthhealthy/files/activity-sheets/adapermanentteethdev_eng.pdf"
+},
+{
+"t": "ADA MouthHealthy. Tabelas de erupção dos dentes decíduos e permanentes. ADA",
+"u": "https://www.mouthhealthy.org/all-topics-a-z/eruption-charts"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1597,7 +1991,17 @@ window.BANCO_MILHAO = [
 "Um dente quebrado"
 ],
 "a": 1,
-"w": "A afta costuma sarar sozinha em uma a duas semanas."
+"w": "A afta (estomatite aftosa recorrente) é uma úlcera rasa, redonda, com fundo branco-amarelado e halo vermelho. Não é contagiosa, ao contrário do herpes labial, e em geral cicatriza sozinha em uma a duas semanas. Úlcera que passa de três semanas precisa de avaliação.",
+"r": [
+{
+"t": "NHS. Úlceras na boca (mouth ulcers). NHS",
+"u": "https://www.nhs.uk/conditions/mouth-ulcers/"
+},
+{
+"t": "Manfredini M e cols. Estomatite aftosa recorrente: tratamento. Dermatol Pract Concept, 2021",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8480451/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1610,7 +2014,17 @@ window.BANCO_MILHAO = [
 "Dentística"
 ],
 "a": 0,
-"w": "Os dentes resistem muito e servem como impressão digital na identificação humana."
+"w": "A odontologia legal identifica pessoas comparando os dentes, restaurações, próteses e radiografias do corpo com o prontuário de quando a pessoa era viva. Os dentes resistem a fogo e decomposição, e a odontologia é um dos métodos primários de identificação em desastres de massa, junto com digitais e DNA (revisão de 2024 na Cureus).",
+"r": [
+{
+"t": "CFO. Manual de especialização, com a lista das especialidades reconhecidas. CFO, 2022",
+"u": "https://website.cfo.org.br/wp-content/uploads/2022/01/Manual-especializacao_versao_2022.pdf"
+},
+{
+"t": "Revisão: papel da odontologia forense na identificação de pessoas. Cureus, 2024",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10957511/"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1623,7 +2037,17 @@ window.BANCO_MILHAO = [
 "15 de outubro"
 ],
 "a": 2,
-"w": "O Dia do Protético é 5 de novembro, a data da Lei 6.710/1979, que regulamentou a profissão de técnico em prótese dentária. O estado de SP oficializou o dia na Lei 8.857/1994."
+"w": "O Dia do Protético é 5 de novembro porque nessa data, em 1979, foi assinada a Lei 6.710, que regulamentou a profissão de Técnico em Prótese Dentária. O estado de SP oficializou a data com a Lei 8.857/1994.",
+"r": [
+{
+"t": "Presidência da República. Lei nº 6.710, de 05/11/1979 (profissão de Técnico em Prótese Dentária). Planalto, 1979",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l6710.htm"
+},
+{
+"t": "Assembleia Legislativa de SP. Lei nº 8.857, de 08/08/1994 (Dia do Protético Dentário). ALESP, 1994",
+"u": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1994/lei-8857-08.08.1994.html"
+}
+]
 },
 {
 "m": "Curiosidades da odonto",
@@ -1636,7 +2060,17 @@ window.BANCO_MILHAO = [
 "Um fio dental de seda"
 ],
 "a": 1,
-"w": "Nos países de língua inglesa, a tradição é a fada trocar o dente por dinheiro, geralmente algumas moedas ou notas.",
+"w": "Nos EUA e nos países de língua inglesa, o dente vai debaixo do travesseiro e a fada deixa dinheiro em troca, como descreve a revisão de Parsons e colegas (Frontiers in Dental Medicine, 2021). A Delta Dental faz uma pesquisa anual com pais americanos: em 2025, a média foi de US$ 5,01 por dente, contra US$ 1,30 em 1998. Ou seja, a fada também sofre com a inflação.",
+"r": [
+{
+"t": "Parsons e cols. Rituais de descarte do dente de leite e o que significam. Frontiers in Dental Medicine, 2021",
+"u": "https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2021.698144/full"
+},
+{
+"t": "Delta Dental. Pesquisa anual da fada do dente 2025 (média de US$ 5,01 por dente)",
+"u": "https://deltadentalma.com/about-us/press-releases/2025/the-tooth-fairy-is-on-a-budget"
+}
+],
 "g": 1
 },
 {
@@ -1650,7 +2084,17 @@ window.BANCO_MILHAO = [
 "Num jornal americano de 1908"
 ],
 "a": 3,
-"w": "Uma nota de 'dicas do lar' no Chicago Daily Tribune, em 1908, é o registro impresso mais antigo conhecido da fada do dente.",
+"w": "O registro impresso mais antigo conhecido é uma nota da coluna de dicas domésticas do Chicago Daily Tribune, de 27/09/1908: dizia que a criança deixava arrancar o dente mole com mais facilidade se soubesse da fada do dente. A fada é uma lenda jovem; a pesquisadora Rosemary Wells, da Faculdade de Odontologia da Northwestern, mostrou que ela se mistura com a tradição europeia mais antiga do ratinho que troca o dente.",
+"r": [
+{
+"t": "Wikipedia. Fada do dente (verbete com a citação do Chicago Daily Tribune de 1908)",
+"u": "https://en.wikipedia.org/wiki/Tooth_fairy"
+},
+{
+"t": "Folklore Thursday. A fada do dente, comprando dentes desde 1900",
+"u": "https://folklorethursday.com/folktales/tooth-fairy-buying-teeth-since-1900/"
+}
+],
 "g": 1
 },
 {
@@ -1664,7 +2108,17 @@ window.BANCO_MILHAO = [
 "Manda pelo correio para a avó"
 ],
 "a": 0,
-"w": "A ideia é que o dente permanente nasça forte como o dente do cachorro, que rói osso.",
+"w": "Na tradição mongol, o dente vai embrulhado em gordura e é dado a um cachorro, para que o dente permanente nasça forte como o de quem rói osso; sem cachorro, enterra-se perto de uma árvore, para ganhar 'raízes fortes'. O costume aparece no British Dental Journal (2014), e a revisão de Parsons e colegas (2021) classifica a Mongólia entre os povos que dão o dente a um animal.",
+"r": [
+{
+"t": "British Dental Journal. Pelo mundo: o dente de leite na Mongólia, 2014",
+"u": "https://www.nature.com/articles/sj.bdj.2014.67"
+},
+{
+"t": "Parsons e cols. Rituais de descarte do dente de leite e o que significam. Frontiers in Dental Medicine, 2021",
+"u": "https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2021.698144/full"
+}
+],
 "g": 1
 },
 {
@@ -1678,7 +2132,17 @@ window.BANCO_MILHAO = [
 "Jogar o dente em direção ao sol"
 ],
 "a": 3,
-"w": "As crianças lançam o dente para o alto, em direção ao sol, pedindo um dente novo e bonito.",
+"w": "Em países como Iraque, Jordânia e Egito, a criança joga o dente para o alto, em direção ao sol, pedindo um dente mais bonito em troca. A revisão de Parsons e colegas (2021) registra o costume de lançar o dente 'na direção do sol' em vários povos da África e da Ásia; é o mesmo pensamento mágico de troca da fada, só que com outro destinatário.",
+"r": [
+{
+"t": "Parsons e cols. Rituais de descarte do dente de leite e o que significam. Frontiers in Dental Medicine, 2021",
+"u": "https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2021.698144/full"
+},
+{
+"t": "Mental Floss. 7 tradições da fada do dente pelo mundo",
+"u": "https://www.mentalfloss.com/culture/7-tooth-fairy-traditions-around-world"
+}
+],
 "g": 1
 },
 {
@@ -1692,7 +2156,17 @@ window.BANCO_MILHAO = [
 "Num copo com água"
 ],
 "a": 3,
-"w": "O ratinho que busca o dente estaria com sede, então a criança deixa o dente num copo d'água.",
+"w": "Na Argentina, o personagem é o Ratón Pérez, o ratinho que nasceu num conto espanhol do fim do século XIX e virou a 'fada do dente' do mundo hispânico. Algumas crianças põem o dente num copo d'água: o ratinho bebe a água, leva o dente e deixa um presente no copo vazio.",
+"r": [
+{
+"t": "Mental Floss. 7 tradições da fada do dente pelo mundo",
+"u": "https://www.mentalfloss.com/culture/7-tooth-fairy-traditions-around-world"
+},
+{
+"t": "Parsons e cols. Rituais de descarte do dente de leite e o que significam. Frontiers in Dental Medicine, 2021",
+"u": "https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2021.698144/full"
+}
+],
 "g": 1
 },
 {
@@ -1706,7 +2180,17 @@ window.BANCO_MILHAO = [
 "Os poderes do Papai Noel"
 ],
 "a": 2,
-"w": "No filme, a Fada do Dente é a Guardiã das Memórias: cada dente de leite guarda lembranças da criança.",
+"w": "Em 'A Origem dos Guardiões' (DreamWorks, 2012), a Fada do Dente é a Guardiã das Memórias: cada dente de leite guarda as lembranças de infância da criança, e ela os protege no seu palácio. A ideia brinca com algo real: o dente guarda informação, tanto que dentes de leite são estudados como fonte de células-tronco.",
+"r": [
+{
+"t": "Wikipedia. A Origem dos Guardiões (2012)",
+"u": "https://en.wikipedia.org/wiki/Rise_of_the_Guardians"
+},
+{
+"t": "Häfner. A barganha com a fada do dente: bancos de células-tronco do dente de leite. Biomedical Journal, 2020",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7195095/"
+}
+],
 "g": 1
 },
 {
@@ -1720,7 +2204,13 @@ window.BANCO_MILHAO = [
 "Golfe"
 ],
 "a": 2,
-"w": "O personagem ganhou o apelido de 'Fada do Dente' por arrancar dentes dos adversários no hóquei.",
+"w": "Em 'Fada do Dente' (2010), Dwayne Johnson é Derek Thompson, jogador de hóquei no gelo apelidado de 'Fada do Dente' porque derruba dentes dos adversários nas trombadas. O apelido tem base: no hóquei, o trauma dental é tão comum que o protetor bucal é recomendado por toda entidade de odontologia esportiva.",
+"r": [
+{
+"t": "Wikipedia. Fada do Dente (filme de 2010)",
+"u": "https://en.wikipedia.org/wiki/Tooth_Fairy_(2010_film)"
+}
+],
 "g": 1
 },
 {
@@ -1734,7 +2224,17 @@ window.BANCO_MILHAO = [
 "Eddie Murphy"
 ],
 "a": 1,
-"w": "Steve Martin vive o dentista Orin Scrivello, um dos personagens mais lembrados do musical.",
+"w": "Na versão de 1986, dirigida por Frank Oz, Steve Martin vive o dentista sádico Orin Scrivello, que canta 'Dentist!' enquanto maltrata os pacientes. Um estudo de história da medicina (Gierok e colegas, British Dental Journal, 2022) catalogou quase 60 filmes americanos com dentistas entre 1913 e 2013 e incluiu os dois 'A Pequena Loja dos Horrores' (1960 e 1986).",
+"r": [
+{
+"t": "Wikipedia. A Pequena Loja dos Horrores (1986)",
+"u": "https://en.wikipedia.org/wiki/Little_Shop_of_Horrors_(1986_film)"
+},
+{
+"t": "Gierok, Mirza e Karenberg. Dentistas no cinema americano, 1913-2013. British Dental Journal, 2022",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9142361/"
+}
+],
 "g": 1
 },
 {
@@ -1748,7 +2248,17 @@ window.BANCO_MILHAO = [
 "Porque ele chega duas horas atrasado"
 ],
 "a": 0,
-"w": "O paciente é masoquista e se diverte com o canal sem anestesia, o que estraga a graça do dentista.",
+"w": "Bill Murray faz Arthur Denton, um paciente masoquista que adora o motor sem anestesia e ainda pede mais; o dentista sádico, sem a dor do outro para curtir, fica frustrado. A cena brinca com o estereótipo do dentista que causa dor, que os estudos sobre cinema mostram ser o retrato mais comum da profissão (Simpson, British Dental Journal, 2023).",
+"r": [
+{
+"t": "Wikipedia. A Pequena Loja dos Horrores (1986)",
+"u": "https://en.wikipedia.org/wiki/Little_Shop_of_Horrors_(1986_film)"
+},
+{
+"t": "Yeung e cols. Revisão sobre dentistas e dentes nos filmes. Frontiers in Oral Health, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12058483/"
+}
+],
 "g": 1
 },
 {
@@ -1762,7 +2272,17 @@ window.BANCO_MILHAO = [
 "Para o aquário de um dentista"
 ],
 "a": 3,
-"w": "Nemo vai parar no aquário do consultório de um dentista em Sydney, na Austrália.",
+"w": "Nemo é capturado por um mergulhador, o dentista Philip Sherman, e vai parar no aquário do consultório dele em Sydney. A revisão de Yeung e colegas (Frontiers in Oral Health, 2025) cita o filme como exemplo do dentista que 'sequestra' o peixinho, mais uma imagem pouco simpática da profissão no cinema.",
+"r": [
+{
+"t": "Wikipedia. Procurando Nemo (2003)",
+"u": "https://en.wikipedia.org/wiki/Finding_Nemo"
+},
+{
+"t": "Yeung e cols. Revisão sobre dentistas e dentes nos filmes. Frontiers in Oral Health, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12058483/"
+}
+],
 "g": 1
 },
 {
@@ -1776,7 +2296,13 @@ window.BANCO_MILHAO = [
 "P. Sherman, 42 Wallaby Way, Sydney"
 ],
 "a": 3,
-"w": "O endereço do dentista Philip Sherman virou uma das falas mais repetidas do filme.",
+"w": "P. Sherman, 42 Wallaby Way, Sydney: Dory repete o endereço do dentista Philip Sherman, que estava escrito na máscara de mergulho dele, até decorar. 'Wallaby' é um marsupial parente pequeno do canguru, por isso as alternativas com Kanguru e Koala são pegadinhas.",
+"r": [
+{
+"t": "Wikipedia. Procurando Nemo (2003)",
+"u": "https://en.wikipedia.org/wiki/Finding_Nemo"
+}
+],
 "g": 1
 },
 {
@@ -1790,7 +2316,13 @@ window.BANCO_MILHAO = [
 "Dentes de vampiro"
 ],
 "a": 0,
-"w": "Vivido por Richard Kiel em 'O Espião que me Amava' (1977) e 'O Foguete da Morte' (1979), ele mordia até cabos de aço.",
+"w": "Jaws, vivido por Richard Kiel em 'O Espião que me Amava' (1977) e 'O Foguete da Morte' (1979), tinha dentes de aço com que mordia até cabos e correntes. A prótese usada nas filmagens era tão desconfortável que o ator só conseguia mantê-la na boca por poucos segundos de cada vez.",
+"r": [
+{
+"t": "Wikipedia. Jaws (personagem de James Bond)",
+"u": "https://en.wikipedia.org/wiki/Jaws_(James_Bond)"
+}
+],
 "g": 1
 },
 {
@@ -1804,7 +2336,17 @@ window.BANCO_MILHAO = [
 "Mágico"
 ],
 "a": 0,
-"w": "A ironia é justamente essa: o dentista do grupo acorda banguela depois da festa.",
+"w": "Stu Price, vivido por Ed Helms, é o dentista do grupo e acorda depois da festa em Las Vegas sem um incisivo lateral. A ironia é dupla: ele mesmo teria arrancado o dente numa aposta, e o estudo de Gierok e colegas (2022) cataloga a franquia entre os filmes americanos com dentista como personagem.",
+"r": [
+{
+"t": "Wikipedia. Se Beber, Não Case! (2009)",
+"u": "https://en.wikipedia.org/wiki/The_Hangover"
+},
+{
+"t": "Gierok, Mirza e Karenberg. Dentistas no cinema americano, 1913-2013. British Dental Journal, 2022",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9142361/"
+}
+],
 "g": 1
 },
 {
@@ -1818,7 +2360,17 @@ window.BANCO_MILHAO = [
 "Ele pintou o dente de preto"
 ],
 "a": 2,
-"w": "Helms usava um implante desde a adolescência e pediu ao dentista para tirar a coroa durante as filmagens.",
+"w": "Ed Helms nunca formou aquele dente permanente e usava um implante desde os 16 anos. A maquiagem tentou pintar o dente de preto e uma prótese, que não funcionaram; então o dentista dele removeu a coroa sobre o implante e deixou só o pilar escondido na gengiva durante as filmagens. Depois, foi só recolocar a coroa.",
+"r": [
+{
+"t": "Slashfilm. Ed Helms tirou o implante de verdade para o filme",
+"u": "https://slashfilm.com/1620623/the-hangover-ed-helms-real-tooth-implant-removed"
+},
+{
+"t": "Looper. Ed Helms conta a verdade sobre a cena do dente",
+"u": "https://looper.com/757385/ed-helms-reveals-the-truth-about-that-hangover-tooth-scene"
+}
+],
 "g": 1
 },
 {
@@ -1832,7 +2384,17 @@ window.BANCO_MILHAO = [
 "Hipercementose"
 ],
 "a": 2,
-"w": "Agenesia é quando o germe do dente não se forma; por isso ele precisou de implante.",
+"w": "Agenesia é a falta de formação do germe dentário: o dente simplesmente não existe, nem incluso no osso. Fora os terceiros molares, atinge cerca de 5 a 7% das pessoas, e os mais afetados são os segundos pré-molares inferiores e os incisivos laterais superiores, justamente o caso de Ed Helms, que precisou de implante.",
+"r": [
+{
+"t": "Slashfilm. Ed Helms tirou o implante de verdade para o filme",
+"u": "https://slashfilm.com/1620623/the-hangover-ed-helms-real-tooth-implant-removed"
+},
+{
+"t": "Wikipedia. Hipodontia (agenesia dentária)",
+"u": "https://en.wikipedia.org/wiki/Hypodontia"
+}
+],
 "g": 1
 },
 {
@@ -1846,7 +2408,17 @@ window.BANCO_MILHAO = [
 "Dono de mercearia"
 ],
 "a": 2,
-"w": "O pai, vivido por Christopher Lee, proibia doces ao filho, que acabou virando o maior chocolateiro do mundo.",
+"w": "Na versão de Tim Burton, o pai de Willy é o dentista Wilbur Wonka (Christopher Lee), que proíbe doces e põe no filho um aparelho ortodôntico enorme. A revisão de Yeung e colegas (2025) comenta o filme: Wonka atribui suas esquisitices ao aparelho de infância e ao pai que negava doces.",
+"r": [
+{
+"t": "Wikipedia. A Fantástica Fábrica de Chocolate (filme de 2005)",
+"u": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)"
+},
+{
+"t": "Yeung e cols. Revisão sobre dentistas e dentes nos filmes. Frontiers in Oral Health, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12058483/"
+}
+],
 "g": 1
 },
 {
@@ -1860,7 +2432,17 @@ window.BANCO_MILHAO = [
 "Pode cuspir?"
 ],
 "a": 2,
-"w": "A cena do 'Is it safe?', com Laurence Olivier e Dustin Hoffman, é uma das mais famosas do cinema.",
+"w": "Laurence Olivier vive o Dr. Christian Szell, criminoso nazista e dentista, que tortura o personagem de Dustin Hoffman com a sonda e o motor sem anestesia, perguntando 'Is it safe?' ('Está seguro?'). Gierok e colegas (2022) apontam Szell como o arquétipo do 'dentista do mal' no cinema, e o retrato rendeu carta de protesto de dentistas já em 1976.",
+"r": [
+{
+"t": "Wikipedia. Maratona da Morte (1976)",
+"u": "https://en.wikipedia.org/wiki/Marathon_Man_(film)"
+},
+{
+"t": "Gierok, Mirza e Karenberg. Dentistas no cinema americano, 1913-2013. British Dental Journal, 2022",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9142361/"
+}
+],
 "g": 1
 },
 {
@@ -1874,7 +2456,17 @@ window.BANCO_MILHAO = [
 "Aparelho fixo cerâmico, discreto"
 ],
 "a": 3,
-"w": "Os bráquetes cerâmicos têm a cor do dente e eram a opção mais discreta na época.",
+"w": "Em junho de 2002, na estreia de 'Minority Report', Tom Cruise apareceu com aparelho fixo de bráquetes cerâmicos, da cor do dente. A cerâmica (alumina) é mais discreta que o metal, mas é mais friável e gera mais atrito no fio, por isso o tratamento pode ser um pouco mais lento.",
+"r": [
+{
+"t": "CNN. Transcrição de 19/06/2002: Tom Cruise de aparelho às vésperas dos 40 anos",
+"u": "https://transcripts.cnn.com/show/lt/date/2002-06-19/segment/02"
+},
+{
+"t": "Hello! Magazine. A transformação do sorriso de Tom Cruise",
+"u": "https://hellomagazine.com/healthandbeauty/health-and-fitness/728279/tom-cruises-gleaming-hollywood-smile-transformation-after-invasive-treatment"
+}
+],
 "g": 1
 },
 {
@@ -1888,7 +2480,13 @@ window.BANCO_MILHAO = [
 "Da linha média dentária"
 ],
 "a": 3,
-"w": "Linha média é a linha entre os dois incisivos centrais; o ideal é que coincida com o centro do rosto.",
+"w": "A linha média dentária passa entre os dois incisivos centrais superiores e o ideal é que coincida com o centro do rosto (filtro do lábio e nariz). No sorriso de Tom Cruise, a linha média está deslocada, o que faz um incisivo central parecer estar no centro da face. Na prótese total, é por isso que se pede ao dentista para marcar a linha média no plano de cera.",
+"r": [
+{
+"t": "Hello! Magazine. A transformação do sorriso de Tom Cruise",
+"u": "https://hellomagazine.com/healthandbeauty/health-and-fitness/728279/tom-cruises-gleaming-hollywood-smile-transformation-after-invasive-treatment"
+}
+],
 "g": 1
 },
 {
@@ -1902,7 +2500,17 @@ window.BANCO_MILHAO = [
 "Medialstema"
 ],
 "a": 0,
-"w": "O espaço entre os dentes é o diastema; entre os dois incisivos centrais superiores, como no caso dele, chama-se diastema mediano (ou interincisivo). \"Mesastema\" e \"medialstema\" não existem: são pegadinhas.",
+"w": "Diastema é o espaço entre dois dentes; entre os incisivos centrais superiores é o diastema mediano (ou interincisivo). Na dentição mista ele costuma ser normal (fase do 'patinho feio') e fecha com a erupção dos caninos; quando persiste, as causas incluem freio labial, agenesia de laterais, dentes pequenos e hábitos (Huang e Creath, Pediatric Dentistry, 1995). 'Mesastema' e 'medialstema' não existem.",
+"r": [
+{
+"t": "Huang e Creath. O diastema mediano: revisão da causa e do tratamento. Pediatric Dentistry, 1995",
+"u": "https://pubmed.ncbi.nlm.nih.gov/7617490/"
+},
+{
+"t": "Abraham e Kamath. Diastema mediano e suas causas (revisão). Dental Update, 2014",
+"u": "https://pubmed.ncbi.nlm.nih.gov/25073229/"
+}
+],
 "g": 1
 },
 {
@@ -1916,7 +2524,17 @@ window.BANCO_MILHAO = [
 "Um teste para virar dentista"
 ],
 "a": 1,
-"w": "Dias depois ele revelou que era pegadinha e que o espaço entre os dentes continuava lá.",
+"w": "Em 30/03/2021 Strahan postou um vídeo com o dentista 'fechando' o diastema (#GoodbyeGap); em 01/04 tirou a máscara e gritou 'April Fools!', mostrando o espaço intacto. Pelo que foi noticiado, o efeito foi feito com uma prótese removível encaixada sobre os dentes, sem mexer em nada de verdade.",
+"r": [
+{
+"t": "ABC7. Michael Strahan revela que não fechou o diastema: era 1º de abril",
+"u": "https://abc7.com/post/michael-strahan-teeth-gap-april-fools-video-did-close-his-tooth/10479121/"
+},
+{
+"t": "Sports Illustrated. A pegadinha de 1º de abril de Michael Strahan",
+"u": "https://www.si.com/extra-mustard/2021/04/02/michael-strahan-gap-teeth-april-fools-day-joke"
+}
+],
 "g": 1
 },
 {
@@ -1930,7 +2548,17 @@ window.BANCO_MILHAO = [
 "Dentes de siso"
 ],
 "a": 0,
-"w": "Supranumerários são dentes extras; nele, empurravam os incisivos para frente.",
+"w": "Supranumerários (hiperdontia) são dentes além da fórmula normal; aparecem em cerca de 0,1 a 3,8% das pessoas, mais na maxila anterior, onde o mais comum é o mesiodente, entre os incisivos centrais (Ata-Ali e colegas, 2014). No caso de Freddie Mercury, quatro dentes extras na arcada superior empurravam os incisivos para frente.",
+"r": [
+{
+"t": "Ata-Ali e cols. Dentes supranumerários: prevalência, causa, diagnóstico e tratamento. J Clin Exp Dent, 2014",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4282911/"
+},
+{
+"t": "Ultimate Classic Rock. Os dentes de Freddie Mercury",
+"u": "https://ultimateclassicrock.com/freddie-mercury-teeth/"
+}
+],
 "g": 1
 },
 {
@@ -1944,7 +2572,17 @@ window.BANCO_MILHAO = [
 "Tinha medo de mudar a voz"
 ],
 "a": 3,
-"w": "Ele temia que mexer na boca alterasse o alcance da voz, embora não haja prova disso.",
+"w": "Freddie dizia ter medo de que mexer nos dentes mudasse o alcance da voz. A ciência não confirma: a análise acústica de Herbst e colegas (2017) atribui o timbre dele a um vibrato rápido e irregular e ao uso das pregas vestibulares ('falsas cordas vocais'), produzindo sub-harmônicos, sem nada a ver com os dentes.",
+"r": [
+{
+"t": "Herbst e cols. Freddie Mercury: análise acústica da voz, vibrato e sub-harmônicos. Logopedics Phoniatrics Vocology, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/27079680/"
+},
+{
+"t": "Ultimate Classic Rock. Os dentes de Freddie Mercury",
+"u": "https://ultimateclassicrock.com/freddie-mercury-teeth/"
+}
+],
 "g": 1
 },
 {
@@ -1958,7 +2596,17 @@ window.BANCO_MILHAO = [
 "Erupção ectópica"
 ],
 "a": 2,
-"w": "Protrusão é quando os dentes ficam projetados para frente; em 2013 ele fez um tratamento que mudou o sorriso.",
+"w": "Protrusão é a inclinação ou posição dos dentes para frente (quando é nas duas arcadas, chama-se biprotrusão); retrusão é o contrário, e intrusão é o dente afundado no alvéolo. Em 2013, Ronaldinho fez um tratamento com realinhamento, facetas de porcelana e cirurgia de gengiva que mudou o famoso sorriso.",
+"r": [
+{
+"t": "NBC Sports. Ronaldinho conserta os dentes, 2013",
+"u": "https://www.nbcsports.com/soccer/news/smile-big-ronaldinho-fixes-his-teeth"
+},
+{
+"t": "Rajandram e cols. Tratamento da biprotrusão. Oral Maxillofac Surg Clin North Am, 2023",
+"u": "https://pubmed.ncbi.nlm.nih.gov/36336600/"
+}
+],
 "g": 1
 },
 {
@@ -1972,7 +2620,13 @@ window.BANCO_MILHAO = [
 "Curva de Wilson"
 ],
 "a": 1,
-"w": "Sobressaliência (overjet) mede quanto os incisivos de cima ficam à frente dos de baixo.",
+"w": "Sobressaliência (overjet) é a distância horizontal entre a face vestibular dos incisivos inferiores e a borda incisal dos superiores. O normal fica em torno de 2 a 3 mm; overjet grande é típico da Classe II divisão 1, e overjet negativo (de cima atrás dos de baixo) aparece na Classe III.",
+"r": [
+{
+"t": "Wikipedia. Overjet (sobressaliência)",
+"u": "https://en.wikipedia.org/wiki/Overjet"
+}
+],
 "g": 1
 },
 {
@@ -1986,7 +2640,13 @@ window.BANCO_MILHAO = [
 "Diastema"
 ],
 "a": 1,
-"w": "Sobremordida (overbite) é o trespasse vertical: quanto os dentes de cima 'tampam' os de baixo.",
+"w": "Sobremordida (overbite) é o trespasse vertical: quanto a borda dos incisivos superiores cobre a coroa dos inferiores, normalmente cerca de 1/3 da coroa (uns 2 a 3 mm). Quando é exagerada, chama-se sobremordida profunda; quando não há contato, é mordida aberta. Não confunda com sobressaliência, que é horizontal.",
+"r": [
+{
+"t": "Wikipedia. Overbite (sobremordida)",
+"u": "https://en.wikipedia.org/wiki/Overbite"
+}
+],
 "g": 1
 },
 {
@@ -2000,7 +2660,17 @@ window.BANCO_MILHAO = [
 "Mordida de travesseiro"
 ],
 "a": 2,
-"w": "Na mordida cruzada a relação normal se inverte em um ou mais dentes.",
+"w": "Na mordida cruzada, a relação vestíbulo-lingual normal se inverte: os dentes superiores ocluem por dentro dos inferiores, num ou mais dentes, na região anterior ou posterior. A posterior costuma vir de maxila atrésica, e a metanálise de Faryad e colegas (2026) mostrou que chupeta e sucção de dedo aumentam o risco dela na infância.",
+"r": [
+{
+"t": "Faryad e cols. Chupeta e dedo na mordida aberta e na mordida cruzada (revisão sistemática e metanálise). Dentistry Journal, 2026",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12839743/"
+},
+{
+"t": "Lo Giudice e cols. Mordida cruzada posterior funcional em crianças (revisão). J Clin Pediatr Dent, 2024",
+"u": "https://pubmed.ncbi.nlm.nih.gov/39543879/"
+}
+],
 "g": 1
 },
 {
@@ -2014,7 +2684,17 @@ window.BANCO_MILHAO = [
 "Sobremordida profunda"
 ],
 "a": 1,
-"w": "Mordida aberta é a falta de contato entre os dentes de cima e de baixo, muitas vezes ligada a chupeta ou dedo.",
+"w": "Mordida aberta é a falta de contato vertical entre os dentes antagonistas com a boca fechada; a anterior é a mais comum. Ela está muito ligada a hábitos de sucção não nutritiva: a metanálise de Faryad e colegas (2026) mostrou associação forte de chupeta e dedo com mordida aberta anterior. Se o hábito para cedo, ela muitas vezes fecha sozinha.",
+"r": [
+{
+"t": "Faryad e cols. Chupeta e dedo na mordida aberta e na mordida cruzada (revisão sistemática e metanálise). Dentistry Journal, 2026",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12839743/"
+},
+{
+"t": "Pisani e cols. Tratamentos da mordida aberta anterior na dentição mista (revisão sistemática). Progress in Orthodontics, 2016",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5027197/"
+}
+],
 "g": 1
 },
 {
@@ -2028,7 +2708,17 @@ window.BANCO_MILHAO = [
 "Engarrafamento oclusal"
 ],
 "a": 1,
-"w": "Apinhamento acontece quando falta espaço para todos os dentes ficarem alinhados.",
+"w": "Apinhamento é a discrepância entre o tamanho dos dentes e o espaço da arcada: falta lugar e os dentes giram ou se sobrepõem. É considerado o tipo mais comum de má oclusão (Contreras-Madrid e colegas, 2026). Um estudo com indígenas da Amazônia (Normando e colegas, 2013) mostrou que dieta dura, com mais desgaste dos dentes, se associa a menos apinhamento.",
+"r": [
+{
+"t": "Contreras-Madrid e cols. Forma da arcada e fatores ligados ao apinhamento (revisão sistemática). Frontiers in Oral Health, 2026",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13284102/"
+},
+{
+"t": "Normando e cols. Apinhamento: papel da genética e do desgaste dentário. Angle Orthodontist, 2013",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8805546/"
+}
+],
 "g": 1
 },
 {
@@ -2042,7 +2732,17 @@ window.BANCO_MILHAO = [
 "Aventureiro"
 ],
 "a": 0,
-"w": "Edêntulo é quem perdeu todos os dentes; a condição se chama edentulismo.",
+"w": "Edêntulo é quem perdeu todos os dentes (edentulismo total); quem perdeu só alguns é parcialmente edêntulo. Segundo o Global Burden of Disease, o edentulismo ainda atinge centenas de milhões de pessoas no mundo, e é exatamente o paciente da prótese total que o laboratório atende.",
+"r": [
+{
+"t": "Nascimento e cols. Periodontite grave e edentulismo no mundo, GBD 2021. J Periodontal Research, 2024",
+"u": "https://pubmed.ncbi.nlm.nih.gov/39192495/"
+},
+{
+"t": "Borg-Bartolo e cols. Prevalência mundial de edentulismo e cárie em adultos e idosos (metanálise). Journal of Dentistry, 2022",
+"u": "https://pubmed.ncbi.nlm.nih.gov/36265526/"
+}
+],
 "g": 1
 },
 {
@@ -2056,7 +2756,17 @@ window.BANCO_MILHAO = [
 "Dente supranumerário"
 ],
 "a": 1,
-"w": "Decíduo quer dizer 'que cai', como as folhas das árvores decíduas.",
+"w": "Decíduo vem do latim deciduus, 'que cai', como as árvores decíduas que perdem folhas. São 20 dentes, sem pré-molares, e não são 'provisórios sem importância': ajudam na fala, na mastigação e guardam espaço para os permanentes; se caem cedo, os permanentes podem nascer desalinhados (Lynch, International Dental Journal, 2013).",
+"r": [
+{
+"t": "Lynch. Dentição decídua e mista, maturação do esmalte e cárie (revisão). International Dental Journal, 2013",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9375027/"
+},
+{
+"t": "Wikipedia. Dentes decíduos",
+"u": "https://en.wikipedia.org/wiki/Deciduous_teeth"
+}
+],
 "g": 1
 },
 {
@@ -2070,7 +2780,17 @@ window.BANCO_MILHAO = [
 "Dentição dupla fixa"
 ],
 "a": 0,
-"w": "A dentição mista vai mais ou menos dos 6 aos 12 anos, até cair o último dente de leite.",
+"w": "A dentição mista começa com a erupção do primeiro molar permanente, por volta dos 6 anos, e termina quando cai o último decíduo, por volta dos 12 (Lynch, 2013). É a fase em que o mantenedor de espaço faz diferença se um decíduo for perdido cedo.",
+"r": [
+{
+"t": "Lynch. Dentição decídua e mista, maturação do esmalte e cárie (revisão). International Dental Journal, 2013",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9375027/"
+},
+{
+"t": "Watt e cols. Mantenedores de espaço na dentição decídua e mista. British Dental Journal, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30141512/"
+}
+],
 "g": 1
 },
 {
@@ -2084,7 +2804,13 @@ window.BANCO_MILHAO = [
 "Uma faceta cerâmica bem fina"
 ],
 "a": 3,
-"w": "É uma faceta ultrafina colada na frente do dente para mudar cor e formato.",
+"w": "'Lente de contato' é o nome comercial de uma faceta laminada cerâmica muito fina (cerca de 0,2 a 0,5 mm), colada com cimento resinoso na face vestibular, muitas vezes com pouco ou nenhum desgaste. A metanálise de Klein e colegas (2025) mostrou boa sobrevida das facetas cerâmicas a longo prazo, com dissilicato de lítio e feldspática entre os materiais mais usados.",
+"r": [
+{
+"t": "Klein e cols. Sobrevida e complicações de facetas laminadas cerâmicas (revisão sistemática e metanálise). J Esthet Restor Dent, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12076113/"
+}
+],
 "g": 1
 },
 {
@@ -2098,7 +2824,17 @@ window.BANCO_MILHAO = [
 "Sorriso periodontal"
 ],
 "a": 2,
-"w": "O sorriso gengival tem várias causas, como lábio curto ou excesso de osso, e pode ser tratado.",
+"w": "Sorriso gengival é a exposição de mais de 3 a 4 mm de gengiva ao sorrir. As causas podem se somar: erupção passiva alterada (dente 'curto' coberto de gengiva), lábio curto ou muito móvel e excesso vertical de maxila; por isso o tratamento vai de gengivoplastia e toxina botulínica até cirurgia ortognática (Dym e Pierre, 2020).",
+"r": [
+{
+"t": "Dym e Pierre. Diagnóstico e tratamento do sorriso gengival. Dental Clinics of North America, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/32111273/"
+},
+{
+"t": "Wikipedia. Sorriso gengival",
+"u": "https://en.wikipedia.org/wiki/Gummy_smile"
+}
+],
 "g": 1
 },
 {
@@ -2112,7 +2848,13 @@ window.BANCO_MILHAO = [
 "Raízes"
 ],
 "a": 2,
-"w": "As cúspides são elevações da coroa que ajudam a triturar o alimento.",
+"w": "Cúspides são as elevações pontiagudas ou arredondadas da face oclusal de caninos, pré-molares e molares. Elas se encaixam nas fossas do dente antagonista e funcionam como pilão e almofariz para triturar o alimento; na montagem de dentes de prótese total, é esse encaixe cúspide-fossa que dá estabilidade à mordida.",
+"r": [
+{
+"t": "Wikipedia. Cúspide (anatomia)",
+"u": "https://en.wikipedia.org/wiki/Cusp_(anatomy)"
+}
+],
 "g": 1
 },
 {
@@ -2126,7 +2868,17 @@ window.BANCO_MILHAO = [
 "Fluorose dentária leve"
 ],
 "a": 0,
-"w": "Acontece quando a dentina fica exposta e os estímulos frios chegam ao nervo do dente.",
+"w": "A hipersensibilidade dentinária é uma dor aguda e curta quando a dentina fica exposta (recessão gengival, abrasão, erosão) e recebe frio, ar, doce ou toque. A explicação mais aceita é a teoria hidrodinâmica de Brännström: o estímulo movimenta o fluido dentro dos túbulos dentinários e isso ativa as fibras nervosas da polpa (Liu e colegas, BMC Oral Health, 2020).",
+"r": [
+{
+"t": "Liu e cols. Causa, diagnóstico e tratamento da hipersensibilidade dentinária. BMC Oral Health, 2020",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7409672/"
+},
+{
+"t": "Davari e cols. Hipersensibilidade dentinária: revisão. J Dent (Shiraz), 2013",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3927677/"
+}
+],
 "g": 1
 },
 {
@@ -2140,7 +2892,17 @@ window.BANCO_MILHAO = [
 "Odontologia do Sono"
 ],
 "a": 3,
-"w": "Parece piada, mas existe: o dentista faz aparelhos que avançam a mandíbula e ajudam a respirar dormindo.",
+"w": "A Odontologia do Sono trata ronco e apneia obstrutiva com aparelhos intraorais de avanço mandibular: puxando a mandíbula para frente, a língua acompanha e a via aérea se abre durante o sono. Revisões sistemáticas mostram que esses aparelhos reduzem o índice de apneia e até a pressão arterial (Belanche Monterde e colegas, 2024). Parece piada, mas é área séria e o protético é quem confecciona o aparelho.",
+"r": [
+{
+"t": "Belanche Monterde e cols. Aparelhos de avanço mandibular reduzem a pressão sistólica na apneia (metanálise). Sleep and Breathing, 2024",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11196326/"
+},
+{
+"t": "Uniken Venema e cols. Desenho do aparelho de avanço mandibular na apneia (revisão sistemática). Sleep Medicine Reviews, 2021",
+"u": "https://pubmed.ncbi.nlm.nih.gov/34662769/"
+}
+],
 "g": 1
 },
 {
@@ -2154,7 +2916,13 @@ window.BANCO_MILHAO = [
 "Coordena o Ministério da Saúde"
 ],
 "a": 1,
-"w": "O técnico em prótese dentária trabalha no laboratório, fazendo as próteses pedidas pelo dentista.",
+"w": "O técnico em prótese dentária trabalha no laboratório, confeccionando as próteses a partir dos modelos e da prescrição do dentista. A Lei nº 6.710/1979 proíbe o protético de atender paciente diretamente, de manter equipamento de consultório na oficina e de fazer propaganda ao público; quem atende na cadeira é sempre o cirurgião-dentista.",
+"r": [
+{
+"t": "Brasil. Lei nº 6.710, de 1979, que regula a profissão de técnico em prótese dentária. Planalto",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l6710.htm"
+}
+],
 "g": 1
 },
 {
@@ -2168,7 +2936,17 @@ window.BANCO_MILHAO = [
 "Retrognatismo maxilar"
 ],
 "a": 1,
-"w": "No prognatismo mandibular a mandíbula fica à frente, e os dentes de baixo podem passar os de cima.",
+"w": "Prognatismo mandibular é a projeção da mandíbula para frente além da relação normal com a base do crânio; costuma vir junto com a Classe III de Angle, com os incisivos inferiores à frente dos superiores. Tem forte componente genético, e o exemplo histórico é o 'queixo dos Habsburgo', da família real europeia (Doraczynska-Kowalik e colegas, 2017).",
+"r": [
+{
+"t": "Doraczynska-Kowalik e cols. Fatores genéticos do prognatismo mandibular. J Craniofac Surg, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28570402/"
+},
+{
+"t": "Jaruga e cols. Fissuras orofaciais e prognatismo: genética. Int J Mol Sci, 2022",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8779325/"
+}
+],
 "g": 1
 },
 {
@@ -2182,7 +2960,17 @@ window.BANCO_MILHAO = [
 "A cola que segura a dentadura"
 ],
 "a": 0,
-"w": "Oclusão é a relação de contato entre os dentes de cima e os de baixo.",
+"w": "Oclusão é a relação de contato entre os dentes superiores e inferiores, com a boca fechada (estática) e nos movimentos da mandíbula (dinâmica). Por quase um século houve debate sobre o que seria a oclusão 'ideal'; hoje se fala mais em oclusão fisiológica, aquela que funciona sem dor e sem dano (Türp e colegas, Journal of Oral Rehabilitation, 2008).",
+"r": [
+{
+"t": "Türp e cols. Oclusão dentária: reflexão crítica sobre os conceitos. J Oral Rehabil, 2008",
+"u": "https://pubmed.ncbi.nlm.nih.gov/18284561/"
+},
+{
+"t": "Wikipedia. Oclusão (odontologia)",
+"u": "https://en.wikipedia.org/wiki/Occlusion_(dentistry)"
+}
+],
 "g": 1
 },
 {
@@ -2196,7 +2984,13 @@ window.BANCO_MILHAO = [
 "Academia Brasileira de Ortodontia"
 ],
 "a": 1,
-"w": "ABO é a Associação Brasileira de Odontologia, entidade de classe com seções nos estados que oferece cursos, especializações e congressos.",
+"w": "ABO é a Associação Brasileira de Odontologia, entidade de classe com seções estaduais e regionais que oferece cursos de atualização, especializações e congressos. Não confundir com o CFO e os CROs, que são os conselhos que fiscalizam a profissão.",
+"r": [
+{
+"t": "ABO Nacional. Associação Brasileira de Odontologia",
+"u": "https://www.abo.org.br/"
+}
+],
 "g": 1
 },
 {
@@ -2592,7 +3386,7 @@ window.BANCO_MILHAO = [
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 1,
-"q": "Na aula inaugural, o professor definiu a farmacocinética como o estudo de quê?",
+"q": "O que a farmacocinética estuda?",
 "o": [
 "Como o fármaco se liga aos receptores e produz efeito no organismo",
 "O caminho do fármaco no organismo: absorção, distribuição, metabolismo e excreção",
@@ -2600,12 +3394,22 @@ window.BANCO_MILHAO = [
 "A relação entre a dose usada e a intensidade da resposta obtida"
 ],
 "a": 1,
-"w": "A farmacocinética é o que o corpo faz com o fármaco (ADME), enquanto a ligação a receptores e os efeitos pertencem à farmacodinâmica."
+"w": "Farmacocinética é o que o organismo faz com o fármaco: absorção, distribuição, metabolismo (biotransformação) e excreção, o famoso ADME. Ela explica por que a dose, a via e o intervalo importam, porque define quanto do fármaco chega e por quanto tempo fica no sangue. Já a ligação a receptores e os efeitos (o que o fármaco faz com o organismo) são farmacodinâmica.",
+"r": [
+{
+"t": "Benet LZ, Zia-Amirhosseini P. Princípios básicos de farmacocinética. Toxicol Pathol, 1995",
+"u": "https://pubmed.ncbi.nlm.nih.gov/7569664/"
+},
+{
+"t": "StatPearls/NCBI Bookshelf. Absorção de fármacos",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK557405/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 1,
-"q": "Segundo a aula inaugural, em qual órgão ocorre principalmente o metabolismo (biotransformação) dos fármacos?",
+"q": "Em qual órgão ocorre principalmente o metabolismo (biotransformação) dos fármacos?",
 "o": [
 "Nos rins",
 "Nos pulmões",
@@ -2613,12 +3417,22 @@ window.BANCO_MILHAO = [
 "No fígado"
 ],
 "a": 3,
-"w": "O metabolismo acontece principalmente no fígado e prepara o fármaco para ser eliminado, enquanto a excreção é feita sobretudo pelos rins."
+"w": "O fígado concentra as enzimas do citocromo P450 (reações de fase I) e as de conjugação (fase II), que deixam o fármaco mais hidrossolúvel para ser eliminado, sobretudo pelos rins. Na odontologia isso pesa direto: os anestésicos do tipo amida (lidocaína, mepivacaína) são metabolizados no fígado, por isso hepatopatas graves pedem dose menor; a articaína é exceção parcial, porque boa parte dela é quebrada já no plasma.",
+"r": [
+{
+"t": "Becker DE, Reed KL. Anestésicos locais: revisão farmacológica. Anesth Prog, 2012 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3403589/"
+},
+{
+"t": "Benet LZ, Zia-Amirhosseini P. Princípios básicos de farmacocinética. Toxicol Pathol, 1995",
+"u": "https://pubmed.ncbi.nlm.nih.gov/7569664/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 1,
-"q": "Como a aula inaugural define a anestesia local?",
+"q": "Qual é a definição de anestesia local?",
 "o": [
 "Interrupção reversível da condução do impulso nervoso numa região, sem perda de consciência",
 "Perda reversível da consciência, com ausência de dor em todo o corpo",
@@ -2626,12 +3440,18 @@ window.BANCO_MILHAO = [
 "Redução da ansiedade por ação nos centros nervosos, sem bloquear nervos"
 ],
 "a": 0,
-"w": "Na anestesia local o bloqueio da condução nervosa é reversível e o paciente continua consciente, ao contrário da anestesia geral."
+"w": "Anestesia local é o bloqueio reversível da condução nervosa numa região, sem perda de consciência. O anestésico entra no axônio e bloqueia os canais de sódio por dentro, impedindo o potencial de ação; quando o fármaco é removido pela circulação, a condução volta. Na anestesia geral, ao contrário, há depressão do sistema nervoso central e perda de consciência.",
+"r": [
+{
+"t": "Becker DE, Reed KL. Anestésicos locais: revisão farmacológica. Anesth Prog, 2012 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3403589/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 1,
-"q": "Segundo a aula inaugural, qual grupo de anestésicos locais tem maior potencial alergênico e por isso é pouco usado hoje?",
+"q": "Qual grupo de anestésicos locais tem maior potencial alergênico e por isso é pouco usado hoje em injeção?",
 "o": [
 "Amidas, como a lidocaína",
 "Amidas, como a articaína",
@@ -2639,12 +3459,22 @@ window.BANCO_MILHAO = [
 "Amidas, como a mepivacaína"
 ],
 "a": 2,
-"w": "Os ésteres (ex.: procaína) causam mais alergia e quase não são usados, enquanto as amidas são as mais usadas e têm melhor perfil de segurança."
+"w": "Os ésteres (procaína, benzocaína, tetracaína) são hidrolisados no plasma pela pseudocolinesterase e geram ácido para-aminobenzoico (PABA), que é alergênico. As amidas (lidocaína, articaína, mepivacaína) são metabolizadas no fígado e alergia verdadeira a elas é raríssima; muitas reações atribuídas a elas vêm de conservantes (metilparabeno) ou do bissulfito do vasoconstritor. Hoje o éster sobrevive na odontologia praticamente só como anestésico tópico (benzocaína).",
+"r": [
+{
+"t": "Becker DE, Reed KL. Anestésicos locais: revisão farmacológica. Anesth Prog, 2012 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3403589/"
+},
+{
+"t": "Ogle OE, Mahjoubi G. Anestesia local: agentes, técnicas e complicações. Dent Clin North Am, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22117947/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 1,
-"q": "Segundo os slides do professor, por que a infiltração anestésica funciona melhor na maxila do que na mandíbula?",
+"q": "Por que a infiltração anestésica funciona melhor na maxila do que na mandíbula?",
 "o": [
 "O osso da maxila é mais denso e retém a solução no local",
 "A maxila tem menos terminações nervosas e dispensa a difusão",
@@ -2652,12 +3482,22 @@ window.BANCO_MILHAO = [
 "O nervo trigêmeo inerva apenas a maxila, e não a mandíbula"
 ],
 "a": 2,
-"w": "A maxila tem osso poroso, que deixa a solução difundir até as terminações nervosas; na mandíbula o osso é mais denso e a infiltração rende menos."
+"w": "A cortical vestibular da maxila é fina e porosa, cheia de pequenos canais, e a solução depositada no fundo de vestíbulo se difunde até o ápice. Na mandíbula, principalmente na região de molares do adulto, a cortical é espessa e densa e barra a difusão, por isso ali se usam bloqueios. A exceção estudada é a articaína a 4 %, que em infiltração vestibular consegue anestesiar alguns dentes inferiores quando a cortical é mais fina.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "Dovepress/Local Reg Anesth. Eficácia da articaína em infiltrações vestibulares na mandíbula (osso cortical e difusão), 2016",
+"u": "https://www.dovepress.com/the-effectiveness-of-articaine-in-mandibular-facial-infiltrations-peer-reviewed-fulltext-article-LRA"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 1,
-"q": "Segundo o slide do professor, qual é a técnica anestésica mais usada na maxila?",
+"q": "Qual é a técnica anestésica mais usada na maxila?",
 "o": [
 "Infiltração supraperiosteal (infiltrativa)",
 "Bloqueio do nervo alveolar superior posterior",
@@ -2665,7 +3505,17 @@ window.BANCO_MILHAO = [
 "Anestesia intraóssea com perfuração prévia"
 ],
 "a": 0,
-"w": "A infiltração supraperiosteal atua nas terminações nervosas pequenas da região apical e é a técnica mais usada na maxila."
+"w": "A infiltração supraperiosteal (a \"infiltrativa\") é a mais usada na maxila porque, graças ao osso poroso, um depósito pequeno junto ao ápice anestesia a polpa e os tecidos daquele dente, com punção simples e pouco risco. Os bloqueios (alveolar superior posterior, infraorbitário) ficam para quando é preciso anestesiar vários dentes ou há infecção no local da infiltração.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "Ogle OE, Mahjoubi G. Anestesia local: agentes, técnicas e complicações. Dent Clin North Am, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22117947/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -2678,7 +3528,17 @@ window.BANCO_MILHAO = [
 "Bloqueio do nervo palatino maior"
 ],
 "a": 3,
-"w": "O palatino maior cobre o palato de pré-molares e molares, enquanto o nasopalatino fica com incisivos e caninos."
+"w": "O nervo palatino maior sai pelo forame palatino maior (geralmente na altura do 2º molar, a cerca de 1 cm da margem gengival) e corre para a frente, inervando a mucosa palatina dos molares e pré-molares. A mucosa palatina de incisivos e caninos fica com o nasopalatino, que sai pelo forame incisivo; na região do canino os dois territórios se sobrepõem.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "Ogle OE, Mahjoubi G. Anestesia local: agentes, técnicas e complicações. Dent Clin North Am, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22117947/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -2691,12 +3551,18 @@ window.BANCO_MILHAO = [
 "Intrapapilar"
 ],
 "a": 1,
-"w": "A intrapulpar é aplicada na polpa exposta, com volume mínimo, e é eficaz, mas muito dolorosa e rara na clínica geral."
+"w": "Na intrapulpar a agulha entra direto na câmara pulpar exposta e a solução é injetada sob pressão; o efeito vem tanto da pressão quanto do anestésico, e o resultado costuma ser imediato. É uma técnica suplementar, reservada à pulpite irreversível que resistiu ao bloqueio e às outras suplementares, porque a punção dói muito e exige polpa exposta.",
+"r": [
+{
+"t": "Boopathi T et al. Anestesia pulpar suplementar em dentes inferiores (intraligamentar, intraóssea, intrapulpar). J Pharm Bioallied Sci, 2013 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3722689/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 1,
-"q": "Segundo o slide do professor, qual técnica entra em cena quando o bloqueio convencional do alveolar inferior falha?",
+"q": "Qual técnica costuma ser indicada quando o bloqueio convencional do alveolar inferior falha?",
 "o": [
 "Técnica de Gow-Gates",
 "Bloqueio do nervo bucal",
@@ -2704,12 +3570,22 @@ window.BANCO_MILHAO = [
 "Bloqueio do nervo nasopalatino"
 ],
 "a": 0,
-"w": "O Gow-Gates é indicado quando o convencional falha e alcança todo o ramo mandibular (alveolar inferior, lingual, bucal, auriculotemporal e milo-hióideo)."
+"w": "O Gow-Gates deposita a solução mais alto, junto ao colo do côndilo, e por isso bloqueia de uma vez o nervo mandibular praticamente inteiro (alveolar inferior, lingual, bucal, milo-hióideo e auriculotemporal), contornando inervação acessória e variações do forame. Revisões comparando com o bloqueio convencional mostram eficácia semelhante ou maior em alguns cenários, com menor taxa de aspiração positiva.",
+"r": [
+{
+"t": "Sarfaraz I et al. Gow-Gates x bloqueio do alveolar inferior na pulpite irreversível: revisão. J Dent Anesth Pain Med, 2021 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8349670/"
+},
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 1,
-"q": "Segundo o professor, o que caracteriza a anestesia tópica?",
+"q": "O que caracteriza a anestesia tópica?",
 "o": [
 "Depósito de solução perto do ápice do dente, com difusão até o nervo",
 "Bloqueio do tronco nervoso com agulha longa antes do forame mandibular",
@@ -2717,12 +3593,18 @@ window.BANCO_MILHAO = [
 "Aplicação de gelo na mucosa para reduzir a sensibilidade, sem fármaco"
 ],
 "a": 2,
-"w": "A tópica atua só na mucosa superficial, sem punção, por isso tem baixa penetração em tecido profundo e ação curta."
+"w": "Na tópica o anestésico (benzocaína 20 %, lidocaína 5 %) é aplicado direto na mucosa, sem agulha, e atravessa só os primeiros 2 a 3 mm de tecido. Serve para tirar a dor da picada e para pequenos procedimentos superficiais; não anestesia polpa nem tecido profundo, e o efeito é curto. Funciona melhor com a mucosa seca e com 1 a 2 minutos de contato.",
+"r": [
+{
+"t": "Meechan JG. Anestesia tópica intraoral. Periodontol 2000, 2008",
+"u": "https://pubmed.ncbi.nlm.nih.gov/18201346/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 2,
-"q": "Na farmacodinâmica, o que a relação dose-resposta mostra, segundo a aula inaugural?",
+"q": "Na farmacodinâmica, o que a relação dose-resposta mostra?",
 "o": [
 "Quanto maior a dose, maior o efeito, sem nenhum limite",
 "Quanto maior a dose, maior o efeito, mas só até um limite",
@@ -2730,12 +3612,18 @@ window.BANCO_MILHAO = [
 "Quanto maior a dose, menor o risco de efeitos adversos"
 ],
 "a": 1,
-"w": "O efeito cresce com a dose até um limite, e a farmacodinâmica considera também os efeitos indesejados (colaterais, tóxicos ou adversos)."
+"w": "A curva dose-resposta sobe com a dose e depois achata num platô, a eficácia máxima (Emax): a partir daí, aumentar a dose não aumenta o efeito, porque os receptores já estão saturados, mas aumenta o risco de efeitos tóxicos. A potência (dose necessária para metade do efeito máximo, a DE50) e a eficácia máxima são propriedades diferentes de cada fármaco.",
+"r": [
+{
+"t": "Manual MSD (profissional). Relações dose-resposta (eficácia máxima e potência)",
+"u": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/dose-response-relationships"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 2,
-"q": "Segundo o slide do professor, como é a sedação consciente com óxido nitroso?",
+"q": "Como é a sedação consciente com óxido nitroso?",
 "o": [
 "Substitui a anestesia local e dispensa qualquer punção",
 "Deixa o paciente inconsciente, sem resposta a comandos",
@@ -2743,12 +3631,22 @@ window.BANCO_MILHAO = [
 "Reduz a ansiedade e mantém o paciente acordado e colaborativo"
 ],
 "a": 3,
-"w": "O óxido nitroso reduz a ansiedade, mantém o paciente acordado e é associado à anestesia local para dar conforto."
+"w": "O óxido nitroso misturado com oxigênio (geralmente abaixo de 50 %) produz sedação mínima a moderada: reduz a ansiedade e dá leve analgesia, mas o paciente segue acordado, respondendo a comandos e com reflexos protetores. Início e recuperação são rápidos porque o gás é pouco solúvel no sangue. Ele não substitui a anestesia local, que continua sendo feita para o procedimento.",
+"r": [
+{
+"t": "Khinda V et al. Sedação inalatória com óxido nitroso em odontologia: técnica, indicações e segurança. Int J Clin Pediatr Dent, 2023 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10067981/"
+},
+{
+"t": "Piccialli F et al. Óxido nitroso x outros sedativos em odontologia: revisão sistemática e metanálise. Medicina (Kaunas), 2025 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12113512/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 2,
-"q": "Segundo o slide do professor, na infiltração supraperiosteal a agulha curta penetra 2 a 3 mm. Qual o volume do depósito lento?",
+"q": "Na infiltração supraperiosteal, a agulha curta penetra poucos milímetros no fundo de vestíbulo. Qual o volume habitual do depósito lento?",
 "o": [
 "0,2 a 0,3 mL",
 "1,5 a 1,8 mL",
@@ -2756,12 +3654,22 @@ window.BANCO_MILHAO = [
 "0,6 a 1,0 mL"
 ],
 "a": 3,
-"w": "O slide indica depósito lento de 0,6 a 1,0 mL na supraperiosteal; os demais valores pertencem a outras técnicas."
+"w": "Na supraperiosteal deposita-se cerca de 0,6 mL (um terço do tubete), podendo chegar perto de 1,0 mL, lentamente, junto ao ápice do dente. Volume pequeno basta porque o osso maxilar poroso deixa a solução chegar às terminações apicais. Os valores das outras alternativas são de técnicas diferentes (nasopalatino, bloqueios, tubete inteiro).",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "Ogle OE, Mahjoubi G. Anestesia local: agentes, técnicas e complicações. Dent Clin North Am, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22117947/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 2,
-"q": "Segundo o slide do professor, qual é o ponto de punção do bloqueio do nervo nasopalatino?",
+"q": "Qual é o ponto de punção do bloqueio do nervo nasopalatino?",
 "o": [
 "Na fossa canina",
 "Na papila incisiva",
@@ -2769,12 +3677,22 @@ window.BANCO_MILHAO = [
 "Sobre o forame infraorbitário"
 ],
 "a": 1,
-"w": "A punção do nasopalatino é na papila incisiva, com 0,2 a 0,3 mL e injeção lenta porque a técnica pode incomodar."
+"w": "A punção é na mucosa palatina junto à papila incisiva (de preferência logo ao lado dela), sobre o forame incisivo por onde sai o nasopalatino. O tecido ali é denso e muito inervado, por isso o volume é pequeno (no máximo cerca de 0,45 mL) e a injeção é lenta, muitas vezes precedida de tópica e de pressão no local. Estudos recentes discutem se ele é sempre necessário nas extrações anteriores superiores.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "Al-Mahalawy HA, El-Mahallawy Y. O bloqueio nasopalatino ainda é obrigatório nas extrações anteriores superiores? Br Dent J, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/32541749/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 2,
-"q": "Além de incisivos, caninos e pré-molares, o bloqueio infraorbitário anestesia quais outras estruturas, segundo o professor?",
+"q": "Além de incisivos, caninos e pré-molares superiores, o bloqueio infraorbitário anestesia quais outras estruturas?",
 "o": [
 "Lábio superior, asa do nariz e pálpebra inferior",
 "Lábio inferior, mento e assoalho da boca",
@@ -2782,12 +3700,22 @@ window.BANCO_MILHAO = [
 "Palato duro, úvula e palato mole"
 ],
 "a": 0,
-"w": "O infraorbitário atinge os nervos alveolares anterior e médio e também anestesia o lábio superior, a asa do nariz e a pálpebra inferior."
+"w": "A solução depositada no forame infraorbitário atinge os ramos alveolares superior anterior e médio e também os ramos terminais do nervo infraorbitário: palpebral inferior, nasal lateral e labial superior. Por isso anestesia a pálpebra inferior, a asa do nariz e o lábio superior. Ele não pega os molares, que dependem do alveolar superior posterior.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Bloqueio do nervo infraorbitário, 2024",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK499881/"
+},
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 2,
-"q": "Por que a técnica intraóssea traz risco de taquicardia, segundo o slide do professor?",
+"q": "Por que a anestesia intraóssea traz risco de taquicardia?",
 "o": [
 "A solução fica retida no osso e atrasa muito a latência",
 "O volume injetado é grande, sempre acima de 1,8 mL",
@@ -2795,7 +3723,17 @@ window.BANCO_MILHAO = [
 "A agulha longa atinge o nervo facial e altera o ritmo do coração"
 ],
 "a": 2,
-"w": "Na intraóssea, que exige perfuração prévia e tem latência imediata, o vasoconstritor passa rápido para a circulação e pode causar taquicardia."
+"w": "Na intraóssea a solução vai para o osso esponjoso, que é muito vascularizado, e a adrenalina chega à circulação quase como numa injeção intravenosa. Estudos medem aumento transitório da frequência cardíaca logo após a injeção com anestésico com adrenalina (Wood et al., J Endod 2005; Susi et al., Anesth Prog 2008), menor quando a deposição é lenta. Em cardiopatas, prefere-se solução sem vasoconstritor ou injeção bem lenta.",
+"r": [
+{
+"t": "Susi L et al. Frequência cardíaca após injeção intraóssea lenta e rápida. Anesth Prog, 2008 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2268887/"
+},
+{
+"t": "Wood M et al. Intraóssea x infiltração: lidocaína no sangue e frequência cardíaca. J Endod, 2005",
+"u": "https://pubmed.ncbi.nlm.nih.gov/15917682/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -2808,7 +3746,17 @@ window.BANCO_MILHAO = [
 "Nervo palatino maior"
 ],
 "a": 0,
-"w": "O alveolar inferior anestesia o hemiarco menos a vestibular dos molares, que fica com o nervo bucal (0,3 a 0,5 mL no vestíbulo, segundo o slide)."
+"w": "O bloqueio do alveolar inferior não anestesia a mucosa e a gengiva vestibular dos molares inferiores, que são inervadas pelo nervo bucal (longo), ramo do mandibular que cruza a borda anterior do ramo. Por isso, em extração ou cirurgia nessa região, faz-se um complemento pequeno (cerca de 0,3 mL) na mucosa distal e vestibular ao último molar.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "Ogle OE, Mahjoubi G. Anestesia local: agentes, técnicas e complicações. Dent Clin North Am, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22117947/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -2821,12 +3769,22 @@ window.BANCO_MILHAO = [
 "Bloqueio do nervo bucal, com agulha curta"
 ],
 "a": 2,
-"w": "Na Vazirani-Akinosi o paciente fica de boca fechada, com os dentes ocluídos, o que a torna a opção para trismo."
+"w": "Na Vazirani-Akinosi o paciente fica de boca fechada, com os dentes ocluídos, e a agulha avança paralela ao plano oclusal, junto à tuberosidade, entre o ramo e a maxila. Como não precisa de abertura, é a opção para trismo, anquilose ou paciente que não consegue abrir a boca, e também é usada quando o bloqueio convencional falha.",
+"r": [
+{
+"t": "Jendi SK, Thakur G. Técnica de Vazirani-Akinosi na cirurgia bucomaxilofacial. J Maxillofac Oral Surg, 2019 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6795644/"
+},
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 2,
-"q": "Segundo o slide do professor, a sedação medicamentosa com benzodiazepínicos (midazolam, diazepam) é indicada para quem?",
+"q": "Para quem é indicada a sedação medicamentosa com benzodiazepínicos (midazolam, diazepam) no consultório odontológico?",
 "o": [
 "Pacientes alérgicos às amidas, no lugar da anestesia local",
 "Pacientes muito ansiosos, com necessidade de monitoramento",
@@ -2834,7 +3792,13 @@ window.BANCO_MILHAO = [
 "Pacientes cardiopatas, para substituir o vasoconstritor"
 ],
 "a": 1,
-"w": "O slide indica os benzodiazepínicos para pacientes muito ansiosos e ressalta que é preciso monitorar."
+"w": "Os benzodiazepínicos potencializam o GABA e reduzem a ansiedade, com amnésia e relaxamento muscular; por isso são indicados para pacientes muito ansiosos ou com medo de dentista. Como deprimem o sistema nervoso central e podem deprimir a respiração, exigem avaliação prévia, monitoramento (oximetria) e acompanhante. Revisão sistemática de 2021 encontrou eficácia na redução da ansiedade com bom perfil de segurança em adultos.",
+"r": [
+{
+"t": "Araújo JO et al. Eficácia e segurança da sedação oral em adultos no consultório odontológico: revisão sistemática. BMJ Open, 2021 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7839856/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -2847,12 +3811,18 @@ window.BANCO_MILHAO = [
 "Estimulam a liberação de noradrenalina nas terminações simpáticas"
 ],
 "a": 2,
-"w": "Ao inibir a enzima que destrói a acetilcolina, ela fica mais tempo na fenda sináptica e o efeito colinérgico aumenta."
+"w": "A acetilcolinesterase destrói a acetilcolina na fenda sináptica em milissegundos. Os anticolinesterásicos inibem essa enzima, a acetilcolina se acumula e o efeito colinérgico (muscarínico e nicotínico) aumenta e se prolonga. É assim que a neostigmina reverte bloqueadores neuromusculares e a piridostigmina trata a miastenia grave.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Inibidores da colinesterase",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK544336/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 3,
-"q": "Segundo o slide do professor, em que direção a agulha avança no bloqueio do nervo alveolar superior posterior (PSA)?",
+"q": "Em que direção a agulha avança no bloqueio do nervo alveolar superior posterior (PSA)?",
 "o": [
 "Para frente, para cima e para fora, em 45°",
 "Para trás, para baixo e para dentro, em 90°",
@@ -2860,25 +3830,49 @@ window.BANCO_MILHAO = [
 "Em linha reta até o forame, sem angulação"
 ],
 "a": 2,
-"w": "No PSA a punção é vestibular, acima do 2º molar superior, com a agulha indo para trás, para cima e para dentro a 45°, depositando 0,9 a 1,2 mL."
+"w": "No PSA a punção é no fundo de vestíbulo acima do 2º molar superior, e a agulha avança para cima, para dentro e para trás, num ângulo de cerca de 45° com o plano oclusal, cerca de 16 mm, depositando de 0,9 a 1,8 mL. Avançar demais ou na direção errada pode atingir o plexo venoso pterigóideo e causar hematoma, por isso aspira-se antes de injetar.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "Ogle OE, Mahjoubi G. Anestesia local: agentes, técnicas e complicações. Dent Clin North Am, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22117947/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 3,
-"q": "Segundo o slide do professor, no bloqueio do nervo alveolar superior anterior (ASA), onde se insere a agulha e qual o volume depositado?",
+"q": "No bloqueio do nervo alveolar superior anterior (ASA), onde se insere a agulha e qual o volume depositado?",
 "o": [
 "Fossa canina, no fundo de vestíbulo, com 0,9 mL",
 "Acima do segundo molar superior, com 0,9 a 1,2 mL",
 "Sobre o primeiro pré-molar superior, com 0,9 a 1,2 mL",
 "Papila incisiva, com 0,2 a 0,3 mL"
 ],
-"a": 0,
-"w": "O ASA é feito na fossa canina, com agulha curta calibre 30 e 0,9 mL, e anestesia incisivos e caninos."
+"a": 2,
+"w": "Segundo o Malamed, o bloqueio do alveolar superior anterior é feito pela mesma técnica do infraorbitário: punção no fundo de vestíbulo sobre o 1º pré-molar superior, depositando 0,9 a 1,2 mL perto do forame infraorbitário. Anestesia incisivos, canino e pré-molares do lado (e a raiz mesiovestibular do 1º molar em quem tem o alveolar superior médio). O depósito na fossa canina é uma variação de infiltração mais restrita.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "StatPearls/NCBI Bookshelf. Bloqueio do nervo infraorbitário, 2024",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK499881/"
+},
+{
+"t": "Ogle OE, Mahjoubi G. Anestesia local: agentes, técnicas e complicações. Dent Clin North Am, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22117947/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 3,
-"q": "No bloqueio do nervo alveolar inferior, onde e a que altura se faz a punção, segundo o slide do professor?",
+"q": "No bloqueio do nervo alveolar inferior, a que altura em relação ao plano oclusal se faz a punção?",
 "o": [
 "Triângulo retromolar, 1 a 2 mm acima do plano oclusal",
 "Triângulo retromolar, 6 a 10 mm acima do plano oclusal",
@@ -2886,12 +3880,22 @@ window.BANCO_MILHAO = [
 "Mucosa distal ao último molar inferior, no vestíbulo"
 ],
 "a": 1,
-"w": "O alveolar inferior é puncionado no triângulo retromolar, 6 a 10 mm acima do plano oclusal, com agulha longa até o contato ósseo (cerca de 20 a 25 mm)."
+"w": "A punção fica 6 a 10 mm acima do plano oclusal dos molares inferiores, na face medial do ramo, entre a rafe pterigomandibular e a chanfradura coronoide (região chamada também de triângulo pterigomandibular), com o corpo da seringa sobre os pré-molares do lado oposto. A agulha longa avança cerca de 20 a 25 mm até tocar o osso, perto do forame mandibular. Puncionar baixo demais deixa a solução abaixo do forame e é causa frequente de falha.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "Ogle OE, Mahjoubi G. Anestesia local: agentes, técnicas e complicações. Dent Clin North Am, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22117947/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 3,
-"q": "Segundo os cuidados do slide do professor no bloqueio do alveolar inferior, o que fazer se a agulha não encontra contato ósseo?",
+"q": "No bloqueio do alveolar inferior, o que fazer se a agulha não encontra contato ósseo?",
 "o": [
 "Avançar mais alguns milímetros até tocar o osso",
 "Injetar mesmo assim, pois a solução difunde até o nervo",
@@ -2899,12 +3903,26 @@ window.BANCO_MILHAO = [
 "Não forçar, pelo risco de injetar no músculo pterigóideo medial"
 ],
 "a": 3,
-"w": "Sem contato ósseo não se deve forçar a agulha, porque existe risco de injeção no músculo pterigóideo medial."
+"w": "Não se deve forçar nem injetar: a falta de contato ósseo indica que a agulha está fora do alvo, geralmente posterior demais. Recua-se um pouco e redireciona-se até tocar o osso. Injetar assim tem dois riscos clássicos: depositar na parótida, que é atravessada pelo nervo facial (paralisia facial transitória), e depositar no músculo pterigóideo medial (trismo e dor).",
+"r": [
+{
+"t": "Ghafoor H et al. Complicações neurológicas da anestesia local em odontologia: revisão. Cureus, 2023 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10796083/"
+},
+{
+"t": "Tzermpos FH et al. Paralisia facial transitória após bloqueio do alveolar inferior. Anesth Prog, 2012 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3309298/"
+},
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 3,
-"q": "Segundo o slide do professor, após injetar 1,8 mL na técnica de Gow-Gates, o que se pede ao paciente?",
+"q": "Após injetar 1,8 mL na técnica de Gow-Gates, o que se pede ao paciente?",
 "o": [
 "Fechar a boca e ocluir os dentes de imediato",
 "Manter a boca aberta por 1 a 2 minutos",
@@ -2912,12 +3930,22 @@ window.BANCO_MILHAO = [
 "Morder uma gaze sobre o ponto de punção"
 ],
 "a": 1,
-"w": "No Gow-Gates, depois de aspirar e injetar 1,8 mL lentamente, a boca fica aberta por 1 a 2 minutos."
+"w": "Depois de aspirar e injetar lentamente o tubete inteiro junto ao colo do côndilo, o paciente fica de boca aberta por 1 a 2 minutos. Com a boca aberta o côndilo vai para a frente e o nervo mandibular fica mais perto do depósito, o que ajuda a solução a se difundir até ele. O início do efeito é mais lento que no bloqueio convencional (cerca de 5 minutos).",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Técnicas de anestesia local em odontologia e cirurgia oral, 2023",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK580480/"
+},
+{
+"t": "Sarfaraz I et al. Gow-Gates x bloqueio do alveolar inferior na pulpite irreversível: revisão. J Dent Anesth Pain Med, 2021 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8349670/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 3,
-"q": "Segundo o slide de complicações, qual a causa da paralisia facial transitória depois de uma anestesia?",
+"q": "Qual a causa da paralisia facial transitória depois de uma anestesia no bloqueio do alveolar inferior?",
 "o": [
 "Lesão vascular durante a punção",
 "Infiltração em músculo pterigóideo",
@@ -2925,7 +3953,17 @@ window.BANCO_MILHAO = [
 "Injeção inadvertida no nervo facial"
 ],
 "a": 3,
-"w": "A paralisia facial transitória vem de injeção inadvertida no nervo facial; lesão vascular dá hematoma, pterigóideo dá trismo e localização incorreta dá falha."
+"w": "A paralisia facial transitória surge quando a solução é depositada dentro da glândula parótida, por onde passam os ramos do nervo facial, geralmente porque a agulha foi posterior demais e não encontrou osso. O paciente não consegue fechar o olho nem mexer o lábio daquele lado e a função volta quando o anestésico acaba (há casos tardios, horas depois). Lesão vascular dá hematoma, injeção no pterigóideo dá trismo e localização incorreta dá falha da anestesia.",
+"r": [
+{
+"t": "Tzermpos FH et al. Paralisia facial transitória após bloqueio do alveolar inferior. Anesth Prog, 2012 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3309298/"
+},
+{
+"t": "Ghafoor H et al. Complicações neurológicas da anestesia local em odontologia: revisão. Cureus, 2023 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10796083/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
@@ -2938,12 +3976,22 @@ window.BANCO_MILHAO = [
 "Fisostigmina"
 ],
 "a": 0,
-"w": "Neostigmina, piridostigmina e fisostigmina são reversíveis; os organofosforados são irreversíveis e podem causar intoxicação grave."
+"w": "Neostigmina, piridostigmina e fisostigmina são carbamatos, inibidores reversíveis usados como remédio. Os organofosforados (inseticidas e gases de guerra como o sarin) fosforilam a enzima de modo praticamente irreversível e, depois do \"envelhecimento\" da ligação, a enzima só volta quando o organismo fabrica outra; a intoxicação causa crise colinérgica (salivação, miose, broncorreia, bradicardia, fraqueza) e se trata com atropina e pralidoxima.",
+"r": [
+{
+"t": "StatPearls/NCBI Bookshelf. Inibidores da colinesterase",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK544336/"
+},
+{
+"t": "StatPearls/NCBI Bookshelf. Intoxicação por organofosforados",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK470430/"
+}
+]
 },
 {
 "m": "Farmacologia e Anestesiologia",
 "n": 3,
-"q": "Segundo o slide do professor, como é feita a técnica intraligamentar (PDL) e com que volume?",
+"q": "Como é feita a técnica intraligamentar (PDL) e com que volume?",
 "o": [
 "Injeção no osso interproximal, com 0,2 a 0,4 mL",
 "Injeção na papila interdental, com 0,2 mL",
@@ -2951,7 +3999,17 @@ window.BANCO_MILHAO = [
 "Injeção direta na polpa exposta, com volume mínimo"
 ],
 "a": 2,
-"w": "A intraligamentar é aplicada no sulco gengival sob pressão, com 0,2 mL por raiz, para anestesia unitária."
+"w": "Na intraligamentar a agulha entra no sulco gengival, ao longo da raiz, e a solução é injetada contra resistência no ligamento periodontal, cerca de 0,2 mL por raiz. Apesar do nome, a solução chega ao osso esponjoso ao redor do ápice, por isso funciona como uma injeção intraóssea. Dá anestesia de um só dente, sem anestesiar lábio e língua, e uma metanálise de 2022 mostrou que ela aumenta o sucesso quando usada como complemento ao bloqueio.",
+"r": [
+{
+"t": "Boopathi T et al. Anestesia pulpar suplementar em dentes inferiores (intraligamentar, intraóssea, intrapulpar). J Pharm Bioallied Sci, 2013 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3722689/"
+},
+{
+"t": "Gupta A et al. Eficácia da intraligamentar suplementar: revisão sistemática e metanálise. J Dent Anesth Pain Med, 2022 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8814730/"
+}
+]
 },
 {
 "m": "Conhecimentos gerais",
@@ -4022,7 +5080,17 @@ window.BANCO_MILHAO = [
 "Toda PPR é roach, e a flexível é só um roach feito com um material mais confortável"
 ],
 "a": 2,
-"w": "A PPR é a família das próteses parciais removíveis; o roach é a PPR com estrutura metálica, e a flex é outra PPR, feita de material flexível e sem metal."
+"w": "PPR é a família das próteses parciais removíveis. No jargão de laboratório brasileiro, \"roach\" virou o nome da PPR com estrutura metálica (esquelética, em cobalto-cromo), por causa do grampo de Roach, um grampo em barra que nasce da gengiva em direção à retenção do dente e é típico dessas armações. A flexível (náilon/poliamida) também é PPR, mas sem metal e com grampos da cor da gengiva.",
+"r": [
+{
+"t": "Polychronakis N et al. Elementos de retenção de PPR em laboratórios comerciais. Acta Stomatol Croat, 2014 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4872824/"
+},
+{
+"t": "Binaljadm TM. Prótese flexível: revisão de literatura. Cureus, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10985649/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4035,7 +5103,17 @@ window.BANCO_MILHAO = [
 "Porque a individual é confeccionada direto na boca e, assim, dispensa o modelo anatômico no laboratório"
 ],
 "a": 0,
-"w": "A moldeira padrão é genérica e deforma a mucosa ao pressionar, enquanto a individual é feita sobre o modelo anatômico e registra a boca do paciente com mais fidelidade."
+"w": "A moldeira de estoque é genérica: fica longe do rebordo em alguns pontos e comprime em outros, e o material de moldagem distorce ou desloca a mucosa. A individual é feita sobre o modelo anatômico, deixa espaço uniforme para o material e permite moldar as bordas com a musculatura (moldagem funcional), dando mais fidelidade. Na prática a evidência é mista: ensaios clínicos mostram que técnicas simplificadas também dão próteses satisfatórias, mas a individual segue como padrão nos livros-texto.",
+"r": [
+{
+"t": "Mostafa AZH. Moldeira individual dupla para rebordo flácido: relato de caso. Clin Case Rep, 2022 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8929271/"
+},
+{
+"t": "Jo A et al. Ensaio clínico randomizado de métodos de moldagem para prótese total. J Dent, 2015",
+"u": "https://pubmed.ncbi.nlm.nih.gov/26051546/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4048,7 +5126,17 @@ window.BANCO_MILHAO = [
 "Ser um plano de orientação: finge os dentes e dá volume para o dentista ajustar o sorriso na boca"
 ],
 "a": 3,
-"w": "O plano de cera é um plano de orientação: a cera finge os dentes e dá volume, e o dentista ajusta ali o sorriso que o laboratório vai copiar na montagem."
+"w": "O plano de cera é um plano de orientação: o rolete sobre a placa base \"finge\" os dentes e o volume da futura prótese. Na boca, o dentista ajusta nele o suporte do lábio, a altura do plano oclusal (paralelo à linha bipupilar na frente e ao plano de Camper atrás), a dimensão vertical, a linha média e as linhas do sorriso, e registra a relação entre as arcadas; o laboratório copia isso na montagem.",
+"r": [
+{
+"t": "FOR (Foundation for Oral Rehabilitation). Protocolo clínico da prótese total",
+"u": "https://www.for.org/en/treat/treatment-guidelines/edentulous/treatment-procedures/removable-prosthetics/complete-dentures/complete-denture-clinical-protocol"
+},
+{
+"t": "Fayad MI et al. Dimensão vertical em prótese: revisão de literatura, parte 1. Cureus, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11161034/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4061,7 +5149,13 @@ window.BANCO_MILHAO = [
 "Para impedir que o gesso grude no alginato na hora do vazamento do modelo"
 ],
 "a": 1,
-"w": "Sem umidade o alginato sofre sinerese (encolhe e se modifica), por isso a moldagem segue úmida e deve ser vazada o mais rápido possível."
+"w": "O alginato é um gel com muita água: se seca, perde água e contrai (evaporação e sinerese); se fica mergulhado, absorve água e incha (embebição). Por isso o transporte é num saco fechado com umidade (100 % de umidade relativa), e o ideal é vazar o quanto antes; alginatos comuns perdem precisão em poucas horas, e só os de armazenamento estendido aguentam mais (Walker et al., Angle Orthod 2010).",
+"r": [
+{
+"t": "Walker MP et al. Alteração dimensional do alginato ao longo do armazenamento. Angle Orthod, 2010 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8929483/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4074,20 +5168,13 @@ window.BANCO_MILHAO = [
 "Pelo modelo de gesso, escolhendo a cor que mais combina com o formato dos dentes"
 ],
 "a": 2,
-"w": "Foto não permite definir a cor com segurança: a cor se tira com a escala, na boca do paciente."
-},
+"w": "A cor se define com a escala (como a VITA) comparada diretamente com o dente ou a gengiva do paciente, em luz natural difusa, com olhar rápido para não cansar a visão. Foto ou vídeo comum de celular mudam a cor conforme a luz, a câmera e a tela. A metanálise de Hardan et al. (Materials, 2022) mostra que fotografia padronizada, com cartão de referência e calibração, pode até ajudar, mas é bem diferente de uma foto de sorriso; a escala na boca continua sendo o método de rotina.",
+"r": [
 {
-"m": "Prótese e laboratório",
-"n": 1,
-"q": "Em um dente artificial de estoque, o que diferencia o \"modelo\" da \"cor\"?",
-"o": [
-"Modelo é o formato e as dimensões do conjunto; cor é a tonalidade, e uma não depende da outra",
-"Modelo e cor são a mesma informação escrita de dois jeitos, como num código do tipo R66 ou A2",
-"O modelo define a cor e o tamanho ao mesmo tempo, por isso trocar o modelo obriga a trocar a cor",
-"A cor define o formato do dente, e o modelo indica apenas a linha comercial do fabricante"
-],
-"a": 0,
-"w": "O mesmo modelo existe em várias cores, e dentes da mesma cor podem ter modelos diferentes."
+"t": "Hardan L et al. Métodos de seleção de cor: revisão sistemática e metanálise. Materials (Basel), 2022 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8778907/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4100,7 +5187,17 @@ window.BANCO_MILHAO = [
 "Que o plano ainda está alto demais e deve ser reduzido até o selamento labial ficar natural"
 ],
 "a": 3,
-"w": "O selamento labial tem que ser natural, sem força: se o paciente se esforça para fechar o lábio, o plano ainda está alto e precisa ser diminuído."
+"w": "O selamento labial tem que ser natural, sem esforço. Se o paciente precisa contrair os lábios (o mento fica enrugado) para fechar, o plano está alto demais, ou seja, a dimensão vertical de oclusão está aumentada e o espaço funcional livre foi invadido. Reduz-se o plano até o fechamento ficar relaxado; a dimensão vertical de oclusão costuma ficar 2 a 4 mm abaixo da de repouso.",
+"r": [
+{
+"t": "Fayad MI et al. Dimensão vertical em prótese: revisão de literatura, parte 1. Cureus, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11161034/"
+},
+{
+"t": "Ekfeldt A et al. Suporte do lábio inferior e registro da dimensão vertical em desdentados. J Oral Rehabil, 1992",
+"u": "https://pubmed.ncbi.nlm.nih.gov/1432347/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4113,7 +5210,7 @@ window.BANCO_MILHAO = [
 "Desgastando os centrais na boca, já que a posição dos dentes não precisa voltar ao laboratório"
 ],
 "a": 1,
-"w": "Um movimento feito no central tem que ser acompanhado no lateral, no canino e nos demais, em cima e embaixo, e sem a marca do dentista a remontagem erra de novo."
+"w": "A linha média dos centrais é a referência do arranjo todo: deslocar só os centrais deixa espaço ou sobreposição com laterais e caninos e quebra a simetria. O certo é mover todos os dentes, superiores e inferiores, no mesmo sentido, com a linha média remarcada pelo dentista no plano ou na prova; sem essa marca, a remontagem tende a errar de novo."
 },
 {
 "m": "Prótese e laboratório",
@@ -4149,7 +5246,13 @@ window.BANCO_MILHAO = [
 "Troca o gesso por um modelo impresso, que simula melhor o rebordo já cicatrizado"
 ],
 "a": 2,
-"w": "O laboratório \"extrai\" o dente no modelo de gesso: o dentista extrai na boca só quando a prótese chega e a instala na mesma hora, e ela encaixa porque o modelo já estava sem o dente."
+"w": "Na prótese imediata, o laboratório remove no modelo de gesso os dentes que serão extraídos e recorta levemente a região do alvéolo, simulando o rebordo logo depois da extração. Assim a prótese fica pronta antes da cirurgia e o dentista a instala na mesma sessão da extração; ela funciona também como curativo, e depois da cicatrização precisa de reembasamento.",
+"r": [
+{
+"t": "Yeung C et al. Reabilitação com prótese total imediata convencional superior. Clin Cosmet Investig Dent, 2020 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7591000/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4162,20 +5265,32 @@ window.BANCO_MILHAO = [
 "Articular os modelos (prender no articulador) e, em seguida, montar os dentes"
 ],
 "a": 3,
-"w": "A mordida registrada permite prender os modelos no articulador; só então vem a montagem dos dentes, que vai à prova no dentista antes da acrilização."
+"w": "Com a relação intermaxilar registrada no plano de cera, os modelos são presos no articulador (montagem dos modelos), que reproduz a posição e a dimensão vertical registradas. Só então os dentes são montados em cera e vão à prova na boca; a acrilização vem depois que a prova é aprovada.",
+"r": [
+{
+"t": "FOR (Foundation for Oral Rehabilitation). Protocolo clínico da prótese total",
+"u": "https://www.for.org/en/treat/treatment-guidelines/edentulous/treatment-procedures/removable-prosthetics/complete-dentures/complete-denture-clinical-protocol"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
-"n": 3,
-"q": "No método descrito para o protetor bucal esportivo, por que não se usa articulador nem arco facial?",
+"n": 2,
+"q": "Qual característica torna um silicone adequado para registro oclusal, em comparação com o silicone de moldagem?",
 "o": [
-"Porque o EVA não pode ser montado em gesso, já que o calor da plastificação o deforma por completo",
-"Porque o protetor é temporário, de EVA macio, e o ajuste na boca é rápido: articular seria um passo a mais",
-"Porque o articulador só funciona em arcadas com prótese total, e o protetor é feito sobre dentes naturais",
-"Porque o dentista já envia os dois modelos articulados, e repetir a etapa no laboratório seria redundante"
+"Ser bem mole e elástico, para acompanhar a mordida do paciente sem oferecer resistência",
+"Ter presa lenta, o que dá tempo para o paciente morder várias vezes até acertar",
+"Ser rígido e sem flexão, de modo que não ceda sob pressão nem dê contato prematuro",
+"Ser translúcido, para o laboratório enxergar os dentes do paciente através do registro"
 ],
-"a": 1,
-"w": "A boca do paciente é o côndilo exato: aquecendo o EVA e pedindo para morder, o dentista ajusta a oclusão em poucos minutos, sem o tempo extra de registro e de articulação."
+"a": 2,
+"w": "O registro oclusal precisa manter a posição registrada sem ceder quando os modelos são encaixados nele. Silicones e materiais próprios para registro são duros depois da presa e pouco deformáveis; o silicone de moldagem é elástico, flexiona (principalmente em extremo livre) e deixa os modelos assentarem em mais de uma posição, gerando contato prematuro. Estudos comparam dureza, estabilidade e deslocamento sob carga desses materiais (Kasabwala et al., Bioinformation 2020).",
+"r": [
+{
+"t": "Kasabwala H et al. Materiais de registro de mordida: estabilidade e deslocamento sob carga. Bioinformation, 2020 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8600202/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4188,7 +5303,17 @@ window.BANCO_MILHAO = [
 "Porque o pigmento se acumula nas áreas mais espessas durante a injeção, e a parte de trás é a mais grossa"
 ],
 "a": 0,
-"w": "É a translucidez (efeito camaleão): a flex, de cor única, assume a cor do que está atrás dela, e o fundo escuro da boca a escurece."
+"w": "A poliamida (náilon) da flex é de cor única e translúcida: onde encosta na gengiva, a cor rosada passa através dela e a base parece natural (efeito camaleão); onde fica afastada, com o fundo escuro da boca atrás, ela escurece. Não há pigmento concentrado nem escurecimento pelo calor; é óptica do material.",
+"r": [
+{
+"t": "Vojdani M, Giti R. Poliamida como material de base de prótese: revisão. J Dent (Shiraz), 2015 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4476124/"
+},
+{
+"t": "Binaljadm TM. Prótese flexível: revisão de literatura. Cureus, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10985649/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4201,7 +5326,13 @@ window.BANCO_MILHAO = [
 "Não, são escalas diferentes, e a equivalência vem de tabela de conversão, não de inverter caracteres"
 ],
 "a": 3,
-"w": "A2 (escala VITA) e 2A (escala própria de uma linha) são escalas diferentes: a correspondência é aproximada e sai de tabela de conversão, nunca de inverter a ordem dos caracteres."
+"w": "A2 é uma cor da escala VITA clássica; códigos como \"2A\", \"62\" ou \"66\" pertencem a escalas próprias de cada linha de dentes. A correspondência entre elas é aproximada e vem da tabela de conversão do fabricante; inverter letra e número não garante a mesma cor.",
+"r": [
+{
+"t": "VIPI. Catálogo dos dentes Trilux (modelos e cores)",
+"u": "https://cdn.dentalspeed.com/PDF/catalogo-dentes-trilux-vipi.pdf"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4214,7 +5345,13 @@ window.BANCO_MILHAO = [
 "A cera dura faz o paciente morder de lado para fugir da pressão, perdendo a linha média do registro"
 ],
 "a": 1,
-"w": "Aquece-se a cera de leve, fora da boca, devolve-se à boca e o paciente morde até os dentes encostarem como sem o plano, captando a oclusão exata dele."
+"w": "Cera fria é dura: o paciente encosta no plano antes de os dentes naturais se tocarem, ou desvia a mandíbula para fugir do ponto duro, e o registro sai aberto ou fora da oclusão habitual. Aquece-se a cera de leve, fora da boca, volta-se à boca e o paciente fecha até os dentes naturais encostarem como encostam sem a prótese. Um registro bom não pode deslocar dentes nem tecido, nem ceder depois.",
+"r": [
+{
+"t": "Kasabwala H et al. Materiais de registro de mordida: estabilidade e deslocamento sob carga. Bioinformation, 2020 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8600202/"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -4227,6 +5364,29 @@ window.BANCO_MILHAO = [
 "Trilux"
 ],
 "a": 3,
-"w": "Trilux é a linha de dentes artificiais de resina acrílica da VIPI, fabricante de Pirassununga (SP). Dental Cremer, Dental Speed e Surya Dental são lojas e distribuidoras: vendem dentes, mas não fabricam."
+"w": "Trilux é a linha de dentes artificiais de resina acrílica em três camadas, com dupla ligação cruzada, da VIPI (Pirassununga-SP, hoje do grupo Dentsply Sirona), registrada na ANVISA e no cadastro de dispositivos da FDA. Dental Cremer, Dental Speed e Surya Dental são lojas e distribuidoras: vendem dentes, mas não fabricam.",
+"r": [
+{
+"t": "VIPI. Ficha técnica dos dentes Trilux (fabricante, Pirassununga-SP; registro ANVISA)",
+"u": "https://cdn.dentalcremer.com.br/conteudos/Ficha%20T%C3%A9cnica%20dos%20Dentes%20Trilux%20da%20VIPI.pdf"
+},
+{
+"t": "FDA/NLM AccessGUDID. Registro do dispositivo TRILUX (fabricante VIPI)",
+"u": "https://accessgudid.nlm.nih.gov/devices/07899080345353"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Ao pedir um dente artificial de estoque, o que indica o \"modelo\" e o que indica a \"cor\"?",
+"o": [
+"O modelo indica a cor e o tamanho; a cor indica só a linha comercial do fabricante",
+"São a mesma informação escrita de dois jeitos, num código como R66 ou A2",
+"Trocar o modelo obriga a trocar a cor, porque um depende do outro",
+"O modelo é o formato e o tamanho do jogo de dentes; a cor é a tonalidade, e um não depende do outro"
+],
+"a": 3,
+"w": "O mesmo modelo existe em várias cores, e dentes da mesma cor podem ter modelos diferentes."
 }
 ];

@@ -59,12 +59,17 @@
   function lerVistas(chave) { try { return new Set(JSON.parse(localStorage.getItem(chave) || '[]')); } catch (e) { return new Set(); } }
   function gravarVistas(chave, set) { try { localStorage.setItem(chave, JSON.stringify([...set].slice(-800))); } catch (e) { } }
   function montarPartidaNova(banco, chave, rnd) {
+    // Rafael 11/11: "essa pergunta aparece toda vez". Sorteia várias partidas e fica com a que tem MENOS perguntas já vistas;
+    // a memória só zera quando quase tudo já saiu.
     banco = bancoValido(banco); let vistas = lerVistas(chave);
-    let fresco = banco.filter(q => !vistas.has(q.q));
-    if (!podeJogar(fresco)) { vistas = new Set(); fresco = banco; } // viu quase tudo: recomeça o ciclo
-    const out = montarPartida(fresco, rnd);
-    out.forEach(q => vistas.add(q.q)); gravarVistas(chave, vistas);
-    return out;
+    if (banco.filter(q => !vistas.has(q.q)).length < 15) vistas = new Set();
+    let melhor = null, menos = Infinity;
+    for (let t = 0; t < 40 && menos > 0; t++) {
+      const p = montarPartida(banco, rnd), rep = p.filter(q => vistas.has(q.q)).length;
+      if (rep < menos) { menos = rep; melhor = p; }
+    }
+    melhor.forEach(q => vistas.add(q.q)); gravarVistas(chave, vistas);
+    return melhor;
   }
   function montarPartida(banco, rnd) {
     banco = bancoValido(banco); const usadas = new Set(), out = [];
