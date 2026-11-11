@@ -406,3 +406,13 @@ async function boot() {
   if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => { });
 }
 boot();
+
+/* Rafael 11/11/2026: link de fonte ("Quer saber mais?") abre em NOVA aba e não tira ninguém do jogo,
+   inclusive com o app instalado (modo standalone, onde target=_blank às vezes abre na mesma janela) */
+document.addEventListener('click', e => {
+  const a = e.target.closest && e.target.closest('a[target="_blank"]');
+  if (!a || !/^https?:/i.test(a.href)) return;
+  e.preventDefault();
+  const w = window.open(a.href, '_blank', 'noopener,noreferrer');
+  if (!w && navigator.share) { try { navigator.share({ url: a.href }); } catch (err) { } }
+}, true);
