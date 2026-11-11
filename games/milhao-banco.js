@@ -6124,7 +6124,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Sobre qual modelo o laboratório confecciona a moldeira individual da prótese total?",
 "o": [
 "Sobre o modelo de trabalho que vem da moldagem funcional",
@@ -6143,7 +6143,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Na sequência convencional da prótese total, qual é a primeira peça que o laboratório confecciona?",
 "o": [
 "A montagem dos dentes no articulador",
@@ -6162,7 +6162,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Qual problema da moldeira padrão (de estoque) justifica fazer a moldeira individual na prótese total?",
 "o": [
 "Ela estica e modifica demais os tecidos, registrando a mucosa deformada",
@@ -6181,7 +6181,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 3,
 "q": "Qual material de moldagem final com moldeira individual foi o mais citado em levantamento de programas de pós-graduação em prótese?",
 "o": [
 "Alginato",
@@ -6219,7 +6219,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Por que a moldagem em silicone de adição feita com a moldeira individual não exige a mesma pressa de vazamento que o alginato?",
 "o": [
 "Porque o silicone só pode ser vazado depois de uma semana",
@@ -6318,7 +6318,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 1,
 "q": "Qual a principal função do cabo da moldeira individual?",
 "o": [
 "Servir de apoio para o registro da mordida do paciente",
@@ -6356,7 +6356,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 3,
 "q": "Em ensaio clínico, o que aconteceu com as próteses feitas por moldagem em moldeira individual com selado, comparadas às de moldeira de estoque com alginato?",
 "o": [
 "Precisaram de menos ajustes depois de instaladas",
@@ -6375,7 +6375,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 3,
 "q": "Quais materiais aparecem na literatura para o selado periférico feito na borda da moldeira individual?",
 "o": [
 "Alginato fluido",
@@ -6417,7 +6417,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 3,
+"n": 2,
 "q": "Segundo estudo de armazenamento do alginato (moldagem anatômica), qual é a conduta mais segura até o vazamento?",
 "o": [
 "Deixar secar ao ar livre, para o alginato endurecer mais",
@@ -7539,6 +7539,517 @@ window.BANCO_MILHAO = [
 {
 "m": "Prótese e laboratório",
 "n": 1,
+"q": "O que é uma prótese total?",
+"o": [
+"A que repõe todos os dentes de uma arcada",
+"A que repõe só um dente perdido",
+"A que cobre um dente quebrado",
+"A que alinha dentes tortos"
+],
+"a": 0,
+"w": "Prótese total (dentadura) substitui todos os dentes de uma arcada, superior ou inferior, e a gengiva que se perdeu junto. Fica apoiada sobre o rebordo e o palato, sem dentes naturais para segurar.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual prótese repõe só alguns dentes e o paciente pode tirar da boca para limpar?",
+"o": [
+"Prótese total",
+"Prótese parcial removível (PPR)",
+"Coroa unitária",
+"Ponte fixa"
+],
+"a": 1,
+"w": "A prótese parcial removível repõe os dentes que faltam numa arcada que ainda tem dentes naturais. O próprio paciente coloca e tira, e ela se segura nos dentes que sobraram.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "O que é uma coroa protética?",
+"o": [
+"Uma placa que cobre o céu da boca",
+"Um aparelho que alinha os dentes",
+"Uma peça que cobre e reconstrói um dente inteiro",
+"Um grampo que prende a dentadura"
+],
+"a": 2,
+"w": "A coroa envolve toda a parte visível do dente preparado e devolve forma e função a um dente muito destruído. Pode ser de metalocerâmica, cerâmica pura ou zircônia, e é cimentada, sem o paciente remover.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+},
+{
+"t": "Pjetursson BE et al. Sobrevida de coroas unitárias de zircônia e metalocerâmica: revisão sistemática. Clin Oral Implants Res, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30328190/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Como a ponte fixa repõe um dente perdido?",
+"o": [
+"Presa com grampos, e o paciente tira",
+"Colada só na gengiva",
+"Encaixada no céu da boca",
+"Apoiada nos dentes vizinhos, cimentada"
+],
+"a": 3,
+"w": "Na ponte fixa (prótese parcial fixa), os dentes ao lado do espaço são preparados e recebem coroas que seguram o dente falso no meio. Ela é cimentada e o paciente não tira em casa.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+},
+{
+"t": "Sailer I et al. Sobrevida de pontes fixas de zircônia e metalocerâmica: revisão sistemática. Clin Oral Implants Res, 2018",
+"u": "https://pubmed.ncbi.nlm.nih.gov/30328185/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Para que serve a moldagem feita pelo dentista?",
+"o": [
+"Copiar em negativo a forma dos dentes e da gengiva",
+"Clarear os dentes antes da prótese",
+"Anestesiar a gengiva",
+"Medir a força da mordida"
+],
+"a": 0,
+"w": "A moldagem registra em negativo os dentes e os tecidos da boca. Depois de vazada com gesso, vira o modelo, a cópia em positivo sobre a qual a prótese é feita.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+},
+{
+"t": "Cervino G et al. Alginato e técnica de moldagem: revisão. Mar Drugs, 2018 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6356954/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Que material se vaza na moldagem para obter o modelo de trabalho?",
+"o": [
+"Cera",
+"Gesso",
+"Silicone",
+"Resina flexível"
+],
+"a": 1,
+"w": "O gesso odontológico é misturado com água, vertido na moldagem e endurece copiando os detalhes. O resultado é o modelo, a base de todo o trabalho protético.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+},
+{
+"t": "Cervino G et al. Alginato e técnica de moldagem: revisão. Mar Drugs, 2018 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6356954/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual material de moldagem vem em pó, é misturado com água e é muito usado para modelos de estudo?",
+"o": [
+"Gesso pedra",
+"Cera rosa",
+"Alginato",
+"Resina acrílica"
+],
+"a": 2,
+"w": "O alginato é barato, rápido e fácil de usar, por isso é o mais comum em moldagens iniciais. Ele perde e ganha água com facilidade, então a moldagem deve ser vazada logo.",
+"r": [
+{
+"t": "Cervino G et al. Alginato e técnica de moldagem: revisão. Mar Drugs, 2018 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6356954/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Para que serve o articulador?",
+"o": [
+"Misturar o gesso sem deixar bolhas",
+"Aquecer a cera para modelar os dentes",
+"Polir a resina da prótese no final",
+"Reproduzir fora da boca a mordida do paciente"
+],
+"a": 3,
+"w": "O articulador é um aparelho que prende os modelos superior e inferior na relação certa entre si. Assim o técnico monta os dentes e confere a mordida simulando a boca do paciente.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+},
+{
+"t": "Articuladores virtuais: onde estamos? J Prosthodont, 2020",
+"u": "https://pubmed.ncbi.nlm.nih.gov/32827222/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "De que material costuma ser feita a parte rosa (base) da prótese total?",
+"o": [
+"Resina acrílica (PMMA)",
+"Porcelana",
+"Metal",
+"Silicone de moldagem"
+],
+"a": 0,
+"w": "A base da prótese total é quase sempre de polimetilmetacrilato, a resina acrílica, pigmentada na cor da gengiva. É leve, fácil de ajustar e de consertar.",
+"r": [
+{
+"t": "Zafar MS. Aplicações do PMMA em prótese: atualização. Polymers, 2020 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7599472/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "De que material são feitos os dentes artificiais mais usados na prótese total?",
+"o": [
+"Ouro",
+"Resina acrílica",
+"Gesso",
+"Cera"
+],
+"a": 1,
+"w": "Os dentes de estoque mais usados são de resina acrílica, vendidos em placas por modelo e cor. Eles se unem bem à base, que é do mesmo tipo de material.",
+"r": [
+{
+"t": "Zafar MS. Aplicações do PMMA em prótese: atualização. Polymers, 2020 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7599472/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Numa prótese do tipo protocolo, onde ela fica presa?",
+"o": [
+"Colada na gengiva com adesivo",
+"Apoiada só no céu da boca",
+"Parafusada sobre implantes",
+"Presa por grampos nos dentes"
+],
+"a": 2,
+"w": "O protocolo é uma prótese fixa de arcada inteira sustentada por vários implantes. Ela é parafusada e só o dentista consegue remover.",
+"r": [
+{
+"t": "Pjetursson BE et al. Sobrevida de próteses fixas sobre implantes após 5 anos: revisão sistemática. Clin Oral Implants Res, 2012",
+"u": "https://pubmed.ncbi.nlm.nih.gov/23062125/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "O que é uma sobredentadura (overdenture)?",
+"o": [
+"Prótese fixa de um dente só",
+"Placa usada à noite contra o ranger",
+"Prótese provisória de cera",
+"Prótese total removível que se encaixa em implantes ou raízes"
+],
+"a": 3,
+"w": "A overdenture continua sendo uma prótese removível, mas ganha encaixes nos implantes ou em raízes que ficaram na boca. Isso deixa a dentadura bem mais firme, principalmente a inferior.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+},
+{
+"t": "Um ou dois implantes na overdenture inferior: revisão sistemática. J Evid Based Dent Pract, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28865818/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "O que caracteriza a prótese total imediata?",
+"o": [
+"É instalada logo depois das extrações",
+"É feita só depois de um ano sem dentes",
+"É impressa na hora no consultório",
+"É usada só para dormir"
+],
+"a": 0,
+"w": "A prótese imediata é preparada antes das extrações e colocada no mesmo dia, para o paciente não ficar sem dentes. Como o osso muda na cicatrização, ela costuma precisar de reembasamento depois.",
+"r": [
+{
+"t": "Prótese total imediata: revisão sistemática. J West Afr Coll Surg, 2025 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12443454/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual é a característica marcante da prótese parcial flexível?",
+"o": [
+"Estrutura de metal fundido",
+"Base de náilon com grampos da cor da gengiva",
+"Dentes de porcelana colados",
+"Fica parafusada em implantes"
+],
+"a": 1,
+"w": "A flexível é injetada em poliamida (um tipo de náilon), e os próprios grampos são do material da base, na cor da gengiva. Por isso é escolhida pela estética, já que não mostra metal.",
+"r": [
+{
+"t": "Nonmetal clasp dentures: o que diz a evidência. J Indian Prosthodont Soc, 2020 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7654199/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Para que serve a placa oclusal usada por quem range os dentes à noite?",
+"o": [
+"Clarear os dentes",
+"Substituir dentes perdidos",
+"Proteger os dentes do desgaste",
+"Corrigir a posição dos dentes"
+],
+"a": 2,
+"w": "No bruxismo, a placa fica entre os dentes de cima e de baixo e recebe o atrito do ranger. Ela protege o esmalte e as restaurações, embora não cure o bruxismo.",
+"r": [
+{
+"t": "Comparação de tipos de placas oclusais no bruxismo do sono: revisão sistemática. BMC Oral Health, 2024 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10770907/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Por que uma prótese total antiga costuma ficar frouxa com os anos?",
+"o": [
+"A resina incha com a saliva",
+"Os dentes artificiais crescem",
+"A gengiva engrossa sob a prótese",
+"O osso do rebordo vai sendo reabsorvido"
+],
+"a": 3,
+"w": "Sem os dentes, o osso que os sustentava diminui aos poucos, um processo chamado reabsorção do rebordo. A prótese perde o contato com a base e fica solta, pedindo reembasamento ou uma nova.",
+"r": [
+{
+"t": "Reabsorção do rebordo residual: perspectivas atuais. J Prosthodont Res, 2022",
+"u": "https://pubmed.ncbi.nlm.nih.gov/35185111/"
+},
+{
+"t": "Revisão sobre reabsorção do rebordo residual. J Prosthet Dent, 1996",
+"u": "https://pubmed.ncbi.nlm.nih.gov/8709016/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual é o papel do adesivo (fixador) de dentadura?",
+"o": [
+"Ajudar a segurar uma prótese bem adaptada",
+"Substituir o reembasamento de vez",
+"Deixar a prótese mais branca",
+"Desinfetar a prótese durante a noite"
+],
+"a": 0,
+"w": "O adesivo pode dar mais firmeza e conforto a uma prótese que já está bem adaptada. As diretrizes avisam que ele não deve ser usado para compensar prótese frouxa ou malfeita.",
+"r": [
+{
+"t": "Felton D et al. Diretrizes da ACP para cuidado e manutenção da prótese total. J Prosthodont, 2011",
+"u": "https://pubmed.ncbi.nlm.nih.gov/21324026/"
+},
+{
+"t": "Revisão sistemática e metanálise sobre a eficácia dos adesivos de prótese. J Dent, 2021",
+"u": "https://pubmed.ncbi.nlm.nih.gov/33727079/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Depois de limpa, onde a prótese total deve ficar quando está fora da boca?",
+"o": [
+"Embrulhada em papel seco",
+"Em um recipiente com água",
+"Sobre a pia, ao ar livre",
+"Dentro de água fervente"
+],
+"a": 1,
+"w": "As diretrizes do American College of Prosthodontists recomendam guardar a prótese limpa imersa em água. Seca, a resina pode se deformar, e água muito quente também deforma a base.",
+"r": [
+{
+"t": "Felton D et al. Diretrizes da ACP para cuidado e manutenção da prótese total. J Prosthodont, 2011",
+"u": "https://pubmed.ncbi.nlm.nih.gov/21324026/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "A prótese nova fez uma feridinha na gengiva. Qual é a conduta certa?",
+"o": [
+"Lixar a prótese em casa",
+"Usar mais adesivo para ela parar de mexer",
+"Voltar ao dentista para ajustar a prótese",
+"Deixar de usar e esperar sumir sozinha"
+],
+"a": 2,
+"w": "Pequenas úlceras nas primeiras semanas são comuns e cicatrizam quando o dentista alivia o ponto que está machucando. Desgastar em casa pode estragar a adaptação da prótese.",
+"r": [
+{
+"t": "Úlceras traumáticas no período de ajuste de próteses totais. Sci Rep, 2025 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12227545/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Por que a prótese deve sair bem lisa e polida?",
+"o": [
+"Porque fica mais pesada",
+"Para colar melhor no osso",
+"Para mudar a cor dos dentes",
+"Superfície lisa acumula menos biofilme"
+],
+"a": 3,
+"w": "Riscos e poros na resina servem de esconderijo para fungos e bactérias, como a Candida. Uma superfície polida é mais fácil de limpar e ajuda a prevenir a estomatite protética.",
+"r": [
+{
+"t": "Pereira-Cenci T et al. Estomatite associada a Candida: novas ideias. J Appl Oral Sci, 2008 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4327625/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "O que tende a acontecer com a resina da prótese escovada sempre com pasta de dente comum?",
+"o": [
+"Fica mais riscada e áspera",
+"Fica mais dura e brilhante",
+"Muda de cor para branco",
+"Não sofre nenhuma alteração"
+],
+"a": 0,
+"w": "A pasta de dente comum tem partículas abrasivas feitas para o esmalte, que é bem mais duro que a resina. Estudos mostram mais perda de material e mais rugosidade do que escovar só com água.",
+"r": [
+{
+"t": "Efeito da escovação com dentifrícios na rugosidade da resina acrílica: revisão sistemática. J Prosthet Dent, 2023",
+"u": "https://pubmed.ncbi.nlm.nih.gov/37612194/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Na prótese parcial removível, o que segura a peça nos dentes naturais?",
+"o": [
+"O cimento",
+"Os grampos",
+"Os parafusos",
+"A sucção do palato"
+],
+"a": 1,
+"w": "Os grampos abraçam os dentes naturais que sobraram e dão a retenção da PPR. Eles podem ser de metal fundido, de fio ou, na flexível, do próprio material da base.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Qual parte do dente natural o implante dentário substitui?",
+"o": [
+"A coroa",
+"O esmalte",
+"A raiz",
+"A gengiva"
+],
+"a": 2,
+"w": "O implante é um parafuso, geralmente de titânio, colocado no osso no lugar da raiz perdida. Por cima dele vai a prótese, que faz o papel da coroa.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Para que serve a mufla no processamento da prótese total?",
+"o": [
+"Moldar a boca do paciente",
+"Escolher a cor dos dentes",
+"Medir a altura da mordida",
+"Incluir a montagem em gesso para prensar a resina"
+],
+"a": 3,
+"w": "A mufla é uma caixa metálica onde a prótese montada em cera é incluída em gesso. Depois a cera é retirada, a resina é prensada no espaço e polimerizada, virando a prótese definitiva.",
+"r": [
+{
+"t": "Influência do gesso de inclusão na dimensão vertical de próteses totais. Saudi Dent J, 2014 (texto grátis)",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3871397/"
+},
+{
+"t": "Como fazer muflas para micro-ondas. J Prosthet Dent, 1990",
+"u": "https://pubmed.ncbi.nlm.nih.gov/2295982/"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 1,
+"q": "Para que serve a prova dos dentes montados em cera?",
+"o": [
+"Conferir estética, fala e mordida antes de acrilizar",
+"Deixar a prótese pronta para uso",
+"Clarear os dentes artificiais",
+"Testar a resistência da resina"
+],
+"a": 0,
+"w": "Na prova, o dentista coloca a montagem em cera na boca e avalia aparência, linha média, fala e encaixe da mordida. Como a cera ainda é fácil de mexer, os ajustes saem antes da prótese virar resina.",
+"r": [
+{
+"t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
+"u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
+}
+]
+},
+{
+"m": "Prótese e laboratório",
+"n": 2,
 "q": "Qual afirmação descreve corretamente a relação entre PPR e roach no laboratório?",
 "o": [
 "Roach e PPR são sinônimos: o nome muda conforme o laboratório, mas a prótese é a mesma",
@@ -7584,7 +8095,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 1,
 "q": "Qual é a função do plano de cera (rolete de cera sobre a placa base) na prótese total?",
 "o": [
 "Servir de prótese provisória para o paciente usar enquanto a definitiva é acrilizada no laboratório",
@@ -7607,7 +8118,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Para que serve embalar a moldagem de alginato num saquinho plástico com algodão umedecido?",
 "o": [
 "Para o alginato endurecer mais rápido e já chegar pronto para vazar quando for entregue ao laboratório",
@@ -7681,7 +8192,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 3,
 "q": "No registro de mordida do plano de cera, por que o paciente deve encostar a língua no palato?",
 "o": [
 "Para evitar o desvio da mandíbula e capturar a relação intermaxilar correta",
@@ -7822,7 +8333,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 3,
+"n": 2,
 "q": "Qual destas marcas está ligada à fabricação de dentes de estoque para prótese?",
 "o": [
 "Dental Cremer",
@@ -7881,7 +8392,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Uma prótese total inferior afunda e machuca o rebordo quando o paciente mastiga com força. Qual dos três pilares da prótese total está falhando principalmente?",
 "o": [
 "Suporte, a resistência à força em direção aos tecidos",
@@ -7904,7 +8415,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "O espaço funcional livre (espaço interoclusal de repouso) corresponde a quê?",
 "o": [
 "À soma da dimensão vertical de oclusão com a de repouso",
@@ -7927,7 +8438,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Na classificação de Kennedy, um arco com ausência dos dentes posteriores dos dois lados, sem dente atrás dos espaços (extremo livre bilateral), é de que classe?",
 "o": [
 "Classe III",
@@ -8015,7 +8526,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Por que o dente artificial de resina acrílica fica preso à base da prótese total sem precisar de retenção mecânica?",
 "o": [
 "Porque é colado à base com cianoacrilato depois da acrilização",
@@ -8038,7 +8549,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Para que serve o delineador no planejamento da PPR?",
 "o": [
 "Definir o plano de inserção, as áreas retentivas e o equador protético",
@@ -8061,7 +8572,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Na PPR, qual componente une as partes da prótese de um lado do arco ao outro, como a barra lingual ou a placa palatina?",
 "o": [
 "Conector menor",
@@ -8080,7 +8591,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Qual é a principal função do apoio oclusal de uma PPR?",
 "o": [
 "Prender a prótese no dente pela área retentiva",
@@ -8103,7 +8614,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "O que caracteriza a relação cêntrica?",
 "o": [
 "É a posição em que os dentes se encaixam com o máximo de contatos",
@@ -8126,7 +8637,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "O que o arco facial transfere para o articulador semiajustável?",
 "o": [
 "A posição da maxila em relação ao eixo das articulações temporomandibulares",
@@ -8172,7 +8683,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 1,
+"n": 2,
 "q": "Em prótese total, o que é a zona neutra?",
 "o": [
 "A área do palato onde não se pode colocar alívio",
@@ -8195,7 +8706,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 3,
 "q": "Depois de instalar uma prótese total, o paciente diz que os dentes 'batem' quando fala e que o rebordo dói no fim do dia. O rosto parece alongado. Qual a causa mais provável?",
 "o": [
 "Dimensão vertical de oclusão diminuída",
@@ -8310,7 +8821,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 3,
 "q": "Numa prótese tipo protocolo parafusada sobre vários implantes, o que pode acontecer se a barra não tiver assentamento passivo?",
 "o": [
 "Nada, porque o aperto do parafuso corrige qualquer desajuste",
@@ -8333,7 +8844,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 3,
 "q": "Qual requisito é considerado essencial para a carga imediata de uma prótese fixa total sobre implantes?",
 "o": [
 "Boa estabilidade primária e implantes unidos rigidamente pela prótese",
@@ -8356,7 +8867,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 3,
 "q": "O que diz a declaração de consenso de McGill (2002) sobre o desdentado total inferior?",
 "o": [
 "Que a prótese total convencional basta e implante é exceção",
@@ -8379,7 +8890,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 3,
 "q": "Em dente tratado endodonticamente que vai receber coroa, o que é o 'efeito férula' e quanto se recomenda?",
 "o": [
 "Um pino mais longo, com pelo menos 10 mm",
@@ -8402,7 +8913,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 1,
 "q": "Na prótese fixa, por que o dente preparado recebe coroa provisória enquanto a definitiva é feita?",
 "o": [
 "Para proteger o dente e manter a gengiva e a posição dos dentes",
@@ -8471,7 +8982,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 2,
+"n": 3,
 "q": "Num estudo com 80 pacientes de prótese total (Saraswati et al., 2021), o que se viu sobre as consultas de ajuste depois da instalação?",
 "o": [
 "A maioria precisou de ajuste por lesão na mucosa, e a inferior pediu mais consultas",
@@ -8766,7 +9277,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 3,
+"n": 2,
 "q": "Qual a principal função dos planos guia preparados nas faces proximais dos dentes pilares de uma PPR?",
 "o": [
 "Definir uma trajetória de inserção única e dar estabilidade",
@@ -9394,7 +9905,7 @@ window.BANCO_MILHAO = [
 },
 {
 "m": "Prótese e laboratório",
-"n": 3,
+"n": 2,
 "q": "O dentista devolve o plano de cera superior sem a linha média marcada. Por que essa marcação é decisiva para o laboratório?",
 "o": [
 "Porque ela indica a cor dos dentes que o técnico deve escolher",
