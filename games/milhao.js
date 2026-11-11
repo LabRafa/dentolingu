@@ -159,7 +159,18 @@
 .X-sw::after{content:'';position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:left .2s}
 .X-sw:checked{background:#2bd67b}.X-sw:checked::after{left:23px}
 .X-sw:focus-visible,.X-fonte:focus-visible,.X-mat:focus-visible{outline:3px solid #ffd24a;outline-offset:2px}
-.X-engrmini{float:right;background:none;border:0;font-size:22px;cursor:pointer;min-width:44px;min-height:44px}
+.X-engrmini{background:rgba(5,10,46,.55);border:2px solid rgba(255,210,74,.5);border-radius:12px;font-size:19px;line-height:1;cursor:pointer;width:42px;height:42px;padding:0;display:grid;place-items:center;color:#fff}
+.X-topo{display:grid;grid-template-columns:auto 1fr auto;align-items:start;gap:6px;min-width:0}
+.X-barra{display:flex;gap:6px}
+@media (max-width:420px){.X-barra{flex-direction:column}}
+.X-topo .X-valendo{min-width:0;padding-top:2px}
+.X-topo .X-valendo b{font-size:clamp(21px,7vw,34px)}
+.X-sisfim{display:flex;justify-content:center}
+.X-abre{display:flex;flex-direction:column;align-items:center;gap:4px}
+.X-balao{position:relative;width:100%;background:#fff;color:#14205a;border-radius:18px;padding:12px 14px;box-shadow:0 4px 0 #8a5a00,0 0 0 3px #ffd24a;margin-top:10px}
+.X-balao::before{content:"";position:absolute;top:-17px;left:50%;margin-left:-12px;border:12px solid transparent;border-bottom:14px solid #ffd24a;border-top:0}
+.X-balao::after{content:"";position:absolute;top:-11px;left:50%;margin-left:-9px;border:9px solid transparent;border-bottom:11px solid #fff;border-top:0}
+.X-oi{display:block;font-family:'Bungee',var(--f-display),sans-serif;font-size:15px;color:#1a2f9a;margin-bottom:8px;text-align:center}
 .X-escada{display:grid;grid-template-columns:repeat(15,1fr);gap:3px}
 .X-pip{height:8px;border-radius:4px;background:rgba(255,255,255,.2)}
 .X-pip.X-ok{background:#2ee59d}.X-pip.X-ja{background:#2ee59d}.X-pip.X-seg{box-shadow:0 0 0 2px #ffd24a}.X-pip.X-agora{background:#ffd24a;animation:X-pisca .8s steps(2) infinite}
@@ -195,8 +206,16 @@
 .X-nota{font-size:12px;color:#9fb6ee;text-align:center}
 .X-refs{margin-top:8px;display:flex;flex-direction:column;gap:4px;font-size:13px;text-align:left}.X-refs a{color:#ffe27a;text-decoration:underline}
 @media (prefers-reduced-motion:reduce){.X-palco::before,.X-palco::after,.X-op.X-pisca,.X-pip.X-agora{animation:none}}
+.X-regras2{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.X-regras2 li{display:flex;gap:10px;align-items:center;font-size:15px;line-height:1.3;font-weight:600}
+.X-regras2 li>span:first-child{flex:none;width:26px;text-align:center;font-size:20px;line-height:1}
+.X-regras2 b{color:#1a2f9a}
+.X-regras2 li{color:#14205a}
+.X-mentira{text-align:center;font-size:13px;color:#ffe9a8;font-weight:700;margin:-4px 0 0}
 `.replace(/X-/g, ID + '-');
 
+    // Sisão (mascote): motor games/sisao/sisao.js + quadros v3 (cartum = visual Normal; pixel = body.tema-pixel)
+    const SIS_BASE = (() => { try { const s = document.currentScript && document.currentScript.src; if (s) return s.replace(/milhao\.js[^/]*$/, '') + 'sisao/'; } catch (e) { } return 'games/sisao/'; })();
     function injetarCss() {
       if (!document.getElementById('css-' + ID)) { const s = document.createElement('style'); s.id = 'css-' + ID; s.textContent = CSS; document.head.appendChild(s); }
     }
@@ -214,6 +233,16 @@
         const reduz = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         const timers = []; const apos = (fn, ms) => { const h = setTimeout(fn, ms); timers.push(h); return h; };
         let antecipa = null; // toque na tela durante o suspense revela na hora
+        // ===== SISÃO: um só personagem, reposto em cada tela; mexe a boca junto com o locutor =====
+        if (window.__sisao) { try { window.__sisao.destruir(); } catch (e) { } }
+        const sis = window.Sisao ? (window.__sisao = Sisao.criar(null, { base: SIS_BASE, escala: 2, versao: 4 })) : null;
+        const ESC_SIS = { grande: 2, canto: 0.85, fim: 2 };
+        function poeSis(lugar) {
+          if (!sis) return; const slot = el.querySelector('.' + c('sislugar')); if (!slot) return;
+          sis.escala(ESC_SIS[lugar] || 1); slot.replaceWith(sis.el);
+        }
+        const sisFala = sim => { if (sis) sis.falar(sim); };
+        const sisReage = (n, o) => { if (sis) sis.reacao(n, o); };
         // cronômetro de suspense: 45 s por pergunta, pulso grave a cada segundo e mais rápido nos últimos 10 (som original, sintetizado)
         const TEMPO = 45; let relogio = null, ctxPulso = null;
         function pulso(urgente) {
@@ -451,11 +480,17 @@ ${sw('bateria', 'Bateria na música', '')}
           limpar();
           el.innerHTML = `<div class="${c('palco')}"><div class="${c('titulo')} ${c('h1')}">${api.esc(NOME)}</div>
 <p class="${c('sub')}">O quiz que vale um milhão de sorrisos</p>
-<div class="${c('regras')}"><div><b>15 perguntas</b> das matérias que você escolher: 5 fáceis, 5 médias e 5 difíceis.</div><div>Acertou a 5ª e a 10ª, o prêmio fica <b>garantido</b>. Errou, volta pro último garantido.</div><div><b>Parar</b> a qualquer hora leva o que já ganhou.</div><div>Ajudas: <b>50:50</b>, <b>Pular</b> (3 vezes, escolhendo a matéria da próxima) e <b>Plateia</b>.</div><div>O dinheiro é de brincadeira, os <b>pontos</b> entram no ranking (4 por pergunta garantida).</div></div>
+<div class="${c('abre')}"><div class="${c('sislugar')}"></div><div class="${c('balao')}"><b class="${c('oi')}">Bem-vindos ao show!</b><ul class="${c('regras2')}">
+<li><span>🎯</span><span><b>15 perguntas</b>, das fáceis às difíceis</span></li>
+<li><span>🛡️</span><span>A <b>5ª e a 10ª</b> garantem o prêmio</span></li>
+<li><span>✋</span><span><b>Pare</b> quando quiser e leve o que ganhou</span></li>
+<li><span>🆘</span><span>Ajudas: <b>50:50</b>, <b>3 pulos</b> e <b>plateia</b></span></li></ul></div></div>
+<p class="${c('mentira')}">O prêmio é de mentirinha; os pontos vão pro ranking.</p>
 <div class="${c('linha')}"><button type="button" class="${c('btn')} ${c('comecar')}">Valendo!</button><button type="button" class="${c('btn')} ${c('azul')} ${c('engr')}">⚙️ Configurações</button><button type="button" class="${c('btn')} ${c('azul')} ${c('sair')}">Voltar</button></div>
 <p class="${c('nota')}">Perguntas feitas a partir do material das aulas, do laboratório e de conhecimentos gerais. Confira com o professor.</p></div>`;
+          poeSis('grande'); sisReage('apresentando', { ficar: true });
           el.querySelector('.' + c('comecar')).onclick = () => abrirMaterias(nova);
-          el.querySelector('.' + c('sair')).onclick = () => { limpar(); pararFundo(); api.voltar(); }; { const eg = el.querySelector('.' + c('engr')); if (eg) eg.onclick = abrirConf; }
+          el.querySelector('.' + c('sair')).onclick = () => { limpar(); pararFundo(); if (sis) sis.destruir(); api.voltar(); }; { const eg = el.querySelector('.' + c('engr')); if (eg) eg.onclick = abrirConf; }
         }
         // apresentador: voz sintética genérica do navegador (pt-BR), nunca imitação de pessoa real; respeita o mudo
         function falar(texto) {
@@ -465,8 +500,11 @@ ${sw('bateria', 'Bateria na música', '')}
             // locutor animado: voz masculina, mais rápida e mais aguda; frases curtas, cada uma com seu fôlego
             const vozes = speechSynthesis.getVoices().filter(x => /pt[-_]BR/i.test(x.lang));
             const v = vozes.find(x => /natural|online|antonio|francisco|daniel/i.test(x.name)) || vozes[0];
-            String(texto).split(/(?<=[!?.])\s+/).filter(Boolean).forEach((frase, i) => {
+            const frases = String(texto).split(/(?<=[!?.])\s+/).filter(Boolean);
+            frases.forEach((frase, i) => {
               const u = new SpeechSynthesisUtterance(frase);
+              if (i === 0) u.onstart = () => sisFala(true);
+              if (i === frases.length - 1) { u.onend = () => sisFala(false); u.onerror = () => sisFala(false); }
               u.lang = 'pt-BR'; if (v) u.voice = v;
               const grito = /!$/.test(frase);
               u.rate = grito ? 1.18 : 1.12; u.pitch = grito ? 1.45 : 1.2; u.volume = 1;
@@ -508,7 +546,8 @@ ${sw('bateria', 'Bateria na música', '')}
               const g = ctx.createGain(); let vol = 0.9; try { vol = Math.min(1, (Sons.volume ? Sons.volume() : 0.5) * 1.8); } catch (e) { } g.gain.value = vol; g.connect(ctx.destination);
               let t = ctx.currentTime + 0.05;
               bufs.forEach((b, k) => { const x = ctx.createBufferSource(); x.buffer = b; x.connect(g); x.start(t); fontes.push(x); t += b.duration + (/letra[A-D]/.test(lista[k]) ? 0.06 : 0.28); });
-              timer = setTimeout(() => { if (tok.c) return; fila = null; if (aoFim) aoFim(); }, Math.max(0, (t - ctx.currentTime) * 1000));
+              sisFala(true);
+              timer = setTimeout(() => { if (tok.c) return; fila = null; sisFala(false); if (aoFim) aoFim(); }, Math.max(0, (t - ctx.currentTime) * 1000));
             }).catch(() => { if (tok.c) return; simples(); });
             return;
           }
@@ -517,10 +556,10 @@ ${sw('bateria', 'Bateria na música', '')}
           const pre = urls.map(u => { if (typeof u !== 'string') return null; const x = new Audio(); x.preload = 'auto'; x.src = u; try { x.load(); } catch (e) { } return x; });
           const prox = () => {
             if (tok.c) return;
-            if (i >= urls.length) { fila = null; if (aoFim) aoFim(); return; }
+            if (i >= urls.length) { fila = null; sisFala(false); if (aoFim) aoFim(); return; }
             const a = pre[i++];
             if (!a) { prox(); return; } // nunca outra voz: sem áudio gravado, pula
-            tok.a = a;
+            tok.a = a; sisFala(true);
             try { a.volume = Math.min(1, (Sons.volume ? Sons.volume() : 0.5) * 1.8); } catch (e) { }
             a.onended = prox; a.onerror = prox;
             const p = a.play(); if (p && p.catch) p.catch(prox);
@@ -532,6 +571,7 @@ ${sw('bateria', 'Bateria na música', '')}
         function calar() {
           if (fila) { fila.c = true; try { fila.a && fila.a.pause(); } catch (e) { } fila = null; }
           try { if ('speechSynthesis' in window) speechSynthesis.cancel(); } catch (e) { }
+          sisFala(false);
         }
         // gritos e palmas de auditório (sintetizados, originais): palmas de ruído + "uhuuu" de vários vozes + clamor
         function auditorio() {
@@ -577,6 +617,7 @@ ${sw('bateria', 'Bateria na música', '')}
           limpar();
           const q = st.perguntas[st.i];
           st.ops = ordenar(q); st.fora = []; st.plateia = null; st.sel = -1; st.travado = false;
+          sisReage('neutro', { ficar: true });
           iniciarFundo();
           desenhar();
           const v = ESCADA[st.i], porExtenso = v >= 1000000 ? 'um milhão de reais' : v >= 1000 ? `${v / 1000} mil reais` : `${v} reais`;
@@ -592,7 +633,7 @@ ${sw('bateria', 'Bateria na música', '')}
           const q = st.perguntas[st.i], valendo = ESCADA[st.i], garantido = premio(seguro(st.acertos));
           const aberto = !resultado;
           el.innerHTML = `<div class="${c('palco')}">
-<button type="button" class="${c('engr')} ${c('engrmini')}" aria-label="Configurações de som">⚙️</button><button type="button" class="${c('engrmini')} ${c('livros')}" aria-label="Escolher as matérias">📚</button><div class="${c('valendo')}"><small>Pergunta ${st.i + 1} de 15 · valendo</small><b>${reais(valendo)}</b>${aberto ? `<div><span class="${c('relogio')}${(st.resta ?? TEMPO) <= 10 ? ' ' + c('urgente') : ''}" role="timer" aria-label="Tempo restante">${st.resta ?? TEMPO}s</span></div>` : ''}</div>
+<div class="${c('topo')}"><div class="${c('sislugar')}"></div><div class="${c('valendo')}"><small>Pergunta ${st.i + 1} de 15 · valendo</small><b>${reais(valendo)}</b>${aberto ? `<div><span class="${c('relogio')}${(st.resta ?? TEMPO) <= 10 ? ' ' + c('urgente') : ''}" role="timer" aria-label="Tempo restante">${st.resta ?? TEMPO}s</span></div>` : ''}</div><div class="${c('barra')}"><button type="button" class="${c('engr')} ${c('engrmini')}" aria-label="Configurações de som">⚙️</button><button type="button" class="${c('engrmini')} ${c('livros')}" aria-label="Escolher as matérias">📚</button></div></div>
 <div class="${c('escada')}" aria-hidden="true">${pips()}</div>
 <div class="${c('info')}"><span>Ganhou <b>${reais(premio(st.acertos))}</b></span><span>Garantido <b>${garantido ? reais(garantido) : 'R$ 0'}</b></span></div>
 <span class="${c('tag')}">${api.esc(q.m || 'Odontologia')} · ${['fácil', 'média', 'difícil'][q.n - 1]}</span>
@@ -609,6 +650,7 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
 <div class="${c('ajudas')}"><button type="button" class="${c('aj')} ${c('a50')}" ${st.c50 || st.travado ? 'disabled' : ''}>50:50<small>tira 2 erradas</small></button><button type="button" class="${c('aj')} ${c('apular')}" ${st.pulos <= 0 || st.travado ? 'disabled' : ''}>Pular<small>${st.pulos} restante${st.pulos === 1 ? '' : 's'}</small></button><button type="button" class="${c('aj')} ${c('aplat')}" ${st.plat || st.travado ? 'disabled' : ''}>Plateia<small>uma vez</small></button></div>
 <div class="${c('linha')}"><button type="button" class="${c('btn')} ${c('vermelho')} ${c('parar')}" ${st.travado ? 'disabled' : ''}>Parar e levar ${reais(premio(st.acertos))}</button></div>` : resultado}
 </div>`;
+          poeSis('canto');
           if (aberto) ligar(); else ligarResultado();
         }
         function ligar() {
@@ -627,20 +669,20 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
           if ($('engrmini')) $('engrmini').onclick = abrirConf;
           if ($('livros')) $('livros').onclick = () => abrirMaterias(() => { pararRelogio(); calar(); nova(); });
           $('confirmar').onclick = confirmar;
-          $('a50').onclick = () => { if (st.c50) return; st.c50 = true; st.fora = cinquenta(st.ops); if (st.fora.includes(st.sel)) st.sel = -1; desenhar(); };
+          $('a50').onclick = () => { if (st.c50) return; st.c50 = true; sisReage('pensando', { depois: 'neutro' }); st.fora = cinquenta(st.ops); if (st.fora.includes(st.sel)) st.sel = -1; desenhar(); };
           $('apular').onclick = () => {
             if (st.pulos <= 0) return;
             if (!materiasDoPulo(st.perguntas, st.i, banco).length) { api.toast('Não há outra pergunta desse nível'); return; }
-            pararTensao(); pararRelogio(); calar(); st.sel = -1; st.escolhendo = true; desenhar(); efeito('clique'); // relógio pausa enquanto escolhe; a próxima pergunta começa do zero
+            pararTensao(); pararRelogio(); calar(); st.sel = -1; st.escolhendo = true; desenhar(); efeito('clique'); sisReage('pensando', { ficar: true }); // relógio pausa enquanto escolhe; a próxima pergunta começa do zero
           };
-          $('aplat').onclick = () => { if (st.plat) return; st.plat = true; st.plateia = plateia(st.ops, st.perguntas[st.i].n); desenhar(); };
+          $('aplat').onclick = () => { if (st.plat) return; st.plat = true; sisReage('pensando', { depois: 'neutro' }); st.plateia = plateia(st.ops, st.perguntas[st.i].n); desenhar(); };
           $('a50').addEventListener('click', () => efeito('powerup')); $('aplat').addEventListener('click', () => efeito('powerup'));
           $('parar').onclick = () => encerrar('parou');
         }
         function confirmar() {
           if (st.sel < 0 || st.travado) return;
           pararTensao(); pararRelogio(); calar();
-          st.travado = true; desenhar();
+          st.travado = true; desenhar(); sisReage('suspense', { ficar: true });
           // rufar só nas perguntas que garantem prêmio (5ª, 10ª) e na do milhão; nas outras, revela rápido
           const tensa = SEGUROS.includes(st.i + 1) || st.i === ESCADA.length - 1;
           let somOk = false; try { somOk = !!(window.Sons && Sons.disponivel()); } catch (e) { somOk = false; }
@@ -660,6 +702,7 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
           pararTensao(); pararRelogio();
           const q = st.perguntas[st.i], acertou = st.sel >= 0 && st.ops[st.sel].c, ultima = st.i === ESCADA.length - 1;
           if (acertou) st.acertos++; else st.erros.push(q);
+          sisReage(acertou ? (ultima ? 'milhao' : 'acerto') : 'erro', { ficar: true });
           efeito(acertou ? (ultima ? 'milhao' : 'acerto_tv') : 'erro_tv');
           apos(() => acertou ? (ultima ? fala('milhao', 'É o milhão!') : fala('certa', 'Certa resposta!')) : st.esgotou ? fala('tempo', 'O tempo acabou!') : fala('errada', 'Que pena! Resposta errada.'), 450);
           const certa = st.ops.findIndex(o => o.c);
@@ -717,13 +760,14 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
           // Rafael 11/11: levou algum prêmio = festa (mesmo errando); musiquinha de azar só quando sai sem nada
           if (levou <= 0) gameOver8bit();
           if (levou > 0) { auditorio(); if (modo === 'parou') fala('parou', 'Parou e levou! Muito bem!'); }
-          el.innerHTML = `<div class="${c('palco')}"><div class="${c('fim')}"><div class="${c('titulo')} ${c('h2')}">${titulo}</div>
+          el.innerHTML = `<div class="${c('palco')}"><div class="${c('fim')}"><div class="${c('sisfim')}"><div class="${c('sislugar')}"></div></div><div class="${c('titulo')} ${c('h2')}">${titulo}</div>
 <div class="${c('big')}">${levou ? reais(levou) : 'R$ 0'}</div>
 <p class="${c('sub')}">${acertos} de 15 perguntas certas · ${pts} ${pts === 1 ? 'ponto' : 'pontos'} no ranking</p>
 ${st.erros.length ? `<div class="${c('lista')}"><b>Para rever</b>${st.erros.map(q => `<div>${api.esc(q.q)}<br><small>Certa: ${api.esc(q.o[q.a])}</small></div>`).join('')}</div>` : ''}
 <div class="${c('linha')}"><button type="button" class="${c('btn')} ${c('denovo')}">Jogar de novo</button><button type="button" class="${c('btn')} ${c('azul')} ${c('voltar')}">Voltar</button></div></div></div>`;
+          poeSis('fim'); sisReage(modo === 'milhao' ? 'milhao' : levou > 0 ? 'comemorando' : 'perdeu', modo === 'milhao' || levou <= 0 ? { ficar: true } : { depois: 'tchau' });
           el.querySelector('.' + c('denovo')).onclick = () => { limpar(); jogo.montar(el, t, api); };
-          el.querySelector('.' + c('voltar')).onclick = () => { limpar(); pararFundo(); api.voltar(); };
+          el.querySelector('.' + c('voltar')).onclick = () => { limpar(); pararFundo(); if (sis) sis.destruir(); api.voltar(); };
           window.scrollTo(0, 0);
         }
         intro();
