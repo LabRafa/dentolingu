@@ -464,6 +464,10 @@ window.BANCO_MILHAO = [
 "w": "Na lesão inicial o mineral sai de baixo de uma camada superficial ainda bem mineralizada, e os poros se enchem de água ou ar, cujo índice de refração (1,33 e 1,0) é bem menor que o do esmalte (cerca de 1,62). A luz se espalha nessas interfaces e a área fica branca e opaca; secando com ar a mancha fica ainda mais visível, porque o ar difere mais do esmalte do que a água.",
 "r": [
 {
+"t": "Rodrigues MS et al. Infiltrante resinoso e suas possibilidades: revisão da literatura. Arch Health Invest, 2024 (texto grátis)",
+"u": "https://archhealthinvestigation.emnuvens.com.br/ArcHI/article/view/6402"
+},
+{
 "t": "Kidd EA, Fejerskov O. O que é a cárie? Histopatologia do esmalte e da dentina cariados. J Dent Res, 2004",
 "u": "https://pubmed.ncbi.nlm.nih.gov/15286119/"
 },
@@ -625,6 +629,10 @@ window.BANCO_MILHAO = [
 "w": "Depois de Waterloo (1815), com dezenas de milhares de mortos, dentes arrancados dos cadáveres inundaram o mercado europeu e eram montados em bases de marfim esculpido, próteses caras, só para ricos. O nome pegou, mas o comércio de dentes humanos já existia no século XVIII e continuou depois: até dentes de mortos da Guerra Civil americana foram exportados para a Inglaterra.",
 "r": [
 {
+"t": "Aventuras na História. Fertilizantes? O mistério em torno dos esqueletos de soldados de Napoleão, 2022",
+"u": "https://aventurasnahistoria.com.br/noticias/reportagem/fertilizantes-o-misterio-em-torno-dos-esqueletos-de-soldados-de-napoleao.phtml"
+},
+{
 "t": "Museum of Health Care (Kingston, Canadá). Coleção: dentes de Waterloo. Blog do museu",
 "u": "https://www.museumofhealthcare.ca/blog/collections-corner-waterloo-teeth"
 },
@@ -647,6 +655,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "Fauchard (1679-1761) era francês e é chamado de 'pai da odontologia moderna'. Le Chirurgien Dentiste (1728, dois volumes) foi a primeira descrição científica completa da profissão: anatomia bucal, cárie, restaurações, doença periodontal, ortodontia e próteses. Ele também contestou a crença no 'verme do dente' e ligou a cárie ao açúcar.",
 "r": [
+{
+"t": "Silva WT. Cerâmicas odontológicas: considerações históricas e sua evolução ao longo dos anos. Monografia, UNESP Araçatuba, 2012 (texto grátis)",
+"u": "https://repositorio.unesp.br/bitstreams/31661962-df65-4680-9054-190877885836/download"
+},
 {
 "t": "Aksoy U et al. Pierre Fauchard, cirurgião-dentista pioneiro do Iluminismo. Cureus, 2024",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11484655/"
@@ -975,6 +987,10 @@ window.BANCO_MILHAO = [
 "w": "As presas do elefante são incisivos superiores modificados, de crescimento contínuo, formados quase só de dentina (o marfim), com um pouco de esmalte na ponta que se gasta cedo. Um estudo de 2000 na Arch Oral Biol mostrou que antes delas o filhote tem um incisivo de leite, o 'tush'.",
 "r": [
 {
+"t": "National Geographic Brasil. Dia Mundial dos Elefantes: 6 fatos sobre os maiores mamíferos terrestres, 2022",
+"u": "https://www.nationalgeographicbrasil.com/animais/2022/08/dia-mundial-dos-elefantes-6-fatos-sobre-os-maiores-mamiferos-terrestres"
+},
+{
 "t": "Raubenheimer EJ. Desenvolvimento inicial do 'tush' e da presa do elefante africano. Arch Oral Biol, 2000",
 "u": "https://pubmed.ncbi.nlm.nih.gov/11000384/"
 },
@@ -1043,6 +1059,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "No esmalte dos incisivos do castor (e de outros roedores) os ameloblastos depositam ferro na camada superficial, que fica laranja. Estudos de microscopia, como um de 2024 na ACS Nano, mostram que essas fases ricas em ferro deixam o esmalte mais duro e mais resistente ao ácido.",
 "r": [
+{
+"t": "National Geographic Brasil. Argentina introduziu castores na Tierra del Fuego, mas não foi uma boa ideia, 2019",
+"u": "https://www.nationalgeographicbrasil.com/animais/2019/08/argentina-introduziu-castores-na-tierra-del-fuego-mas-nao-foi-uma-boa-ideia"
+},
 {
 "t": "Srot V et al. Arquitetura e geração de cor no esmalte de dentes de roedores. ACS Nano, 2024",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064225/"
@@ -1147,6 +1167,10 @@ window.BANCO_MILHAO = [
 "w": "Hesy-Ra viveu no início da III Dinastia do Egito (cerca de 2600 a.C.). Seu título mais famoso, 'Wer-ibeh-senjw', costuma ser traduzido como 'chefe dos dentistas', o que o torna o primeiro dentista conhecido pelo nome; alguns egiptólogos preferem 'chefe dos entalhadores de marfim', porque 'ibeh' pode significar dente ou marfim.",
 "r": [
 {
+"t": "Aventuras na História. A torturosa saga dos dentistas, 2018",
+"u": "https://aventurasnahistoria.com.br/noticias/reportagem/historia-dentistas.phtml"
+},
+{
 "t": "Wikipédia (en). Hesy-Ra",
 "u": "https://en.wikipedia.org/wiki/Hesy-Ra"
 }
@@ -1165,6 +1189,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "A 'lenda do verme' aparece numa tábua cuneiforme babilônica e se repetiu na China, Índia, Egito, entre os maias e na Europa medieval: um verme comeria o dente por dentro. A crença durou até o século XVIII, quando Fauchard a contestou, e caiu de vez com a teoria químico-parasitária da cárie de W. D. Miller (1890), que pôs as bactérias e o ácido no centro.",
 "r": [
+{
+"t": "Patiño JSR. Prevalência de cárie dentária e fluorose em escolares de Camboriú (revisão: teorias da cárie). Dissertação, FSP-USP, 2001 (texto grátis)",
+"u": "https://www.teses.usp.br/teses/disponiveis/6/6135/tde-20082024-175959/publico/MTR_1078_Patino_2001.pdf"
+},
 {
 "t": "Wikipédia (en). Verme do dente",
 "u": "https://en.wikipedia.org/wiki/Tooth_worm"
@@ -1262,6 +1290,10 @@ window.BANCO_MILHAO = [
 "w": "O médico Joseph Warren morreu em Bunker Hill (1775) e foi enterrado numa vala comum. Em 1776, quando o corpo foi exumado, Revere reconheceu a prótese (um dente de marfim preso com fio de metal) que ele mesmo tinha feito: um dos primeiros casos registrados de identificação forense pelos dentes.",
 "r": [
 {
+"t": "Capp TTL. Análise da variabilidade métrica dos parâmetros de Antropologia Forense (revisão histórica da odontologia legal). Tese, USP, 2017 (texto grátis)",
+"u": "https://www.teses.usp.br/teses/disponiveis/23/23153/tde-04072017-091621/publico/ThaisTorralboLopezCappVersaoCorrigida.pdf"
+},
+{
 "t": "Maloney WJ. Paul Revere: pai fundador e primeiro dentista forense dos EUA. J Okla Dent Assoc, 2014",
 "u": "https://pubmed.ncbi.nlm.nih.gov/25004613/"
 },
@@ -1308,6 +1340,10 @@ window.BANCO_MILHAO = [
 "w": "O Baltimore College of Dental Surgery foi criado por lei de Maryland em 1840 por Horace Hayden e Chapin Harris e foi o berço do título D.D.S. Antes disso, odontologia se aprendia como aprendiz de outro dentista; hoje a escola é a faculdade de odontologia da Universidade de Maryland.",
 "r": [
 {
+"t": "Vilella OV. O desenvolvimento da Ortodontia no Brasil e no mundo. Rev Dental Press Ortodon Ortop Facial, 2007 (texto grátis)",
+"u": "https://www.scielo.br/j/dpress/a/tXmd8KBXm6dzPRgvJVNPQxB/?lang=pt"
+},
+{
 "t": "Wikipédia (en). University of Maryland School of Dentistry",
 "u": "https://en.wikipedia.org/wiki/University_of_Maryland_School_of_Dentistry"
 },
@@ -1349,6 +1385,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "Röntgen anunciou os raios X no fim de dezembro de 1895, e já em janeiro de 1896 o dentista alemão Otto Walkhoff fez uma das primeiras radiografias intraorais, com uma chapa de vidro na própria boca e cerca de 25 minutos de exposição. Na época ninguém conhecia os riscos da radiação.",
 "r": [
+{
+"t": "Gomes MC. Panorama dos serviços de radiologia odontológica no SUS (2014-2017), com histórico da radiologia. TCC, UFSC (texto grátis)",
+"u": "https://repositorio.ufsc.br/bitstream/handle/123456789/191280/TCC%20Mariah%20Gomes%20.pdf?sequence=1&isAllowed=y"
+},
 {
 "t": "Wikipédia (en). Otto Walkhoff",
 "u": "https://en.wikipedia.org/wiki/Otto_Walkhoff"
@@ -1395,6 +1435,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "Em 1884 o oftalmologista Karl Koller mostrou que a cocaína anestesiava a córnea, e no mesmo ano William Halsted a usou para bloquear o nervo alveolar inferior, o começo da anestesia local na odontologia. A toxicidade e a dependência levaram à busca de substitutos sintéticos, como a procaína.",
 "r": [
+{
+"t": "Reis Jr A. Sigmund Freud e Karl Köller e a descoberta da anestesia local. Rev Bras Anestesiol, 2009 (texto grátis)",
+"u": "https://www.scielo.br/j/rba/a/qqx8CkVdmy36HWpxjM8QScK/?lang=pt"
+},
 {
 "t": "Goerig M et al. Carl Koller, cocaína e anestesia local: fatos esquecidos. Reg Anesth Pain Med, 2012",
 "u": "https://pubmed.ncbi.nlm.nih.gov/22531385/"
@@ -1465,6 +1509,10 @@ window.BANCO_MILHAO = [
 "w": "Os maias faziam cavidades circulares no esmalte dos dentes anteriores com brocas de pedra e fixavam jade, pirita ou obsidiana com cimento de resinas vegetais. Um estudo de 2018 na Arch Oral Biol mostrou lesão pulpar em alguns desses dentes, sinal de que o procedimento era feito em gente viva e às vezes atingia a polpa.",
 "r": [
 {
+"t": "Aventuras na História. Por que os maias decoravam seus dentes com pedras?, 2022",
+"u": "https://aventurasnahistoria.com.br/noticias/almanaque/por-que-os-maias-decoravam-seus-dentes-com-pedras.phtml"
+},
+{
 "t": "Ramírez-Salomón M et al. Patologia pulpar associada a incrustações dentárias maias. Arch Oral Biol, 2018",
 "u": "https://pubmed.ncbi.nlm.nih.gov/30144666/"
 },
@@ -1507,6 +1555,10 @@ window.BANCO_MILHAO = [
 "w": "Já no século VII a.C. os etruscos, no norte da Itália, faziam próteses parciais com dentes humanos ou de animais presos aos dentes vizinhos por faixas de ouro. Os romanos copiaram a técnica. Há discussão se eram usadas mais por prestígio que para mastigar, porque o ouro mole aguenta pouca força.",
 "r": [
 {
+"t": "Paulino G. Características ópticas de restaurações cerâmicas obtidas no sistema CAD/CAM (introdução histórica). TCC, UNESP Araraquara, 2023 (texto grátis)",
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/355bcbc5-c949-4247-8ce5-38b9e31ef4f8/content"
+},
+{
 "t": "Loevy HT, Kowitz AA. O alvorecer da odontologia: os etruscos. Int Dent J, 1997",
 "u": "https://pubmed.ncbi.nlm.nih.gov/9448810/"
 },
@@ -1534,6 +1586,10 @@ window.BANCO_MILHAO = [
 "w": "Coppa e colegas descreveram na Nature (2006) onze coroas de molares de nove adultos de Mehrgarh, no Paquistão, com furos feitos por brocas de pedra, provavelmente giradas com arco. As bordas dos furos mostravam desgaste posterior, prova de que a pessoa continuou viva e mastigando depois do procedimento.",
 "r": [
 {
+"t": "Público. Dentistas do período Neolítico usavam 'brocas' de pedra para tratar cáries dentárias, 2006",
+"u": "https://www.publico.pt/2006/04/06/jornal/dentistas-do-periodo-neolitico-usavam-brocas-de-pedra-para-tratar-caries-dentarias-72087"
+},
+{
 "t": "Coppa A et al. Paleontologia: tradição odontológica no início do Neolítico. Nature, 2006",
 "u": "https://pubmed.ncbi.nlm.nih.gov/16598247/"
 },
@@ -1556,6 +1612,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "'Siso' quer dizer juízo, e os terceiros molares costumam nascer entre os 17 e os 21 anos, quando a pessoa 'já teria juízo'. São os últimos a se formar e os que mais ficam inclusos, porque a arcada moderna é menor que a dos nossos ancestrais.",
 "r": [
+{
+"t": "FOUSP. Dente do siso: todo mundo precisa tirar? A cirurgia tem riscos, 2023",
+"u": "https://site.fo.usp.br/noticias/fousp-na-midia-dente-do-siso-todo-mundo-precisa-tirar-a-cirurgia-tem-riscos/"
+},
 {
 "t": "Wikipédia (pt). Dente do siso",
 "u": "https://pt.wikipedia.org/wiki/Dente_do_siso"
@@ -1630,6 +1690,10 @@ window.BANCO_MILHAO = [
 "w": "Depois que Charles Goodyear patenteou a vulcanização da borracha (1844), a vulcanite, borracha endurecida com enxofre, passou a ser usada a partir dos anos 1850 como base de dentadura, com dentes de porcelana. Barata e fácil de moldar, popularizou a prótese total; no século XX foi substituída pela resina acrílica (PMMA).",
 "r": [
 {
+"t": "Carvalho CL. A transformação no mercado de serviços odontológicos no século XIX. Hist Cienc Saude-Manguinhos, 2006 (texto grátis)",
+"u": "https://www.scielo.br/j/hcsm/a/Tcm698G97n3JtTRqJC3wtgt/?lang=pt"
+},
+{
 "t": "Wikipédia (en). Dentaduras, seção História",
 "u": "https://en.wikipedia.org/wiki/Dentures"
 },
@@ -1653,6 +1717,10 @@ window.BANCO_MILHAO = [
 "w": "Na Europa medieval os médicos quase não operavam: barbeiros, que tinham navalha e destreza, faziam extrações, sangrias e pequenas cirurgias, começando nos mosteiros por volta do ano 1000. O poste listrado vermelho e branco da barbearia lembra o sangue e as ataduras das sangrias.",
 "r": [
 {
+"t": "Aventuras na História. A torturosa saga dos dentistas, 2018",
+"u": "https://aventurasnahistoria.com.br/noticias/reportagem/historia-dentistas.phtml"
+},
+{
 "t": "Wikipédia (en). Barbeiro-cirurgião",
 "u": "https://en.wikipedia.org/wiki/Barber_surgeon"
 },
@@ -1675,6 +1743,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "Recusada numa escola de medicina por ser mulher, Lucy Hobbs aprendeu como aprendiz, clinicou e acabou aceita no Ohio College of Dental Surgery, onde se formou em 1866: a primeira mulher do mundo com diploma de odontologia. Ela mesma escreveu em 1894 um artigo sobre as primeiras mulheres na profissão.",
 "r": [
+{
+"t": "CRO-MG. Lucy Hobbs Taylor: a mulher que mudou a história da odontologia",
+"u": "https://cromg.org.br/noticias/lucy-hobbs-taylor-a-mulher-que-mudou-a-historia-da-odontologia/"
+},
 {
 "t": "Wikipédia (en). Lucy Hobbs Taylor",
 "u": "https://en.wikipedia.org/wiki/Lucy_Hobbs_Taylor"
@@ -1749,6 +1821,10 @@ window.BANCO_MILHAO = [
 "w": "Paul Hentzner viu a rainha em Greenwich em 1598, aos 65 anos, e escreveu que os dentes eram pretos, defeito que os ingleses teriam pelo uso exagerado de açúcar. O açúcar, caro e vindo do comércio colonial, era símbolo de riqueza, e a cárie atingia primeiro os ricos.",
 "r": [
 {
+"t": "História do Mundo. Dinastia Tudor (curiosidades: dentes pretos e açúcar), 2024",
+"u": "https://www.historiadomundo.com.br/inglesa/dinastia-tudor.htm"
+},
+{
 "t": "Historic UK. Odontologia na era Tudor",
 "u": "https://www.historic-uk.com/CultureUK/Tudor-Health-Dentistry/"
 },
@@ -1771,6 +1847,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "O farmacêutico francês Alexis Duchâteau fez a primeira dentadura de porcelana por volta de 1770-1774, porque a de marfim cheirava mal e manchava. Seu assistente Nicolas Dubois de Chémant aperfeiçoou a massa e obteve patente na Inglaterra em 1791, com porcelana fornecida pela Wedgwood.",
 "r": [
+{
+"t": "Gomes EA et al. Cerâmicas odontológicas: o estado atual. Cerâmica, 2008 (texto grátis)",
+"u": "https://www.scielo.br/j/ce/a/cbFLgQ6xLd4Jnk5nr83mcqx/?lang=pt"
+},
 {
 "t": "University of Toronto Libraries. História das dentaduras: França",
 "u": "https://exhibits.library.utoronto.ca/exhibits/show/history-dentures/dental-prosthesis-in-the-moder/france"
@@ -2128,6 +2208,10 @@ window.BANCO_MILHAO = [
 "w": "Na notação FDI (ISO 3950), o primeiro dígito é o quadrante, no sentido horário a partir do superior direito do paciente: 1 superior direito, 2 superior esquerdo, 3 inferior esquerdo, 4 inferior direito. O segundo é a posição contando da linha média: 8 é o terceiro molar. Então 48 é o siso inferior direito.",
 "r": [
 {
+"t": "Kenhub. Dentes: nomenclatura, numeração e anatomia, 2023",
+"u": "https://www.kenhub.com/pt/library/anatomia/dentes"
+},
+{
 "t": "Wikipedia. FDI World Dental Federation notation (notação de dois dígitos)",
 "u": "https://en.wikipedia.org/wiki/FDI_World_Dental_Federation_notation"
 },
@@ -2150,6 +2234,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "Quadrante 3 é o inferior esquerdo e a posição 6 é o primeiro molar (1 incisivo central, 2 lateral, 3 canino, 4 e 5 pré-molares, 6, 7 e 8 molares). O 36 é um dos primeiros dentes permanentes a nascer, por volta dos 6 anos.",
 "r": [
+{
+"t": "Kenhub. Dentes: nomenclatura, numeração e anatomia, 2023",
+"u": "https://www.kenhub.com/pt/library/anatomia/dentes"
+},
 {
 "t": "Wikipedia. FDI World Dental Federation notation (notação de dois dígitos)",
 "u": "https://en.wikipedia.org/wiki/FDI_World_Dental_Federation_notation"
@@ -2224,6 +2312,10 @@ window.BANCO_MILHAO = [
 "w": "O fórceps é uma pinça de extração com pontas desenhadas para cada grupo de dentes e arcada. Ele agarra a raiz e, com movimentos de luxação, rompe o ligamento periodontal até soltar o dente. O primeiro fórceps moderno com pontas anatômicas é atribuído a John Tomes, em 1840.",
 "r": [
 {
+"t": "PET Odontologia UFPel. E-book instrumentais odontológicos, 2025 (texto grátis)",
+"u": "https://wp.ufpel.edu.br/petodonto/files/2025/06/EBOOK-PET_compressed.pdf"
+},
+{
 "t": "Wikipedia. Dental instrument (instrumentais odontológicos)",
 "u": "https://en.wikipedia.org/wiki/Dental_instrument"
 }
@@ -2265,6 +2357,10 @@ window.BANCO_MILHAO = [
 "a": 2,
 "w": "A resina composta tem um fotoiniciador, quase sempre a canforoquinona, que absorve luz azul (pico perto de 468 nm) e inicia a polimerização dos monômeros. Por isso o fotopolimerizador emite luz azul, e a potência e o tempo de exposição definem o quanto a resina endurece.",
 "r": [
+{
+"t": "Rombaldo ACCM et al. Como os fotopolimerizadores podem afetar a microdureza da resina composta? Rev UNINGÁ, 2021 (texto grátis)",
+"u": "https://revista.uninga.br/uninga/article/view/3963"
+},
 {
 "t": "Santini A e cols. Fotoiniciadores na odontologia: revisão. Prim Dent J, 2013",
 "u": "https://pubmed.ncbi.nlm.nih.gov/24466621/"
@@ -2311,6 +2407,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "O espelho clínico tem três funções: visão indireta de áreas escondidas, como a face palatina; iluminação, refletindo a luz do refletor; e afastamento de bochecha e língua. Isso deixa o campo visível e protege os tecidos moles durante o exame.",
 "r": [
+{
+"t": "PET Odontologia UFPel. E-book instrumentais odontológicos, 2025 (texto grátis)",
+"u": "https://wp.ufpel.edu.br/petodonto/files/2025/06/EBOOK-PET_compressed.pdf"
+},
 {
 "t": "Wikipedia. Mouth mirror (espelho clínico)",
 "u": "https://en.wikipedia.org/wiki/Mouth_mirror"
@@ -2742,6 +2842,10 @@ window.BANCO_MILHAO = [
 "w": "A profilaxia profissional remove placa, manchas e, quando há, tártaro, e termina com polimento com pasta e taça de borracha ou escova de Robinson. Não substitui a escovação diária, mas facilita o controle de placa e deixa a superfície mais lisa.",
 "r": [
 {
+"t": "Damasio JG. Métodos e materiais de profilaxia sobre compósitos dentais (TCC). UnB, 2025",
+"u": "https://bdm.unb.br/handle/10483/43876"
+},
+{
 "t": "Wikipedia. Dental prophylaxis (profilaxia dentária)",
 "u": "https://en.wikipedia.org/wiki/Dental_prophylaxis"
 }
@@ -3085,6 +3189,10 @@ window.BANCO_MILHAO = [
 "w": "Em 'A Origem dos Guardiões' (DreamWorks, 2012), a Fada do Dente é a Guardiã das Memórias: cada dente de leite guarda as lembranças de infância da criança, e ela os protege no seu palácio. A ideia brinca com algo real: o dente guarda informação, tanto que dentes de leite são estudados como fonte de células-tronco.",
 "r": [
 {
+"t": "AdoroCinema. Infância 2.0: crítica de A Origem dos Guardiões (Bruno Carmelo)",
+"u": "https://www.adorocinema.com/filmes/filme-189909/criticas-adorocinema/"
+},
+{
 "t": "Wikipedia. A Origem dos Guardiões (2012)",
 "u": "https://en.wikipedia.org/wiki/Rise_of_the_Guardians"
 },
@@ -3109,6 +3217,10 @@ window.BANCO_MILHAO = [
 "w": "Em 'Fada do Dente' (2010), Dwayne Johnson é Derek Thompson, jogador de hóquei no gelo apelidado de 'Fada do Dente' porque derruba dentes dos adversários nas trombadas. O apelido tem base: no hóquei, o trauma dental é tão comum que o protetor bucal é recomendado por toda entidade de odontologia esportiva.",
 "r": [
 {
+"t": "AdoroCinema. O Fada do Dente (2010): sinopse",
+"u": "https://www.adorocinema.com/filmes/filme-134501/"
+},
+{
 "t": "Wikipedia. Fada do Dente (filme de 2010)",
 "u": "https://en.wikipedia.org/wiki/Tooth_Fairy_(2010_film)"
 }
@@ -3128,6 +3240,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "Na versão de 1986, dirigida por Frank Oz, Steve Martin vive o dentista sádico Orin Scrivello, que canta 'Dentist!' enquanto maltrata os pacientes. Um estudo de história da medicina (Gierok e colegas, British Dental Journal, 2022) catalogou quase 60 filmes americanos com dentistas entre 1913 e 2013 e incluiu os dois 'A Pequena Loja dos Horrores' (1960 e 1986).",
 "r": [
+{
+"t": "Plano Crítico. Crítica: A Pequena Loja dos Horrores (1986), 2021",
+"u": "https://www.planocritico.com/critica-a-pequena-loja-dos-horrores/"
+},
 {
 "t": "Wikipedia. A Pequena Loja dos Horrores (1986)",
 "u": "https://en.wikipedia.org/wiki/Little_Shop_of_Horrors_(1986_film)"
@@ -3153,6 +3269,10 @@ window.BANCO_MILHAO = [
 "w": "Bill Murray faz Arthur Denton, um paciente masoquista que adora o motor sem anestesia e ainda pede mais; o dentista sádico, sem a dor do outro para curtir, fica frustrado. A cena brinca com o estereótipo do dentista que causa dor, que os estudos sobre cinema mostram ser o retrato mais comum da profissão (Simpson, British Dental Journal, 2023).",
 "r": [
 {
+"t": "Plano Crítico. Crítica: A Pequena Loja dos Horrores (1986), 2021",
+"u": "https://www.planocritico.com/critica-a-pequena-loja-dos-horrores/"
+},
+{
 "t": "Wikipedia. A Pequena Loja dos Horrores (1986)",
 "u": "https://en.wikipedia.org/wiki/Little_Shop_of_Horrors_(1986_film)"
 },
@@ -3176,6 +3296,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "Nemo é capturado por um mergulhador, o dentista Philip Sherman, e vai parar no aquário do consultório dele em Sydney. A revisão de Yeung e colegas (Frontiers in Oral Health, 2025) cita o filme como exemplo do dentista que 'sequestra' o peixinho, mais uma imagem pouco simpática da profissão no cinema.",
 "r": [
+{
+"t": "AdoroCinema. Procurando Nemo (2003): sinopse",
+"u": "https://www.adorocinema.com/filmes/filme-29057/"
+},
 {
 "t": "Wikipedia. Procurando Nemo (2003)",
 "u": "https://en.wikipedia.org/wiki/Finding_Nemo"
@@ -3221,6 +3345,10 @@ window.BANCO_MILHAO = [
 "w": "Jaws, vivido por Richard Kiel em 'O Espião que me Amava' (1977) e 'O Foguete da Morte' (1979), tinha dentes de aço com que mordia até cabos e correntes. A prótese usada nas filmagens era tão desconfortável que o ator só conseguia mantê-la na boca por poucos segundos de cada vez.",
 "r": [
 {
+"t": "Omelete. Morre Richard Kiel, o vilão Jaws de James Bond, 2014",
+"u": "https://www.omelete.com.br/007/morre-richad-kiel-o-vilao-jaws-de-james-bond"
+},
+{
 "t": "Wikipedia. Jaws (personagem de James Bond)",
 "u": "https://en.wikipedia.org/wiki/Jaws_(James_Bond)"
 }
@@ -3240,6 +3368,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "Stu Price, vivido por Ed Helms, é o dentista do grupo e acorda depois da festa em Las Vegas sem um incisivo lateral. A ironia é dupla: ele mesmo teria arrancado o dente numa aposta, e o estudo de Gierok e colegas (2022) cataloga a franquia entre os filmes americanos com dentista como personagem.",
 "r": [
+{
+"t": "AdoroCinema. Se Beber, Não Case! (2009): sinopse",
+"u": "https://www.adorocinema.com/filmes/filme-131394/"
+},
 {
 "t": "Wikipedia. Se Beber, Não Case! (2009)",
 "u": "https://en.wikipedia.org/wiki/The_Hangover"
@@ -3289,6 +3421,10 @@ window.BANCO_MILHAO = [
 "w": "Agenesia é a falta de formação do germe dentário: o dente simplesmente não existe, nem incluso no osso. Fora os terceiros molares, atinge cerca de 5 a 7% das pessoas, e os mais afetados são os segundos pré-molares inferiores e os incisivos laterais superiores, justamente o caso de Ed Helms, que precisou de implante.",
 "r": [
 {
+"t": "Costa AMG. Associação entre agenesia dentária e o padrão esquelético da face. Dissertação FORP-USP, 2017 (texto grátis)",
+"u": "https://teses.usp.br/teses/disponiveis/58/58135/tde-01032018-144939/"
+},
+{
 "t": "Slashfilm. Ed Helms tirou o implante de verdade para o filme",
 "u": "https://slashfilm.com/1620623/the-hangover-ed-helms-real-tooth-implant-removed"
 },
@@ -3312,6 +3448,10 @@ window.BANCO_MILHAO = [
 "a": 2,
 "w": "Na versão de Tim Burton, o pai de Willy é o dentista Wilbur Wonka (Christopher Lee), que proíbe doces e põe no filho um aparelho ortodôntico enorme. A revisão de Yeung e colegas (2025) comenta o filme: Wonka atribui suas esquisitices ao aparelho de infância e ao pai que negava doces.",
 "r": [
+{
+"t": "Rolling Stone Brasil. A Fantástica Fábrica de Chocolate: cenas inspiradas na infância de Tim Burton, 2022",
+"u": "https://rollingstone.com.br/cinema/fantastica-fabrica-de-chocolate-filme-tem-cenas-inspiradas-na-infancia-de-tim-burton/"
+},
 {
 "t": "Wikipedia. A Fantástica Fábrica de Chocolate (filme de 2005)",
 "u": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)"
@@ -3337,6 +3477,10 @@ window.BANCO_MILHAO = [
 "w": "Laurence Olivier vive o Dr. Christian Szell, criminoso nazista e dentista, que tortura o personagem de Dustin Hoffman com a sonda e o motor sem anestesia, perguntando 'Is it safe?' ('Está seguro?'). Gierok e colegas (2022) apontam Szell como o arquétipo do 'dentista do mal' no cinema, e o retrato rendeu carta de protesto de dentistas já em 1976.",
 "r": [
 {
+"t": "AdoroCinema. Uma obra-prima de suspense com uma das cenas mais insuportáveis do cinema, 2025",
+"u": "https://www.adorocinema.com/noticias/filmes/noticia-1000126578/"
+},
+{
 "t": "Wikipedia. Maratona da Morte (1976)",
 "u": "https://en.wikipedia.org/wiki/Marathon_Man_(film)"
 },
@@ -3360,6 +3504,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "Em junho de 2002, na estreia de 'Minority Report', Tom Cruise apareceu com aparelho fixo de bráquetes cerâmicos, da cor do dente. A cerâmica (alumina) é mais discreta que o metal, mas é mais friável e gera mais atrito no fio, por isso o tratamento pode ser um pouco mais lento.",
 "r": [
+{
+"t": "Terra. Tom Cruise completa 40 anos no auge da carreira, 2002",
+"u": "https://www.terra.com.br/exclusivo/noticias/2002/07/03/000.htm"
+},
 {
 "t": "CNN. Transcrição de 19/06/2002: Tom Cruise de aparelho às vésperas dos 40 anos",
 "u": "https://transcripts.cnn.com/show/lt/date/2002-06-19/segment/02"
@@ -3404,6 +3552,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "Diastema é o espaço entre dois dentes; entre os incisivos centrais superiores é o diastema mediano (ou interincisivo). Na dentição mista ele costuma ser normal (fase do 'patinho feio') e fecha com a erupção dos caninos; quando persiste, as causas incluem freio labial, agenesia de laterais, dentes pequenos e hábitos (Huang e Creath, Pediatric Dentistry, 1995). 'Mesastema' e 'medialstema' não existem.",
 "r": [
+{
+"t": "Terra. Dentes separados: condição afeta até famosos e tem tratamento, 2025",
+"u": "https://www.terra.com.br/vida-e-estilo/comportamento/dentes-separados-condicao-afeta-ate-famosos-e-tem-tratamento,448808e2ccd71ee6879cf48d8829cffbd0hpm9dw.html"
+},
 {
 "t": "Huang e Creath. O diastema mediano: revisão da causa e do tratamento. Pediatric Dentistry, 1995",
 "u": "https://pubmed.ncbi.nlm.nih.gov/7617490/"
@@ -3453,6 +3605,10 @@ window.BANCO_MILHAO = [
 "w": "Supranumerários (hiperdontia) são dentes além da fórmula normal; aparecem em cerca de 0,1 a 3,8% das pessoas, mais na maxila anterior, onde o mais comum é o mesiodente, entre os incisivos centrais (Ata-Ali e colegas, 2014). No caso de Freddie Mercury, quatro dentes extras na arcada superior empurravam os incisivos para frente.",
 "r": [
 {
+"t": "Metrópoles. Dentes imperfeitos: confira 10 famosos conhecidos pelo sorriso, 2019",
+"u": "https://www.metropoles.com/celebridades/dentes-imperfeitos-confira-10-famosos-conhecidos-pelo-sorriso"
+},
+{
 "t": "Ata-Ali e cols. Dentes supranumerários: prevalência, causa, diagnóstico e tratamento. J Clin Exp Dent, 2014",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4282911/"
 },
@@ -3476,6 +3632,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "Freddie dizia ter medo de que mexer nos dentes mudasse o alcance da voz. A ciência não confirma: a análise acústica de Herbst e colegas (2017) atribui o timbre dele a um vibrato rápido e irregular e ao uso das pregas vestibulares ('falsas cordas vocais'), produzindo sub-harmônicos, sem nada a ver com os dentes.",
 "r": [
+{
+"t": "Rolling Stone Brasil. Por que Freddie Mercury nunca arrumou os dentes?, 2021",
+"u": "https://rollingstone.com.br/noticia/queen-por-que-freddie-mercury-nunca-arrumou-os-dentes/"
+},
 {
 "t": "Herbst e cols. Freddie Mercury: análise acústica da voz, vibrato e sub-harmônicos. Logopedics Phoniatrics Vocology, 2017",
 "u": "https://pubmed.ncbi.nlm.nih.gov/27079680/"
@@ -3544,6 +3704,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "Sobremordida (overbite) é o trespasse vertical: quanto a borda dos incisivos superiores cobre a coroa dos inferiores, normalmente cerca de 1/3 da coroa (uns 2 a 3 mm). Quando é exagerada, chama-se sobremordida profunda; quando não há contato, é mordida aberta. Não confunda com sobressaliência, que é horizontal.",
 "r": [
+{
+"t": "Sá JPF. Mordida profunda: revisão das técnicas de tratamento. Monografia FACSETE, 2018 (texto grátis)",
+"u": "https://rdta.facsete.edu.br/monografia/files/original/b52e2eb23de452bbeaf7c03bb81bb326.pdf"
+},
 {
 "t": "Wikipedia. Overbite (sobremordida)",
 "u": "https://en.wikipedia.org/wiki/Overbite"
@@ -3637,6 +3801,10 @@ window.BANCO_MILHAO = [
 "w": "Edêntulo é quem perdeu todos os dentes (edentulismo total); quem perdeu só alguns é parcialmente edêntulo. Segundo o Global Burden of Disease, o edentulismo ainda atinge centenas de milhões de pessoas no mundo, e é exatamente o paciente da prótese total que o laboratório atende.",
 "r": [
 {
+"t": "Ministério da Saúde. Cadernos de Atenção Básica 17: Saúde Bucal, 2008",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal.pdf"
+},
+{
 "t": "Nascimento e cols. Periodontite grave e edentulismo no mundo, GBD 2021. J Periodontal Research, 2024",
 "u": "https://pubmed.ncbi.nlm.nih.gov/39192495/"
 },
@@ -3713,6 +3881,10 @@ window.BANCO_MILHAO = [
 "w": "'Lente de contato' é o nome comercial de uma faceta laminada cerâmica muito fina (cerca de 0,2 a 0,5 mm), colada com cimento resinoso na face vestibular, muitas vezes com pouco ou nenhum desgaste. A metanálise de Klein e colegas (2025) mostrou boa sobrevida das facetas cerâmicas a longo prazo, com dissilicato de lítio e feldspática entre os materiais mais usados.",
 "r": [
 {
+"t": "Terra. Facetas de porcelana ou lente de contato dental, qual escolher?, 2017",
+"u": "https://www.terra.com.br/vida-e-estilo/saude/saude-bucal/tratamentos-dentais/facetas-de-porcelana-ou-lente-de-contato-dental-qual-escolher,56faf3f83116082dbab72442794c3651itlb0xkf.html"
+},
+{
 "t": "Klein e cols. Sobrevida e complicações de facetas laminadas cerâmicas (revisão sistemática e metanálise). J Esthet Restor Dent, 2025",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12076113/"
 }
@@ -3781,6 +3953,10 @@ window.BANCO_MILHAO = [
 "w": "A hipersensibilidade dentinária é uma dor aguda e curta quando a dentina fica exposta (recessão gengival, abrasão, erosão) e recebe frio, ar, doce ou toque. A explicação mais aceita é a teoria hidrodinâmica de Brännström: o estímulo movimenta o fluido dentro dos túbulos dentinários e isso ativa as fibras nervosas da polpa (Liu e colegas, BMC Oral Health, 2020).",
 "r": [
 {
+"t": "Gaona RML. Hipersensibilidade dentinária e desgaste dental. Tese FOUSP, 2018 (texto grátis)",
+"u": "https://teses.usp.br/teses/disponiveis/23/23134/tde-07082019-150631/"
+},
+{
 "t": "Liu e cols. Causa, diagnóstico e tratamento da hipersensibilidade dentinária. BMC Oral Health, 2020",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7409672/"
 },
@@ -3804,6 +3980,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "A Odontologia do Sono trata ronco e apneia obstrutiva com aparelhos intraorais de avanço mandibular: puxando a mandíbula para frente, a língua acompanha e a via aérea se abre durante o sono. Revisões sistemáticas mostram que esses aparelhos reduzem o índice de apneia e até a pressão arterial (Belanche Monterde e colegas, 2024). Parece piada, mas é área séria e o protético é quem confecciona o aparelho.",
 "r": [
+{
+"t": "CFO. Odontologia do Sono se propõe a tratar apneia leve, ronco e bruxismo, 2014",
+"u": "https://website.cfo.org.br/odontologia-do-sono-se-propoe-a-tratar-quem-sofre-com-apneia-leve-ronco-e-bruxismo/"
+},
 {
 "t": "Belanche Monterde e cols. Aparelhos de avanço mandibular reduzem a pressão sistólica na apneia (metanálise). Sleep and Breathing, 2024",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11196326/"
@@ -4305,6 +4485,10 @@ window.BANCO_MILHAO = [
 "w": "Na classificação de 2017 (Tonetti, Greenwell e Kornman, 2018), o estágio (I a IV) descreve gravidade e complexidade de tratamento, e o grau (A, B ou C) estima a velocidade de progressão. O grau usa a perda óssea dividida pela idade do paciente (índice % de perda óssea/idade) ou a progressão documentada em 5 anos, e é modificado por fumo (10 ou mais cigarros por dia empurra para C) e diabetes com HbA1c alta. O grau B (progressão moderada) é o ponto de partida até prova em contrário.",
 "r": [
 {
+"t": "Nova classificação das periodontites, adaptada do consenso do World Workshop 2017. Rev Rede Cuid Saúde, 2018 (texto grátis)",
+"u": "https://granrio.emnuvens.com.br/rcs/article/view/5396"
+},
+{
 "t": "Tonetti MS, Greenwell H, Kornman KS. Estadiamento e graduação da periodontite. J Periodontol, 2018",
 "u": "https://pubmed.ncbi.nlm.nih.gov/29926952/"
 }
@@ -4401,6 +4585,10 @@ window.BANCO_MILHAO = [
 "w": "O EDTA (em geral a 17%) é um quelante: sequestra o cálcio da hidroxiapatita e remove a parte inorgânica da smear layer, abrindo os túbulos dentinários para o medicamento e o cimento penetrarem. Ele não dissolve tecido orgânico, papel do hipoclorito, por isso os dois se completam (Zehnder, 2006). Haapasalo et al. (2014) alertam para não misturar os dois no canal ao mesmo tempo, porque o EDTA tira o cloro ativo do hipoclorito.",
 "r": [
 {
+"t": "Roma M et al. Penetração dentinária das substâncias químicas auxiliares em dentes bovinos. Salusvita, 2020 (texto grátis)",
+"u": "https://secure.unisagrado.edu.br/static/biblioteca/salusvita/salusvita_v39_n1_2020/salusvita_v39_n1_2020_art_01.pdf"
+},
+{
 "t": "Zehnder M. Irrigantes do canal radicular. J Endod, 2006",
 "u": "https://pubmed.ncbi.nlm.nih.gov/16631834/"
 },
@@ -4424,6 +4612,10 @@ window.BANCO_MILHAO = [
 "w": "O hidróxido de cálcio se dissocia em íons cálcio e hidroxila; as hidroxilas elevam o pH para perto de 12,5, o que danifica a membrana citoplasmática, desnatura proteínas e quebra o DNA das bactérias (Mohammadi e Dummer, 2011). O efeito depende de contato direto e tempo, por isso fica de 1 a 2 semanas como curativo de demora. O Enterococcus faecalis é um dos poucos que resistem a esse pH, o que explica parte das falhas (Kim e Kim, 2014).",
 "r": [
 {
+"t": "Silva LJM et al. Aspectos técnicos na remoção da medicação intracanal de hidróxido de cálcio. Clin Lab Res Dent, 2014 (texto grátis)",
+"u": "https://journals.usp.br/clrd/article/view/57167"
+},
+{
 "t": "Mohammadi Z, Dummer PMH. Propriedades e aplicações do hidróxido de cálcio em endodontia. Int Endod J, 2011",
 "u": "https://pubmed.ncbi.nlm.nih.gov/21535021/"
 },
@@ -4446,6 +4638,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "Kennedy definiu a Classe IV como uma única área desdentada anterior, que cruza a linha média, à frente dos dentes remanescentes. Pelas regras de Applegate, as áreas desdentadas extras viram 'modificações', mas a Classe IV não admite modificação: se existir outro espaço posterior a ele, é este que passa a determinar a classe. A classificação é usada no planejamento da PPR e já é ensinada até para algoritmos de inteligência artificial (Khurshid et al., 2025).",
 "r": [
+{
+"t": "Ferreira SCL et al. Caderno de atividades em prótese parcial removível. EDUFMA, 2025 (texto grátis)",
+"u": "https://www.edufma.ufma.br/wp-content/uploads/woocommerce_uploads/2025/11/CADERNO_DE_ATIVIDADES_EM_PROTESE_PARCIAL_REMOVIVEL.pdf"
+},
 {
 "t": "Khurshid Z et al. Inteligência artificial para a classificação de Kennedy. Int Dent J, 2025",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11806322/"
@@ -4489,6 +4685,10 @@ window.BANCO_MILHAO = [
 "w": "Ligas de cobalto-cromo têm de 25% a 30% de cromo, que reage com o oxigênio e forma uma película de óxido de cromo (Cr2O3) de poucos nanômetros, aderida e que se refaz sozinha se riscada: é a passivação. Essa camada isola a liga da saliva, o mesmo princípio do aço inoxidável. Qiao et al. (2012) mostraram, por análise de superfície, que é o óxido de cromo que domina o filme protetor de ligas Co-Cr usadas em próteses.",
 "r": [
 {
+"t": "UFF, Materiais Dentários. Roteiro de aula: ligas odontológicas, 2023",
+"u": "https://materiaisdentarios.uff.br/wp-content/uploads/sites/772/2023/06/ROTEIRO-LIGAS.pdf"
+},
+{
 "t": "Qiao G et al. Comportamento eletroquímico e filme de superfície de liga Co-Cr odontológica. Dent Mater J, 2012",
 "u": "https://pubmed.ncbi.nlm.nih.gov/22864209/"
 }
@@ -4507,6 +4707,10 @@ window.BANCO_MILHAO = [
 "a": 2,
 "w": "Na resina autopolimerizável (quimicamente ativada), o líquido traz uma amina terciária, como a N,N-dimetil-p-toluidina, que quebra o peróxido de benzoíla do pó em radicais livres à temperatura ambiente; na termopolimerizável, quem faz isso é o calor (Zafar, 2020). A hidroquinona é o inibidor que impede o monômero de polimerizar no frasco. Por usar amina, a autopolimerizável costuma ter mais monômero residual e pode amarelar com o tempo.",
 "r": [
+{
+"t": "UFF, Materiais Dentários. Roteiro de aula: resina acrílica, 2023",
+"u": "https://materiaisdentarios.uff.br/wp-content/uploads/sites/772/2023/06/ROTEIRO-RESINA-ACRILICA.pdf"
+},
 {
 "t": "Zafar MS. Aplicações protéticas do polimetilmetacrilato (PMMA): atualização. Polymers, 2020",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7599472/"
@@ -4527,6 +4731,10 @@ window.BANCO_MILHAO = [
 "w": "O fosfato trissódico é o retardador do alginato: o sulfato de cálcio (reator) reage primeiro com ele, formando fosfato de cálcio insolúvel, e só quando o fosfato acaba sobra cálcio para ligar as cadeias de alginato e formar o gel (Cervino et al., 2018). É isso que dá tempo de espatular e levar à boca. A terra de diatomáceas é carga (cerca de 60% do pó) e dá corpo; água mais quente acelera a presa, mais fria atrasa.",
 "r": [
 {
+"t": "UFF, Materiais Dentários. Roteiro de aula: hidrocoloides, 2023",
+"u": "https://materiaisdentarios.uff.br/wp-content/uploads/sites/772/2023/06/ROTEIRO-HIDROCOLOIDES.pdf"
+},
+{
 "t": "Cervino G et al. Alginato e técnica de moldagem: estado da arte. Mar Drugs, 2018",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6356954/"
 }
@@ -4545,6 +4753,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "O ionômero de vidro adere por troca iônica: os grupos carboxila do ácido poliacrílico se ligam ao cálcio da hidroxiapatita, enquanto íons fosfato do dente migram para o cimento, formando uma camada de troca iônica na interface (Sidhu e Nicholson, 2016). Por isso ele adere ao esmalte e à dentina sem adesivo e ainda libera e recarrega flúor. A resina composta, ao contrário, precisa de sistema adesivo e retenção micromecânica.",
 "r": [
+{
+"t": "Vieira IM et al. O cimento de ionômero de vidro na odontologia. Rev Saúde.com, 2006 (texto grátis)",
+"u": "https://periodicos2.uesb.br/rsc/article/view/70"
+},
 {
 "t": "Sidhu SK, Nicholson JW. Revisão dos cimentos de ionômero de vidro na clínica. J Funct Biomater, 2016",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5040989/"
@@ -5557,6 +5769,10 @@ window.BANCO_MILHAO = [
 "w": "Na intraóssea a solução vai para o osso esponjoso, que é muito vascularizado, e a adrenalina chega à circulação quase como numa injeção intravenosa. Estudos medem aumento transitório da frequência cardíaca logo após a injeção com anestésico com adrenalina (Wood et al., J Endod 2005; Susi et al., Anesth Prog 2008), menor quando a deposição é lenta. Em cardiopatas, prefere-se solução sem vasoconstritor ou injeção bem lenta.",
 "r": [
 {
+"t": "Macedo R et al. X-Tip: anestesia intraóssea em endodontia (pôster). SPEMD (texto grátis)",
+"u": "https://pagina.spemd.pt/imagens/poster_id216.pdf"
+},
+{
 "t": "Susi L et al. Frequência cardíaca após injeção intraóssea lenta e rápida. Anesth Prog, 2008 (texto grátis)",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2268887/"
 },
@@ -5633,6 +5849,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "Os benzodiazepínicos potencializam o GABA e reduzem a ansiedade, com amnésia e relaxamento muscular; por isso são indicados para pacientes muito ansiosos ou com medo de dentista. Como deprimem o sistema nervoso central e podem deprimir a respiração, exigem avaliação prévia, monitoramento (oximetria) e acompanhante. Revisão sistemática de 2021 encontrou eficácia na redução da ansiedade com bom perfil de segurança em adultos.",
 "r": [
+{
+"t": "Julio ARR et al. Efeitos adversos dos benzodiazepínicos no controle da ansiedade na odontologia: revisão. Arch Health Invest, 2022 (texto grátis)",
+"u": "https://archhealthinvestigation.com.br/ARCHI/article/view/5384"
+},
 {
 "t": "Araújo JO et al. Eficácia e segurança da sedação oral em adultos no consultório odontológico: revisão sistemática. BMJ Open, 2021 (texto grátis)",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7839856/"
@@ -5946,6 +6166,10 @@ window.BANCO_MILHAO = [
 "w": "O esmalte maduro tem cerca de 96% de mineral em peso (cristais de hidroxiapatita), contra cerca de 70% da dentina e do osso. Lacruz et al. (2017) descrevem como os ameloblastos produzem uma matriz de proteínas que depois é quase toda retirada, para os cristais crescerem: por isso ele é tão duro, mas também frágil e sem capacidade de se refazer.",
 "r": [
 {
+"t": "Magnani IQ et al. Anatomia dental (e-book). FAO UFMG, 2022 (texto grátis)",
+"u": "https://pergamum.bu.ufmg.br/pergamumweb/vinculos/000026/000026fe.pdf"
+},
+{
 "t": "Lacruz RS et al. Formação do esmalte dentário e implicações para a saúde bucal. Physiol Rev, 2017",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6151498/"
 }
@@ -5964,6 +6188,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "O canino tem uma cúspide só, longa e pontuda, e a raiz mais longa da boca, o que o torna o dente de rasgar e um pilar muito estável. Na oclusão, os caninos costumam guiar o movimento lateral da mandíbula (guia canina), protegendo os dentes de trás. Incisivos cortam; pré-molares e molares trituram.",
 "r": [
+{
+"t": "Magnani IQ et al. Anatomia dental (e-book). FAO UFMG, 2022 (texto grátis)",
+"u": "https://pergamum.bu.ufmg.br/pergamumweb/vinculos/000026/000026fe.pdf"
+},
 {
 "t": "StatPearls. Anatomia da cabeça e pescoço: dentes. NCBI Bookshelf, 2023",
 "u": "https://www.ncbi.nlm.nih.gov/books/NBK557543/"
@@ -6007,6 +6235,10 @@ window.BANCO_MILHAO = [
 "w": "No sistema de dois dígitos da FDI (também norma ISO 3950), o primeiro número é o quadrante, em sentido horário a partir do superior direito do paciente (1 a 4 nos permanentes), e o segundo é a posição a partir da linha média (1 a 8). Assim, 11 é o incisivo central superior direito; o sistema é o mais usado no mundo, enquanto os EUA ainda usam o sistema Universal (1 a 32).",
 "r": [
 {
+"t": "Kenhub. Dentes: nomenclatura, numeração e anatomia, 2023",
+"u": "https://www.kenhub.com/pt/library/anatomia/dentes"
+},
+{
 "t": "Peck S, Peck L. Hora de mudar os sistemas de numeração dentária. J Dent Educ, 1993",
 "u": "https://pubmed.ncbi.nlm.nih.gov/8349894/"
 }
@@ -6025,6 +6257,10 @@ window.BANCO_MILHAO = [
 "a": 2,
 "w": "O fio dental limpa as faces proximais (entre os dentes), onde a escova alcança mal e onde começam muitas cáries e a gengivite. A revisão Cochrane de Worthington et al. (2019) mostrou que escova mais fio reduz a gengivite um pouco mais que a escova sozinha, com evidência de baixa certeza; escovas interdentais foram as mais eficazes quando o espaço permite.",
 "r": [
+{
+"t": "A Gazeta. Veja a importância do fio dental para a saúde da boca, 2024",
+"u": "https://www.agazeta.com.br/secuida/veja-a-importancia-do-fio-dental-para-a-saude-da-boca-1124"
+},
 {
 "t": "Worthington HV et al. Limpeza interdental em casa, além da escovação (revisão Cochrane). Cochrane Database Syst Rev, 2019",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6953268/"
@@ -6118,6 +6354,10 @@ window.BANCO_MILHAO = [
 "w": "O alginato é um hidrocoloide irreversível: em pó, misturado com água, vira um gel elástico que copia dentes e tecidos e depois é vazado em gesso para obter o modelo. É barato e fácil, mas perde ou ganha água rápido, por isso o modelo deve ser vazado logo após a moldagem (Cervino et al., 2018).",
 "r": [
 {
+"t": "Abrita JCT et al. Alteração dimensional em moldes de hidrocolóide irreversível para PPR. Rev Odontol UNESP, 1989 (texto grátis)",
+"u": "https://revodontolunesp.com.br/article/5880174c7f8c9d0a098b466a"
+},
+{
 "t": "Cervino G et al. Alginato e técnica de moldagem: estado da arte. Mar Drugs, 2018",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6356954/"
 }
@@ -6136,6 +6376,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "O exame clínico básico usa espelho bucal (afasta e reflete), pinça clínica (segura algodão e gaze) e sonda exploradora (percorre superfícies). Hoje a sonda é usada com delicadeza, sem forçar nas fóssulas, porque pode romper uma lesão inicial de cárie que ainda poderia remineralizar.",
 "r": [
+{
+"t": "PET Odontologia UFPel. E-book instrumentais odontológicos, 2025 (texto grátis)",
+"u": "https://wp.ufpel.edu.br/petodonto/files/2025/06/EBOOK-PET_compressed.pdf"
+},
 {
 "t": "StatPearls. Testes diagnósticos de cárie. NCBI Bookshelf, 2023",
 "u": "https://www.ncbi.nlm.nih.gov/books/NBK574510/"
@@ -6356,6 +6600,10 @@ window.BANCO_MILHAO = [
 "w": "O periodonto de sustentação (cemento, ligamento periodontal e osso alveolar) prende o dente, e o periodonto de proteção (gengiva) sela a entrada. O esmalte é tecido do próprio dente, de origem ectodérmica, enquanto cemento, ligamento e osso vêm do folículo dentário.",
 "r": [
 {
+"t": "Manual MSD (versão para profissionais). Anatomia e desenvolvimento dental, 2025",
+"u": "https://www.msdmanuals.com/pt/profissional/distúrbios-odontológicos/abordagem-do-paciente-odontológico/anatomia-e-desenvolvimento-dental"
+},
+{
 "t": "StatPearls. Doença periodontal. NCBI Bookshelf, 2025",
 "u": "https://www.ncbi.nlm.nih.gov/books/NBK554590/"
 }
@@ -6397,6 +6645,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "Nos dentes decíduos os quadrantes da FDI são 5 a 8 (5 = superior direito) e os dentes vão de 1 a 5; o 5 é o segundo molar decíduo. Logo, 55 é o segundo molar decíduo superior direito, que será substituído pelo segundo pré-molar (15).",
 "r": [
+{
+"t": "Magnani IQ et al. Anatomia dental (e-book). FAO UFMG, 2022 (texto grátis)",
+"u": "https://pergamum.bu.ufmg.br/pergamumweb/vinculos/000026/000026fe.pdf"
+},
 {
 "t": "Havale R et al. Notação dentária para dentes decíduos: revisão. Eur J Paediatr Dent, 2015",
 "u": "https://pubmed.ncbi.nlm.nih.gov/26147826/"
@@ -6716,6 +6968,10 @@ window.BANCO_MILHAO = [
 "w": "O espaço (alívio uniforme, ex. 1 mm) é ocupado pelo material de moldagem, que é quem copia a mucosa. (Sun et al., J Prosthodont 2026; Zarb, Prosthodontic Treatment for Edentulous Patients)",
 "r": [
 {
+"t": "Goiato et al. Como realizar o selamento periférico e a moldagem funcional? Rev Odontol Araçatuba, 2013 (texto grátis)",
+"u": "https://repositorio.unesp.br/server/api/core/bitstreams/f0b20e62-cdb3-4214-8aa9-47d9bfdf9bd6/content"
+},
+{
 "t": "Sun et al. Quantidade de alívio da moldeira e precisão da moldagem. J Prosthodont, 2026",
 "u": "https://pubmed.ncbi.nlm.nih.gov/42703698/"
 }
@@ -6799,6 +7055,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "A técnica convencional teve maior área de contato oclusal e menos ajustes pós-instalação. (Komagamine et al., J Dent 2019, ensaio randomizado)",
 "r": [
+{
+"t": "Barbosa VL. Técnica de moldagem para prótese total e qualidade de vida: ensaio clínico (dissertação). UEM, 2019 (resumo em português)",
+"u": "https://pgo.uem.br/trabalhos/dissertacoes/victor-lacerda-barbosa.pdf"
+},
 {
 "t": "Komagamine et al. Moldeira individual x moldeira de estoque na prótese total: ensaio clínico. J Dent, 2019",
 "u": "https://pubmed.ncbi.nlm.nih.gov/30711603/"
@@ -6930,6 +7190,10 @@ window.BANCO_MILHAO = [
 "w": "Técnicas mucostáticas usam moldeira com janela, múltiplos furos de alívio ou espaçador duplo na área flácida. (Bindhoo et al., J Prosthodont 2012)",
 "r": [
 {
+"t": "Veríssimo et al. Técnica de impressão alternativa para maxila edêntula com tecido flácido anterior. Res Soc Dev, 2020 (resumo em português)",
+"u": "https://rsdjournal.org/index.php/rsd/article/download/8621/7653"
+},
+{
 "t": "Bindhoo et al. Moldagem mucostática em rebordo flácido. J Prosthodont, 2012",
 "u": "https://pubmed.ncbi.nlm.nih.gov/22356157/"
 }
@@ -7022,6 +7286,10 @@ window.BANCO_MILHAO = [
 "w": "O esmalte é o único tecido duro do dente de origem ectodérmica: vem do epitélio oral, que forma o órgão do esmalte, e os ameloblastos são células epiteliais. Dentina, polpa e cemento vêm do ectomesênquima da crista neural, e a conversa entre epitélio e ectomesênquima comanda todas as fases da odontogênese.",
 "r": [
 {
+"t": "Montanari T. Desenvolvimento humano (derivados dos folhetos: esmalte dentário vem do ectoderma). UFRGS, Aula de Embriologia (texto grátis)",
+"u": "https://www.ufrgs.br/auladeembrio/ppts/desenvhum2_1.pdf"
+},
+{
 "t": "StatPearls/NCBI Bookshelf. Embriologia dos dentes",
 "u": "https://www.ncbi.nlm.nih.gov/books/NBK560515/"
 },
@@ -7045,6 +7313,10 @@ window.BANCO_MILHAO = [
 "w": "Na gastrulação, na terceira semana, o disco bilaminar (epiblasto e hipoblasto) vira trilaminar: células do epiblasto migram pela linha primitiva e formam endoderma e mesoderma, e o que fica no epiblasto vira ectoderma. Todo tecido do corpo deriva desses três folhetos: o ectoderma dá pele e sistema nervoso, o mesoderma músculo, osso e sangue, e o endoderma o revestimento dos tubos digestivo e respiratório.",
 "r": [
 {
+"t": "Montanari T. Desenvolvimento humano: gastrulação e embrião trilaminar. UFRGS, Aula de Embriologia (texto grátis)",
+"u": "https://www.ufrgs.br/auladeembrio/ppts/desenvhum2_1.pdf"
+},
+{
 "t": "OpenStax. Anatomia e Fisiologia 2e, 28.2 Desenvolvimento embrionário. OpenStax/Rice University, 2022",
 "u": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development"
 },
@@ -7067,6 +7339,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "A gastrulação começa com a linha primitiva, um espessamento linear na região caudal do epiblasto, com o nó primitivo na ponta. Ela marca o eixo crânio-caudal, os lados direito e esquerdo e a simetria bilateral, e é por ela que as células do epiblasto entram para formar os novos folhetos.",
 "r": [
+{
+"t": "Montanari T. Desenvolvimento humano: gastrulação e linha primitiva. UFRGS, Aula de Embriologia (texto grátis)",
+"u": "https://www.ufrgs.br/auladeembrio/ppts/desenvhum2_1.pdf"
+},
 {
 "t": "OpenStax. Anatomia e Fisiologia 2e, 28.2 Desenvolvimento embrionário. OpenStax/Rice University, 2022",
 "u": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development"
@@ -7114,6 +7390,10 @@ window.BANCO_MILHAO = [
 "w": "As primeiras células do epiblasto que invaginam pela linha primitiva deslocam o hipoblasto e formam o endoderma, o folheto mais interno, junto ao saco vitelino. As que entram depois se colocam no meio e formam o mesoderma, e as que ficam no epiblasto viram ectoderma.",
 "r": [
 {
+"t": "Montanari T. Desenvolvimento humano: células da linha primitiva formam o endoderma. UFRGS, Aula de Embriologia (texto grátis)",
+"u": "https://www.ufrgs.br/auladeembrio/ppts/desenvhum2_1.pdf"
+},
+{
 "t": "OpenStax. Anatomia e Fisiologia 2e, 28.2 Desenvolvimento embrionário. OpenStax/Rice University, 2022",
 "u": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development"
 },
@@ -7137,6 +7417,10 @@ window.BANCO_MILHAO = [
 "w": "No começo da segunda semana o embrioblasto se organiza em disco bilaminar: o epiblasto fica em cima, voltado para a cavidade amniótica, e o hipoblasto embaixo. Células do hipoblasto revestem a cavidade abaixo dele e formam o saco vitelino, que dá nutrição e a primeira circulação sanguínea do embrião.",
 "r": [
 {
+"t": "Montanari T. Desenvolvimento humano: embrião bilaminar e saco vitelino. UFRGS, Aula de Embriologia (texto grátis)",
+"u": "https://www.ufrgs.br/auladeembrio/ppts/desenvhum2_1.pdf"
+},
+{
 "t": "OpenStax. Anatomia e Fisiologia 2e, 28.2 Desenvolvimento embrionário. OpenStax/Rice University, 2022",
 "u": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development"
 }
@@ -7155,6 +7439,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "A fibra esquelética é cheia de miofibrilas em que filamentos finos (actina) e grossos (miosina) se repetem em unidades chamadas sarcômeros, entre duas linhas Z. As bandas claras (I) e escuras (A) alinhadas dão a estriação vista ao microscópio, e na contração a actina desliza sobre a miosina, encurtando cada sarcômero.",
 "r": [
+{
+"t": "Montanari T. Histologia: texto, atlas e roteiro, cap. Tecido muscular. UFRGS (texto grátis)",
+"u": "https://www.ufrgs.br/livrodehisto/pdfs/5Muscular.pdf"
+},
 {
 "t": "OpenStax. Anatomia e Fisiologia 2e, 10.2 Músculo esquelético. OpenStax/Rice University, 2022",
 "u": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle"
@@ -7178,6 +7466,10 @@ window.BANCO_MILHAO = [
 "a": 2,
 "w": "Na HE a hematoxilina, que se comporta como corante básico graças ao mordente, cora de azul-arroxeado as estruturas ácidas (basófilas), como núcleo e RNA; a eosina, corante ácido, cora de rosa as estruturas básicas (acidófilas), como citoplasma e colágeno. É a coloração de rotina da histologia e da patologia.",
 "r": [
+{
+"t": "Montanari T. Histologia: texto, atlas e roteiro, cap. Célula (coloração HE). UFRGS (texto grátis)",
+"u": "https://www.ufrgs.br/livrodehisto/pdfs/1Celula.pdf"
+},
 {
 "t": "Fischer AH et al. Coloração de hematoxilina e eosina de cortes de tecidos e células. CSH Protoc, 2008",
 "u": "https://pubmed.ncbi.nlm.nih.gov/21356829/"
@@ -7225,6 +7517,10 @@ window.BANCO_MILHAO = [
 "w": "A fibra esquelética nasce da fusão de centenas de mioblastos, por isso é multinucleada, e os núcleos ficam empurrados para a periferia, logo abaixo do sarcolema, pelas miofibrilas. No músculo liso o núcleo é único e central, e no cardíaco é central (um ou dois), o que ajuda a diferenciar os três tipos na lâmina.",
 "r": [
 {
+"t": "Montanari T. Histologia: texto, atlas e roteiro, cap. Tecido muscular. UFRGS (texto grátis)",
+"u": "https://www.ufrgs.br/livrodehisto/pdfs/5Muscular.pdf"
+},
+{
 "t": "OpenStax. Anatomia e Fisiologia 2e, 10.2 Músculo esquelético. OpenStax/Rice University, 2022",
 "u": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle"
 },
@@ -7248,6 +7544,10 @@ window.BANCO_MILHAO = [
 "w": "O tecido conjuntivo do músculo tem três níveis: endomísio em volta de cada fibra, perimísio em volta de cada fascículo e epimísio em volta do músculo inteiro. Essas camadas levam vasos e nervos até as fibras e se continuam no tendão, transmitindo a força da contração ao osso.",
 "r": [
 {
+"t": "Montanari T. Histologia: texto, atlas e roteiro, cap. Tecido muscular (epimísio, perimísio, endomísio). UFRGS (texto grátis)",
+"u": "https://www.ufrgs.br/livrodehisto/pdfs/5Muscular.pdf"
+},
+{
 "t": "OpenStax. Anatomia e Fisiologia 2e, 10.2 Músculo esquelético. OpenStax/Rice University, 2022",
 "u": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle"
 }
@@ -7266,6 +7566,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "O osteoclasto é uma célula grande e multinucleada, da linhagem monócito-macrófago, que se prende ao osso e forma uma borda pregueada: ali secreta ácido, que dissolve o mineral, e enzimas como a catepsina K, que digerem o colágeno, abrindo as lacunas de Howship. O osteoblasto produz matriz nova, e o equilíbrio entre os dois é a remodelação óssea, base da movimentação ortodôntica.",
 "r": [
+{
+"t": "Montanari T. Histologia: texto, atlas e roteiro, cap. Tecido conjuntivo (osteoclastos). UFRGS (texto grátis)",
+"u": "https://www.ufrgs.br/livrodehisto/pdfs/3Conjunt.pdf"
+},
 {
 "t": "StatPearls/NCBI Bookshelf. Histologia: osteoclastos",
 "u": "https://www.ncbi.nlm.nih.gov/books/NBK554489/"
@@ -7290,6 +7594,10 @@ window.BANCO_MILHAO = [
 "w": "A mucosa mastigatória cobre gengiva e palato duro, tem epitélio queratinizado (orto ou paraqueratinizado) e fica presa ao periósteo, sem submucosa frouxa, por isso aguenta atrito e compressão do alimento. A de revestimento (bochecha, lábio, assoalho) é não queratinizada e flexível, e a especializada tem as papilas do dorso da língua (Squier e Kremer, 2001).",
 "r": [
 {
+"t": "Farhat SB. O impacto da doença periodontal na qualidade de vida (dissertação; revisão sobre mucosa bucal). UFSC, 2001 (texto grátis)",
+"u": "https://repositorio.ufsc.br/handle/123456789/80305"
+},
+{
 "t": "Squier CA, Kremer MJ. Biologia da mucosa oral e do esôfago. J Natl Cancer Inst Monogr, 2001",
 "u": "https://pubmed.ncbi.nlm.nih.gov/11694559/"
 }
@@ -7308,6 +7616,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "O nervo mandibular (V3) é o único ramo do trigêmeo com fibras motoras: inerva masseter, temporal e pterigóideos medial e lateral, além de milo-hióideo, ventre anterior do digástrico e tensores do tímpano e do véu palatino. Por isso uma lesão do V3 enfraquece a mastigação do mesmo lado.",
 "r": [
+{
+"t": "Paixão RA, Costa FC, Moraes MB. Técnicas anestésicas intrabucais (e-book). UNESP, 2024 (texto grátis)",
+"u": "https://repositorio.unesp.br/bitstreams/ccff856b-d89b-4c3b-b29b-9c9e8c05edeb/download"
+},
 {
 "t": "StatPearls/NCBI Bookshelf. Anatomia: nervo mandibular",
 "u": "https://www.ncbi.nlm.nih.gov/books/NBK507820/"
@@ -7424,6 +7736,10 @@ window.BANCO_MILHAO = [
 "w": "Unhas e pelos crescem a partir do epitélio sem romper a continuidade dele; o dente, ao erupcionar, atravessa a mucosa e deixa uma abertura que precisa ser vedada pelo epitélio juncional, preso ao esmalte por hemidesmossomos. Essa junção é permeável e se renova rápido, o que a torna porta de entrada de bactérias e ponto de início da doença periodontal (Bosshardt e Lang, 2005).",
 "r": [
 {
+"t": "Farhat SB. O impacto da doença periodontal na qualidade de vida (dissertação; dentes perfuram o epitélio). UFSC, 2001 (texto grátis)",
+"u": "https://repositorio.ufsc.br/handle/123456789/80305"
+},
+{
 "t": "Bosshardt DD, Lang NP. O epitélio juncional: da saúde à doença. J Dent Res, 2005",
 "u": "https://pubmed.ncbi.nlm.nih.gov/15615869/"
 }
@@ -7466,6 +7782,10 @@ window.BANCO_MILHAO = [
 "w": "A artéria facial cruza a borda da mandíbula na frente do masseter (onde se sente o pulso), dá as artérias labiais inferior e superior e sobe ao lado do nariz até o canto medial do olho, terminando como artéria angular. Ali se liga a ramos da oftálmica, uma anastomose entre os territórios da carótida externa e da interna.",
 "r": [
 {
+"t": "Baumeier C, Santos KC. Artéria facial e seus ramos: estudo anatômico aplicado à harmonização facial. Rev Eletr Biociências Biotecnol Saúde, 2026 (texto grátis)",
+"u": "https://seer.utp.br/index.php/GR1/article/view/3869"
+},
+{
 "t": "StatPearls/NCBI Bookshelf. Anatomia: artéria facial",
 "u": "https://www.ncbi.nlm.nih.gov/books/NBK536932/"
 }
@@ -7484,6 +7804,10 @@ window.BANCO_MILHAO = [
 "a": 2,
 "w": "O nervo infraorbital é a continuação do nervo maxilar (V2): no canal dá os alveolares superiores médio e anterior (dentes anteriores e gengiva) e, ao sair pelo forame infraorbital, se divide em ramos palpebrais inferiores, nasais laterais e labiais superiores. Por isso o bloqueio infraorbital anestesia lábio superior, asa do nariz e pálpebra inferior, além dos dentes anteriores.",
 "r": [
+{
+"t": "Costa BPS et al. Técnicas anestésicas em odontologia: o que o profissional precisa saber? Rev Fluminense Odontol, 2021 (texto grátis)",
+"u": "https://periodicos.uff.br/ijosd/article/view/43143"
+},
 {
 "t": "StatPearls/NCBI Bookshelf. Bloqueio do nervo infraorbital",
 "u": "https://www.ncbi.nlm.nih.gov/books/NBK499881/"
@@ -7829,6 +8153,10 @@ window.BANCO_MILHAO = [
 "w": "A comparação morfológica da mordida depende do método e da subjetividade do examinador. Um estudo de 2024 obteve perfil de DNA a partir de 1 µl de saliva mesmo 9 horas depois do depósito, mostrando o valor de coletar saliva na marca (Ishikawa et al., Forensic Sci Med Pathol 2024).",
 "r": [
 {
+"t": "Melo MV et al. Análise de marcas de mordida em odontologia forense: revisão. Res Soc Dev, 2021 (texto grátis)",
+"u": "https://rsdjournal.org/index.php/rsd/article/view/22142"
+},
+{
 "t": "Ishikawa et al. Saliva, tempo e perfil de DNA na análise de mordida. Forensic Sci Med Pathol, 2024",
 "u": "https://pubmed.ncbi.nlm.nih.gov/37926778/"
 }
@@ -7993,6 +8321,10 @@ window.BANCO_MILHAO = [
 "w": "Entre 1.031 exames, predominaram vítimas homens de 21 a 30 anos; nas agressões prevaleceu a violência doméstica, praticada pelo parceiro, com instrumento contundente e associada a lesão de tecidos moles. Nos acidentes de trânsito, sobretudo de moto, predominaram as fraturas (Lopes Sá et al., J Clin Exp Dent 2020).",
 "r": [
 {
+"t": "Lopes Sá CD. Lesões bucomaxilofaciais em periciados de instituto de ciência forense do Ceará (tese). UFC, 2018",
+"u": "https://bdtd.ibict.br/vufind/Record/UFC-7_69205b0a2e579baeabf4d7a45453743f"
+},
+{
 "t": "Lopes Sá et al. Lesões maxilofaciais em instituto de ciência forense brasileiro. J Clin Exp Dent, 2020",
 "u": "https://pubmed.ncbi.nlm.nih.gov/32913570/"
 }
@@ -8154,6 +8486,10 @@ window.BANCO_MILHAO = [
 "w": "A moldagem registra em negativo os dentes e os tecidos da boca. Depois de vazada com gesso, vira o modelo, a cópia em positivo sobre a qual a prótese é feita.",
 "r": [
 {
+"t": "Valença & Melo. Alginato na prótese dentária: revisão de literatura. J Multidiscipl Dent, 2024 (texto grátis)",
+"u": "https://jmd.emnuvens.com.br/jmd/article/view/1048"
+},
+{
 "t": "The Academy of Prosthodontics. The Glossary of Prosthodontic Terms 2023, 10ª edição. J Prosthet Dent",
 "u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
 },
@@ -8277,6 +8613,10 @@ window.BANCO_MILHAO = [
 "w": "Os dentes de estoque mais usados são de resina acrílica, vendidos em placas por modelo e cor. Eles se unem bem à base, que é do mesmo tipo de material.",
 "r": [
 {
+"t": "Sarcinelli et al. Resistência da união de dentes artificiais à resina acrílica termopolimerizável. Rev Bras Pesq Saúde, 2014 (texto grátis)",
+"u": "https://periodicos.ufes.br/rbps/article/view/9298"
+},
+{
 "t": "Zafar MS. Aplicações do PMMA em prótese: atualização. Polymers, 2020 (texto grátis)",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7599472/"
 }
@@ -8295,6 +8635,10 @@ window.BANCO_MILHAO = [
 "a": 2,
 "w": "O protocolo é uma prótese fixa de arcada inteira sustentada por vários implantes. Ela é parafusada e só o dentista consegue remover.",
 "r": [
+{
+"t": "Santos Neto et al. Reabilitação oral mandibular por prótese total parafusada sobre implantes. Braz J Implantol Health Sci, 2025 (texto grátis)",
+"u": "https://bjihs.emnuvens.com.br/bjihs/article/view/6556"
+},
 {
 "t": "Pjetursson BE et al. Sobrevida de próteses fixas sobre implantes após 5 anos: revisão sistemática. Clin Oral Implants Res, 2012",
 "u": "https://pubmed.ncbi.nlm.nih.gov/23062125/"
@@ -8603,6 +8947,10 @@ window.BANCO_MILHAO = [
 "w": "A mufla é uma caixa metálica onde a prótese montada em cera é incluída em gesso. Depois a cera é retirada, a resina é prensada no espaço e polimerizada, virando a prótese definitiva.",
 "r": [
 {
+"t": "Consani et al. Influência de operadores na adaptação das bases de prótese total. Pós-Grad Rev Fac Odontol São José dos Campos, 2000 (texto grátis)",
+"u": "https://ojs.ict.unesp.br/index.php/cob/article/view/74"
+},
+{
 "t": "Influência do gesso de inclusão na dimensão vertical de próteses totais. Saudi Dent J, 2014 (texto grátis)",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3871397/"
 },
@@ -8649,6 +8997,10 @@ window.BANCO_MILHAO = [
 "w": "PPR é a família das próteses parciais removíveis. No jargão de laboratório brasileiro, \"roach\" virou o nome da PPR com estrutura metálica (esquelética, em cobalto-cromo), por causa do grampo de Roach, um grampo em barra que nasce da gengiva em direção à retenção do dente e é típico dessas armações. A flexível (náilon/poliamida) também é PPR, mas sem metal e com grampos da cor da gengiva.",
 "r": [
 {
+"t": "Camacho GB, Waldemarin RFA. Caderno de planejamento em prótese parcial removível (grampo tipo Roach, de barra). UFPel, 2024 (texto grátis)",
+"u": "https://wp.ufpel.edu.br/protparcial/files/2024/07/Caderno_Planej_PPR_21_07_24.pdf"
+},
+{
 "t": "Polychronakis N et al. Elementos de retenção de PPR em laboratórios comerciais. Acta Stomatol Croat, 2014 (texto grátis)",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4872824/"
 },
@@ -8671,6 +9023,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "A moldeira de estoque é genérica: fica longe do rebordo em alguns pontos e comprime em outros, e o material de moldagem distorce ou desloca a mucosa. A individual é feita sobre o modelo anatômico, deixa espaço uniforme para o material e permite moldar as bordas com a musculatura (moldagem funcional), dando mais fidelidade. Na prática a evidência é mista: ensaios clínicos mostram que técnicas simplificadas também dão próteses satisfatórias, mas a individual segue como padrão nos livros-texto.",
 "r": [
+{
+"t": "Silva LS et al. Confecção de moldeira individual pela clonagem da prótese total provisória: relato de caso. Arch Health Invest, 2019 (texto grátis)",
+"u": "https://archhealthinvestigation.com.br/ArcHI/article/view/4395"
+},
 {
 "t": "Mostafa AZH. Moldeira individual dupla para rebordo flácido: relato de caso. Clin Case Rep, 2022 (texto grátis)",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8929271/"
@@ -8877,6 +9233,10 @@ window.BANCO_MILHAO = [
 "w": "O registro oclusal precisa manter a posição registrada sem ceder quando os modelos são encaixados nele. Silicones e materiais próprios para registro são duros depois da presa e pouco deformáveis; o silicone de moldagem é elástico, flexiona (principalmente em extremo livre) e deixa os modelos assentarem em mais de uma posição, gerando contato prematuro. Estudos comparam dureza, estabilidade e deslocamento sob carga desses materiais (Kasabwala et al., Bioinformation 2020).",
 "r": [
 {
+"t": "Pagnano VO et al. Avaliação clínica de materiais de registro intermaxilar em extremidades livres bilaterais. Braz Dent J, 2005 (resumo em português)",
+"u": "https://www.scielo.br/j/bdj/a/PsrcyjMVchdzNzKY9VNg3Jp/?lang=en"
+},
+{
 "t": "Kasabwala H et al. Materiais de registro de mordida: estabilidade e deslocamento sob carga. Bioinformation, 2020 (texto grátis)",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8600202/"
 }
@@ -8895,6 +9255,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "A poliamida (náilon) da flex é de cor única e translúcida: onde encosta na gengiva, a cor rosada passa através dela e a base parece natural (efeito camaleão); onde fica afastada, com o fundo escuro da boca atrás, ela escurece. Não há pigmento concentrado nem escurecimento pelo calor; é óptica do material.",
 "r": [
+{
+"t": "Patrocínio BMG et al. Prótese parcial removível flexível: revisão de literatura. Arch Health Invest, 2017 (texto grátis)",
+"u": "https://archhealthinvestigation.com.br/ArcHI/article/view/2065"
+},
 {
 "t": "Vojdani M, Giti R. Poliamida como material de base de prótese: revisão. J Dent (Shiraz), 2015 (texto grátis)",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4476124/"
@@ -8918,6 +9282,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "A2 é uma cor da escala VITA clássica; códigos como \"2A\", \"62\" ou \"66\" pertencem a escalas próprias de cada linha de dentes. A correspondência entre elas é aproximada e vem da tabela de conversão do fabricante; inverter letra e número não garante a mesma cor.",
 "r": [
+{
+"t": "VIPI. Ficha técnica dos dentes Trilux (cores próprias e escala de cor Trilux). Dental Cremer (texto grátis)",
+"u": "https://cdn.dentalcremer.com.br/conteudos/Ficha%20T%C3%A9cnica%20dos%20Dentes%20Trilux%20da%20VIPI.pdf"
+},
 {
 "t": "VIPI. Catálogo dos dentes Trilux (modelos e cores)",
 "u": "https://cdn.dentalspeed.com/PDF/catalogo-dentes-trilux-vipi.pdf"
@@ -8977,7 +9345,13 @@ window.BANCO_MILHAO = [
 "O modelo é o formato e o tamanho do jogo de dentes; a cor é a tonalidade, e um não depende do outro"
 ],
 "a": 3,
-"w": "O mesmo modelo existe em várias cores, e dentes da mesma cor podem ter modelos diferentes."
+"w": "O mesmo modelo existe em várias cores, e dentes da mesma cor podem ter modelos diferentes.",
+"r": [
+{
+"t": "VIPI. Ficha técnica dos dentes Trilux (modelos e cores listados à parte). Dental Cremer (texto grátis)",
+"u": "https://cdn.dentalcremer.com.br/conteudos/Ficha%20T%C3%A9cnica%20dos%20Dentes%20Trilux%20da%20VIPI.pdf"
+}
+]
 },
 {
 "m": "Prótese e laboratório",
@@ -9336,6 +9710,10 @@ window.BANCO_MILHAO = [
 "w": "A escovação com escova própria e sabão neutro (ou produto específico), somada à imersão em limpador de prótese, é a base da higiene. Água fervente deforma a resina, álcool resseca e pasta abrasiva risca a superfície, que passa a acumular mais biofilme. A revisão Cochrane de de Souza et al. (2009) e a revisão de Abuhajar et al. (2023) apoiam esse cuidado combinado.",
 "r": [
 {
+"t": "Faculdade de Odontologia da USP, Depto. de Prótese. Como cuidar das minhas próteses dentárias? (cartilha), 2022",
+"u": "https://sau.usp.br/wp-content/uploads/sites/646/2022/07/PRONTO-Como-higienizar-minhas-proteses.pdf"
+},
+{
 "t": "de Souza RF et al. Intervenções para limpeza de próteses em adultos. Cochrane, 2009 (texto grátis)",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12086014/"
 },
@@ -9575,6 +9953,10 @@ window.BANCO_MILHAO = [
 "w": "O consenso de McGill (Feine et al., 2002) defendeu que a sobredentadura mandibular retida por dois implantes seja o tratamento de primeira escolha para o desdentado inferior, pela melhora em satisfação e qualidade de vida em relação à prótese convencional. A revisão sistemática de Kutkut et al. (2018) também comparou prótese convencional e sobredentadura sobre implantes.",
 "r": [
 {
+"t": "Rodrigues DF et al. Edentulismo: caminhos reabilitadores contemporâneos, revisão. BJSCR, 2025 (texto grátis)",
+"u": "https://www.mastereditora.com.br/periodico/20251206_083544.pdf"
+},
+{
 "t": "Feine JS et al. Consenso de McGill sobre sobredentaduras. Gerodontology, 2002",
 "u": "https://pubmed.ncbi.nlm.nih.gov/12164236/"
 },
@@ -9648,6 +10030,10 @@ window.BANCO_MILHAO = [
 "w": "A curva de Spee acompanha as pontas de cúspide do canino aos molares no plano sagital. A de Wilson liga as cúspides vestibulares e linguais de molares de lados opostos no plano frontal. As duas entram na montagem dos dentes e na harmonia com os movimentos excursivos (Glossário de Termos Protéticos; Dhiman et al., 2015; Okeson, Tratamento das Desordens Temporomandibulares e Oclusão).",
 "r": [
 {
+"t": "Santos GES et al. Relevância do ajuste oclusal pós-reabilitação em resina composta. Cad Odontol UNIFESO, 2023 (texto grátis)",
+"u": "https://revista.unifeso.edu.br/index.php/cadernosodontologiaunifeso/article/view/3985"
+},
+{
 "t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
 "u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
 },
@@ -9716,6 +10102,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "Reembasar é acrescentar uma camada de resina na superfície que toca a mucosa para recuperar a adaptação perdida com a reabsorção. No rebase, a base antiga é quase toda substituída por resina nova, aproveitando os dentes e a relação oclusal. As definições estão no Glossário de Termos Protéticos e em van Meegen e Kalk (2011).",
 "r": [
+{
+"t": "Goiato MC et al. Técnicas de reembasamento para prótese total. Rev Odontol Araçatuba, 2013 (texto grátis)",
+"u": "https://repositorio.unesp.br/bitstreams/73bedf90-8d54-4d81-abf1-0c5b9533b356/download"
+},
 {
 "t": "Academy of Prosthodontics. Glossário de Termos Protéticos, 10ª edição. J Prosthet Dent, 2023",
 "u": "https://doi.org/10.1016/j.prosdent.2023.03.003"
@@ -10144,6 +10534,10 @@ window.BANCO_MILHAO = [
 "w": "A fase final a 100 °C é o que converte boa parte do MMA que sobra; sem ela o monômero residual sobe. Vallittu et al. (1998) mostraram que o ciclo 70 °C seguido de 100 °C reduz o MMA residual em relação a 70 °C sozinho, e Harrison & Huggett (1992) acharam valores de 0,56 % a 18,46 % conforme o ciclo, com o ótimo em 7 h a 70 °C + 1 h a 100 °C. Monômero residual alto piora as propriedades mecânicas e é irritante.",
 "r": [
 {
+"t": "Mendonça MJ. Tratamentos térmicos e resinas para reembasamento (dissertação, revisão sobre ciclos e monômero residual). UNESP Araraquara, 2003 (texto grátis)",
+"u": "https://repositorio.unesp.br/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/download"
+},
+{
 "t": "Vallittu et al. Temperatura e tempo de polimerização e o monômero residual das bases de prótese. Eur J Oral Sci, 1998",
 "u": "https://pubmed.ncbi.nlm.nih.gov/9527360/"
 },
@@ -10244,6 +10638,10 @@ window.BANCO_MILHAO = [
 "w": "Bafile et al. (1991) viram que resina própria para micro-ondas teve porosidade igual à do banho de água, mas o MMA convencional curado no micro-ondas ficou significativamente mais poroso. Com resina específica, ciclos diferentes deram porosidade parecida com a do termo convencional (Compagnoni et al., 2004). A mufla tem de ser de material não metálico (fibra de vidro), porque metal reflete as micro-ondas.",
 "r": [
 {
+"t": "Pero et al. Polimerização por micro-ondas e porosidade interna de bases de resina acrílica. Cienc Odontol Bras, 2006 (texto grátis)",
+"u": "https://bds.ict.unesp.br/index.php/cob/article/download/466/389"
+},
+{
 "t": "Bafile et al. Porosidade de resina curada por micro-ondas. J Prosthet Dent, 1991",
 "u": "https://pubmed.ncbi.nlm.nih.gov/1774691/"
 },
@@ -10267,6 +10665,10 @@ window.BANCO_MILHAO = [
 "w": "Pero et al. (2008) testaram 2,0, 3,5 e 5,0 mm: o ciclo e a espessura influenciaram a porosidade no micro-ondas, com diferenças só nas peças mais finas (2 mm), enquanto no banho de água a espessura não mudou a porosidade. Lição de bancada: no micro-ondas, o ciclo indicado pelo fabricante para aquela espessura importa mais do que no banho convencional.",
 "r": [
 {
+"t": "Pero AC. Método de polimerização, espessura da base e porosidade da resina acrílica (dissertação). UNESP Araraquara, 2005 (texto grátis)",
+"u": "https://repositorio.unesp.br/bitstreams/0f86215e-3145-4ecc-8830-472a9e0b5e45/download"
+},
+{
 "t": "Pero et al. Método de polimerização por micro-ondas, espessura e porosidade da resina. J Prosthodont, 2008",
 "u": "https://pubmed.ncbi.nlm.nih.gov/17971120/"
 }
@@ -10285,6 +10687,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "Vallittu et al. (1998) mostraram que subir a temperatura de polimerização da resina autopolimerizável de 30 °C para 60 °C baixou o MMA residual de cerca de 4,6 % para 3,3 % em peso. Na prática de bancada, a polimerizadora com água morna e pressão melhora a conversão e ainda reduz bolhas. Mesmo assim, a resina auto sempre fica com mais monômero residual que a termo bem processada.",
 "r": [
+{
+"t": "Mendonça MJ. Tratamentos térmicos e resinas para reembasamento (dissertação, revisão sobre ciclos e monômero residual). UNESP Araraquara, 2003 (texto grátis)",
+"u": "https://repositorio.unesp.br/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/download"
+},
 {
 "t": "Vallittu et al. Temperatura e tempo de polimerização e o monômero residual. Eur J Oral Sci, 1998",
 "u": "https://pubmed.ncbi.nlm.nih.gov/9527360/"
@@ -10308,6 +10714,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "Vallittu (1996) mediu o MMA liberado na água: a cobertura fotopolimerizável foi a mais eficaz, mas o polimento convencional com roda de pano teve efeito semelhante. Já o polimento químico (imersão em monômero quente) aumenta o monômero residual e diminui a resistência, e precisa de ciclo extra de polimerização para corrigir parte do dano (Nunes de Mello et al., 2003).",
 "r": [
+{
+"t": "Mendonça MJ. Tratamentos térmicos e resinas para reembasamento (dissertação; revisão cita Mello: polimento químico x mecânico e liberação de monômero). UNESP Araraquara, 2003 (texto grátis)",
+"u": "https://repositorio.unesp.br/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/download"
+},
 {
 "t": "Vallittu. Tratamento de superfície da resina e liberação de monômero residual na água. Acta Odontol Scand, 1996",
 "u": "https://pubmed.ncbi.nlm.nih.gov/8811142/"
@@ -10513,6 +10923,10 @@ window.BANCO_MILHAO = [
 "w": "A polimerização do metacrilato é por radicais livres, e o oxigênio os captura, deixando uma camada superficial não polimerizada (camada inibida). Yatabe et al. (2001) viram essa camada em reembasador autopolimerizável curado ao ar; o agente redutor deixou a camada mais dura, mas ela continuou existindo, e curar isolado do ar evita o problema. Na prática, gel isolante ou glicerina sobre a superfície e depois acabamento removem essa camada.",
 "r": [
 {
+"t": "Santos LS. Gel hidrossolúvel e grau de conversão de resinas impressas (TCC; oxigênio e radicais livres na camada superficial). UFU, 2024 (texto grátis)",
+"u": "https://repositorio.ufu.br/bitstream/123456789/41568/2/Influ%c3%aanciaGelHidrossol%c3%bavel.pdf"
+},
+{
 "t": "Yatabe et al. Agente redutor e a camada inibida por oxigênio do reembasador. J Oral Rehabil, 2001",
 "u": "https://pubmed.ncbi.nlm.nih.gov/11298268/"
 },
@@ -10563,6 +10977,10 @@ window.BANCO_MILHAO = [
 "w": "No indireto, a própria prótese serve de moldeira, o laboratório troca ou acrescenta a resina e polimeriza em ciclo térmico: sai com menos monômero residual, menos porosidade e sem reação exotérmica na boca. A desvantagem é o paciente ficar sem a prótese por um período. No direto, a resina autopolimerizável reage na boca e a união à base fica mais fraca que a resina termo intacta (Leles et al., 2001; Zarb).",
 "r": [
 {
+"t": "Urban VM. Tratamentos térmicos e monômero residual de resinas para reembasamento (dissertação). UNESP Araraquara, 2003 (texto grátis)",
+"u": "https://repositorio.unesp.br/bitstreams/b6353979-1a73-4d89-b79f-d3b9bed1ef31/download"
+},
+{
 "t": "Leles et al. União entre reembasador rígido direto e resina de base. J Oral Rehabil, 2001",
 "u": "https://pubmed.ncbi.nlm.nih.gov/11874516/"
 }
@@ -10581,6 +10999,10 @@ window.BANCO_MILHAO = [
 "a": 1,
 "w": "Leles et al. (2001) compararam MMA, isobutil-metacrilato, clorofórmio, acetona, adesivo experimental e nenhum tratamento: o monômero da resina de base e o clorofórmio foram os melhores, sem diferença entre si, e superiores à maioria dos outros. Mesmo assim, toda união ficou mais fraca que a resina termo intacta. A revisão sobre reembasadores resilientes também mostra que o tratamento de superfície muda a adesão (Muddugangadhar et al., 2020).",
 "r": [
+{
+"t": "Perez LEC. Tratamentos da superfície de união e reembasadores (dissertação; revisão cita Leles et al., 2001). UNESP Araraquara, 2005 (texto grátis)",
+"u": "https://repositorio.unesp.br/handle/11449/97294"
+},
 {
 "t": "Leles et al. Tratamento de superfície e união do reembasador rígido. J Oral Rehabil, 2001",
 "u": "https://pubmed.ncbi.nlm.nih.gov/11874516/"
@@ -10682,6 +11104,10 @@ window.BANCO_MILHAO = [
 "w": "Shim & Watts (1999) simularam o ciclo térmico extra do reembasador resiliente (100 °C por 2 h) em duas resinas de base e acharam redução significativa do MMA residual por cromatografia líquida. O efeito lembra a pós-polimerização usada para diminuir monômero. Isso não quer dizer que repetir ciclos seja sempre bom: temperatura alta altera a adaptação da base (Pasam et al., 2012), por isso o ciclo segue o fabricante.",
 "r": [
 {
+"t": "Mendonça MJ. Tratamentos térmicos e resinas para reembasamento (dissertação, revisão sobre ciclos e monômero residual). UNESP Araraquara, 2003 (texto grátis)",
+"u": "https://repositorio.unesp.br/bitstreams/111e6067-3a2f-4d2d-84e4-d7bab5132aa4/download"
+},
+{
 "t": "Shim & Watts. Monômero residual após ciclo térmico adicional de reembasador resiliente. Dent Mater, 1999",
 "u": "https://pubmed.ncbi.nlm.nih.gov/10551098/"
 },
@@ -10754,6 +11180,10 @@ window.BANCO_MILHAO = [
 "a": 0,
 "w": "O ponto anterior (asa do nariz) é aceito, mas o ponto posterior no trago é debatido. Estudos com fotos e cefalometria em dentados chegaram a respostas diferentes: em alguns o ponto inferior do trago foi o mais paralelo ao plano oclusal natural, em outros o médio, e a idade e o tipo de esqueleto mudam o resultado (Sadr & Sadr, 2009; Shaikh et al., 2015). Revisão sistemática recente reforça que o plano de Camper é guia, não regra absoluta.",
 "r": [
+{
+"t": "Tomita LEN. Avaliação da inclinação do plano oclusal (tese; dúvida sobre o ponto do trágus). UEM, 2019 (texto grátis)",
+"u": "https://pgo.uem.br/trabalhos/teses/lisia-emi-nishimori-tomita.pdf"
+},
 {
 "t": "Sadr & Sadr. Paralelismo entre plano oclusal e linha asa-trago. J Dent Res Dent Clin Dent Prospects, 2009",
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3463096/"
@@ -10877,6 +11307,10 @@ window.BANCO_MILHAO = [
 "a": 3,
 "w": "Moore et al. (2005) mostraram a leigos o mesmo sorriso com corredores de 2 % a 28 %: o sorriso mais largo (corredor mínimo) foi julgado mais atraente, em homens e mulheres. Arora et al. (2025) também acharam que corredor aumentado piora a percepção estética. Na prótese total, o contorno vestibular do plano de cera e a posição dos pré-molares controlam esse corredor, sem passar do limite que o rebordo e a bochecha permitem.",
 "r": [
+{
+"t": "Lacerda-Santos et al. Percepção estética do corredor bucal por leigos de diferentes idades. Biosci J, 2015 (resumo em português)",
+"u": "https://seer.ufu.br/index.php/biosciencejournal/article/view/28654"
+},
 {
 "t": "Moore et al. Corredores bucais e estética do sorriso. Am J Orthod Dentofacial Orthop, 2005",
 "u": "https://pubmed.ncbi.nlm.nih.gov/15750540/"
