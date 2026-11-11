@@ -8373,6 +8373,2046 @@ window.BANCO_MILHAO = [
 ]
 },
 {
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "No Brasil Sorridente, o que significa a sigla LRPD, o 'primo do SUS' de todo laboratório de prótese?",
+"o": [
+"Laboratório Regional de Prótese Dentária",
+"Linha Rápida de Prótese Digital",
+"Levantamento Regional de Pacientes Dentados",
+"Laudo de Registro de Prótese Dentária"
+],
+"a": 0,
+"w": "O LRPD foi instituído pela Portaria nº 599/2006 e recebe do governo federal incentivo mensal para confeccionar próteses totais, parciais e unitárias para o SUS. Em 2022 o Ministério da Saúde contava cerca de 2.880 LRPDs pelo país.",
+"r": [
+{
+"t": "Ministério da Saúde. Passo a Passo Laboratórios Regionais de Prótese Dentária. gov.br, 2022",
+"u": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/arquivos/2022/passo_a_passo_lrpd.pdf"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "No SUS, o paciente que precisa de tratamento de canal ou de periodontia especializada é encaminhado para qual serviço?",
+"o": [
+"UPA (Unidade de Pronto Atendimento)",
+"CEO (Centro de Especialidades Odontológicas)",
+"CAPS (Centro de Atenção Psicossocial)",
+"LRPD (Laboratório Regional de Prótese)"
+],
+"a": 1,
+"w": "Os CEOs dão continuidade ao trabalho da atenção primária com o cuidado ambulatorial especializado em saúde bucal. Endodontia e periodontia especializada estão entre os serviços mínimos que todo CEO deve oferecer.",
+"r": [
+{
+"t": "Ministério da Saúde. Centro de Especialidades Odontológicas. gov.br, Brasil Sorridente",
+"u": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/ceo"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Como se chama a pesquisa nacional do Ministério da Saúde que examina a boca dos brasileiros mais ou menos a cada 10 anos?",
+"o": [
+"Censo Bucal IBGE",
+"Mapa do Sorriso",
+"SB Brasil",
+"Boca Aberta SUS"
+],
+"a": 2,
+"w": "A Pesquisa Nacional de Saúde Bucal (SB Brasil) faz parte do componente de vigilância do Brasil Sorridente. Ela entrevista e examina pessoas em casa, em faixas como 5 anos, 12 anos, 15 a 19, 35 a 44 e 65 a 74 anos; as edições nacionais recentes são de 2003, 2010 e 2023.",
+"r": [
+{
+"t": "Ministério da Saúde. SB Brasil. gov.br, Brasil Sorridente",
+"u": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "A lupa preta 'ALTO EM' que a Anvisa colocou na frente das embalagens alerta para qual destes inimigos do dente?",
+"o": [
+"Corante artificial",
+"Fibra alimentar",
+"Cálcio em excesso",
+"Açúcar adicionado"
+],
+"a": 3,
+"w": "A rotulagem nutricional frontal (RDC 429/2020 e IN 75/2020) usa a lupa para avisar excesso de três nutrientes: açúcar adicionado, gordura saturada e sódio. O açúcar livre é o principal motor da cárie, segundo a OMS.",
+"r": [
+{
+"t": "CFN. Novas regras para rotulagem nutricional já estão em vigor. Conselho Federal de Nutrição, 2022",
+"u": "https://cfn.org.br/novas-regras-para-rotulagem-nutricional-ja-estao-em-vigor/"
+},
+{
+"t": "Idec. 1 ano de nova rotulagem. Instituto de Defesa de Consumidores, 2023",
+"u": "https://idec.org.br/print/30602"
+},
+{
+"t": "World Health Organization. Oral health (fact sheet). WHO, 2025",
+"u": "https://www.who.int/news-room/fact-sheets/detail/oral-health"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Em abril de 2024, a Anvisa decidiu manter proibida no Brasil a venda de qual produto, que também é péssimo para gengiva e boca?",
+"o": [
+"Cigarro eletrônico (vape)",
+"Enxaguante com álcool",
+"Clareador caseiro",
+"Chiclete com açúcar"
+],
+"a": 0,
+"w": "Em 19/04/2024 a Diretoria Colegiada manteve a proibição dos dispositivos eletrônicos para fumar, vigente desde 2009; a RDC 855/2024 veda fabricação, importação, venda, propaganda, transporte e armazenamento. O tabaco é fator de risco central para doença periodontal e câncer de boca.",
+"r": [
+{
+"t": "CFF. Anvisa mantém proibição de comercializar, armazenar ou transportar cigarro eletrônico no País. Conselho Federal de Farmácia, 2024",
+"u": "https://site.cff.org.br/noticia/Noticias-gerais/23/04/2024/anvisa-mantem-proibicao-de-comercializar-armazenar-ou-transportar-cigarro-eletronico-no-pais"
+},
+{
+"t": "OPAS. OPAS parabeniza decisão da Anvisa que mantém proibição de dispositivos eletrônicos para fumar. OPAS/OMS, 2024",
+"u": "https://www.paho.org/pt/noticias/19-4-2024-opas-parabeniza-decisao-da-anvisa-que-mantem-proibicao-no-brasil-dispositivos"
+},
+{
+"t": "World Health Organization. Oral health (fact sheet). WHO, 2025",
+"u": "https://www.who.int/news-room/fact-sheets/detail/oral-health"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Na reforma tributária, o Imposto Seletivo (o 'imposto do pecado') vai pesar sobre qual destes velhos conhecidos da cárie?",
+"o": [
+"Fio dental",
+"Bebidas açucaradas",
+"Água mineral",
+"Escova de dente"
+],
+"a": 1,
+"w": "A Lei Complementar 214/2025 incluiu as bebidas açucaradas na lista do Imposto Seletivo, ao lado de cigarros e bebidas alcoólicas, produtos considerados prejudiciais à saúde. O imposto começa a valer em 2027.",
+"r": [
+{
+"t": "O Povo. Imposto do pecado: cerveja, cigarro, refrigerante e mais itens vão ficar mais caros em 2027. O Povo, 2026",
+"u": "https://mais.opovo.com.br/jornal/economia/2026/11/06/imposto-do-pecado-cerveja-cigarro-refrigerante-e-mais-itens-vao-ficar-mais-caros-em-2027.html"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Pela Lei 6.710/1979, que regula a profissão de técnico em prótese dentária, o TPD é proibido de:",
+"o": [
+"Usar articulador no laboratório",
+"Fazer curso de atualização",
+"Prestar assistência direta a clientes",
+"Trabalhar para mais de um dentista"
+],
+"a": 2,
+"w": "O art. 4º da lei veda ao TPD prestar, sob qualquer forma, assistência direta a clientes, manter no laboratório equipamento específico de consultório e fazer propaganda dos serviços ao público em geral. O trabalho do TPD chega ao paciente pelas mãos do cirurgião-dentista.",
+"r": [
+{
+"t": "Brasil. Lei nº 6.710, de 5 de novembro de 1979. Planalto, 1979",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l6710.htm"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Pela Lei 5.081/1966, que regula o exercício da odontologia, o cirurgião-dentista pode dar atestado para justificar falta ao trabalho?",
+"o": [
+"Só com assinatura de um médico",
+"Só em caso de cirurgia hospitalar",
+"Não, atestado é exclusivo do médico",
+"Sim, dentro da sua área profissional"
+],
+"a": 3,
+"w": "O art. 6º da Lei 5.081/1966 permite ao dentista atestar estados mórbidos no setor de sua atividade, inclusive para justificar faltas ao emprego. A mesma lei autoriza prescrever medicamentos de uso interno e externo indicados em odontologia e aplicar anestesia local e troncular.",
+"r": [
+{
+"t": "Brasil. Lei nº 5.081, de 24 de agosto de 1966. Planalto, 1966",
+"u": "https://www.planalto.gov.br/ccivil_03/leis/l5081.htm"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "A Lei 14.510/2022 autorizou em todo o país a prestação de serviços de saúde a distância. Qual o nome oficial dessa modalidade?",
+"o": [
+"Telessaúde",
+"Saúde Remota Plus",
+"Consultório Virtual",
+"Odonto Delivery"
+],
+"a": 0,
+"w": "A lei alterou a Lei 8.080/1990 e definiu telessaúde como a prestação de serviços de saúde a distância, valendo para todas as profissões da saúde regulamentadas. Na odontologia, o CFO disciplinou o tema na Resolução CFO-278/2025.",
+"r": [
+{
+"t": "Brasil. Lei nº 14.510, de 27 de dezembro de 2022. Planalto, 2022",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14510.htm"
+},
+{
+"t": "CFO. Resolução CFO-SEC-278, de 25 de novembro de 2025. Conselho Federal de Odontologia, 2025",
+"u": "https://sistemas.cfo.org.br/visualizar/atos/RESOLU%C3%87%C3%83O/SEC/2025/278"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Qual agência federal acompanha e regula os planos exclusivamente odontológicos no Brasil?",
+"o": [
+"Anatel",
+"ANS",
+"ANA",
+"Aneel"
+],
+"a": 1,
+"w": "A Agência Nacional de Saúde Suplementar (ANS) regula os planos privados de saúde, incluindo os exclusivamente odontológicos, e divulga mensalmente o número de beneficiários. A Anvisa cuida de produtos e vigilância sanitária, não dos planos.",
+"r": [
+{
+"t": "ANS. Planos de assistência médica chegam a 53,2 milhões de beneficiários em dezembro de 2025. ANS (reproduzido por Legismap), 2026",
+"u": "https://legismap.com.br/conteudos/artigos-e-noticias/planos-de-assistencia-medica-chegam-a-53-2-milhoes-de-beneficiarios-em-dezembro-de-2025"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "A Política Nacional de Saúde Bucal (Brasil Sorridente) deixou de ser só programa de governo e virou lei federal em qual ano?",
+"o": [
+"2004",
+"2013",
+"2023",
+"2019"
+],
+"a": 2,
+"w": "A Lei 14.572, de 8 de maio de 2023, instituiu a Política Nacional de Saúde Bucal no SUS e alterou a Lei 8.080/1990 para incluir a saúde bucal no campo de atuação do SUS. Como lei, a política fica mais protegida de mudanças de governo.",
+"r": [
+{
+"t": "Brasil. Lei nº 14.572, de 8 de maio de 2023. Planalto, 2023",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14572.htm"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Um dos serviços mínimos de todo CEO do SUS é o diagnóstico bucal com ênfase na detecção de quê?",
+"o": [
+"Câncer de boca",
+"Mau hálito",
+"Dente incluso",
+"Bruxismo"
+],
+"a": 0,
+"w": "Segundo o Ministério da Saúde, todo CEO deve oferecer no mínimo diagnóstico bucal com ênfase no câncer de boca, periodontia especializada, cirurgia oral menor, endodontia e atendimento a pessoas com necessidades especiais. Tabaco e álcool estão entre as principais causas do câncer de boca, segundo a OMS.",
+"r": [
+{
+"t": "Ministério da Saúde. Centro de Especialidades Odontológicas. gov.br, Brasil Sorridente",
+"u": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/ceo"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Para colocar a saúde bucal no campo de atuação do SUS, a Lei 14.572/2023 alterou qual lei?",
+"o": [
+"Lei 9.656/1998, a lei dos planos de saúde",
+"Lei 13.709/2018, a LGPD",
+"Lei 8.080/1990, a Lei Orgânica da Saúde",
+"Lei 8.078/1990, o Código do Consumidor"
+],
+"a": 2,
+"w": "O art. 4º da Lei 14.572/2023 mudou a Lei 8.080/1990 para incluir a saúde bucal entre os campos de atuação do SUS, definida como um conjunto articulado de ações em todos os níveis de complexidade. Também deu à direção nacional a tarefa de definir normas para a estrutura dos serviços de saúde bucal.",
+"r": [
+{
+"t": "Brasil. Lei nº 14.572, de 8 de maio de 2023. Planalto, 2023",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14572.htm"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Entre as diretrizes da Lei 14.572/2023 (Política Nacional de Saúde Bucal), está a vigilância sanitária de quê?",
+"o": [
+"Venda de escovas de dente",
+"Fluoretação da água pública",
+"Preço de próteses no comércio",
+"Propaganda de clareamento"
+],
+"a": 1,
+"w": "O art. 2º, X, prevê ações de vigilância sanitária da fluoretação das águas de abastecimento público, obrigatória desde a Lei 6.050/1974, e ações complementares onde forem necessárias. A OMS considera a exposição ao flúor fator essencial na prevenção da cárie.",
+"r": [
+{
+"t": "Brasil. Lei nº 14.572, de 8 de maio de 2023. Planalto, 2023",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14572.htm"
+},
+{
+"t": "World Health Organization. Oral health (fact sheet). WHO, 2025",
+"u": "https://www.who.int/news-room/fact-sheets/detail/oral-health"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Qual destes serviços NÃO está na lista mínima que todo CEO do SUS deve oferecer?",
+"o": [
+"Endodontia",
+"Cirurgia oral menor",
+"Periodontia especializada",
+"Ortodontia"
+],
+"a": 3,
+"w": "A lista mínima do Ministério da Saúde para os CEOs é: diagnóstico bucal com ênfase no câncer de boca, periodontia especializada, cirurgia oral menor de tecidos moles e duros, endodontia e atendimento a pessoas com necessidades especiais. Ortodontia não faz parte desse mínimo.",
+"r": [
+{
+"t": "Ministério da Saúde. Centro de Especialidades Odontológicas. gov.br, Brasil Sorridente",
+"u": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/ceo"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Em que ano uma portaria do Ministério da Saúde (nº 599) instituiu o Laboratório Regional de Prótese Dentária (LRPD)?",
+"o": [
+"1998",
+"2010",
+"2016",
+"2006"
+],
+"a": 3,
+"w": "A Portaria nº 599, de 23 de março de 2006, instituiu o LRPD, com o objetivo de ampliar a oferta de próteses e promover reabilitação mastigatória, fonética e estética pelo SUS. Os laboratórios podem ser municipais ou estaduais, públicos ou privados.",
+"r": [
+{
+"t": "Ministério da Saúde. Passo a Passo Laboratórios Regionais de Prótese Dentária. gov.br, 2022",
+"u": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/arquivos/2022/passo_a_passo_lrpd.pdf"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Apresentado no Senado em 2022, o PL 1.365/2022 trata de qual assunto que mexe com o bolso do cirurgião-dentista?",
+"o": [
+"Fim do registro no CRO",
+"Imposto sobre clareadores",
+"Piso de médicos e dentistas",
+"Teto de consultas por dia"
+],
+"a": 2,
+"w": "O projeto, de autoria da senadora Daniella Ribeiro, modifica o salário mínimo profissional de médicos e cirurgiões-dentistas previsto na Lei 3.999/1961 e eleva o adicional de horas extras e noturnas. Em setembro de 2026 ele seguia em tramitação no Senado, pronto para o Plenário.",
+"r": [
+{
+"t": "Senado Federal. Projeto de Lei n° 1365, de 2022. Senado, 2022",
+"u": "https://www25.senado.leg.br/web/atividade/materias/-/materia/153250"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "A Resolução CFO-278/2025 sobre teleodontologia passou a prever, com possibilidade de prescrição e atestado, qual modalidade?",
+"o": [
+"Teleconsulta",
+"Telecirurgia",
+"Teleprótese",
+"Teleclareamento"
+],
+"a": 0,
+"w": "A CFO-278/2025 revogou a CFO-226/2020, que vedava a teleconsulta, e listou modalidades como teleconsultoria, teletriagem, teleconsulta, telediagnóstico e telemonitoramento. O dentista deve informar as limitações do atendimento remoto e colher o TCLE antes.",
+"r": [
+{
+"t": "CFO. Resolução CFO-SEC-278, de 25 de novembro de 2025. Conselho Federal de Odontologia, 2025",
+"u": "https://sistemas.cfo.org.br/visualizar/atos/RESOLU%C3%87%C3%83O/SEC/2025/278"
+},
+{
+"t": "Brasil. Lei nº 14.510, de 27 de dezembro de 2022. Planalto, 2022",
+"u": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14510.htm"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Pela Resolução CFO-278/2025, quem pode exercer a teleodontologia?",
+"o": [
+"Qualquer profissional da clínica",
+"Exclusivamente o cirurgião-dentista",
+"O TPD, se o caso for de prótese",
+"A ASB, com login do consultório"
+],
+"a": 1,
+"w": "O art. 3º diz que a teleodontologia é exercida exclusivamente pelo cirurgião-dentista. A exceção é o TSB, que pode participar de ações de teleducação em temas da sua competência, sob supervisão direta de um dentista.",
+"r": [
+{
+"t": "CFO. Resolução CFO-SEC-278, de 25 de novembro de 2025. Conselho Federal de Odontologia, 2025",
+"u": "https://sistemas.cfo.org.br/visualizar/atos/RESOLU%C3%87%C3%83O/SEC/2025/278"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "A edição mais recente da SB Brasil estava prevista para 2020, mas acabou com o nome 'SB Brasil 2023'. O que causou o atraso?",
+"o": [
+"Uma greve nacional de dentistas",
+"Falta de espelho clínico no país",
+"A pandemia de COVID-19",
+"A troca da sigla do programa"
+],
+"a": 2,
+"w": "O Ministério da Saúde informa que a pesquisa foi adiada por causa da COVID-19, foi a campo em 2023 e encerrou no primeiro semestre de 2024. Ela dá continuidade à série histórica das edições de 2003 e 2010.",
+"r": [
+{
+"t": "Ministério da Saúde. SB Brasil. gov.br, Brasil Sorridente",
+"u": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Em dezembro de 2025, segundo a ANS, cerca de quantos brasileiros tinham plano exclusivamente odontológico?",
+"o": [
+"3,5 milhões",
+"12 milhões",
+"90 milhões",
+"35,5 milhões"
+],
+"a": 3,
+"w": "A ANS registrou 35.581.920 beneficiários em planos exclusivamente odontológicos em dezembro de 2025, contra 53,2 milhões em planos de assistência médica. O segmento odontológico vinha crescendo mês a mês.",
+"r": [
+{
+"t": "ANS. Planos de assistência médica chegam a 53,2 milhões de beneficiários em dezembro de 2025. ANS (reproduzido por Legismap), 2026",
+"u": "https://legismap.com.br/conteudos/artigos-e-noticias/planos-de-assistencia-medica-chegam-a-53-2-milhoes-de-beneficiarios-em-dezembro-de-2025"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "A rotulagem frontal com a lupa 'ALTO EM' (RDC 429/2020 da Anvisa) passou a valer em qual ano?",
+"o": [
+"2022",
+"2020",
+"2018",
+"2025"
+],
+"a": 0,
+"w": "A norma foi aprovada em outubro de 2020, mas só entrou em vigor 24 meses depois, em 9 de outubro de 2022; produtos já no mercado ganharam prazo extra de adequação. A lupa avisa excesso de açúcar adicionado, gordura saturada e sódio.",
+"r": [
+{
+"t": "CFN. Novas regras para rotulagem nutricional já estão em vigor. Conselho Federal de Nutrição, 2022",
+"u": "https://cfn.org.br/novas-regras-para-rotulagem-nutricional-ja-estao-em-vigor/"
+},
+{
+"t": "Idec. 1 ano de nova rotulagem. Instituto de Defesa de Consumidores, 2023",
+"u": "https://idec.org.br/print/30602"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Em março de 2025, qual estado dos EUA se tornou o primeiro a proibir por lei a fluoretação da água de abastecimento?",
+"o": [
+"Texas",
+"Califórnia",
+"Utah",
+"Nova York"
+],
+"a": 2,
+"w": "A lei foi sancionada em 27/03/2025 e passou a valer em 7 de maio de 2025. O argumento central foi o consentimento individual; a Associação Dentária Americana (ADA) criticou a medida, lembrando décadas de fluoretação em nível ideal como prática segura e eficaz contra a cárie.",
+"r": [
+{
+"t": "Gazeta do Povo. Utah se torna primeiro estado americano a proibir flúor na água. Gazeta do Povo, 2025",
+"u": "https://www.gazetadopovo.com.br/mundo/utah-se-torna-primeiro-estado-americano-a-proibir-fluor-na-agua/"
+},
+{
+"t": "PBS NewsHour. Gov. DeSantis signs bill making Florida 2nd state to ban fluoride from its water system. PBS, 2025",
+"u": "https://www.pbs.org/newshour/politics/gov-desantis-signs-bill-making-florida-2nd-state-to-ban-fluoride-from-its-water-system"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Em maio de 2025, qual foi o segundo estado americano a proibir a adição de flúor à água pública, logo depois de Utah?",
+"o": [
+"Flórida",
+"Ohio",
+"Arizona",
+"Oregon"
+],
+"a": 0,
+"w": "A proibição foi sancionada em 15/05/2025, dentro de um pacote de lei agrícola (SB 700), e passou a valer em 1º de julho. Entidades odontológicas e de saúde pública se opuseram, porque a água fluoretada é uma das formas mais baratas e abrangentes de prevenir cárie.",
+"r": [
+{
+"t": "PBS NewsHour. Gov. DeSantis signs bill making Florida 2nd state to ban fluoride from its water system. PBS, 2025",
+"u": "https://www.pbs.org/newshour/politics/gov-desantis-signs-bill-making-florida-2nd-state-to-ban-fluoride-from-its-water-system"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Desde 1º de janeiro de 2025, a União Europeia proíbe, salvo necessidade clínica, o uso de qual material restaurador?",
+"o": [
+"Resina composta",
+"Ionômero de vidro",
+"Cerâmica feldspática",
+"Amálgama dentário"
+],
+"a": 3,
+"w": "O amálgama tem cerca de metade de mercúrio na composição, e a UE decidiu eliminá-lo porque já existem alternativas sem o metal. O uso continua permitido só quando o dentista considera estritamente necessário; desde 2018 ele já era vetado em gestantes, lactantes e menores de 15 anos.",
+"r": [
+{
+"t": "Dentistry.co.uk. Dental amalgam: everything you need to know about its use and ban. Dentistry, 2024",
+"u": "https://dentistry.co.uk/2024/11/08/dental-amalgam-everything-you-need-to-know-about-its-use-and-ban/"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "A Convenção de Minamata, tratado sobre o mercúrio que levou à redução do amálgama dentário, homenageia uma cidade de qual país?",
+"o": [
+"China",
+"Japão",
+"Coreia do Sul",
+"Tailândia"
+],
+"a": 1,
+"w": "O nome lembra a cidade japonesa de Minamata, onde a contaminação por mercúrio virou alerta mundial. O tratado foi aberto para assinatura em 2013, em Kumamoto e Minamata, e inclui medidas para reduzir o uso do amálgama dentário.",
+"r": [
+{
+"t": "SBT News. Brasil deixará de usar amálgama em restaurações dentárias até 2030. SBT News, 2025",
+"u": "https://sbtnews.sbt.com.br/noticia/brasil/brasil-deixara-de-usar-amalgama-em-restauracoes-dentarias-ate-2030"
+},
+{
+"t": "National Institute for Minamata Disease. Minamata Convention on Mercury. Ministry of the Environment of Japan",
+"u": "https://nimd.env.go.jp/archives/english/minamata_disease_in_depth/minamata_convention_on_mercury"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Desde 2015, a OMS recomenda manter os açúcares livres abaixo de qual fatia da energia diária, de olho também nas cáries?",
+"o": [
+"10%",
+"25%",
+"20%",
+"15%"
+],
+"a": 0,
+"w": "É uma recomendação 'forte' da OMS, para adultos e crianças, porque os estudos mostram mais cárie quando o consumo passa de 10% das calorias. Açúcar livre inclui o adicionado e o do mel, xaropes e sucos; o da fruta inteira e do leite fica de fora.",
+"r": [
+{
+"t": "OMS. WHO calls on countries to reduce sugars intake among adults and children. World Health Organization, 2015",
+"u": "https://www.who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "O Dia Mundial da Saúde Bucal, celebrado em 20 de março, foi criado por qual entidade?",
+"o": [
+"Fundo das Nações Unidas para a Infância (Unicef)",
+"Organização Mundial do Comércio (OMC)",
+"Federação Dentária Internacional (FDI)",
+"Comitê Olímpico Internacional (COI)"
+],
+"a": 2,
+"w": "A data foi declarada pela FDI em 2007 e no início caía em 12 de setembro, aniversário de Charles Godon, fundador da federação. Mudou para 20 de março para não coincidir com o Congresso Mundial de Odontologia da FDI, que acontece em setembro.",
+"r": [
+{
+"t": "BVS Ministério da Saúde. Tenha orgulho de sua boca! 20/3 – Dia Mundial da Saúde Bucal. bvsms.saude.gov.br",
+"u": "https://bvsms.saude.gov.br/?p=8100"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Em maio de 2024, idosos de qual país começaram a ser atendidos por um novo plano federal de cuidado odontológico, o Dental Care Plan?",
+"o": [
+"Austrália",
+"Irlanda",
+"Nova Zelândia",
+"Canadá"
+],
+"a": 3,
+"w": "O Canadian Dental Care Plan foi lançado em dezembro de 2023 e implantado por etapas: em 1º de maio de 2024, o primeiro milhão de idosos inscritos passou a ser atendido. Depois o plano se estendeu a crianças e a adultos com deficiência; dependendo da renda familiar, há coparticipação.",
+"r": [
+{
+"t": "Health Canada. 1 million seniors can now access services under the Canadian Dental Care Plan. Government of Canada, 2024",
+"u": "https://www.canada.ca/en/health-canada/news/2024/05/1-million-seniors-can-now-access-services-under-the-canadian-dental-care-plan.html"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Desde 2016, o Chile marca na frente da embalagem os alimentos com muito açúcar. Qual é o formato desse selo?",
+"o": [
+"Círculo vermelho",
+"Octógono preto",
+"Triângulo amarelo",
+"Quadrado verde"
+],
+"a": 1,
+"w": "Pela Lei 20.606, o Chile foi o primeiro país a exigir selos frontais obrigatórios: octógonos pretos com 'Alto en' açúcar, sódio ou gordura saturada. O modelo inspirou rótulos em outros países e é citado como estratégia de política pública contra o excesso de açúcar, fator-chave da cárie.",
+"r": [
+{
+"t": "CNN Chile. Ley de etiquetado de alimentos: 10 años de los sellos negros. CNN Chile",
+"u": "https://www.cnnchile.com/pais/ley-etiquetado-sellos-negros-chile-10-anos/"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "O Medicare tradicional, programa federal dos EUA para idosos criado em 1965, historicamente não cobre qual tipo de atendimento?",
+"o": [
+"Internação hospitalar",
+"Consultas médicas",
+"Cuidado odontológico de rotina",
+"Exames de imagem"
+],
+"a": 2,
+"w": "Desde 1965 o Medicare tradicional deixa de fora limpeza, restauração, extração e prótese, salvo situações ligadas a tratamentos médicos específicos. Muitos idosos recorrem a planos privados Medicare Advantage, que costumam incluir algum benefício odontológico.",
+"r": [
+{
+"t": "KFF. Medicare and Dental Coverage: A Closer Look. KFF Issue Brief",
+"u": "https://www.kff.org/medicare/issue-brief/medicare-and-dental-coverage-a-closer-look/"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 1,
+"q": "Em 2024, países reunidos pela OMS em Bangkok aprovaram uma declaração sobre saúde bucal com qual lema?",
+"o": [
+"Escove hoje, sorria amanhã",
+"Não há saúde sem saúde bucal",
+"Cada dente conta uma história",
+"Um sorriso para cada cidadão"
+],
+"a": 1,
+"w": "A Declaração de Bangkok ('No Health Without Oral Health') saiu do primeiro Encontro Global de Saúde Bucal da OMS, em novembro de 2024, na Tailândia. Ela mira a cobertura universal de saúde bucal até 2030 e alimentou a reunião da ONU sobre doenças crônicas de 2025.",
+"r": [
+{
+"t": "OMS. Bangkok Declaration – No Health Without Oral Health. World Health Organization, 2024",
+"u": "https://www.who.int/publications/m/item/bangkok-declaration---no-health-without-oral-health"
+},
+{
+"t": "FDI World Dental Federation. WHO Member States adopt Bangkok Declaration in milestone for global oral health. FDI, 2024",
+"u": "https://fdiworlddental.org/who-members-states-adopt-bangkok-declaration-milestone-global-oral-health"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Em outubro de 2025, a FDA (EUA) passou a recomendar que suplementos de flúor ingeríveis não sejam usados em crianças abaixo de qual idade?",
+"o": [
+"1 ano",
+"3 anos",
+"6 anos",
+"12 anos"
+],
+"a": 1,
+"w": "A agência notificou quatro empresas e recomendou não usar esses produtos em menores de 3 anos nem em crianças maiores sem alto risco de cárie, preferindo o flúor tópico e a escovação com creme dental fluoretado. Entidades odontológicas americanas criticaram a medida, citando o papel dos comprimidos em áreas rurais.",
+"r": [
+{
+"t": "FDA. FDA Acts to Protect Children from Unapproved Fluoride Drug Products. U.S. Food and Drug Administration, 2025",
+"u": "https://www.fda.gov/news-events/press-announcements/fda-acts-protect-children-unapproved-fluoride-drug-products"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Em novembro de 2025, os países da Convenção de Minamata fixaram qual ano como prazo global para eliminar o amálgama dentário?",
+"o": [
+"2028",
+"2030",
+"2040",
+"2034"
+],
+"a": 3,
+"w": "Na COP-6, em Genebra, o prazo proposto de 2030 foi estendido para 2034; depois disso, fabricar, importar e exportar amálgama deixa de ser permitido. Ficou uma exceção para quando o dentista julgar o material clinicamente necessário, defendida pela FDI.",
+"r": [
+{
+"t": "Dental Tribune. COP6 confirms 2034 amalgam phase-out with key clinical exemption. Dental Tribune, 2025",
+"u": "https://www.dental-tribune.com/news/cop6-confirms-2034-amalgam-phase-out-with-key-clinical-exemption/"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Em 2021, a OMS pôs pela primeira vez na Lista de Medicamentos Essenciais o creme dental fluoretado, o ionômero de vidro e qual outro item?",
+"o": [
+"Diamino fluoreto de prata",
+"Clorexidina a 0,12%",
+"Hidróxido de cálcio",
+"Verniz cavitário de copal"
+],
+"a": 0,
+"w": "Os três itens entraram numa seção nova dedicada à saúde bucal, nas listas de adultos e de crianças. O diamino fluoreto de prata paralisa lesões de cárie sem broca, e ele e o ionômero de vidro são alternativas ao amálgama.",
+"r": [
+{
+"t": "Penn State. WHO Adds Dental Treatments to Essential Medicines List. porh.psu.edu, 2021",
+"u": "https://www.porh.psu.edu/who-adds-dental-treatments-to-essential-medicines-list/"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Um estudo de 2023 associou o imposto britânico sobre refrigerantes açucarados (em vigor desde 2018) a uma queda de cerca de 12% em qual indicador infantil?",
+"o": [
+"Consultas de ortodontia",
+"Fraturas dentárias no esporte",
+"Internações para extrair dente cariado",
+"Casos de fluorose dentária"
+],
+"a": 2,
+"w": "A análise de séries temporais do NHS inglês estimou 12% menos internações para extração de dentes cariados em menores de 18 anos, com queda maior entre 0 e 4 anos. Como é estudo observacional, os autores dizem que o imposto pode ter contribuído, sem provar causa.",
+"r": [
+{
+"t": "University of Cambridge. UK sugar tax linked to fall in child hospital admissions for tooth extraction. BMJ Nutrition, Prevention & Health, 2023",
+"u": "https://www.cam.ac.uk/research/news/uk-sugar-tax-linked-to-fall-in-child-hospital-admissions-for-tooth-extraction"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "Calgary, no Canadá, parou de fluoretar a água em 2011. O que trouxe o flúor de volta, com 62% de apoio?",
+"o": [
+"Uma decisão da Suprema Corte",
+"Um plebiscito em 2021",
+"Uma ordem do governo federal",
+"Uma exigência da OMS"
+],
+"a": 1,
+"w": "A consulta popular foi feita junto com a eleição municipal de 2021, e a câmara aprovou a volta em novembro daquele ano. Depois de atrasos, o flúor voltou à água em 30 de junho de 2025.",
+"r": [
+{
+"t": "City of Calgary. Fluoride in Calgary's water. calgary.ca",
+"u": "https://www.calgary.ca/water/drinking-water/fluoride.html"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "O Plano de Ação Global de Saúde Bucal da OMS, válido de 2023 a 2030, define quantas metas globais?",
+"o": [
+"5",
+"8",
+"20",
+"11"
+],
+"a": 3,
+"w": "O plano traduz a estratégia global de saúde bucal, adotada pelos países em 2022, em 100 ações e 11 metas para acompanhar o progresso até 2030. A ideia central é integrar a saúde bucal aos pacotes de cobertura universal de saúde.",
+"r": [
+{
+"t": "OMS. WHO releases Global strategy and action plan on oral health. World Health Organization, 2024",
+"u": "https://www.who.int/news/item/26-05-2024-who-releases-global-strategy-and-action-plan-on-oral-health"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "O Dia Mundial da Saúde Bucal cai em 20/3, ou '3/20' em notação numérica. O número 20 lembra o quê?",
+"o": [
+"Dentes decíduos da criança",
+"Anos de fundação da FDI",
+"Minutos de escova por semana",
+"Países fundadores da OMS"
+],
+"a": 0,
+"w": "O 3/20 resume metas de saúde: a criança tem 20 dentes decíduos, o idoso deveria chegar ao fim da vida com 20 dentes naturais e o adulto saudável tem 32 dentes sem cárie.",
+"r": [
+{
+"t": "BVS Ministério da Saúde. Tenha orgulho de sua boca! 20/3 – Dia Mundial da Saúde Bucal. bvsms.saude.gov.br",
+"u": "https://bvsms.saude.gov.br/?p=8100"
+}
+]
+},
+{
+"m": "Odonto, política e saúde pública",
+"n": 2,
+"q": "A OMS diz que manter os açúcares livres abaixo de 5% da energia traz benefício extra. Para um adulto, isso dá cerca de quantos gramas por dia?",
+"o": [
+"25 g",
+"10 g",
+"50 g",
+"75 g"
+],
+"a": 0,
+"w": "São cerca de 25 g, umas 6 colheres de chá; a meta de 10% equivale a uns 50 g. A faixa de 5% é recomendação 'condicional', com evidência mais limitada, mas também ligada a menos cárie.",
+"r": [
+{
+"t": "OMS. WHO calls on countries to reduce sugars intake among adults and children. World Health Organization, 2015",
+"u": "https://www.who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "No episódio 'Last Exit to Springfield' (1993), de Os Simpsons, o Sr. Burns corta o plano dental da usina. Por que o Homer entra em pânico e lidera a greve?",
+"o": [
+"A Lisa precisa de aparelho ortodôntico",
+"O Bart quebrou um dente no skate",
+"O Homer precisa de uma dentadura",
+"A Marge quer clarear os dentes"
+],
+"a": 0,
+"w": "A dentista diz que a Lisa precisa de aparelho, e sem o plano a família só consegue o mais barato e feio. O 'plano dental... Lisa precisa de aparelho' repetido na cabeça do Homer virou um dos momentos mais lembrados da série.",
+"r": [
+{
+"t": "Wikipedia. Last Exit to Springfield. Wikipedia, 2026",
+"u": "https://en.wikipedia.org/wiki/Last_Exit_to_Springfield"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Em Friends (1999), o Ross exagera no clareador antes de um encontro. O que acontece com os dentes dele?",
+"o": [
+"Ficam amarelos de tanto café",
+"Ficam tão brancos que brilham no escuro",
+"Ficam sensíveis e ele não consegue comer",
+"Ficam azulados por causa do gel"
+],
+"a": 1,
+"w": "No episódio 'The One with Ross's Teeth' (6ª temporada), Ross admite que deixou o gel muito mais tempo que o indicado. Na vida real, o tempo e a concentração do clareador são definidos pelo dentista, justamente para evitar exageros.",
+"r": [
+{
+"t": "TVmaze. Friends 6x08: The One with Ross's Teeth. TVmaze",
+"u": "https://www.tvmaze.com/episodes/40774/friends-6x08-the-one-with-rosss-teeth"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Em 'Debi & Lóide' (1994), o dente lascado do Lloyd, vivido por Jim Carrey, era de verdade. De onde ele veio?",
+"o": [
+"De uma prótese de resina feita para o filme",
+"De um efeito de maquiagem pintado no dente",
+"De uma lasca antiga escondida sob uma capa",
+"De um tombo durante as gravações do filme"
+],
+"a": 2,
+"w": "Carrey tinha o dente lascado desde uma briga na escola e usava uma capa (coroa) por cima. Para viver o Lloyd, ele tirou a capa, e repetiu a ideia na continuação de 2014.",
+"r": [
+{
+"t": "Far Out Magazine. How Jim Carrey chipped his tooth for 'Dumb and Dumber'. Far Out",
+"u": "https://faroutmagazine.co.uk/how-jim-carrey-chipped-his-tooth-for-dumb-and-dumber/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "O emoji do dente 🦷 entrou no padrão Unicode em qual ano?",
+"o": [
+"2010",
+"2014",
+"2022",
+"2018"
+],
+"a": 3,
+"w": "O 🦷 (código U+1F9B7) foi aprovado no Unicode 11.0 e chegou ao Emoji 11.0 em 2018, no mesmo pacote de 157 emojis novos.",
+"r": [
+{
+"t": "Emojipedia. 🦷 Tooth. Emojipedia",
+"u": "https://emojipedia.org/tooth"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Nas principais plataformas, o emoji 🦷 desenha qual tipo de dente?",
+"o": [
+"Um pré-molar",
+"Um incisivo central",
+"Um canino superior",
+"Um dente de leite"
+],
+"a": 0,
+"w": "Segundo a Emojipedia, todas as grandes empresas desenham o 🦷 como um pré-molar, com coroa e duas raízes. Quem já estudou anatomia dental reconhece o formato na hora.",
+"r": [
+{
+"t": "Emojipedia. 🦷 Tooth. Emojipedia",
+"u": "https://emojipedia.org/tooth"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "O emoji da escova de dentes 🪥 é bem mais novo que o do dente. Em que ano ele chegou ao padrão Emoji?",
+"o": [
+"2012",
+"2020",
+"2016",
+"2024"
+],
+"a": 1,
+"w": "A 🪥 foi aprovada no Unicode 13.0 e entrou no Emoji 13.0 em 2020, dois anos depois do 🦷 (2018).",
+"r": [
+{
+"t": "Emojipedia. 🪥 Toothbrush. Emojipedia",
+"u": "https://emojipedia.org/toothbrush"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "As medalhas olímpicas de hoje nem são de ouro maciço. Então por que tantos campeões mordem a medalha no pódio?",
+"o": [
+"Para dar sorte na próxima prova",
+"Por regra do Comitê Olímpico",
+"Porque os fotógrafos pedem a pose",
+"Para conferir se a medalha está gelada"
+],
+"a": 2,
+"w": "Morder ouro já foi um teste de autenticidade, porque o ouro é mole e marca. As medalhas de hoje são principalmente de prata e cobre, então a mordida virou só pose para a foto.",
+"r": [
+{
+"t": "Mental Floss. Why Do Olympians Bite Their Medals? Mental Floss",
+"u": "https://www.mentalfloss.com/sports/olympics/why-do-olympians-bite-their-medals"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Na Copa de 2014, o uruguaio Luis Suárez levou 9 jogos de suspensão da FIFA por morder qual jogador?",
+"o": [
+"O zagueiro brasileiro David Luiz",
+"O goleiro inglês Joe Hart",
+"O meia alemão Thomas Müller",
+"O zagueiro italiano Giorgio Chiellini"
+],
+"a": 3,
+"w": "A mordida foi no jogo Itália x Uruguai. Além dos 9 jogos oficiais, Suárez ficou 4 meses afastado de qualquer atividade ligada ao futebol, inclusive de entrar em estádios.",
+"r": [
+{
+"t": "Jornal do Brasil. Fifa suspende Suárez por nove jogos e tira atacante da Copa. JB, 2014",
+"u": "https://www.jb.com.br/jb-na-copa/noticias/2014/06/26/fifa-suspende-suarez-por-nove-jogos-e-tira-atacante-da-copa/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "O rapper Nelly chegou ao 1º lugar da Billboard no início de 2006 com uma música batizada com o nome de qual acessório usado nos dentes?",
+"o": [
+"Grillz, joias que encaixam sobre os dentes",
+"Braces, o aparelho ortodôntico fixo",
+"Veneers, as facetas de porcelana",
+"Retainer, a contenção ortodôntica"
+],
+"a": 0,
+"w": "'Grillz', com Paul Wall e Ali & Gipp, ficou duas semanas no topo da Billboard Hot 100. Os grillz são peças de metal, às vezes com diamantes, feitas sob medida para encaixar nos dentes.",
+"r": [
+{
+"t": "Stereogum. The Number Ones: Nelly's 'Grillz'. Stereogum",
+"u": "https://stereogum.com/2209887/the-number-ones-nellys-grillz-feat-paul-wall-ali-gipp/columns/the-number-ones"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Em 2006, no auge da moda dos grillz, a Associação Dental Americana (ADA) alertou para um risco desse acessório. Qual?",
+"o": [
+"Escurecimento permanente da língua",
+"Comida presa irritando a gengiva e gerando cárie",
+"Perda definitiva do paladar após o uso",
+"Aumento exagerado da produção de saliva"
+],
+"a": 1,
+"w": "A ADA citou irritação e infecção na gengiva por restos presos, bactérias produzindo ácido e cárie, dentes lascados, dentes que se movem e desgaste do esmalte dos dentes opostos. Conselho: tirar o grill para comer e limpá-lo todo dia.",
+"r": [
+{
+"t": "American Dental Association. Dentists say dental grillz might bring glitz but could tarnish smile. Newswise, 2006",
+"u": "https://www.newswise.com/articles/dentists-say-dental-grillz-might-bring-glitz-but-could-tarnish-smile"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Na revanche de 1997 contra Evander Holyfield, Mike Tyson voltou para o 3º round esquecendo um equipamento, minutos antes da famosa mordida. Qual?",
+"o": [
+"A bandagem das mãos",
+"O capacete de proteção",
+"O protetor bucal",
+"A luva da mão direita"
+],
+"a": 2,
+"w": "Holyfield apontou ao árbitro que Tyson tinha esquecido o protetor bucal. Depois da mordida na orelha, Tyson cuspiu o pedaço junto com o protetor e acabou desclassificado.",
+"r": [
+{
+"t": "Yahoo Sports. The Tyson-Holyfield Bite Fight, 20 years later. Yahoo Sports, 2017",
+"u": "https://sports.yahoo.com/tyson-holyfield-bite-fight-20-years-later-goddamn-crazy-things-might-see-015918404.html"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "No filme 'Náufrago' (2000), o personagem de Tom Hanks, sozinho numa ilha, resolve uma dor de dente forte de que jeito?",
+"o": [
+"Faz bochechos com água do mar",
+"Usa casca de coco como curativo",
+"Espera o resgate tomando chá",
+"Arranca o dente com patins e pedra"
+],
+"a": 3,
+"w": "Sem dentista por perto, Chuck usa a lâmina de um patins de gelo e uma pedra para tirar o dente. O dente em questão estava com uma dor forte, e a cena é lembrada como uma das mais aflitivas do filme.",
+"r": [
+{
+"t": "Wikipedia. Cast Away. Wikipedia, 2026",
+"u": "https://en.wikipedia.org/wiki/Cast_Away"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Em Harry Potter, qual é a profissão dos pais trouxas da Hermione Granger?",
+"o": [
+"Dentistas",
+"Médicos",
+"Professores",
+"Farmacêuticos"
+],
+"a": 0,
+"w": "O site oficial Wizarding World descreve o Sr. e a Sra. Granger como dentistas educados, gentis e trabalhadores, que apoiavam o talento mágico da filha.",
+"r": [
+{
+"t": "Wizarding World. A guide to the Muggles of Harry Potter. HarryPotter.com",
+"u": "https://www.harrypotter.com/features/a-guide-to-the-muggles-of-harry-potter"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Em 'Harry Potter e o Cálice de Fogo', um feitiço faz os dentes da Hermione crescerem e a Madame Pomfrey os encolhe. O que ela ganhou deixando encolher além do tamanho original?",
+"o": [
+"Dentes mais brancos para o baile",
+"Escapou do aparelho que os pais queriam",
+"Pontos extras para a Grifinória",
+"Uma mordida mais forte nos duelos"
+],
+"a": 1,
+"w": "O feitiço Densaugeo, lançado por Draco, ricocheteou nela. Com os dentes um pouco menores que antes, Hermione se livrou do aparelho ortodôntico trouxa que os pais, dentistas, queriam colocar.",
+"r": [
+{
+"t": "Harry Potter Lexicon. Densaugeo. HP Lexicon",
+"u": "https://www.hp-lexicon.org/?p=2599"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Na série Seinfeld, qual ator interpretou o dentista Tim Whatley, que no episódio 'The Yada Yada' (1997) se converte ao judaísmo?",
+"o": [
+"Steve Carell",
+"Matthew Perry",
+"Jim Parsons",
+"Bryan Cranston"
+],
+"a": 3,
+"w": "Bryan Cranston fez o dentista do Jerry entre 1994 e 1997. Em 'The Yada Yada', Jerry desconfia que a conversão foi só para ganhar piadas, e Whatley se vinga demorando de propósito num procedimento.",
+"r": [
+{
+"t": "Wikipedia. The Yada Yada. Wikipedia, 2026",
+"u": "https://en.wikipedia.org/wiki/The_Yada_Yada"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "No episódio 'O Dentista', de Peppa Pig, quem examina os dentes da Peppa e do George?",
+"o": [
+"O Doutor Elefante",
+"O Doutor Urso",
+"A Madame Gazela",
+"O Senhor Zebra"
+],
+"a": 0,
+"w": "O Doutor Elefante acha os dentes dos dois limpos e brancos; quem precisa de limpeza é o dinossauro de brinquedo do George. O episódio é usado por muitos pais para tirar o medo da primeira consulta.",
+"r": [
+{
+"t": "Rotten Tomatoes. Peppa Pig S02E35: The Dentist. Rotten Tomatoes",
+"u": "https://www.rottentomatoes.com/tv/peppa_pig/s02/e35"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "O Pernalonga vive roendo cenoura. Nos coelhos de verdade, o que acontece com os dentes ao longo da vida?",
+"o": [
+"Caem e renascem todo ano",
+"Crescem sem parar e gastam ao roer",
+"Param de crescer na fase adulta",
+"São trocados uma vez, como os nossos"
+],
+"a": 1,
+"w": "Os dentes do coelho têm raiz aberta e crescem a vida toda, cerca de 1 cm por mês; o desgaste vem de roer feno e fibras. Se os incisivos não se encontram, podem crescer até 1 mm por dia e precisam de veterinário.",
+"r": [
+{
+"t": "VCA Animal Hospitals. Dental Disease in Rabbits. VCA",
+"u": "https://vcahospitals.com/know-your-pet/dental-disease-in-rabbits"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Quem lançou, em 1892, o que é considerado o primeiro tubo de creme dental dos Estados Unidos?",
+"o": [
+"O saboeiro William Colgate",
+"Um farmacêutico de Nova York",
+"Um químico de uma fábrica de tintas",
+"O dentista Washington Sheffield"
+],
+"a": 3,
+"w": "Sheffield, dentista de New London (Connecticut), adotou o tubo dobrável depois que o filho viu tubos de tinta em Paris. A Colgate só passou a vender creme dental em tubo em 1896.",
+"r": [
+{
+"t": "Connecticut Humanities. Washington Sheffield. ConnecticutHistory.org",
+"u": "https://connecticuthistory.org/?p=50427"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "A escova Oral-B nasceu em 1950 com o modelo Oral-B 60, criado por um periodontista. O que era o '60' do nome?",
+"o": [
+"Os dias até trocar a escova",
+"O número de tufos de cerdas",
+"O ângulo do cabo em graus",
+"Os segundos de escovação"
+],
+"a": 1,
+"w": "Robert Hutson, periodontista aposentado da Marinha americana, viu gengivas machucadas por cerdas de náilon duras e criou uma escova de cerdas finas e macias, com 60 tufos na cabeça.",
+"r": [
+{
+"t": "University of the Pacific. Different strokes for different folks: a history of the toothbrush. Dental Museum",
+"u": "https://dentalmuseum.pacific.edu/different-strokes-different-folks-history-toothbrush/13/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Atleta tem até especialidade odontológica própria no Brasil. Em que ano o CFO reconheceu a Odontologia do Esporte?",
+"o": [
+"1995",
+"2005",
+"2015",
+"2025"
+],
+"a": 2,
+"w": "A Resolução CFO-160/2015, de 2 de outubro de 2015, reconheceu de uma vez três especialidades: Acupuntura, Homeopatia e Odontologia do Esporte.",
+"r": [
+{
+"t": "Conselho Federal de Odontologia. Resolução CFO-160, de 2 de outubro de 2015. Normas Brasil, 2015",
+"u": "https://www.normasbrasil.com.br/norma/resolucao-160-2015_305803.html"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "O protetor bucal nasceu no boxe: por volta de 1890, um dentista de Londres punha sobre os dentes dos lutadores tiras de qual material?",
+"o": [
+"Silicone",
+"Resina acrílica",
+"Placa de EVA",
+"Guta-percha"
+],
+"a": 3,
+"w": "Woolf Krause usava tiras de guta-percha, resina natural parecida com borracha, sobre os incisivos superiores dos boxeadores. É o mesmo material que até hoje se usa para obturar canais.",
+"r": [
+{
+"t": "Reed RV Jr. Origin and early history of the dental mouthpiece. British Dental Journal, 1994",
+"u": "https://pubmed.ncbi.nlm.nih.gov/8031630/"
+},
+{
+"t": "Wikipedia. Mouthguard. Wikipedia, 2026",
+"u": "https://en.wikipedia.org/wiki/Mouthguard"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Na série 'Ugly Betty', a Betty Suarez tinha um item marcante no visual que só sai num episódio de 2010. Qual?",
+"o": [
+"O aparelho ortodôntico fixo",
+"A franja reta e comprida",
+"A lente de contato colorida",
+"O piercing no nariz"
+],
+"a": 0,
+"w": "No episódio 'Million Dollar Smile' (4ª temporada, 24/03/2010), a ortodontista vivida por Kathy Najimy finalmente tira o aparelho da Betty, depois de três temporadas.",
+"r": [
+{
+"t": "Wikipedia. Million Dollar Smile. Wikipedia, 2026",
+"u": "https://en.wikipedia.org/wiki/Million_Dollar_Smile"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Em 'A Era do Gelo' (2002), o Diego é um Smilodon, o famoso tigre-dentes-de-sabre. Que dentes enormes deram fama a esse animal?",
+"o": [
+"Os incisivos",
+"Os caninos",
+"Os molares",
+"Os pré-molares"
+],
+"a": 1,
+"w": "Os 'sabres' do Smilodon eram caninos superiores longos e achatados, que saíam da boca mesmo fechada. Nos humanos, o canino é o dente de raiz mais longa da arcada.",
+"r": [
+{
+"t": "Wikipedia. Ice Age (2002 film). Wikipedia, 2026",
+"u": "https://en.wikipedia.org/wiki/Ice_Age_(2002_film)"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "O Scrat, que passa 'A Era do Gelo' correndo atrás de uma noz, é que tipo de bicho?",
+"o": [
+"Um rato-toupeira que existe de verdade",
+"Um castor pré-histórico já extinto",
+"Um esquilo fictício dentes-de-sabre",
+"Um coelho selvagem da Patagônia"
+],
+"a": 2,
+"w": "O Scrat é de uma espécie inventada de esquilo com dentes-de-sabre, uma paródia dos predadores dentuços da Era do Gelo.",
+"r": [
+{
+"t": "Wikipedia. Ice Age (2002 film). Wikipedia, 2026",
+"u": "https://en.wikipedia.org/wiki/Ice_Age_(2002_film)"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Na comédia 'Horrible Bosses', Jennifer Aniston vive a Dra. Julia Harris. Qual é a profissão dela?",
+"o": [
+"Veterinária",
+"Psicóloga",
+"Advogada",
+"Dentista"
+],
+"a": 3,
+"w": "A Dra. Julia Harris é a dentista chefe do assistente Dale, um dos três funcionários que sonham se livrar dos patrões. Foi um papel bem diferente dos que Aniston costumava fazer.",
+"r": [
+{
+"t": "Plugged In. Horrible Bosses. Focus on the Family",
+"u": "https://www.pluggedin.com/movie-reviews/horriblebosses/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "No episódio 'The Trouble with Mr. Bean' (1992), o que o Mr. Bean apronta no consultório do dentista?",
+"o": [
+"Aplica anestesia sem querer no dentista",
+"Foge pela janela antes da consulta",
+"Troca o motorzinho por uma furadeira",
+"Usa toda a pasta do consultório"
+],
+"a": 0,
+"w": "Mexendo nos equipamentos, Bean acaba injetando anestésico no dentista, Mr. Peggitt (Richard Wilson), que apaga. A cena inspirou depois o episódio 'Toothache' do desenho animado.",
+"r": [
+{
+"t": "Wikipedia. The Trouble with Mr. Bean. Wikipedia, 2026",
+"u": "https://en.wikipedia.org/wiki/The_Trouble_with_Mr._Bean"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Stephen Curry, astro da NBA, tem a mania de mastigar o que durante os jogos, principalmente nos lances livres?",
+"o": [
+"Um chiclete de menta",
+"O protetor bucal",
+"A ponta da toalha",
+"O cordão da camisa"
+],
+"a": 1,
+"w": "Curry tira o protetor bucal e mastiga na linha do lance livre; diz que a mania o acalma e que acha que arremessa melhor assim.",
+"r": [
+{
+"t": "Fox Sports. Here's the real reason Steph Curry is always chewing his mouthguard. Fox Sports",
+"u": "https://amp.foxsports.com/stories/nba/heres-the-real-reason-steph-curry-is-always-chewing-his-mouthguard"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "No fenômeno 'Turkey teeth', que viralizou entre famosos britânicos, muita gente achava que ia ganhar facetas. O que costuma ser feito na prática?",
+"o": [
+"Clareamento a laser numa só sessão",
+"Facetas sem desgaste nenhum do esmalte",
+"Coroas, com muito desgaste dos dentes",
+"Implantes em todos os dentes no dia"
+],
+"a": 2,
+"w": "Dentistas do Reino Unido relataram em 2022 que o pacote barato no exterior costuma ser de coroas (de zircônia ou dissilicato), que pedem desgastar dentes saudáveis bem mais do que uma faceta de preparo mínimo. Desgaste grande pode agredir a polpa e terminar em tratamento de canal.",
+"r": [
+{
+"t": "Dentistry.co.uk. Aesthetic Dentistry Expert: 'Turkey teeth', Jack Fincham and the realities of discounted treatments. Dentistry, 2022",
+"u": "https://dentistry.co.uk/2022/07/26/aesthetic-dentistry-expert-turkey-teeth-jack-fincham-and-what-to-say-to-patients/"
+},
+{
+"t": "Dentistry.co.uk. 'There's a lot of stuff I didn't know': Love Island's Jack Fincham on his 'Turkey teeth'. Dentistry, 2022",
+"u": "https://dentistry.co.uk/2022/07/14/love-islands-jack-fincham-on-his-turkey-teeth/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "O creme dental com carvão ativado virou febre nas redes. O que dizem as revisões científicas sobre ele?",
+"o": [
+"Falta evidência de que clareie, e pode ser abrasivo",
+"Clareia mais que o peróxido do consultório",
+"Substitui o flúor na prevenção da cárie",
+"É o mais indicado para quem tem erosão"
+],
+"a": 0,
+"w": "A revisão do JADA (2017) achou dados insuficientes para sustentar segurança e eficácia, e anúncios cheios de promessas sem prova. Uma revisão brasileira de 2024 conclui que o carvão só tira mancha extrínseca, a mudança de cor é clinicamente imperceptível, o flúor pode ser inativado e a abrasão pede cautela.",
+"r": [
+{
+"t": "Maturrano Castillo CP et al. Effects of dentifrices containing activated charcoal on dental enamel: a review of the literature. RGO - Revista Gaúcha de Odontologia (SciELO), 2024",
+"u": "https://www.scielo.br/j/rgo/a/tppntCrWVPj6WcJGRwwyrRb/"
+},
+{
+"t": "Brooks JK, Bashirelahi N, Reynolds MA. Charcoal and charcoal-based dentifrices: a literature review. J Am Dent Assoc, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28599961/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "O 'oil pulling', bochechar óleo de coco por vários minutos, bomba nas redes. Qual é a posição da ADA (Associação Dental Americana)?",
+"o": [
+"Recomenda no lugar do fio dental",
+"Recomenda só para crianças pequenas",
+"Recomenda como substituto do creme dental",
+"Não recomenda, por falta de evidência confiável"
+],
+"a": 3,
+"w": "A ADA diz que não há estudos confiáveis mostrando que o bochecho com óleo reduz cárie, clareia ou melhora a saúde bucal, e por isso não o recomenda. Dentistas lembram ainda que ele não substitui escovação com flúor e fio dental, e que o óleo de coco cuspido pode entupir o ralo da pia.",
+"r": [
+{
+"t": "American Dental Association. Oil Pulling. MouthHealthy",
+"u": "https://www.mouthhealthy.org/all-topics-a-z/oil-pulling"
+},
+{
+"t": "The Irish Times. Is oil pulling any good for your teeth? Dentists share their thoughts. Irish Times, 2024",
+"u": "https://www.irishtimes.com/health/your-wellness/2024/08/20/is-oil-pulling-any-good-for-your-teeth-dentists-share-their-thoughts"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "O 'mewing', manter a língua apertada no céu da boca para 'esculpir' a mandíbula, faz sucesso no TikTok. O que diz a Associação Americana de Ortodontistas?",
+"o": [
+"Substitui o aparelho em adultos",
+"Não há pesquisa que mostre benefício",
+"Alarga a maxila em poucas semanas",
+"Corrige mordida cruzada sozinho"
+],
+"a": 1,
+"w": "A AAO afirma que nenhuma pesquisa mostra benefício do mewing para a mandíbula ou a saúde bucal: o formato do rosto depende de genética, crescimento ósseo e músculos. Pressão de língua mal distribuída pode até empurrar dentes e piorar a mordida, deixando o tratamento ortodôntico depois mais longo.",
+"r": [
+{
+"t": "Olhar Digital. O que é e para que serve o mewing?. Olhar Digital, 2024",
+"u": "https://olhardigital.com.br/2024/04/24/medicina-e-saude/o-que-e-e-para-que-serve-o-mewing/"
+},
+{
+"t": "American Association of Orthodontists. Is mewing bad for you?. AAO",
+"u": "https://aaoinfo.org/whats-trending/is-mewing-bad-for-you/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "De onde vem o nome da trend 'mewing'?",
+"o": [
+"Do miado de gato em inglês, 'mew'",
+"De um aplicativo de exercícios faciais",
+"Do ortodontista britânico John Mew",
+"De uma sigla da fonoaudiologia"
+],
+"a": 2,
+"w": "O nome homenageia o ortodontista britânico John Mew, que nos anos 1970 popularizou a ideia de que a postura da língua molda o rosto (a 'ortotropia'). A técnica nunca ganhou respaldo científico e segue vista como polêmica pelos ortodontistas.",
+"r": [
+{
+"t": "Olhar Digital. O que é e para que serve o mewing?. Olhar Digital, 2024",
+"u": "https://olhardigital.com.br/2024/04/24/medicina-e-saude/o-que-e-e-para-que-serve-o-mewing/"
+},
+{
+"t": "American Association of Orthodontists. Is mewing bad for you?. AAO",
+"u": "https://aaoinfo.org/whats-trending/is-mewing-bad-for-you/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Em 2025, pesquisadores do King's College London testaram em laboratório uma proteína tirada de lã e cabelo para reparar o esmalte. Qual?",
+"o": [
+"Colágeno",
+"Caseína",
+"Elastina",
+"Queratina"
+],
+"a": 3,
+"w": "Filmes de queratina, em contato com os minerais da saliva, guiaram o crescimento de cristais de apatita organizados como os do esmalte e repararam lesões iniciais em laboratório. A ideia é virar creme dental ou gel profissional, mas ainda faltam testes clínicos.",
+"r": [
+{
+"t": "Gamea S et al. Biomimetic Mineralization of Keratin Scaffolds for Enamel Regeneration. Advanced Healthcare Materials, 2025",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645081/"
+},
+{
+"t": "Dental Tribune. Hair-derived keratin toothpaste: a natural enamel repair revolution. Dental Tribune, 2025",
+"u": "https://www.dental-tribune.com/news/hair-derived-keratin-toothpaste-a-natural-enamel-repair-revolution/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "A NASA ajudou a criar um creme dental pensado para a gravidade zero. Qual era a grande sacada dele?",
+"o": [
+"Não fazia espuma e podia ser engolido",
+"Vinha em pó para misturar com a saliva",
+"Brilhava para achar os dentes no escuro",
+"Grudava na escova e dispensava o tubo"
+],
+"a": 0,
+"w": "O creme 'ingerível' foi desenvolvido com o Dr. Ira Shannon, consultor odontológico do Johnson Space Center: sem espuma, podia ser engolido depois da escovação, prático onde não dá para cuspir. Serviu também para acamados e como primeiro creme dental de crianças, mas não é mais vendido.",
+"r": [
+{
+"t": "NASA. Ingestible Toothpaste. NASA Spinoff, 1984",
+"u": "https://spinoff.nasa.gov/node/9657"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Depois de comer ou beber algo ácido, quanto tempo a ADA sugere esperar para escovar os dentes?",
+"o": [
+"Uns 5 minutos",
+"Cerca de uma hora",
+"Pelo menos seis horas",
+"Nenhum, escovar na hora"
+],
+"a": 1,
+"w": "O ácido amolece a superfície do esmalte por um tempo; esperar cerca de uma hora dá à saliva a chance de lavar o ácido e ajudar o esmalte a endurecer de novo. Escovar logo em seguida soma abrasão à erosão.",
+"r": [
+{
+"t": "American Dental Association. Dietary Acids and Your Teeth. MouthHealthy",
+"u": "https://www.mouthhealthy.org/all-topics-a-z/dietary-acids-and-your-teeth"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Logo depois de um refri ou suco ácido, qual lanche a ADA cita para ajudar a neutralizar os ácidos?",
+"o": [
+"Uma bala azedinha",
+"Um gole de café puro",
+"Uma fatia de limão",
+"Um pedaço de queijo"
+],
+"a": 3,
+"w": "A ADA sugere, após bebida ou comida ácida, enxaguar com água, tomar leite ou comer queijo: laticínios e alimentos ricos em cálcio ajudam a neutralizar os ácidos. A mesma página lembra que algumas balas azedas são quase tão ácidas quanto ácido de bateria.",
+"r": [
+{
+"t": "American Dental Association. Dietary Acids and Your Teeth. MouthHealthy",
+"u": "https://www.mouthhealthy.org/all-topics-a-z/dietary-acids-and-your-teeth"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Em 2017, cientistas descobriram o cardápio de neandertais (rinoceronte-lanudo na Bélgica, cogumelos e pinhões na Espanha) lendo DNA guardado onde?",
+"o": [
+"Na polpa dos dentes",
+"No osso da mandíbula",
+"No tártaro dos dentes",
+"No esmalte dos caninos"
+],
+"a": 2,
+"w": "O cálculo dental (placa mineralizada) prende micróbios e restos de comida e preserva o DNA por dezenas de milhares de anos. Com ele, o estudo da Nature mostrou dieta de carne em Spy (Bélgica) e de floresta, sem carne detectada, em El Sidrón (Espanha).",
+"r": [
+{
+"t": "Weyrich LS et al. Neanderthal behaviour, diet, and disease inferred from ancient DNA in dental calculus. Nature, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28273061/"
+},
+{
+"t": "Sci.News. Neanderthals Used Plant-Based Painkillers, Ate Rhinoceros Meat, Mushrooms, Nuts, and Moss. Sci.News, 2017",
+"u": "https://www.sci.news/genetics/neanderthals-plant-based-painkillers-rhinoceros-meat-mushrooms-nuts-moss-04686.html"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Mascar chiclete sem açúcar por uns 20 minutos depois das refeições ajuda contra a cárie, segundo a ADA. Por quê?",
+"o": [
+"Aumenta o fluxo de saliva",
+"Remove o tártaro já formado",
+"Libera flúor em alta dose",
+"Clareia o esmalte por atrito"
+],
+"a": 0,
+"w": "Mais saliva lava restos de comida, neutraliza os ácidos das bactérias e traz cálcio e fosfato que ajudam a fortalecer o esmalte. O chiclete não substitui escovação com flúor e limpeza entre os dentes.",
+"r": [
+{
+"t": "American Dental Association. Chewing Gum. MouthHealthy",
+"u": "https://mouthhealthy.org/all-topics-a-z/chewing-gum"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Chicletes com o selo da ADA precisam ser sem açúcar. Qual destes adoçantes aparece entre os usados por eles?",
+"o": [
+"Sacarose",
+"Xilitol",
+"Glicose",
+"Mel"
+],
+"a": 1,
+"w": "Os chicletes com selo da ADA são adoçados com opções que não causam cárie, como aspartame, xilitol, sorbitol ou manitol. As bactérias da placa não fermentam esses adoçantes como fermentam a sacarose.",
+"r": [
+{
+"t": "American Dental Association. Chewing Gum. MouthHealthy",
+"u": "https://mouthhealthy.org/all-topics-a-z/chewing-gum"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Um estudo holandês de 2014 estimou quantas bactérias passam de uma boca para outra num beijo íntimo de 10 segundos. Cerca de quantas?",
+"o": [
+"80 mil",
+"800",
+"80 milhões",
+"80 bilhões"
+],
+"a": 2,
+"w": "Com 21 casais, um dos parceiros bebeu iogurte probiótico com bactérias marcadoras antes do beijo; elas apareceram na maioria de quem recebeu, numa média de 80 milhões por beijo de 10 s. Casais que se beijam mais têm microbiota da saliva mais parecida.",
+"r": [
+{
+"t": "López-Goñi I. Os milhões de micróbios trocados em um único beijo. Correio Braziliense (The Conversation), 2024",
+"u": "https://www.correiobraziliense.com.br/mundo/2024/02/6808448-os-milhoes-de-microbios-trocados-em-um-unico-beijo.html"
+},
+{
+"t": "Kort R et al. Shaping the oral microbiota through intimate kissing. Microbiome, 2014",
+"u": "https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-41"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "A receita viral de 'clareamento' com bicarbonato e limão faz o quê de verdade, segundo o CRO-MG?",
+"o": [
+"Clareia igual ao gel de peróxido",
+"Fortalece o esmalte com o cálcio",
+"Muda a cor da dentina por dentro",
+"Só remove sujeira por atrito, sem clarear"
+],
+"a": 3,
+"w": "Receitas caseiras agem como o creme dental comum: tiram mancha superficial por atrito, sem clarear a cor do dente. O bicarbonato é abrasivo e, usado sem critério, pode desgastar o esmalte de forma irreversível; o clareamento de verdade usa peróxido com acompanhamento profissional.",
+"r": [
+{
+"t": "Estado de Minas/UAI. Clarear os dentes exige acompanhamento profissional; esclareça dúvidas sobre o tratamento. UAI, 2014",
+"u": "https://www.uai.com.br/app/noticia/saude/2014/04/23/noticias-saude,192547/clarear-os-dentes-exige-acompanhamento-profissional-esclareca-duvidas.shtml"
+},
+{
+"t": "Universidade de Fortaleza. Clareamento dental caseiro é seguro? Saiba quais os cuidados. Unifor",
+"u": "https://unifor.br/web/saude/clareamento-dental-caseiro-e-seguro-saiba-quais-os-cuidados-para-esse-tipo-de-tratamento"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Na trend do TikTok de 'acertar' os dentes com lixa de unha, qual é o principal alerta dos dentistas?",
+"o": [
+"O esmalte lixado não cresce de novo",
+"A lixa mancha os dentes de cinza",
+"Os dentes crescem mais rápido depois",
+"A lixa passa cárie de um dente a outro"
+],
+"a": 0,
+"w": "Diferente da unha, o esmalte não se regenera: cada passada da lixa tira tecido para sempre, podendo causar sensibilidade, inflamação da polpa e até morte do dente. O ajuste estético profissional é feito em frações de milímetro, com controle.",
+"r": [
+{
+"t": "Dazed. TikTok users are shaving down their teeth with nail files and it's very bad. Dazed, 2020",
+"u": "https://www.dazeddigital.com/beauty/article/50489/1/tiktok-users-are-shaving-down-their-teeth-with-nail-files-and-its-very-bad"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "O remédio japonês TRG035, que começou a ser testado em humanos em 2024 para tentar 'fazer nascer' dentes, age bloqueando o quê?",
+"o": [
+"A bactéria Streptococcus mutans",
+"O hormônio do crescimento",
+"A enzima amilase da saliva",
+"A proteína USAG-1"
+],
+"a": 3,
+"w": "A USAG-1 funciona como um freio no desenvolvimento dos germes dentários; em animais, o anticorpo que a bloqueia fez surgir dentes. A fase I foi no Hospital Universitário de Kyoto, o alvo inicial é a agenesia dentária congênita grave, e ainda não há prova de que gere dentes em humanos.",
+"r": [
+{
+"t": "Canaltech. Japão começa testes de medicamento que faz dentes nascerem de novo. Canaltech, 2024",
+"u": "https://canaltech.com.br/saude/japao-comeca-testes-de-medicamento-que-faz-dentes-nascerem-de-novo/"
+},
+{
+"t": "Dentistry.co.uk. Tooth regrowth drug trial planned for 24 children in Japan. Dentistry, 2026",
+"u": "https://dentistry.co.uk/2026/08/18/tooth-regrowth-drug-trial-planned-for-24-children-in-japan/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Em 2022, a FDA (agência dos EUA) liberou o Second Opinion, da empresa Pearl. O que esse software faz?",
+"o": [
+"Usa IA para apontar achados em radiografias",
+"Imprime coroas de zircônia no consultório",
+"Escaneia a boca e dispensa a moldagem",
+"Mede a cor do dente pela câmera do celular"
+],
+"a": 0,
+"w": "O Second Opinion usa inteligência artificial para marcar, na hora, cáries, tártaro, desadaptação de restaurações e radiolucidez periapical em radiografias, além de identificar coroas, canais e implantes. É uma ajuda à leitura: o diagnóstico continua sendo do dentista.",
+"r": [
+{
+"t": "Pearl. FDA Clears World's First AI Software to Read Dental X-Rays. Pearl (comunicado), 2022",
+"u": "https://hellopearl.com/news/fda-clears-worlds-first-ai-software-to-read-dental-x-rays-3e780"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Um estudo de 2016 mediu o pH de 379 bebidas vendidas nos EUA. Que fatia ficou abaixo de pH 4,0, faixa com potencial erosivo?",
+"o": [
+"7%",
+"93%",
+"25%",
+"50%"
+],
+"a": 1,
+"w": "Dos 379 produtos (sucos, refrigerantes, águas saborizadas, chás, energéticos), 39% eram extremamente erosivos (pH abaixo de 3,0) e 54% erosivos (3,0 a 3,99); só 7% ficaram em pH 4,0 ou mais. O pH baixo é o principal fator do potencial erosivo de uma bebida.",
+"r": [
+{
+"t": "Reddy A et al. The pH of beverages in the United States. J Am Dent Assoc, 2016",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4808596/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Na revisão Cochrane de 2014, quanto a escova elétrica reduziu a placa a mais que a manual após mais de 3 meses de uso (índice de Quigley-Hein)?",
+"o": [
+"Cerca de 90%",
+"Cerca de 2%",
+"Cerca de 21%",
+"Nada, deu empate"
+],
+"a": 2,
+"w": "Com 56 ensaios, a revisão achou redução de placa de 11% no curto prazo e 21% no longo prazo, e menos gengivite também, com evidência de qualidade moderada. As de rotação-oscilação tiveram mais estudos a favor; a importância clínica dessa diferença ainda é discutida.",
+"r": [
+{
+"t": "Yaacob M et al. Powered versus manual toothbrushing for oral health. Cochrane Database of Systematic Reviews, 2014",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7133541/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Em 2016, uma reportagem da agência AP repercutiu porque o fio dental tinha sumido de qual documento do governo dos EUA?",
+"o": [
+"Do código de defesa do consumidor",
+"Da lista de medicamentos essenciais",
+"Do manual de saúde do Exército",
+"Das diretrizes alimentares"
+],
+"a": 3,
+"w": "O fio dental era recomendado pelo governo americano desde 1979, mas saiu das Dietary Guidelines sem anúncio; a AP revisou 25 estudos e classificou a evidência de benefício como fraca e de baixa qualidade. As entidades odontológicas mantiveram a recomendação de limpar entre os dentes.",
+"r": [
+{
+"t": "Associated Press. Medical benefits of dental floss unproven. FOX 9, 2016",
+"u": "https://www.fox9.com/news/medical-benefits-of-dental-floss-unproven"
+},
+{
+"t": "Sambunjak D et al. Flossing for the management of periodontal diseases and dental caries in adults. Cochrane Database Syst Rev, 2011",
+"u": "https://pubmed.ncbi.nlm.nih.gov/22161438/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "DNA de tártaro de esqueletos europeus antigos (estudo de 2013) mostrou em que época as bactérias cariogênicas passaram a dominar a boca. Qual?",
+"o": [
+"Na Revolução Industrial",
+"Na Idade da Pedra Lascada",
+"No auge do Império Romano",
+"No começo da Idade Média"
+],
+"a": 0,
+"w": "Com 34 esqueletos, o estudo viu a virada para uma microbiota ligada a doença com a agricultura e, depois, o domínio das bactérias cariogênicas por volta da Revolução Industrial, com farinha e açúcar processados. A boca moderna também ficou menos diversa que a dos povos antigos.",
+"r": [
+{
+"t": "Adler CJ et al. Sequencing ancient calcified dental plaque shows changes in oral microbiota with dietary shifts of the Neolithic and Industrial revolutions. Nature Genetics, 2013",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3996550/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Em dezembro de 2023, a SmileDirectClub, que mandava alinhadores pelo correio com moldagem feita em casa, encerrou as operações. O que tinha acontecido antes?",
+"o": [
+"A FDA proibiu os alinhadores dela",
+"Pediu recuperação judicial (Chapter 11)",
+"Foi comprada pela dona do Invisalign",
+"Se fundiu com uma rede de clínicas"
+],
+"a": 1,
+"w": "A empresa pediu proteção do Chapter 11 em setembro de 2023 e, em 8 de dezembro, fechou no mundo todo: quem estava no meio do tratamento ficou sem novos alinhadores e teve de procurar um dentista. O caso reacendeu o debate sobre ortodontia sem exame presencial.",
+"r": [
+{
+"t": "Dentistry.co.uk. Smile Direct Club shuts down following bankruptcy. Dentistry, 2023",
+"u": "https://dentistry.co.uk/2023/12/11/smile-direct-club-shuts-down-following-bankruptcy/"
+},
+{
+"t": "Global News. SmileDirectClub officially shuts down, leaving some customers in limbo. Global News, 2023",
+"u": "https://globalnews.ca/news/10164616/smiledirectclub-shut-down-bankruptcy-canada"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Em 2025, um estudo piloto da UCLA comparou chicletes 'naturais' e sintéticos. O que achou sobre microplásticos na saliva?",
+"o": [
+"Só o sintético liberou microplásticos",
+"O natural liberou dez vezes mais",
+"Os dois liberaram quantidades parecidas",
+"Nenhum liberou nada detectável"
+],
+"a": 2,
+"w": "Foram 10 marcas, com média de 100 partículas por grama (algumas passaram de 600); a maior parte saiu nos primeiros 2 minutos de mastigação, pelo atrito. A sugestão dos autores é mascar o mesmo chiclete por mais tempo em vez de trocar; o efeito na saúde ainda é desconhecido.",
+"r": [
+{
+"t": "Folha de Pernambuco. Chicletes liberam centenas de microplásticos na boca, mas impacto é incerto. Folha PE, 2025",
+"u": "https://www.folhape.com.br/noticias/chicletes-liberam-centenas-de-microplasticos-na-boca-mas-impacto-e/400032/"
+},
+{
+"t": "American Chemical Society. Chewing gum can shed microplastics into saliva, pilot study finds. ScienceDaily, 2025",
+"u": "https://www.sciencedaily.com/releases/2025/03/250325120151.htm"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Em 2019, pesquisadores da Stockton University (EUA) relataram que o peróxido de hidrogênio das fitas clareadoras degradou, em laboratório, qual proteína?",
+"o": [
+"Amelogenina do cemento",
+"Queratina do esmalte",
+"Elastina da polpa",
+"Colágeno da dentina"
+],
+"a": 3,
+"w": "Em dentes extraídos, o peróxido nas concentrações das fitas quebrou o colágeno, principal proteína da dentina, em fragmentos menores. Não se sabe se o dano é permanente na boca; na clínica, o efeito colateral mais comum do clareamento é sensibilidade passageira.",
+"r": [
+{
+"t": "FASEB. Teeth whitening products can harm protein-rich tooth layer. Newswise, 2019",
+"u": "https://www.newswise.com/articles/teeth-whitening-products-can-harm-protein-rich-tooth-layer"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Em 2015, qual material biológico bateu a seda de aranha como o mais resistente à tração já medido?",
+"o": [
+"O dente da lapa, um molusco",
+"O esmalte do dente humano",
+"O casco da tartaruga",
+"A presa do elefante"
+],
+"a": 0,
+"w": "Os dentes da lapa, usados para raspar algas das rochas, têm muitas nanofibras de goethita (um mineral de ferro) numa matriz de proteína, e atingiram 3,0 a 6,5 GPa de resistência à tração. É perto das melhores fibras feitas pelo homem.",
+"r": [
+{
+"t": "Barber AH, Lu D, Pugno NM. Extreme strength observed in limpet teeth. Journal of the Royal Society Interface, 2015",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387522/"
+},
+{
+"t": "Sci.News. Limpet Teeth are Strongest Known Biological Material, Scientists Say. Sci.News, 2015",
+"u": "https://www.sci.news/othersciences/materials/science-limpet-teeth-strongest-known-biological-material-02509.html"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Lançado em 2010, o Human Oral Microbiome Database (HOMD) reuniu de início cerca de quantos táxons de bactérias da boca?",
+"o": [
+"Cerca de 60",
+"Cerca de 600",
+"Cerca de 6.000",
+"Cerca de 60.000"
+],
+"a": 1,
+"w": "A primeira versão do HOMD trazia 619 táxons em 13 filos, e o artigo descreve o microbioma oral com mais de 600 táxons prevalentes no nível de espécie. A maioria é difícil de cultivar e foi identificada pelo gene 16S rRNA.",
+"r": [
+{
+"t": "Dewhirst FE et al. The human oral microbiome. Journal of Bacteriology, 2010",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2944498/"
+},
+{
+"t": "The Forsyth Institute. Human Oral Microbiome Database (HOMD)",
+"u": "https://www.homd.org/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "No tártaro de um neandertal com abscesso dentário (estudo de 2017) apareceu DNA de álamo. Qual substância dessa árvore está ligada à aspirina?",
+"o": [
+"Cafeína",
+"Ácido cítrico",
+"Ácido salicílico",
+"Óleo de cravo"
+],
+"a": 2,
+"w": "O álamo contém ácido salicílico, princípio ativo da aspirina, e o mesmo indivíduo tinha DNA do fungo Penicillium no tártaro. Os autores levantaram a hipótese de automedicação contra dor, há mais de 40 mil anos.",
+"r": [
+{
+"t": "Sci.News. Neanderthals Used Plant-Based Painkillers, Ate Rhinoceros Meat, Mushrooms, Nuts, and Moss. Sci.News, 2017",
+"u": "https://www.sci.news/genetics/neanderthals-plant-based-painkillers-rhinoceros-meat-mushrooms-nuts-moss-04686.html"
+},
+{
+"t": "Weyrich LS et al. Neanderthal behaviour, diet, and disease inferred from ancient DNA in dental calculus. Nature, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28273061/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Uma revisão sistemática de 2025 (PLOS One) analisou a moda de dormir com fita na boca. Qual foi o principal alerta?",
+"o": [
+"Causa cárie por deixar a boca seca",
+"Entorta os incisivos superiores",
+"Provoca alergia ao flúor",
+"Risco sério se houver obstrução nasal"
+],
+"a": 3,
+"w": "Foram 10 estudos com 213 pacientes: só 2 mostraram melhora em marcadores de apneia, e vários citaram risco de asfixia com nariz obstruído (desvio de septo, pólipos, rinite). Muitos estudos excluíram justamente quem tinha obstrução nasal, o grupo de maior risco.",
+"r": [
+{
+"t": "Tua Saúde. Dormir com fita na boca virou moda, mas revisão encontrou pouca evidência e possíveis riscos para quem tem obstrução nasal. Tua Saúde, 2026",
+"u": "https://www.tuasaude.com/news/2026/08/05/dormir-com-fita-na-boca-virou-moda-mas-revisao-encontrou-pouca-evidencia-e-possiveis-riscos-para-quem-tem-obstrucao-nasal/"
+},
+{
+"t": "CNN Brasil. Tampar a boca com fita para dormir funciona? Entenda. CNN Brasil, 2025",
+"u": "https://www.cnnbrasil.com.br/saude/tampar-a-boca-com-fita-para-dormir-funciona-entenda/"
+},
+{
+"t": "Rhee J et al. Breaking social media fads and uncovering the safety and efficacy of mouth taping. PLoS One, 2025",
+"u": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0323643"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "Dente de leite que cai sozinho pode virar fonte de pesquisa. Em 2003, cientistas acharam células-tronco onde, nesses dentes?",
+"o": [
+"No esmalte da coroa",
+"Na polpa do dente",
+"No cemento da raiz",
+"No tártaro da superfície"
+],
+"a": 1,
+"w": "O estudo de Miura e colaboradores (PNAS, 2003) isolou as SHED, células-tronco da polpa de dentes decíduos esfoliados, capazes de virar células neurais, adipócitos e odontoblastos em laboratório. A vantagem é a coleta simples: o dente cai sozinho, sem procedimento invasivo.",
+"r": [
+{
+"t": "UFJF. Isolamento de células-tronco de dentes decíduos humanos. Principia (UFJF), PDF",
+"u": "https://periodicos.ufjf.br/index.php/principia/article/download/30679/20600"
+},
+{
+"t": "Miura M et al. SHED: stem cells from human exfoliated deciduous teeth. PNAS, 2003",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC156282/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Em 2025, cirurgiões no Canadá devolveram a visão a pacientes com a cirurgia do 'dente no olho'. Qual o papel do dente nela?",
+"o": [
+"Vira a moldura que segura uma lente",
+"Fornece o esmalte para uma córnea nova",
+"Libera flúor para limpar o olho",
+"Serve só de molde para uma prótese ocular"
+],
+"a": 0,
+"w": "Na osteo-odonto-ceratoprótese, um dente do próprio paciente, geralmente o canino, é recortado com o osso em volta e furado para encaixar uma pequena lente de plástico; o conjunto substitui a córnea danificada. A técnica foi criada pelo oftalmologista italiano Benedetto Strampelli no início dos anos 1960.",
+"r": [
+{
+"t": "Metrópoles. Implante de dente no olho e a visão. Metrópoles, 2025",
+"u": "https://www.metropoles.com/saude/implante-de-dente-no-olho-visao"
+},
+{
+"t": "Popular Science. Surgeons implant teeth in patients' eyes to restore vision. PopSci, 2025",
+"u": "https://www.popsci.com/science/eye-in-tooth-surgery/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Zane Grey, autor do best-seller 'Riders of the Purple Sage' (1912) e um dos pais do faroeste na literatura, tinha qual profissão antes da fama?",
+"o": [
+"Xerife",
+"Dentista",
+"Advogado",
+"Ferreiro"
+],
+"a": 1,
+"w": "Grey entrou na Universidade da Pensilvânia com bolsa de beisebol, formou-se em odontologia em 1896 e abriu consultório em Nova York. Escrevia à noite, entre um paciente e outro, até os livros de faroeste virarem sucesso.",
+"r": [
+{
+"t": "Wikipédia. Zane Grey. Wikipédia em português",
+"u": "https://pt.wikipedia.org/wiki/Zane_Grey"
+},
+{
+"t": "Wikipedia. Zane Grey. Wikipedia",
+"u": "https://en.wikipedia.org/wiki/Zane_Grey"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 1,
+"q": "No cinema, o barulhinho do motor no consultório é clássico de cena de suspense. Como se chama o medo intenso de ir ao dentista?",
+"o": [
+"Claustrofobia",
+"Aracnofobia",
+"Acrofobia",
+"Odontofobia"
+],
+"a": 3,
+"w": "Odontofobia é o medo exagerado do tratamento odontológico, que faz a pessoa adiar ou fugir da consulta. Uma meta-análise de 2021, com mais de 72 mil adultos, estimou cerca de 15% com medo ou ansiedade odontológica e 3,3% com medo grave.",
+"r": [
+{
+"t": "Bottan ER et al. Ansiedade ao tratamento odontológico. Pesq Bras Odontopediatria Clín Integr (Redalyc)",
+"u": "https://www.redalyc.org/pdf/637/63770308.pdf"
+},
+{
+"t": "Silveira ER et al. Estimated prevalence of dental fear in adults: a systematic review and meta-analysis. J Dent, 2021",
+"u": "https://pubmed.ncbi.nlm.nih.gov/33711405/"
+}
+]
+},
+{
+"m": "Odonto e cultura pop",
+"n": 2,
+"q": "Nos anos 1950, o sueco Per-Ingvar Brånemark descobriu por acaso que o titânio 'gruda' no osso, a base dos implantes. Em qual animal ele estudava?",
+"o": [
+"Coelho",
+"Cachorro",
+"Macaco",
+"Porco"
+],
+"a": 0,
+"w": "Brånemark filmava a microcirculação do osso pela pata de coelhos usando uma câmara de titânio; na hora de retirá-la, ela tinha se fundido ao osso. Daí nasceu a osseointegração, e o primeiro implante dental em humano veio em 1965.",
+"r": [
+{
+"t": "Princípios de osseointegração em implantodontia: uma revisão narrativa. Research, Society and Development, 2023",
+"u": "https://rsdjournal.org/index.php/rsd/article/download/44216/35443/463784"
+},
+{
+"t": "The Per-Ingvar Brånemark Era (1929–2014). Cureus, 2024",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11568825/"
+}
+]
+},
+{
 "m": "Prótese e laboratório",
 "n": 1,
 "q": "O que é uma prótese total?",
