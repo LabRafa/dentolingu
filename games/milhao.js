@@ -35,6 +35,33 @@
     for (const q of lista) { if (out.length >= n) break; if (!out.includes(q)) out.push(q); }
     return embaralhar(out, rnd);
   }
+  // Rafael 11/11: perguntas das matérias do simulado (window.BANCOS, simulado/bancos.js) viram perguntas do Sisão (4 alternativas)
+  const NOMES_SIM = { bases: 'Bases Morfológicas', carie: 'Cárie', inter: 'Interações' };
+  function bancoDoSimulado(chaves, rnd) {
+    const B = (typeof window !== 'undefined' && window.BANCOS) || {}, lista = [];
+    (chaves || []).forEach(m => (B[m] && B[m].q || []).forEach(q => {
+      if (!q || !q.p || !Array.isArray(q.o) || q.o.length < 4 || typeof q.a !== 'number') return;
+      const certa = q.o[q.a], ops = embaralhar([certa].concat(embaralhar(q.o.filter((x, k) => k !== q.a), rnd).slice(0, 3)), rnd);
+      if (new Set(ops.map(x => String(x).trim().toLowerCase())).size !== 4) return;
+      const txt = (q.ctx || '') + ' ' + q.p;
+      let d = txt.length / 60; if (/\bI{1,3}\.|assertiva|asserç|afirmativa|afirmaç/i.test(txt)) d += 6; if (q.sm1) d += 3;
+      lista.push({ m: NOMES_SIM[m] || m, q: (q.ctx ? q.ctx + '\n\n' : '') + q.p, o: ops, a: ops.indexOf(certa), w: q.w || '', _d: d });
+    }));
+    lista.sort((a, b) => a._d - b._d); const t = Math.ceil(lista.length / 3);
+    lista.forEach((q, i) => { q.n = i < t ? 1 : i < 2 * t ? 2 : 3; delete q._d; });
+    return lista;
+  }
+  // Rafael 11/11: "no início tá repetindo muita pergunta". Guarda as já vistas e sorteia primeiro as que ainda não saíram.
+  function lerVistas(chave) { try { return new Set(JSON.parse(localStorage.getItem(chave) || '[]')); } catch (e) { return new Set(); } }
+  function gravarVistas(chave, set) { try { localStorage.setItem(chave, JSON.stringify([...set].slice(-800))); } catch (e) { } }
+  function montarPartidaNova(banco, chave, rnd) {
+    banco = bancoValido(banco); let vistas = lerVistas(chave);
+    let fresco = banco.filter(q => !vistas.has(q.q));
+    if (!podeJogar(fresco)) { vistas = new Set(); fresco = banco; } // viu quase tudo: recomeça o ciclo
+    const out = montarPartida(fresco, rnd);
+    out.forEach(q => vistas.add(q.q)); gravarVistas(chave, vistas);
+    return out;
+  }
   function montarPartida(banco, rnd) {
     banco = bancoValido(banco); const usadas = new Set(), out = [];
     for (const nivel of [1, 2, 3]) for (const q of sortearNivel(banco, nivel, 5, usadas, rnd)) { usadas.add(q.q); out.push(q); }
@@ -146,7 +173,7 @@
       disponivel() { return podeJogar(window.BANCO_MILHAO); },
       montar(el, t, api) {
         injetarCss();
-        const banco = bancoValido(window.BANCO_MILHAO);
+        let banco = bancoValido(window.BANCO_MILHAO);
         if (!podeJogar(banco)) { el.innerHTML = `<div class="card"><p>O banco de perguntas ainda não está pronto.</p><button type="button" class="btn ghost full">Voltar</button></div>`; el.querySelector('button').onclick = () => api.voltar(); return; }
         let st = null;
         const reduz = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -175,6 +202,15 @@
         const CONF_PADRAO = { musica: true, voz: true, efeitos: true, bateria: false, volMusica: 0.5 };
         let CONF = Object.assign({}, CONF_PADRAO);
         try { CONF = Object.assign(CONF, JSON.parse(localStorage.getItem('sisao-conf') || '{}')); } catch (e) { }
+        if (!Array.isArray(CONF.materias)) CONF.materias = []; // vazio = Conhecimentos gerais da odontologia
+        const temSimulado = () => !!(window.BANCOS && Object.keys(NOMES_SIM).some(k => window.BANCOS[k]));
+        function bancoEscolhido() {
+          const sel = CONF.materias.filter(k => window.BANCOS && window.BANCOS[k]);
+          if (!sel.length) return { b: bancoValido(window.BANCO_MILHAO), chave: 'sisao-vistas-geral' };
+          const b = bancoValido(bancoDoSimulado(sel));
+          if (!podeJogar(b)) return { b: bancoValido(window.BANCO_MILHAO), chave: 'sisao-vistas-geral', aviso: 'Poucas perguntas nessa matéria. Junte com outra.' };
+          return { b, chave: 'sisao-vistas-' + sel.slice().sort().join('-') };
+        }
         const gravaConf = () => { try { localStorage.setItem('sisao-conf', JSON.stringify(CONF)); } catch (e) { } };
         const efeito = (nome, extra) => { if (CONF.efeitos && window.Sons) Sons.tocar(nome, extra); };
         // trilhas de fundo originais (nostalgia de games 8/16 bits + metais de auditório): variam por partida e trocam na 6ª e na 11ª pergunta
@@ -247,6 +283,11 @@
 <label><input type="checkbox" data-k="efeitos" ${CONF.efeitos ? 'checked' : ''}> Efeitos (acerto, erro, rufar)</label>
 <label><input type="checkbox" data-k="bateria" ${CONF.bateria ? 'checked' : ''}> Bateria na música</label>
 <label>Volume da música <input type="range" min="0.1" max="1" step="0.1" value="${CONF.volMusica}" data-k="volMusica"></label>
+${temSimulado() ? `<b>Perguntas</b>
+<label><input type="radio" name="fonte" data-fonte="geral" ${CONF.materias.length ? '' : 'checked'}> Conhecimentos gerais da odontologia</label>
+<label><input type="radio" name="fonte" data-fonte="materias" ${CONF.materias.length ? 'checked' : ''}> Só as matérias que eu escolher:</label>
+${Object.keys(NOMES_SIM).filter(k => window.BANCOS[k]).map(k => `<label style="margin-left:22px"><input type="checkbox" data-mat="${k}" ${CONF.materias.includes(k) ? 'checked' : ''}> ${NOMES_SIM[k]}</label>`).join('')}
+<span class="${c('nota')}">Vale a partir da próxima partida.</span>` : ''}
 
 <button type="button" class="${c('btn')} ${c('azul')}" data-fechar>Fechar</button>`;
           box.querySelectorAll('[data-k]').forEach(inp => inp.onchange = () => {
@@ -254,6 +295,17 @@
             CONF[k] = inp.type === 'checkbox' ? inp.checked : k === 'trilha' ? inp.value : +inp.value; gravaConf();
             if (k === 'musica' || k === 'volMusica' || k === 'bateria' || k === 'trilha') { pararFundo(); if (CONF.musica && st && !st.fim) iniciarFundo(); }
             if (k === 'voz' && !CONF.voz) calar();
+          });
+          const mats = () => [...box.querySelectorAll('[data-mat]')].filter(x => x.checked).map(x => x.dataset.mat);
+          box.querySelectorAll('[data-fonte]').forEach(r => r.onchange = () => {
+            if (r.dataset.fonte === 'geral') { CONF.materias = []; box.querySelectorAll('[data-mat]').forEach(x => { x.checked = false; }); }
+            else { if (!mats().length) { const p = box.querySelector('[data-mat]'); if (p) p.checked = true; } CONF.materias = mats(); }
+            gravaConf();
+          });
+          box.querySelectorAll('[data-mat]').forEach(x => x.onchange = () => {
+            CONF.materias = mats(); const g = box.querySelector('[data-fonte="geral"]'), m = box.querySelector('[data-fonte="materias"]');
+            if (g && m) { g.checked = !CONF.materias.length; m.checked = !!CONF.materias.length; }
+            gravaConf();
           });
           box.querySelector('[data-fechar]').onclick = () => { box.remove(); if (!st || st.fim) pararFundo(); };
           return box;
@@ -440,7 +492,8 @@
         function nova() {
           efeito('novo');
           iniciarFundo();
-          st = { perguntas: montarPartida(banco), i: 0, acertos: 0, pulos: PULOS, c50: false, plat: false, ops: null, fora: [], plateia: null, sel: -1, travado: false, fim: false, erros: [] };
+          const esc = bancoEscolhido(); banco = esc.b; if (esc.aviso) api.toast(esc.aviso);
+          st = { perguntas: montarPartidaNova(banco, esc.chave), i: 0, acertos: 0, pulos: PULOS, c50: false, plat: false, ops: null, fora: [], plateia: null, sel: -1, travado: false, fim: false, erros: [] };
           pergunta();
         }
         function ordenar(q) { return embaralhar(q.o.map((x, k) => ({ x, c: k === q.a }))); }
