@@ -326,12 +326,13 @@
           } catch (e) { fundo = null; }
         }
         // painel de configurações
-        function painelConf() {
+        function painelConf(tipo, aoComecar) {
+          tipo = tipo || 'som';
           const box = document.createElement('div'); box.className = c('conf');
           const sw = (k, titulo, sub) => `<label class="${c('lin')}"><span><b>${titulo}</b>${sub ? `<small>${sub}</small>` : ''}</span><input type="checkbox" class="${c('sw')}" data-k="${k}" ${CONF[k] ? 'checked' : ''}></label>`;
           const matsDisp = simDisp();
-          box.innerHTML = `<div class="${c('ctopo')}"><b>Configurações</b><button type="button" class="${c('xis')}" data-fechar aria-label="Fechar">✕</button></div>
-<section class="${c('sec')}"><h4>O que vai cair no jogo?</h4>
+          box.innerHTML = `<div class="${c('ctopo')}"><b>${tipo === 'materias' ? '📚 Escolha as matérias' : 'Configurações de som'}</b><button type="button" class="${c('xis')}" data-fechar aria-label="Fechar">✕</button></div>
+${tipo === 'materias' ? `<section class="${c('sec')}"><h4>O que vai cair no jogo?</h4>
 <div class="${c('fontes')}">
 <button type="button" class="${c('fonte')}" data-modo="geral" aria-pressed="${CONF.modo === 'geral'}"><span class="${c('fic')}">🦷</span><b>Tudo</b><small>Odontologia geral, de tudo um pouco</small></button>
 ${matsDisp.length ? `<button type="button" class="${c('fonte')}" data-modo="materias" aria-pressed="${CONF.modo === 'materias'}"><span class="${c('fic')}">📚</span><b>Minhas matérias</b><small>Só o que cai na prova da facul</small></button>` : ''}
@@ -343,15 +344,17 @@ ${matsDisp.map(k => `<button type="button" class="${c('mat')}" data-mat="${k}" a
 <div class="${c('mats')}" data-painel="personalizar" ${CONF.modo === 'personalizar' ? '' : 'hidden'}><p>Toque nos temas que você quer no jogo:</p>
 ${categoriasDisp().map(x => `<button type="button" class="${c('mat')}" data-cat="${api.esc(x.m)}" aria-pressed="${CONF.categorias.includes(x.m)}">${api.esc(x.m)} <small style="opacity:.6">${x.n}</small></button>`).join('')}
 </div>
-<p class="${c('nota')}">Vale a partir da próxima partida</p></section>
-<section class="${c('sec')}"><h4>Som</h4>
+</section>
+<button type="button" class="${c('btn')} ${c('comecar')}" data-ir>${st && !st.fim ? 'Começar nova partida' : 'Começar!'}</button>` : ''}
+${tipo === 'som' ? `<section class="${c('sec')}">
 ${sw('voz', 'Locutor', 'Lê a pergunta e as alternativas')}
 ${sw('musica', 'Música de fundo', '')}
 ${sw('efeitos', 'Efeitos', 'Acerto, erro e rufar')}
 ${sw('bateria', 'Bateria na música', '')}
 <label class="${c('lin')}"><span><b>Volume da música</b></span><input type="range" min="0.1" max="1" step="0.1" value="${CONF.volMusica}" data-k="volMusica"></label>
 </section>
-<button type="button" class="${c('btn')} ${c('azul')}" data-fechar>Pronto</button>`;
+<button type="button" class="${c('btn')} ${c('azul')}" data-fechar>Pronto</button>` : ''}`;
+          { const ir = box.querySelector('[data-ir]'); if (ir) ir.onclick = () => { box.remove(); if (aoComecar) aoComecar(); }; }
           box.querySelectorAll('[data-k]').forEach(inp => inp.onchange = () => {
             const k = inp.dataset.k;
             CONF[k] = inp.type === 'checkbox' ? inp.checked : k === 'trilha' ? inp.value : +inp.value; gravaConf();
@@ -381,7 +384,9 @@ ${sw('bateria', 'Bateria na música', '')}
           box.querySelectorAll('[data-fechar]').forEach(x => x.onclick = () => { box.remove(); if (!st || st.fim) pararFundo(); });
           return box;
         }
-        function abrirConf() { const velho = el.querySelector('.' + c('conf')); if (velho) { velho.remove(); return; } const pal = el.querySelector('.' + c('palco')); if (pal) pal.prepend(painelConf()); }
+        function abrirConf() { const velho = el.querySelector('.' + c('conf')); if (velho) { velho.remove(); return; } const pal = el.querySelector('.' + c('palco')); if (pal) pal.prepend(painelConf('som')); }
+        // Rafael 11/11: tela de escolher as matérias ANTES do jogo e botão de livrinhos durante o jogo
+        function abrirMaterias(aoComecar) { const velho = el.querySelector('.' + c('conf')); if (velho) velho.remove(); const pal = el.querySelector('.' + c('palco')); if (pal) { pal.prepend(painelConf('materias', aoComecar)); pal.scrollIntoView({ block: 'start' }); } }
         function volumeFundo(fator) { try { if (fundo) { const t = ctxPulso.currentTime; fundo.mestre.gain.cancelScheduledValues(t); fundo.mestre.gain.setValueAtTime(Math.max(0.0001, fundo.mestre.gain.value), t); fundo.mestre.gain.exponentialRampToValueAtTime(Math.max(0.0001, fundo.alvo * fator), t + 0.4); } } catch (e) { } }
         function pararFundo() {
           if (!fundo) return;
@@ -446,10 +451,10 @@ ${sw('bateria', 'Bateria na música', '')}
           limpar();
           el.innerHTML = `<div class="${c('palco')}"><div class="${c('titulo')} ${c('h1')}">${api.esc(NOME)}</div>
 <p class="${c('sub')}">O quiz que vale um milhão de sorrisos</p>
-<div class="${c('regras')}"><div><b>15 perguntas</b> de todas as matérias, 5 fáceis, 5 médias e 5 difíceis.</div><div>Acertou a 5ª e a 10ª, o prêmio fica <b>garantido</b>. Errou, volta pro último garantido.</div><div><b>Parar</b> a qualquer hora leva o que já ganhou.</div><div>Ajudas: <b>50:50</b>, <b>Pular</b> (3 vezes, escolhendo a matéria da próxima) e <b>Plateia</b>.</div><div>O dinheiro é de brincadeira, os <b>pontos</b> entram no ranking (4 por pergunta garantida).</div></div>
+<div class="${c('regras')}"><div><b>15 perguntas</b> das matérias que você escolher: 5 fáceis, 5 médias e 5 difíceis.</div><div>Acertou a 5ª e a 10ª, o prêmio fica <b>garantido</b>. Errou, volta pro último garantido.</div><div><b>Parar</b> a qualquer hora leva o que já ganhou.</div><div>Ajudas: <b>50:50</b>, <b>Pular</b> (3 vezes, escolhendo a matéria da próxima) e <b>Plateia</b>.</div><div>O dinheiro é de brincadeira, os <b>pontos</b> entram no ranking (4 por pergunta garantida).</div></div>
 <div class="${c('linha')}"><button type="button" class="${c('btn')} ${c('comecar')}">Valendo!</button><button type="button" class="${c('btn')} ${c('azul')} ${c('engr')}">⚙️ Configurações</button><button type="button" class="${c('btn')} ${c('azul')} ${c('sair')}">Voltar</button></div>
 <p class="${c('nota')}">Perguntas feitas a partir do material das aulas, do laboratório e de conhecimentos gerais. Confira com o professor.</p></div>`;
-          el.querySelector('.' + c('comecar')).onclick = nova;
+          el.querySelector('.' + c('comecar')).onclick = () => abrirMaterias(nova);
           el.querySelector('.' + c('sair')).onclick = () => { limpar(); pararFundo(); api.voltar(); }; { const eg = el.querySelector('.' + c('engr')); if (eg) eg.onclick = abrirConf; }
         }
         // apresentador: voz sintética genérica do navegador (pt-BR), nunca imitação de pessoa real; respeita o mudo
@@ -587,7 +592,7 @@ ${sw('bateria', 'Bateria na música', '')}
           const q = st.perguntas[st.i], valendo = ESCADA[st.i], garantido = premio(seguro(st.acertos));
           const aberto = !resultado;
           el.innerHTML = `<div class="${c('palco')}">
-<button type="button" class="${c('engr')} ${c('engrmini')}" aria-label="Configurações de som">⚙️</button><div class="${c('valendo')}"><small>Pergunta ${st.i + 1} de 15 · valendo</small><b>${reais(valendo)}</b>${aberto ? `<div><span class="${c('relogio')}${(st.resta ?? TEMPO) <= 10 ? ' ' + c('urgente') : ''}" role="timer" aria-label="Tempo restante">${st.resta ?? TEMPO}s</span></div>` : ''}</div>
+<button type="button" class="${c('engr')} ${c('engrmini')}" aria-label="Configurações de som">⚙️</button><button type="button" class="${c('engrmini')} ${c('livros')}" aria-label="Escolher as matérias">📚</button><div class="${c('valendo')}"><small>Pergunta ${st.i + 1} de 15 · valendo</small><b>${reais(valendo)}</b>${aberto ? `<div><span class="${c('relogio')}${(st.resta ?? TEMPO) <= 10 ? ' ' + c('urgente') : ''}" role="timer" aria-label="Tempo restante">${st.resta ?? TEMPO}s</span></div>` : ''}</div>
 <div class="${c('escada')}" aria-hidden="true">${pips()}</div>
 <div class="${c('info')}"><span>Ganhou <b>${reais(premio(st.acertos))}</b></span><span>Garantido <b>${garantido ? reais(garantido) : 'R$ 0'}</b></span></div>
 <span class="${c('tag')}">${api.esc(q.m || 'Odontologia')} · ${['fácil', 'média', 'difícil'][q.n - 1]}</span>
@@ -620,6 +625,7 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
           el.querySelectorAll('.' + c('op')).forEach(b => b.addEventListener('click', () => { if (!st.travado) efeito('clique'); }));
           const $ = k => el.querySelector('.' + c(k));
           if ($('engrmini')) $('engrmini').onclick = abrirConf;
+          if ($('livros')) $('livros').onclick = () => abrirMaterias(() => { pararRelogio(); calar(); nova(); });
           $('confirmar').onclick = confirmar;
           $('a50').onclick = () => { if (st.c50) return; st.c50 = true; st.fora = cinquenta(st.ops); if (st.fora.includes(st.sel)) st.sel = -1; desenhar(); };
           $('apular').onclick = () => {
