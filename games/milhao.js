@@ -13,8 +13,10 @@
   const PULOS = 3, PTS_POR_ACERTO = 4, LETRAS = ['A', 'B', 'C', 'D'];
 
   /* ===== LÓGICA PURA ===== */
+  // Rafael 11/11: aleatoriedade boa = gerador criptográfico do navegador (Math.random só se não tiver)
+  function aleatorio() { try { const u = new Uint32Array(1); crypto.getRandomValues(u); return u[0] / 4294967296; } catch (e) { return Math.random(); } }
   function embaralhar(arr, rnd) {
-    rnd = rnd || Math.random; const a = arr.slice();
+    rnd = rnd || aleatorio; const a = arr.slice();
     for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
     return a;
   }
