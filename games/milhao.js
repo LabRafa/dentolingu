@@ -45,6 +45,8 @@
       if (!q || !q.p || !Array.isArray(q.o) || q.o.length < 4 || typeof q.a !== 'number') return;
       // Rafael 11/11: o jogo é aberto, não só da turma: pergunta que depende de 'o professor disse / slide da aula' fica fora do Sisão
       if (/professor|professora|slide|sebasti|gustavo|em aula|na aula|da aula/i.test((q.ctx || '') + ' ' + q.p + ' ' + q.o.join(' '))) return;
+      // Rafael 11/11: estilo de prova (asserção-razão, afirmativas I/II/III) é chato no jogo; o jogo fica só com pergunta direta
+      if (/asserç|afirmativa|afirmaç|proposiç|I e II|II e III|I, II e III|apenas\.?$/i.test((q.ctx || '') + ' ' + q.p + ' ' + q.o.join(' | '))) return;
       const certa = q.o[q.a], ops = embaralhar([certa].concat(embaralhar(q.o.filter((x, k) => k !== q.a), rnd).slice(0, 3)), rnd);
       if (new Set(ops.map(x => String(x).trim().toLowerCase())).size !== 4) return;
       const txt = (q.ctx || '') + ' ' + q.p;
