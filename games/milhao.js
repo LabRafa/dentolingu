@@ -706,8 +706,9 @@ ${aberto && st.escolhendo ? `<div class="${c('plateia')}"><b>Pular pra qual mat�
           const titulo = modo === 'milhao' ? 'VOCÊ GANHOU O MILHÃO' : modo === 'parou' ? 'Você parou e levou' : 'Não foi dessa vez, você leva';
           const msg = modo === 'milhao' ? 'Milhão da Odontologia' : 'Show do Sisão';
           if (pts > 0) api.ganhou(pts, msg); else api.perdeu(msg);
-          if (modo === 'errou') gameOver8bit();
-          if (modo !== 'errou' && levou > 0) { auditorio(); if (modo === 'parou') fala('parou', 'Parou e levou! Muito bem!'); }
+          // Rafael 11/11: levou algum prêmio = festa (mesmo errando); musiquinha de azar só quando sai sem nada
+          if (levou <= 0) gameOver8bit();
+          if (levou > 0) { auditorio(); if (modo === 'parou') fala('parou', 'Parou e levou! Muito bem!'); }
           el.innerHTML = `<div class="${c('palco')}"><div class="${c('fim')}"><div class="${c('titulo')} ${c('h2')}">${titulo}</div>
 <div class="${c('big')}">${levou ? reais(levou) : 'R$ 0'}</div>
 <p class="${c('sub')}">${acertos} de 15 perguntas certas · ${pts} ${pts === 1 ? 'ponto' : 'pontos'} no ranking</p>
