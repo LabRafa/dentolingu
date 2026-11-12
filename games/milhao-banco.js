@@ -4822,6 +4822,585 @@ window.BANCO_MILHAO = [
 ]
 },
 {
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Na língua geográfica (glossite migratória benigna), as áreas vermelhas e lisas que 'passeiam' pelo dorso da língua surgem pela atrofia de quais papilas?",
+"o": [
+"Papilas fungiformes",
+"Papilas filiformes",
+"Papilas circunvaladas",
+"Papilas folhadas"
+],
+"a": 1,
+"w": "As áreas vermelhas e lisas da língua geográfica vêm da atrofia das papilas filiformes, rodeadas por uma borda branca ou amarelada elevada. Como as lesões somem e reaparecem em outros pontos ao longo de semanas, o 'mapa' muda de lugar, daí o 'migratória'. É benigna e, em geral, não precisa de tratamento (Manual MSD; protocolo de Estomatologia da SES-DF).",
+"r": [
+{
+"t": "Manual MSD (versão para profissionais). Pigmentação da língua e outras alterações",
+"u": "https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-odontol%C3%B3gicos/dist%C3%BArbios-do-l%C3%A1bio-e-da-l%C3%ADngua/pigmenta%C3%A7%C3%A3o-da-l%C3%ADngua-e-outras-altera%C3%A7%C3%B5es"
+},
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Na chamada 'língua pilosa' (às vezes escura, a 'língua negra pilosa'), o que são de fato os 'pelos' que aparecem no dorso da língua?",
+"o": [
+"Placas de leucoplasia causadas pelo vírus Epstein-Barr",
+"Hifas de Candida formando uma membrana que sai à raspagem",
+"Papilas filiformes alongadas por acúmulo de queratina",
+"Glândulas sebáceas ectópicas que se projetam na mucosa"
+],
+"a": 2,
+"w": "Os 'pelos' são papilas filiformes alongadas por acúmulo de queratina, por produção maior ou descamação menor; a cor vem de pigmentos e microrganismos presos nelas. Antibióticos de amplo espectro por muito tempo e alguns enxaguatórios oxidantes estão entre os gatilhos, e a conduta é melhorar a higiene da língua. Não confundir com a leucoplasia PILOSA, que é do vírus Epstein-Barr (protocolo SES-DF; Rev Bras Otorrinolaringol).",
+"r": [
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+},
+{
+"t": "Efeitos adversos de medicamentos tópicos e sistêmicos na mucosa bucal. Rev Bras Otorrinolaringol (texto grátis)",
+"u": "https://www.scielo.br/j/rboto/a/TvWmNprrZnfXPWdzYwm8H7P/?format=html&lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Pontinhos amarelados, agrupados na mucosa jugal e no vermelhão do lábio superior de um adulto saudável. O que eles são?",
+"o": [
+"Glândulas sebáceas ectópicas",
+"Manchas de Koplik",
+"Candidíase pseudomembranosa inicial",
+"Ductos inflamados de glândulas salivares"
+],
+"a": 0,
+"w": "São os grânulos de Fordyce: glândulas sebáceas fora do lugar habitual (ectópicas), comuns em adultos e a partir da puberdade, mais vistas na mucosa jugal e na parte lateral do vermelhão do lábio superior. Variação da normalidade, só se acompanha (protocolo de Estomatologia da SES-DF; levantamento em adolescentes brasileiros, Ciênc Saúde Coletiva).",
+"r": [
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Véu branco-acinzentado nas duas mucosas jugais, que não sai à raspagem e some quando o dentista estica a bochecha. Qual é a hipótese mais provável?",
+"o": [
+"Leucoplasia homogênea",
+"Líquen plano reticular",
+"Candidíase hiperplásica",
+"Leucoedema"
+],
+"a": 3,
+"w": "O leucoedema desaparece quando a mucosa jugal é distendida e volta quando se solta a tração; essa manobra simples é o critério clínico que o separa da leucoplasia e de outras lesões brancas. É uma variação da normalidade e não precisa de tratamento (Silva et al., Revista Uningá, 2022).",
+"r": [
+{
+"t": "Silva ID et al. Diagnóstico diferencial de duas lesões brancas na mucosa jugal: relato de caso. Revista Uningá, 2022 (texto grátis)",
+"u": "https://revista.uninga.br/uninga/article/download/4022/2617/15573"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "A glossite rombóide mediana, área vermelha e lisa no meio do dorso da língua, já foi vista como defeito de formação. Hoje, com que tipo de medicamento ela costuma ser tratada?",
+"o": [
+"Antiviral, como o aciclovir",
+"Antifúngico, como nistatina ou fluconazol",
+"Antibiótico, como a amoxicilina",
+"Esclerosante, como o oleato de monoetanolamina"
+],
+"a": 1,
+"w": "Hoje a glossite rombóide mediana é tratada como uma forma de candidíase eritematosa: o protocolo da SES-DF indica nistatina, fluconazol ou itraconazol, e o Manual MSD a descreve como forma de candidíase. A antiga ideia de defeito de desenvolvimento na linha média da língua perdeu força (protocolo SES-DF; Manual MSD; An Bras Dermatol).",
+"r": [
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+},
+{
+"t": "Manual MSD (versão para profissionais). Pigmentação da língua e outras alterações",
+"u": "https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-odontol%C3%B3gicos/dist%C3%BArbios-do-l%C3%A1bio-e-da-l%C3%ADngua/pigmenta%C3%A7%C3%A3o-da-l%C3%ADngua-e-outras-altera%C3%A7%C3%B5es"
+},
+{
+"t": "Glossite rombóide mediana associada a candidíase esofagiana: possível relação com a Candida albicans. An Bras Dermatol (texto grátis)",
+"u": "https://www.scielo.br/j/abd/a/tMSgRLgmhmBgyPYThHxQJ4Q/?format=html&lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Ao pressionar e esfregar de leve a mucosa de aparência normal perto de uma lesão, o epitélio se descola. Que sinal é esse e em que doença ele é clássico?",
+"o": [
+"Sinal de Koplik, no sarampo",
+"Sinal de Auspitz, na psoríase",
+"Sinal de Darier, na mastocitose",
+"Sinal de Nikolsky, no pênfigo vulgar"
+],
+"a": 3,
+"w": "O sinal de Nikolsky é o descolamento do epitélio provocado por pressão ou fricção em pele ou mucosa aparentemente normal perto da lesão. Ele reflete a perda de adesão entre as células (acantólise) e indica atividade do pênfigo; não é exclusivo dele, mas é clássico (An Bras Dermatol, dermatoses bolhosas autoimunes).",
+"r": [
+{
+"t": "Dermatoses bolhosas autoimunes. An Bras Dermatol (texto grátis)",
+"u": "https://www.scielo.br/j/abd/a/qdzcbXFN5CnVLPhc3xkdCBF/?format=html&lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "No pênfigo vulgar, que muitas vezes começa pela boca antes de chegar à pele, em que nível do tecido se forma a bolha?",
+"o": [
+"Abaixo do epitélio, separando-o do conjuntivo",
+"Dentro do epitélio, logo acima da camada basal",
+"No tecido conjuntivo, ao redor de vasos",
+"Na camada de queratina, só na superfície"
+],
+"a": 1,
+"w": "No pênfigo vulgar, autoanticorpos desfazem a adesão entre as células epiteliais (acantólise) e a bolha se forma dentro do epitélio, baixa, logo acima da membrana basal. Já no penfigoide a separação é abaixo do epitélio (Rev Bras Otorrinolaringol, acometimento oral no pênfigo vulgar; An Bras Dermatol).",
+"r": [
+{
+"t": "Dermatoses bolhosas autoimunes. An Bras Dermatol (texto grátis)",
+"u": "https://www.scielo.br/j/abd/a/qdzcbXFN5CnVLPhc3xkdCBF/?format=html&lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Placa branca de aspecto corrugado na borda lateral da língua, que não sai à raspagem, em paciente com HIV. Qual vírus é o agente da leucoplasia pilosa?",
+"o": [
+"Herpesvírus humano 8 (HHV-8)",
+"Papilomavírus humano tipo 16",
+"Vírus Epstein-Barr",
+"Citomegalovírus"
+],
+"a": 2,
+"w": "A leucoplasia pilosa oral é uma infecção oportunista pelo vírus Epstein-Barr, típica de imunossupressão como a do HIV: placa branca plana, corrugada ou 'pilosa', que não se remove e aparece mais na borda lateral da língua. O Ministério da Saúde a lista entre as manifestações bucais mais frequentes no HIV/aids (Braz Oral Res; MS, 2018).",
+"r": [
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+},
+{
+"t": "Leucoplasia pilosa oral: vírus Epstein-Barr e citologia. Braz Oral Res (texto grátis)",
+"u": "https://scielo.br/j/bor/a/qHps7TJQSHYQC6ks4z7X58J/?lang=en"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Em pessoas com aids, o sarcoma de Kaposi atinge a boca em até 70% dos casos e às vezes é o primeiro sinal da infecção. Qual vírus está ligado a esse tumor?",
+"o": [
+"Herpesvírus humano 8 (HHV-8)",
+"Vírus Epstein-Barr",
+"Herpes simples tipo 1",
+"Papilomavírus humano tipo 18"
+],
+"a": 0,
+"w": "O sarcoma de Kaposi é um tumor vascular ligado ao herpesvírus humano 8 (HHV-8); a biópsia confirma com imuno-histoquímica para HHV-8. Na aids, a boca é atingida em até 70% dos casos e a lesão oral pode ser a primeira pista de HIV não diagnosticado (Rev Soc Bras Med Trop; estudo brasileiro de HHV-8, Braz J Med Biol Res).",
+"r": [
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Mancha cinza-azulada na gengiva, ao lado de um dente com restauração antiga de amálgama. Qual exame simples pode resolver a dúvida com melanoma?",
+"o": [
+"Citologia esfoliativa da superfície",
+"Diascopia com lâmina de vidro",
+"Teste do azul de toluidina",
+"Radiografia periapical da região"
+],
+"a": 3,
+"w": "Na tatuagem por amálgama, a radiografia periapical pode mostrar as partículas metálicas radiopacas e confirmar a causa. Se não aparecerem, a biópsia é indicada para descartar lesão melanocítica, como o melanoma (protocolo de Estomatologia da SES-DF; An Bras Dermatol, 2011).",
+"r": [
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+},
+{
+"t": "Tatuagem extensa por amálgama em mucosa gengivo-alveolar. An Bras Dermatol (texto grátis)",
+"u": "https://www.scielo.br/j/abd/a/g5V7rFDLnZBZ7gRyXJdNVcK/?lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "O melanoma primário da boca é raro, mas muito agressivo. Em que região ele aparece com mais frequência?",
+"o": [
+"Assoalho da boca e ventre da língua",
+"Palato e rebordo alveolar superior",
+"Lábio inferior e comissuras",
+"Mucosa jugal e região retromolar"
+],
+"a": 1,
+"w": "Na revisão de casos de melanoma oral primário confirmados por imuno-histoquímica (de Castro et al., 2017), os locais mais frequentes foram a mucosa alveolar superior e o palato, com mortalidade de cerca de 55%. O protocolo da SES-DF também o descreve como mancha acastanhada, azul-acinzentada ou negra no rebordo, palato ou gengiva.",
+"r": [
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+},
+{
+"t": "de Castro MS et al. Melanoma oral primário: revisão clínico-patológica. Quintessence Int, 2017",
+"u": "https://pubmed.ncbi.nlm.nih.gov/28990013/"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Na doença de Addison (insuficiência adrenal primária), por que podem surgir manchas acastanhadas na mucosa da boca?",
+"o": [
+"O excesso de cortisol estimula os melanócitos",
+"A falta de aldosterona acumula ferro na mucosa",
+"O ACTH elevado estimula os melanócitos",
+"Depósitos de bilirrubina tingem a mucosa"
+],
+"a": 2,
+"w": "Sem cortisol, a hipófise aumenta muito o ACTH, que também se liga ao receptor MC1 dos melanócitos e aumenta a melanina. Daí a hiperpigmentação em áreas expostas ao sol, dobras, cicatrizes recentes e mucosa oral, que às vezes aparece antes dos outros sintomas (Arq Bras Endocrinol Metab, '150 anos depois de Addison').",
+"r": []
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Manchinhas escuras nos lábios e na mucosa da boca desde a infância, num paciente com pólipos intestinais. Que síndrome hereditária o dentista pode ajudar a suspeitar?",
+"o": [
+"Síndrome de Gardner",
+"Síndrome de Sjögren",
+"Síndrome de Down",
+"Síndrome de Peutz-Jeghers"
+],
+"a": 3,
+"w": "A síndrome de Peutz-Jeghers, autossômica dominante, junta pigmentação melânica dos lábios, mucosa oral e região perioral com pólipos hamartomatosos no intestino, que podem malignizar. Como a mancha na boca pode aparecer cedo, o exame bucal ajuda no diagnóstico (An Bras Dermatol; J Coloproctol).",
+"r": [
+{
+"t": "Síndrome de Peutz-Jeghers: relato de caso e revisão. J Coloproctol (texto grátis)",
+"u": "https://www.scielo.br/j/jcol/a/S4Cbqfr8f7vby3ZYNy7hNCj/?format=html&lang=en"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "No palato de um fumante antigo, a mucosa fica esbranquiçada e cheia de pápulas com um pontinho vermelho no centro. O que esses pontinhos vermelhos indicam?",
+"o": [
+"Glândulas salivares menores inflamadas",
+"Vasos sanguíneos rompidos pelo calor",
+"Início de carcinoma em vários focos",
+"Colônias de Candida sob a queratina"
+],
+"a": 0,
+"w": "É a estomatite nicotínica, ligada ao cigarro (e ao cachimbo) e ao calor da fumaça: o palato duro fica cinza ou branco, com pápulas umbilicadas de centro vermelho, que correspondem à inflamação das glândulas salivares menores. É benigna e a conduta é tirar o fator irritante (protocolo de Estomatologia da SES-DF).",
+"r": [
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Idoso com dentadura bem gasta e 'boca fechando demais' tem fissuras vermelhas nos cantos da boca. Além do antifúngico, o que o protocolo de estomatologia indica para resolver a causa?",
+"o": [
+"Trocar a pasta de dente por uma sem flúor",
+"Recuperar a dimensão vertical com nova reabilitação",
+"Aplicar corticoide tópico por tempo indeterminado",
+"Fazer biópsia excisional das duas comissuras"
+],
+"a": 1,
+"w": "A queilite angular está associada à Candida albicans e é favorecida pela dobra profunda da comissura, onde a saliva se acumula, comum quando a prótese gasta reduz a dimensão vertical. O protocolo da SES-DF indica nistatina e procedimentos reabilitadores para recuperar a dimensão vertical correta, ou seja, a dentadura nova também é tratamento.",
+"r": [
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Comparada à leucoplasia, como a eritroplasia (placa vermelha que não se explica por outra doença) se comporta?",
+"o": [
+"É mais comum e quase sempre benigna",
+"Some sozinha em poucas semanas",
+"Só aparece em quem usa prótese mal adaptada",
+"É mais rara e quase sempre já tem displasia ou carcinoma"
+],
+"a": 3,
+"w": "A eritroplasia é rara, mas tem o maior potencial de malignização entre as lesões da mucosa: em mais de 90% dos casos já há displasia, carcinoma in situ ou carcinoma invasivo. O Ministério da Saúde lembra que a literatura tende a classificá-la já como carcinoma in situ (Rev Bras Otorrinolaringol, 2009; MS, 2018).",
+"r": [
+{
+"t": "Eritroplasia e leucoeritroplasia oral: análise de 13 casos. Rev Bras Otorrinolaringol, 2009 (texto grátis)",
+"u": "https://www.scielo.br/j/rboto/a/4q7nVv7zK6fz5hTpnCq3LTc/?lang=pt"
+},
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Adulto saudável com úlceras pequenas e agrupadas no palato duro e na gengiva inserida, que começaram como vesículas. Qual hipótese a localização favorece?",
+"o": [
+"Afta menor recorrente",
+"Afta herpetiforme",
+"Líquen plano erosivo",
+"Herpes simples recorrente intraoral"
+],
+"a": 3,
+"w": "Em imunocompetentes, o herpes recorrente dentro da boca aparece principalmente no palato duro, na gengiva e no dorso da língua, mucosas queratinizadas presas ao osso. A afta faz o contrário: prefere mucosa labial, jugal e assoalho e raramente atinge gengiva, palato ou dorso da língua (Dental Press J Orthod; Rev Bras Otorrinolaringol).",
+"r": [
+{
+"t": "Herpes simples recorrente peribucal e intrabucal. Dental Press J Orthod (texto grátis)",
+"u": "https://www.scielo.br/j/dpress/a/sSw9XQ6DHqCQMJv5nFBpPLp/?lang=pt"
+},
+{
+"t": "Estomatite aftosa recorrente: revisão bibliográfica. Rev Bras Otorrinolaringol, 2002 (texto grátis)",
+"u": "https://www.scielo.br/j/rboto/a/pWftXXtHvLzCLkyxXMSykvN/?format=html&lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Por que a mucocele, bolha de saliva da mucosa labial, aparece muito mais no lábio inferior?",
+"o": [
+"Porque é o lábio mais mordido, e o trauma rompe ductos de glândulas menores",
+"Porque só o lábio inferior tem glândulas salivares menores",
+"Porque a glândula sublingual drena direto no lábio inferior",
+"Porque o sol do lábio inferior obstrui os ductos com queratina"
+],
+"a": 0,
+"w": "A mucocele resulta do rompimento ou obstrução do ducto de uma glândula salivar menor, quase sempre por trauma local, como morder o lábio. Como o lábio inferior é o que mais leva mordida, ele é o local de maior ocorrência (protocolo de Estomatologia da SES-DF).",
+"r": [
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "A rânula 'mergulhante' sai do assoalho da boca e aparece como um inchaço no pescoço. Qual músculo ela ultrapassa nesse caminho?",
+"o": [
+"Milo-hióideo",
+"Masseter",
+"Genioglosso",
+"Digástrico"
+],
+"a": 0,
+"w": "A rânula nasce da glândula sublingual, no espaço sublingual, que fica acima e por dentro do músculo milo-hióideo. Quando a coleção de saliva passa para baixo desse músculo, invade o espaço submandibular e aparece no pescoço: é a rânula mergulhante (Radiol Bras, 'O espaço sublingual').",
+"r": [
+{
+"t": "O espaço sublingual. Radiol Bras (texto grátis)",
+"u": "https://www.scielo.br/j/rb/a/Qgwc4RycXFZDTMRvh8qmvZF/?lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Gestante com o 'tumor da gravidez' (granuloma piogênico) na gengiva, pequeno e sem sangrar muito. Qual é a conduta mais indicada durante a gestação?",
+"o": [
+"Remover logo, para não malignizar",
+"Cauterizar com nitrato de prata",
+"Acompanhar com higiene rigorosa, pois costuma regredir",
+"Prescrever antibiótico até o parto"
+],
+"a": 2,
+"w": "O granuloma gravídico é igual ao granuloma piogênico ao microscópio e costuma regredir ao fim da gravidez. Removê-lo cedo leva a recidivas frequentes, por isso a conduta usual é acompanhar e reforçar a higiene bucal (An Bras Dermatol, 'Dermatologia e gestação').",
+"r": [
+{
+"t": "Dermatologia e gestação. An Bras Dermatol (texto grátis)",
+"u": "https://www.scielo.br/j/abd/a/6tGxsbZmjFF6ckJ7JVHfnHy/?lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Qual trio de medicamentos é clássico por causar aumento de volume da gengiva, piorado pelo biofilme?",
+"o": [
+"Amoxicilina, dipirona e omeprazol",
+"Fenitoína, ciclosporina e nifedipina",
+"Metformina, losartana e sinvastatina",
+"Paracetamol, ibuprofeno e loratadina"
+],
+"a": 1,
+"w": "Anticonvulsivante (fenitoína), imunossupressor (ciclosporina) e bloqueadores de canais de cálcio (como a nifedipina) causam aumento gengival como parte da resposta inflamatória ao biofilme; por isso o controle de placa é central no manejo (Ministério da Saúde, 2018; Rev Bras Otorrinolaringol).",
+"r": [
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+},
+{
+"t": "Efeitos adversos de medicamentos tópicos e sistêmicos na mucosa bucal. Rev Bras Otorrinolaringol (texto grátis)",
+"u": "https://www.scielo.br/j/rboto/a/TvWmNprrZnfXPWdzYwm8H7P/?format=html&lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Pregas de tecido mole no fundo de sulco, 'abraçando' a borda de uma dentadura de muitos anos. Qual é a causa mais comum dessa hiperplasia fibrosa inflamatória?",
+"o": [
+"Alergia ao monômero da resina acrílica",
+"Infecção crônica por Candida albicans",
+"Prótese mal ajustada irritando a mucosa",
+"Deficiência de vitaminas do complexo B"
+],
+"a": 2,
+"w": "Num levantamento de 10 anos em Santa Catarina, a hiperplasia fibrosa inflamatória foi a lesão reativa mais frequente, e a prótese mal ajustada foi o fator causal em 169 de 244 casos. A borda da dentadura velha de guerra, irritando sem parar, estimula o tecido a crescer; além de remover a lesão, é preciso corrigir ou trocar a prótese (Braz J Otorhinolaryngol; MS, 2018).",
+"r": [
+{
+"t": "Lesões hiperplásicas reativas da cavidade oral: 10 anos em Santa Catarina. Braz J Otorhinolaryngol (texto grátis)",
+"u": "https://www.scielo.br/j/bjorl/a/8BpRdXSxY3Z77mxMQkbjKCS/abstract/?lang=pt"
+},
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Pontinhos brancos sobre fundo vermelho na mucosa jugal, perto dos molares, um ou dois dias antes das manchas na pele. O dentista pode 'dar o spoiler' de qual doença?",
+"o": [
+"Catapora",
+"Rubéola",
+"Escarlatina",
+"Sarampo"
+],
+"a": 3,
+"w": "São as manchas de Koplik, pequenos pontos brancos na mucosa bucal na altura dos molares (às vezes no palato mole), que aparecem antes do exantema do sarampo. Num exame de rotina, a boca pode avisar antes da pele (Secretaria da Saúde da Bahia, sarampo).",
+"r": [
+{
+"t": "Secretaria da Saúde da Bahia. Sarampo",
+"u": "https://www.saude.ba.gov.br/temasdesaude/sarampo/"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Criança com febre súbita e dor de garganta, com pequenas vesículas e úlceras nos pilares das tonsilas e no palato mole, lá no fundo da boca. Qual é a hipótese?",
+"o": [
+"Herpangina, por vírus Coxsackie do grupo A",
+"Gengivoestomatite herpética primária",
+"Estomatite aftosa recorrente",
+"Candidíase pseudomembranosa"
+],
+"a": 0,
+"w": "A herpangina é causada por enterovírus, sobretudo Coxsackie do grupo A, com lesões na orofaringe posterior: pilares das tonsilas, palato mole, úvula. A estomatite herpética faz úlceras maiores e mais numerosas, mais na parte anterior da boca, e a afta raramente vem com febre ou atinge a faringe (Manual MSD).",
+"r": [
+{
+"t": "Manual MSD (versão para profissionais). Herpangina",
+"u": "https://www.msdmanuals.com/pt/profissional/doen%C3%A7as-infecciosas/enterov%C3%ADrus/herpangina"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Úlcera única no lábio, indolor, de bordas endurecidas e fundo limpo, surgida cerca de três semanas após um contato de risco. Qual hipótese não pode faltar?",
+"o": [
+"Afta maior",
+"Herpes labial recorrente",
+"Cancro duro da sífilis primária",
+"Queilite actínica"
+],
+"a": 2,
+"w": "O cancro duro surge no local de entrada do Treponema pallidum, em média três semanas depois: em geral único, indolor, de bordas endurecidas e fundo liso e limpo. Fora da região genital, boca e língua estão entre os locais mais comuns (An Bras Dermatol, 'Sífilis: diagnóstico, tratamento e controle').",
+"r": [
+{
+"t": "Sífilis: diagnóstico, tratamento e controle. An Bras Dermatol (texto grátis)",
+"u": "https://www.scielo.br/j/abd/a/tSqK6nzB8v5zJjSQCfWSkPL/?format=html&lang=pt"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Num estudo clássico com mais de mil pacientes, quem fumava 2 maços ou mais e bebia mais de 4 doses por dia teve o risco de câncer de boca e faringe aumentado em quanto?",
+"o": [
+"Cerca de 2 vezes",
+"Cerca de 5 vezes",
+"Mais de 35 vezes",
+"Mais de 500 vezes"
+],
+"a": 2,
+"w": "Blot e colaboradores (1988, 1.114 pacientes) viram que os riscos do fumo e do álcool se combinam de forma multiplicativa, não somada: mais de 35 vezes nos grandes fumantes que também bebiam muito. Parar de fumar reduziu muito o risco. O Ministério da Saúde (2018) também lembra que álcool e tabaco juntos potencializam o câncer de boca.",
+"r": [
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+},
+{
+"t": "Blot WJ et al. Fumo e álcool e o câncer de boca e faringe. Cancer Res, 1988",
+"u": "https://pubmed.ncbi.nlm.nih.gov/3365707/"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Segundo o Ministério da Saúde, em quais regiões o câncer de boca aparece preferencialmente?",
+"o": [
+"Palato duro e gengiva inserida",
+"Assoalho da boca e língua",
+"Mucosa jugal e lábio superior",
+"Dorso da língua e úvula"
+],
+"a": 1,
+"w": "O Ministério da Saúde (2018) diz que o câncer de boca se localiza preferencialmente no assoalho da boca e na língua, e que 90% a 95% são carcinoma de células escamosas. Por isso, no exame, é preciso afastar a língua e olhar bordas laterais, ventre e assoalho com atenção (MS, 2018; protocolo SES-DF).",
+"r": [
+{
+"t": "Ministério da Saúde. A saúde bucal no Sistema Único de Saúde. Brasília, 2018",
+"u": "https://bvsms.saude.gov.br/bvs/publicacoes/saude_bucal_sistema_unico_saude.pdf"
+},
+{
+"t": "SES-DF. Protocolo de Atenção à Saúde: Estomatologia (texto grátis)",
+"u": "https://www.saude.df.gov.br/documents/37101/87400/Protocolo+de+Estomatologia.pdf/ad00468d-d1d6-4169-6c41-d1d62f49e46b?t=1659977485747"
+}
+]
+},
+{
+"m": "Cárie, Interações e Estomatologia",
+"n": 3,
+"q": "Úlcera de prótese: o dentista ajustou a borda que machucava. Se a ferida não cicatrizar em mais de quantos dias, ela passa a ser sinal de alerta para câncer de boca?",
+"o": [
+"15 dias",
+"3 dias",
+"60 dias",
+"6 meses"
+],
+"a": 0,
+"w": "O Ministério da Saúde lista como sintoma de alerta a ferida na boca ou nos lábios que não cicatriza por mais de 15 dias, que pode sangrar e crescer. Se a úlcera persiste depois de removida a causa, a biópsia esclarece; a confirmação do câncer depende dela (Biblioteca Virtual em Saúde do Ministério da Saúde).",
+"r": [
+{
+"t": "Ministério da Saúde (BVS). Semana Nacional de Prevenção do Câncer Bucal",
+"u": "https://bvsms.saude.gov.br/semana-nacional-de-prevencao-do-cancer-bucal-1-a-7-de-novembro/"
+}
+]
+},
+{
 "m": "Ética odontológica",
 "n": 2,
 "q": "Um parente de um paciente adulto liga pedindo detalhes do tratamento. Sem autorização do paciente e sem outra justificativa, o cirurgião-dentista:",
